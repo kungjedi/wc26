@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Cup 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0f0a;
+    --surface: #111811;
+    --border: #1e2a1e;
+    --accent: #c8f000;
+    --accent2: #ff4a1c;
+    --text: #e8f0e8;
+    --muted: #4a614a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'IBM Plex Mono', monospace; font-size: 13px; line-height: 1.4; min-height: 100vh; }
+  header { padding: 28px 24px 16px; border-bottom: 1px solid var(--border); display: flex; align-items: baseline; gap: 20px; flex-wrap: wrap; }
+  h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px, 8vw, 68px); letter-spacing: 2px; color: var(--accent); line-height: 1; }
+  .subtitle { color: var(--muted); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; }
+  .tabs { display: flex; border-bottom: 1px solid var(--border); }
+  .tab-btn { font-family: 'Bebas Neue', sans-serif; font-size: 18px; letter-spacing: 1px; padding: 12px 28px; background: none; border: none; color: var(--muted); cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -1px; transition: all 0.15s; }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; padding: 10px 24px; border-bottom: 1px solid var(--border); font-size: 11px; color: var(--muted); }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .dot-bbc { background: #e8f0e8; }
+  .dot-itv { background: var(--accent2); }
+  .dot-both { background: var(--accent); }
+  .dot-tbc { background: var(--muted); }
+  .filters { display: flex; align-items: center; gap: 8px; padding: 10px 24px; border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+  .filter-label { color: var(--muted); font-size: 11px; letter-spacing: 2px; text-transform: uppercase; margin-right: 4px; }
+  .filter-btn { background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-family: 'IBM Plex Mono', monospace; font-size: 12px; padding: 5px 14px; cursor: pointer; letter-spacing: 0.5px; transition: all 0.15s; }
+  .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #0a0f0a; font-weight: 500; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; padding: 8px 24px; font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--border); background: var(--bg); position: sticky; top: 45px; z-index: 9; }
+  td { padding: 9px 24px; border-bottom: 1px solid var(--border); }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(200,240,0,0.03); }
+  tr.hidden { display: none; }
+  .time { color: var(--accent); font-weight: 500; white-space: nowrap; }
+  .score { color: var(--accent); font-weight: 500; white-space: nowrap; letter-spacing: 2px; }
+  .score-ft { font-size: 10px; color: var(--muted); margin-left: 4px; }
+  .match { font-weight: 500; }
+  .match .vs { color: var(--muted); margin: 0 4px; }
+  .group-badge { display: inline-block; background: var(--surface); border: 1px solid var(--border); color: var(--muted); font-size: 10px; padding: 1px 6px; letter-spacing: 1px; min-width: 28px; text-align: center; }
+  .group-badge.knockout-badge { color: var(--accent2); border-color: var(--accent2); }
+  .channel { white-space: nowrap; }
+  .ch-bbc { color: #e8f0e8; }
+  .ch-itv { color: var(--accent2); }
+  .ch-both { color: var(--accent); font-weight: 500; }
+  .ch-tbc { color: var(--muted); }
+  .city { color: var(--muted); font-size: 11px; }
+  .date-header { padding: 10px 24px 6px; font-family: 'Bebas Neue', sans-serif; font-size: 22px; letter-spacing: 1px; color: var(--muted); background: var(--surface); border-bottom: 1px solid var(--border); }
+  .date-header.knockout { color: var(--accent2); }
+  .date-header.final-day { color: var(--accent); }
+  .final-row td { background: rgba(200,240,0,0.06); }
+  .final-row .match { color: var(--accent); }
+  .played-row td { opacity: 0.6; }
+  .played-row:hover td { opacity: 1; }
+  .standings-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1px; background: var(--border); }
+  .group-card { background: var(--bg); padding: 0; }
+  .group-title { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 1px; color: var(--accent); padding: 14px 20px 8px; border-bottom: 1px solid var(--border); }
+  .standings-table { width: 100%; border-collapse: collapse; }
+  .standings-table th { font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); padding: 6px 8px; text-align: center; border-bottom: 1px solid var(--border); background: var(--surface); position: static; }
+  .standings-table th.left { text-align: left; padding-left: 20px; }
+  .standings-table td { padding: 8px 8px; border-bottom: 1px solid var(--border); text-align: center; font-size: 12px; }
+  .standings-table td.team-name { text-align: left; padding-left: 20px; font-weight: 500; }
+  .standings-table tr:last-child td { border-bottom: none; }
+  .standings-table tr:hover td { background: rgba(200,240,0,0.03); }
+  .pos { color: var(--muted); font-size: 11px; width: 24px; }
+  .pts { color: var(--accent); font-weight: 500; }
+  .qual-line { border-top: 2px solid var(--accent2) !important; }
+  .standings-note { padding: 8px 20px; font-size: 10px; color: var(--muted); border-top: 1px solid var(--border); letter-spacing: 0.5px; }
+  .last-updated { padding: 12px 24px; font-size: 10px; color: var(--muted); border-bottom: 1px solid var(--border); letter-spacing: 1px; }
+  @media (max-width: 600px) {
+    td, th { padding: 8px 12px; }
+    .city { display: none; }
+    h1 { font-size: 40px; }
+    .standings-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>World Cup 2026</h1>
+  <div class="subtitle">All times BST &middot; Free to air &middot; BBC &amp; ITV</div>
+</header>
+<div class="tabs">
+  <button class="tab-btn active" data-tab="schedule">Schedule</button>
+  <button class="tab-btn" data-tab="standings">Group Standings</button>
+</div>
+<div id="tab-schedule" class="tab-panel active">
+  <div class="legend">
+    <span><span class="dot dot-bbc"></span> BBC</span>
+    <span><span class="dot dot-itv"></span> ITV</span>
+    <span><span class="dot dot-both"></span> BBC &amp; ITV</span>
+    <span><span class="dot dot-tbc"></span> TBC</span>
+  </div>
+  <div class="filters">
+    <span class="filter-label">Filter:</span>
+    <button class="filter-btn active" data-filter="all">All matches</button>
+    <button class="filter-btn" data-filter="England">&#x1F3F4;&#xE0067;&#xE0062;&#xE0065;&#xE006E;&#xE0067;&#xE007F; England</button>
+    <button class="filter-btn" data-filter="Scotland">&#x1F3F4;&#xE0067;&#xE0062;&#xE0073;&#xE0063;&#xE0074;&#xE007F; Scotland</button>
+    <button class="filter-btn" data-filter="Portugal">&#x1F1F5;&#x1F1F9; Portugal</button>
+    <button class="filter-btn" data-filter="Sweden">&#x1F1F8;&#x1F1EA; Sweden</button>
+    <button class="filter-btn" data-filter="Cape Verde">&#x1F1E8;&#x1F1FB; Cape Verde</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:100px">BST / Score</th>
+        <th>Match</th>
+        <th style="width:60px">Grp</th>
+        <th style="width:110px">Channel</th>
+        <th style="width:160px">City</th>
+      </tr>
+    </thead>
+    <tbody id="schedule"></tbody>
+  </table>
+</div>
+<div id="tab-standings" class="tab-panel">
+  <div class="last-updated" id="last-updated">Standings updated: pre-tournament</div>
+  <div class="standings-grid" id="standings-grid"></div>
+</div>
+<script>
+const GS="GROUP STAGE",R32="ROUND OF 32",R16="ROUND OF 16",QF="QUARTER-FINALS",SF="SEMI-FINALS",TP="THIRD PLACE",FIN="FINAL";
+function withFlags(n){
+  return n
+    .replace(/\bEngland\b/g,"\u{1F3F4}\u{E0067}\u{E0062}\u{E0065}\u{E006E}\u{E0067}\u{E007F} England")
+    .replace(/\bScotland\b/g,"\u{1F3F4}\u{E0067}\u{E0062}\u{E0073}\u{E0063}\u{E0074}\u{E007F} Scotland")
+    .replace(/\bPortugal\b/g,"\u{1F1F5}\u{1F1F9} Portugal")
+    .replace(/\bSweden\b/g,"\u{1F1F8}\u{1F1EA} Sweden")
+    .replace(/\bCape Verde\b/g,"\u{1F1E8}\u{1F1FB} Cape Verde");
+}
+// score: null=not played, [h,a]=result e.g.[2,1]
+// UPDATE scores and groupsData after each matchday, then push
+const rawMatches=[
+  {date:"Thu 11 Jun",bst:"8:00 PM",m:"Mexico v South Africa",g:"A",ch:"ITV1",city:"Mexico City",stage:GS,score:null},
+  {date:"Fri 12 Jun",bst:"3:00 AM",m:"South Korea v Czechia",g:"A",ch:"ITV1",city:"Guadalajara",stage:GS,score:null},
+  {date:"Fri 12 Jun",bst:"8:00 PM",m:"Canada v Bosnia & Herzegovina",g:"B",ch:"BBC One",city:"Toronto",stage:GS,score:null},
+  {date:"Sat 13 Jun",bst:"2:00 AM",m:"USA v Paraguay",g:"D",ch:"BBC One",city:"Los Angeles",stage:GS,score:null},
+  {date:"Sat 13 Jun",bst:"5:00 AM",m:"Australia v T\u00FCrkiye",g:"D",ch:"ITV1",city:"Vancouver",stage:GS,score:null},
+  {date:"Sat 13 Jun",bst:"8:00 PM",m:"Qatar v Switzerland",g:"B",ch:"ITV1",city:"San Francisco",stage:GS,score:null},
+  {date:"Sat 13 Jun",bst:"11:00 PM",m:"Brazil v Morocco",g:"C",ch:"BBC One",city:"New York/NJ",stage:GS,score:null},
+  {date:"Sun 14 Jun",bst:"2:00 AM",m:"Haiti v Scotland",g:"C",ch:"BBC One",city:"Boston",stage:GS,score:null},
+  {date:"Sun 14 Jun",bst:"6:00 PM",m:"Germany v Cura\u00E7ao",g:"E",ch:"ITV1",city:"Houston",stage:GS,score:null},
+  {date:"Sun 14 Jun",bst:"9:00 PM",m:"Netherlands v Japan",g:"F",ch:"ITV1",city:"Dallas",stage:GS,score:null},
+  {date:"Mon 15 Jun",bst:"12:00 AM",m:"Ivory Coast v Ecuador",g:"E",ch:"BBC One",city:"Philadelphia",stage:GS,score:null},
+  {date:"Mon 15 Jun",bst:"3:00 AM",m:"Sweden v Tunisia",g:"F",ch:"ITV1",city:"Monterrey",stage:GS,score:null},
+  {date:"Mon 15 Jun",bst:"5:00 PM",m:"Spain v Cape Verde",g:"H",ch:"ITV1",city:"Atlanta",stage:GS,score:null},
+  {date:"Mon 15 Jun",bst:"8:00 PM",m:"Belgium v Egypt",g:"G",ch:"BBC One",city:"Seattle",stage:GS,score:null},
+  {date:"Mon 15 Jun",bst:"11:00 PM",m:"Saudi Arabia v Uruguay",g:"H",ch:"ITV1",city:"Miami",stage:GS,score:null},
+  {date:"Tue 16 Jun",bst:"2:00 AM",m:"Iran v New Zealand",g:"G",ch:"BBC One",city:"Los Angeles",stage:GS,score:null},
+  {date:"Tue 16 Jun",bst:"8:00 PM",m:"France v Senegal",g:"I",ch:"BBC One",city:"New York/NJ",stage:GS,score:null},
+  {date:"Tue 16 Jun",bst:"11:00 PM",m:"Iraq v Norway",g:"I",ch:"BBC One",city:"Boston",stage:GS,score:null},
+  {date:"Wed 17 Jun",bst:"2:00 AM",m:"Argentina v Algeria",g:"J",ch:"ITV1",city:"Kansas City",stage:GS,score:null},
+  {date:"Wed 17 Jun",bst:"5:00 AM",m:"Austria v Jordan",g:"J",ch:"BBC One",city:"San Francisco",stage:GS,score:null},
+  {date:"Wed 17 Jun",bst:"6:00 PM",m:"Portugal v DR Congo",g:"K",ch:"BBC One",city:"Houston",stage:GS,score:null},
+  {date:"Wed 17 Jun",bst:"9:00 PM",m:"England v Croatia",g:"L",ch:"ITV1",city:"Dallas",stage:GS,score:null},
+  {date:"Thu 18 Jun",bst:"12:00 AM",m:"Ghana v Panama",g:"L",ch:"ITV1",city:"Toronto",stage:GS,score:null},
+  {date:"Thu 18 Jun",bst:"3:00 AM",m:"Uzbekistan v Colombia",g:"K",ch:"BBC One",city:"Mexico City",stage:GS,score:null},
+  {date:"Thu 18 Jun",bst:"5:00 PM",m:"Czechia v South Africa",g:"A",ch:"BBC One",city:"Atlanta",stage:GS,score:null},
+  {date:"Thu 18 Jun",bst:"8:00 PM",m:"Switzerland v Bosnia & Herzegovina",g:"B",ch:"ITV1",city:"Los Angeles",stage:GS,score:null},
+  {date:"Thu 18 Jun",bst:"11:00 PM",m:"Canada v Qatar",g:"B",ch:"ITV1",city:"Vancouver",stage:GS,score:null},
+  {date:"Fri 19 Jun",bst:"2:00 AM",m:"Mexico v South Korea",g:"A",ch:"BBC One",city:"Guadalajara",stage:GS,score:null},
+  {date:"Fri 19 Jun",bst:"8:00 PM",m:"USA v Australia",g:"D",ch:"BBC One",city:"Seattle",stage:GS,score:null},
+  {date:"Fri 19 Jun",bst:"11:00 PM",m:"Scotland v Morocco",g:"C",ch:"ITV1",city:"Boston",stage:GS,score:null},
+  {date:"Sat 20 Jun",bst:"2:00 AM",m:"Brazil v Haiti",g:"C",ch:"ITV1",city:"Philadelphia",stage:GS,score:null},
+  {date:"Sat 20 Jun",bst:"5:00 AM",m:"T\u00FCrkiye v Paraguay",g:"D",ch:"ITV1",city:"San Francisco",stage:GS,score:null},
+  {date:"Sat 20 Jun",bst:"6:00 PM",m:"Netherlands v Sweden",g:"F",ch:"BBC One",city:"Houston",stage:GS,score:null},
+  {date:"Sat 20 Jun",bst:"9:00 PM",m:"Germany v Ivory Coast",g:"E",ch:"ITV1",city:"Toronto",stage:GS,score:null},
+  {date:"Sun 21 Jun",bst:"1:00 AM",m:"Ecuador v Cura\u00E7ao",g:"E",ch:"BBC One",city:"Kansas City",stage:GS,score:null},
+  {date:"Sun 21 Jun",bst:"5:00 AM",m:"Tunisia v Japan",g:"F",ch:"BBC One",city:"Monterrey",stage:GS,score:null},
+  {date:"Sun 21 Jun",bst:"5:00 PM",m:"Spain v Saudi Arabia",g:"H",ch:"BBC One",city:"Atlanta",stage:GS,score:null},
+  {date:"Sun 21 Jun",bst:"8:00 PM",m:"Belgium v Iran",g:"G",ch:"ITV1",city:"Los Angeles",stage:GS,score:null},
+  {date:"Sun 21 Jun",bst:"11:00 PM",m:"Uruguay v Cape Verde",g:"H",ch:"BBC One",city:"Miami",stage:GS,score:null},
+  {date:"Mon 22 Jun",bst:"2:00 AM",m:"New Zealand v Egypt",g:"G",ch:"ITV1",city:"Vancouver",stage:GS,score:null},
+  {date:"Mon 22 Jun",bst:"6:00 PM",m:"Argentina v Austria",g:"J",ch:"BBC One",city:"Dallas",stage:GS,score:null},
+  {date:"Mon 22 Jun",bst:"10:00 PM",m:"France v Iraq",g:"I",ch:"BBC One",city:"Philadelphia",stage:GS,score:null},
+  {date:"Tue 23 Jun",bst:"1:00 AM",m:"Norway v Senegal",g:"I",ch:"ITV1",city:"New York/NJ",stage:GS,score:null},
+  {date:"Tue 23 Jun",bst:"4:00 AM",m:"Jordan v Algeria",g:"J",ch:"ITV1",city:"San Francisco",stage:GS,score:null},
+  {date:"Tue 23 Jun",bst:"6:00 PM",m:"Portugal v Uzbekistan",g:"K",ch:"ITV1",city:"Houston",stage:GS,score:null},
+  {date:"Tue 23 Jun",bst:"9:00 PM",m:"England v Ghana",g:"L",ch:"BBC One",city:"Boston",stage:GS,score:null},
+  {date:"Wed 24 Jun",bst:"12:00 AM",m:"Panama v Croatia",g:"L",ch:"BBC One",city:"Toronto",stage:GS,score:null},
+  {date:"Wed 24 Jun",bst:"3:00 AM",m:"Colombia v DR Congo",g:"K",ch:"ITV1",city:"Guadalajara",stage:GS,score:null},
+  {date:"Wed 24 Jun",bst:"8:00 PM",m:"Switzerland v Canada",g:"B",ch:"ITV1",city:"Vancouver",stage:GS,score:null},
+  {date:"Wed 24 Jun",bst:"8:00 PM",m:"Bosnia & Herzegovina v Qatar",g:"B",ch:"ITV4",city:"Seattle",stage:GS,score:null},
+  {date:"Wed 24 Jun",bst:"11:00 PM",m:"Scotland v Brazil",g:"C",ch:"BBC One",city:"Miami",stage:GS,score:null},
+  {date:"Wed 24 Jun",bst:"11:00 PM",m:"Morocco v Haiti",g:"C",ch:"BBC Two",city:"Atlanta",stage:GS,score:null},
+  {date:"Thu 25 Jun",bst:"2:00 AM",m:"Czechia v Mexico",g:"A",ch:"BBC One",city:"Mexico City",stage:GS,score:null},
+  {date:"Thu 25 Jun",bst:"2:00 AM",m:"South Africa v South Korea",g:"A",ch:"BBC Two",city:"Monterrey",stage:GS,score:null},
+  {date:"Thu 25 Jun",bst:"9:00 PM",m:"Ecuador v Germany",g:"E",ch:"BBC One",city:"New York/NJ",stage:GS,score:null},
+  {date:"Thu 25 Jun",bst:"9:00 PM",m:"Cura\u00E7ao v Ivory Coast",g:"E",ch:"BBC Two",city:"Philadelphia",stage:GS,score:null},
+  {date:"Fri 26 Jun",bst:"12:00 AM",m:"Tunisia v Netherlands",g:"F",ch:"BBC One",city:"Kansas City",stage:GS,score:null},
+  {date:"Fri 26 Jun",bst:"12:00 AM",m:"Japan v Sweden",g:"F",ch:"BBC Two",city:"Dallas",stage:GS,score:null},
+  {date:"Fri 26 Jun",bst:"3:00 AM",m:"T\u00FCrkiye v USA",g:"D",ch:"ITV1",city:"Los Angeles",stage:GS,score:null},
+  {date:"Fri 26 Jun",bst:"3:00 AM",m:"Paraguay v Australia",g:"D",ch:"ITV4",city:"San Francisco",stage:GS,score:null},
+  {date:"Fri 26 Jun",bst:"8:00 PM",m:"Norway v France",g:"I",ch:"ITV1",city:"Boston",stage:GS,score:null},
+  {date:"Fri 26 Jun",bst:"8:00 PM",m:"Senegal v Iraq",g:"I",ch:"ITV4",city:"Toronto",stage:GS,score:null},
+  {date:"Sat 27 Jun",bst:"1:00 AM",m:"Uruguay v Spain",g:"H",ch:"ITV1",city:"Guadalajara",stage:GS,score:null},
+  {date:"Sat 27 Jun",bst:"1:00 AM",m:"Cape Verde v Saudi Arabia",g:"H",ch:"ITV4",city:"Houston",stage:GS,score:null},
+  {date:"Sat 27 Jun",bst:"4:00 AM",m:"New Zealand v Belgium",g:"G",ch:"BBC One",city:"Vancouver",stage:GS,score:null},
+  {date:"Sat 27 Jun",bst:"4:00 AM",m:"Egypt v Iran",g:"G",ch:"BBC Two",city:"Seattle",stage:GS,score:null},
+  {date:"Sat 27 Jun",bst:"10:00 PM",m:"Panama v England",g:"L",ch:"ITV1",city:"New York/NJ",stage:GS,score:null},
+  {date:"Sat 27 Jun",bst:"10:00 PM",m:"Croatia v Ghana",g:"L",ch:"ITV4",city:"Philadelphia",stage:GS,score:null},
+  {date:"Sun 28 Jun",bst:"12:30 AM",m:"Colombia v Portugal",g:"K",ch:"BBC One",city:"Miami",stage:GS,score:null},
+  {date:"Sun 28 Jun",bst:"12:30 AM",m:"DR Congo v Uzbekistan",g:"K",ch:"BBC Two",city:"Atlanta",stage:GS,score:null},
+  {date:"Sun 28 Jun",bst:"3:00 AM",m:"Jordan v Argentina",g:"J",ch:"BBC One",city:"Dallas",stage:GS,score:null},
+  {date:"Sun 28 Jun",bst:"3:00 AM",m:"Algeria v Austria",g:"J",ch:"BBC Two",city:"Kansas City",stage:GS,score:null},
+  {date:"Sun 28 Jun",bst:"8:00 PM",m:"R32 Match 1",g:"R32",ch:"TBC",city:"Los Angeles",stage:R32,score:null},
+  {date:"Mon 29 Jun",bst:"6:00 PM",m:"R32 Match 2",g:"R32",ch:"TBC",city:"Houston",stage:R32,score:null},
+  {date:"Mon 29 Jun",bst:"9:30 PM",m:"R32 Match 3",g:"R32",ch:"TBC",city:"Boston",stage:R32,score:null},
+  {date:"Tue 30 Jun",bst:"2:00 AM",m:"R32 Match 4",g:"R32",ch:"TBC",city:"Monterrey",stage:R32,score:null},
+  {date:"Tue 30 Jun",bst:"6:00 PM",m:"R32 Match 5",g:"R32",ch:"TBC",city:"Dallas",stage:R32,score:null},
+  {date:"Tue 30 Jun",bst:"10:00 PM",m:"R32 Match 6",g:"R32",ch:"TBC",city:"New York/NJ",stage:R32,score:null},
+  {date:"Wed 1 Jul",bst:"2:00 AM",m:"R32 Match 7",g:"R32",ch:"TBC",city:"Mexico City",stage:R32,score:null},
+  {date:"Wed 1 Jul",bst:"5:00 PM",m:"R32 Match 8",g:"R32",ch:"TBC",city:"Atlanta",stage:R32,score:null},
+  {date:"Wed 1 Jul",bst:"9:00 PM",m:"R32 Match 9",g:"R32",ch:"TBC",city:"Seattle",stage:R32,score:null},
+  {date:"Thu 2 Jul",bst:"1:00 AM",m:"R32 Match 10",g:"R32",ch:"TBC",city:"San Francisco",stage:R32,score:null},
+  {date:"Thu 2 Jul",bst:"8:00 PM",m:"R32 Match 11",g:"R32",ch:"TBC",city:"Los Angeles",stage:R32,score:null},
+  {date:"Fri 3 Jul",bst:"12:00 AM",m:"R32 Match 12",g:"R32",ch:"TBC",city:"Toronto",stage:R32,score:null},
+  {date:"Fri 3 Jul",bst:"4:00 AM",m:"R32 Match 13",g:"R32",ch:"TBC",city:"Vancouver",stage:R32,score:null},
+  {date:"Fri 3 Jul",bst:"7:00 PM",m:"R32 Match 14",g:"R32",ch:"TBC",city:"Dallas",stage:R32,score:null},
+  {date:"Fri 3 Jul",bst:"11:00 PM",m:"R32 Match 15",g:"R32",ch:"TBC",city:"Miami",stage:R32,score:null},
+  {date:"Sat 4 Jul",bst:"2:30 AM",m:"R32 Match 16",g:"R32",ch:"TBC",city:"Kansas City",stage:R32,score:null},
+  {date:"Sat 4 Jul",bst:"6:00 PM",m:"R16 Match 1",g:"R16",ch:"TBC",city:"Houston",stage:R16,score:null},
+  {date:"Sat 4 Jul",bst:"10:00 PM",m:"R16 Match 2",g:"R16",ch:"TBC",city:"Philadelphia",stage:R16,score:null},
+  {date:"Sun 5 Jul",bst:"9:00 PM",m:"R16 Match 3",g:"R16",ch:"TBC",city:"New York/NJ",stage:R16,score:null},
+  {date:"Mon 6 Jul",bst:"1:00 AM",m:"R16 Match 4",g:"R16",ch:"TBC",city:"Mexico City",stage:R16,score:null},
+  {date:"Mon 6 Jul",bst:"8:00 PM",m:"R16 Match 5",g:"R16",ch:"TBC",city:"Dallas",stage:R16,score:null},
+  {date:"Tue 7 Jul",bst:"1:00 AM",m:"R16 Match 6",g:"R16",ch:"TBC",city:"Seattle",stage:R16,score:null},
+  {date:"Tue 7 Jul",bst:"5:00 PM",m:"R16 Match 7",g:"R16",ch:"TBC",city:"Atlanta",stage:R16,score:null},
+  {date:"Tue 7 Jul",bst:"9:00 PM",m:"R16 Match 8",g:"R16",ch:"TBC",city:"Vancouver",stage:R16,score:null},
+  {date:"Thu 9 Jul",bst:"9:00 PM",m:"QF Match 1",g:"QF",ch:"TBC",city:"Boston",stage:QF,score:null},
+  {date:"Fri 10 Jul",bst:"8:00 PM",m:"QF Match 2",g:"QF",ch:"TBC",city:"Los Angeles",stage:QF,score:null},
+  {date:"Sat 11 Jul",bst:"10:00 PM",m:"QF Match 3",g:"QF",ch:"TBC",city:"Miami",stage:QF,score:null},
+  {date:"Sun 12 Jul",bst:"2:00 AM",m:"QF Match 4",g:"QF",ch:"TBC",city:"Kansas City",stage:QF,score:null},
+  {date:"Tue 14 Jul",bst:"8:00 PM",m:"Semi-final 1",g:"SF",ch:"TBC",city:"Dallas",stage:SF,score:null},
+  {date:"Wed 15 Jul",bst:"8:00 PM",m:"Semi-final 2",g:"SF",ch:"TBC",city:"Atlanta",stage:SF,score:null},
+  {date:"Sat 18 Jul",bst:"10:00 PM",m:"Third-place play-off",g:"3PO",ch:"TBC",city:"Miami",stage:TP,score:null},
+  {date:"Sun 19 Jul",bst:"8:00 PM",m:"FINAL",g:"\u{1F3C6}",ch:"BBC & ITV",city:"New York/NJ",stage:FIN,score:null},
+];
+
+const groupsData={
+  A:{teams:[{name:"Mexico",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"South Korea",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Czechia",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"South Africa",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  B:{teams:[{name:"Canada",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Switzerland",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Bosnia & Herzegovina",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Qatar",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  C:{teams:[{name:"Brazil",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Morocco",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Scotland",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Haiti",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  D:{teams:[{name:"USA",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"T\u00FCrkiye",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Australia",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Paraguay",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  E:{teams:[{name:"Germany",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Ivory Coast",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Ecuador",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Cura\u00E7ao",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  F:{teams:[{name:"Netherlands",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Japan",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Sweden",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Tunisia",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  G:{teams:[{name:"Belgium",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Iran",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"New Zealand",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Egypt",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  H:{teams:[{name:"Spain",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Uruguay",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Cape Verde",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Saudi Arabia",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  I:{teams:[{name:"France",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Senegal",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Norway",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Iraq",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  J:{teams:[{name:"Argentina",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Austria",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Algeria",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Jordan",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  K:{teams:[{name:"Portugal",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Colombia",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Uzbekistan",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"DR Congo",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+  L:{teams:[{name:"England",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Ghana",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Croatia",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0},{name:"Panama",p:0,w:0,d:0,l:0,gf:0,ga:0,pts:0}]},
+};
+
+const LAST_UPDATED="Pre-tournament \u00B7 No matches played yet";
+
+function chClass(ch){
+  if(["BBC","BBC One","BBC Two"].includes(ch)) return "ch-bbc";
+  if(["ITV","ITV1","ITV4"].includes(ch)) return "ch-itv";
+  if(ch==="BBC & ITV") return "ch-both";
+  return "ch-tbc";
+}
+function isKnockout(s){return [R32,R16,QF,SF,TP,FIN].includes(s);}
+function gd(t){return t.gf-t.ga;}
+
+const matches=rawMatches.map(m=>({...m,m:withFlags(m.m)}));
+const tbody=document.getElementById("schedule");
+let lastDate=null,lastStage=null;
+const allRows=[];
+
+matches.forEach(m=>{
+  let headerRow=null;
+  if(m.date!==lastDate){
+    const stageLabel=isKnockout(m.stage)?m.stage:"GROUP STAGE";
+    const stageChanged=stageLabel!==lastStage;
+    lastStage=stageLabel;
+    headerRow=document.createElement("tr");
+    headerRow.className="date-header-row";
+    headerRow.innerHTML=`<td colspan="5" style="padding:0"><div class="date-header ${m.stage===FIN?'final-day':isKnockout(m.stage)?'knockout':''}">${m.date}${stageChanged&&isKnockout(m.stage)?' \u00B7 <span style="font-size:14px;opacity:0.7">'+m.stage+'</span>':''}</div></td>`;
+    tbody.appendChild(headerRow);
+    lastDate=m.date;
+  }
+  const tr=document.createElement("tr");
+  if(m.stage===FIN) tr.classList.add("final-row");
+  if(m.score!==null) tr.classList.add("played-row");
+  const ko=isKnockout(m.stage);
+  const matchText=m.m.includes(" v ")?m.m.replace(" v ",`<span class="vs">v</span>`):m.m;
+  const timeCell=m.score!==null
+    ?`<span class="score">${m.score[0]}\u2013${m.score[1]}<span class="score-ft">FT</span></span>`
+    :`<span class="time">${m.bst}</span>`;
+  tr.innerHTML=`<td>${timeCell}</td><td class="match">${matchText}</td><td><span class="group-badge ${ko?'knockout-badge':''}">${m.g}</span></td><td class="channel ${chClass(m.ch)}">${m.ch}</td><td class="city">${m.city}</td>`;
+  tbody.appendChild(tr);
+  const rawMatch=m.m.replace(/[\u{1F000}-\u{1FFFF}]|[\u{2600}-\u{27FF}]|\uD83C[\uDF00-\uDFFF]|\uD83D[\uDC00-\uDE4F]/gu,'').trim();
+  const teams=rawMatch.split(' v ').map(t=>t.trim());
+  allRows.push({matchRow:tr,headerRow,teams,date:m.date});
+});
+
+function applyFilter(filter){
+  const visibleDates=new Set();
+  allRows.forEach(({matchRow,teams,date})=>{
+    const visible=filter==='all'||teams.some(t=>t.includes(filter));
+    matchRow.classList.toggle('hidden',!visible);
+    if(visible) visibleDates.add(date);
+  });
+  const seenDates=new Set();
+  allRows.forEach(({headerRow,date})=>{
+    if(!headerRow||seenDates.has(date)) return;
+    seenDates.add(date);
+    headerRow.classList.toggle('hidden',!visibleDates.has(date));
+  });
+}
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    applyFilter(btn.dataset.filter);
+  });
+});
+
+document.getElementById("last-updated").textContent="Standings updated: "+LAST_UPDATED;
+const grid=document.getElementById("standings-grid");
+Object.entries(groupsData).forEach(([grpLetter,grp])=>{
+  const sorted=[...grp.teams].sort((a,b)=>b.pts-a.pts||(gd(b)-gd(a))||b.gf-a.gf||a.name.localeCompare(b.name));
+  const card=document.createElement("div");
+  card.className="group-card";
+  card.innerHTML=`<div class="group-title">Group ${grpLetter}</div><table class="standings-table"><thead><tr><th class="left" colspan="2">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead><tbody>${sorted.map((t,i)=>`<tr class="${i===2?'qual-line':''}"><td class="pos">${i+1}</td><td class="team-name">${withFlags(t.name)}</td><td>${t.p}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td>${t.gf}</td><td>${t.ga}</td><td style="color:${gd(t)>0?'var(--accent)':gd(t)<0?'var(--accent2)':'var(--muted)'}">${gd(t)>0?'+':''}${gd(t)}</td><td class="pts">${t.pts}</td></tr>`).join('')}</tbody></table><div class="standings-note">Top 2 qualify \u00B7 <span style="color:var(--accent2)">\u2500</span> qualification line</div>`;
+  grid.appendChild(card);
+});
+
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-'+btn.dataset.tab).classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
