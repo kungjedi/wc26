@@ -11,7 +11,7 @@ Search the web for all completed 2026 FIFA World Cup results, then update `score
 - `results` format: fixture id → [home_score, away_score] e.g. `"A1": [2, 0]`
 - Recalculate all `standings` from scratch based on the full results set
 - Set `_meta.last_updated` to today's date and a matchday summary e.g. `"13 Jun 2026 · Matchday 2"`
-- Commit and push when done
+- Commit and push directly to `main` when done — this makes changes live immediately on the site
 
 ## Fixture IDs
 
@@ -21,7 +21,7 @@ Knockout fixtures: R32-1 through R32-16, R16-1 through R16-8, QF-1 through QF-4,
 ## To update knockout teams/channels
 
 After the group stage, update the `home`/`away` fields on knockout fixtures in `scores.json`
-and fill in confirmed `channel` values. Commit and push.
+and fill in confirmed `channel` values. Commit and push directly to `main`.
 
 ## Files
 
