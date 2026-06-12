@@ -36,6 +36,8 @@
   .time { color:var(--accent); font-weight:500; white-space:nowrap; }
   .score { color:var(--accent); font-weight:500; white-space:nowrap; letter-spacing:2px; }
   .score-ft { font-size:10px; color:var(--muted); margin-left:4px; }
+  a.score-link { color:inherit; text-decoration:none; }
+  a.score-link:hover .score { text-decoration:underline; text-underline-offset:3px; }
   .match { font-weight:500; }
   .match .vs { color:var(--muted); margin:0 4px; }
   .group-badge { display:inline-block; background:var(--surface); border:1px solid var(--border); color:var(--muted); font-size:10px; padding:1px 6px; letter-spacing:1px; min-width:28px; text-align:center; }
@@ -215,7 +217,9 @@ function buildResults(data){
     }
     const s=data.results[f.id];
     const ko=isKO(f.stage);
-    html+=`<tr><td class="rt-left">${flags(f.home)}</td><td class="rt-score"><span class="score">${s[0]}\u2013${s[1]}</span></td><td class="rt-right">${flags(f.away)}</td><td><span class="group-badge ${ko?"ko":""} ">${f.group}</span></td><td class="city">${f.bst}</td></tr>`;
+    const link=(data.report_links||{})[f.id];
+    const scoreHtml=`<span class="score">${s[0]}\u2013${s[1]}</span>`;
+    html+=`<tr><td class="rt-left">${flags(f.home)}</td><td class="rt-score">${link?`<a class="score-link" href="${link}" target="_blank" rel="noopener">${scoreHtml}</a>`:scoreHtml}</td><td class="rt-right">${flags(f.away)}</td><td><span class="group-badge ${ko?"ko":""} ">${f.group}</span></td><td class="city">${f.bst}</td></tr>`;
   });
   html+=`</tbody></table>`;
   wrap.innerHTML=html;
