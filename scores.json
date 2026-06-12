@@ -1,0 +1,207 @@
+{
+  "_meta": {
+    "last_updated": "12 Jun 2026 · Matchday 1",
+    "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
+  },
+
+  "groups": {
+    "A": ["Mexico", "South Korea", "Czechia", "South Africa"],
+    "B": ["Canada", "Switzerland", "Bosnia & Herzegovina", "Qatar"],
+    "C": ["Brazil", "Morocco", "Scotland", "Haiti"],
+    "D": ["USA", "Türkiye", "Australia", "Paraguay"],
+    "E": ["Germany", "Ivory Coast", "Ecuador", "Curaçao"],
+    "F": ["Netherlands", "Japan", "Sweden", "Tunisia"],
+    "G": ["Belgium", "Iran", "New Zealand", "Egypt"],
+    "H": ["Spain", "Uruguay", "Cape Verde", "Saudi Arabia"],
+    "I": ["France", "Senegal", "Norway", "Iraq"],
+    "J": ["Argentina", "Austria", "Algeria", "Jordan"],
+    "K": ["Portugal", "Colombia", "Uzbekistan", "DR Congo"],
+    "L": ["England", "Ghana", "Croatia", "Panama"]
+  },
+
+  "fixtures": [
+    {"id":"A1","date":"Thu 11 Jun","bst":"8:00 PM","home":"Mexico","away":"South Africa","group":"A","channel":"ITV1","city":"Mexico City","stage":"GS"},
+    {"id":"A2","date":"Fri 12 Jun","bst":"3:00 AM","home":"South Korea","away":"Czechia","group":"A","channel":"ITV1","city":"Guadalajara","stage":"GS"},
+    {"id":"B1","date":"Fri 12 Jun","bst":"8:00 PM","home":"Canada","away":"Bosnia & Herzegovina","group":"B","channel":"BBC One","city":"Toronto","stage":"GS"},
+    {"id":"D1","date":"Sat 13 Jun","bst":"2:00 AM","home":"USA","away":"Paraguay","group":"D","channel":"BBC One","city":"Los Angeles","stage":"GS"},
+    {"id":"D2","date":"Sat 13 Jun","bst":"5:00 AM","home":"Australia","away":"Türkiye","group":"D","channel":"ITV1","city":"Vancouver","stage":"GS"},
+    {"id":"B2","date":"Sat 13 Jun","bst":"8:00 PM","home":"Qatar","away":"Switzerland","group":"B","channel":"ITV1","city":"San Francisco","stage":"GS"},
+    {"id":"C1","date":"Sat 13 Jun","bst":"11:00 PM","home":"Brazil","away":"Morocco","group":"C","channel":"BBC One","city":"New York/NJ","stage":"GS"},
+    {"id":"C2","date":"Sun 14 Jun","bst":"2:00 AM","home":"Haiti","away":"Scotland","group":"C","channel":"BBC One","city":"Boston","stage":"GS"},
+    {"id":"E1","date":"Sun 14 Jun","bst":"6:00 PM","home":"Germany","away":"Curaçao","group":"E","channel":"ITV1","city":"Houston","stage":"GS"},
+    {"id":"F1","date":"Sun 14 Jun","bst":"9:00 PM","home":"Netherlands","away":"Japan","group":"F","channel":"ITV1","city":"Dallas","stage":"GS"},
+    {"id":"E2","date":"Mon 15 Jun","bst":"12:00 AM","home":"Ivory Coast","away":"Ecuador","group":"E","channel":"BBC One","city":"Philadelphia","stage":"GS"},
+    {"id":"F2","date":"Mon 15 Jun","bst":"3:00 AM","home":"Sweden","away":"Tunisia","group":"F","channel":"ITV1","city":"Monterrey","stage":"GS"},
+    {"id":"H1","date":"Mon 15 Jun","bst":"5:00 PM","home":"Spain","away":"Cape Verde","group":"H","channel":"ITV1","city":"Atlanta","stage":"GS"},
+    {"id":"G1","date":"Mon 15 Jun","bst":"8:00 PM","home":"Belgium","away":"Egypt","group":"G","channel":"BBC One","city":"Seattle","stage":"GS"},
+    {"id":"H2","date":"Mon 15 Jun","bst":"11:00 PM","home":"Saudi Arabia","away":"Uruguay","group":"H","channel":"ITV1","city":"Miami","stage":"GS"},
+    {"id":"G2","date":"Tue 16 Jun","bst":"2:00 AM","home":"Iran","away":"New Zealand","group":"G","channel":"BBC One","city":"Los Angeles","stage":"GS"},
+    {"id":"I1","date":"Tue 16 Jun","bst":"8:00 PM","home":"France","away":"Senegal","group":"I","channel":"BBC One","city":"New York/NJ","stage":"GS"},
+    {"id":"I2","date":"Tue 16 Jun","bst":"11:00 PM","home":"Iraq","away":"Norway","group":"I","channel":"BBC One","city":"Boston","stage":"GS"},
+    {"id":"J1","date":"Wed 17 Jun","bst":"2:00 AM","home":"Argentina","away":"Algeria","group":"J","channel":"ITV1","city":"Kansas City","stage":"GS"},
+    {"id":"J2","date":"Wed 17 Jun","bst":"5:00 AM","home":"Austria","away":"Jordan","group":"J","channel":"BBC One","city":"San Francisco","stage":"GS"},
+    {"id":"K1","date":"Wed 17 Jun","bst":"6:00 PM","home":"Portugal","away":"DR Congo","group":"K","channel":"BBC One","city":"Houston","stage":"GS"},
+    {"id":"L1","date":"Wed 17 Jun","bst":"9:00 PM","home":"England","away":"Croatia","group":"L","channel":"ITV1","city":"Dallas","stage":"GS"},
+    {"id":"L2","date":"Thu 18 Jun","bst":"12:00 AM","home":"Ghana","away":"Panama","group":"L","channel":"ITV1","city":"Toronto","stage":"GS"},
+    {"id":"K2","date":"Thu 18 Jun","bst":"3:00 AM","home":"Uzbekistan","away":"Colombia","group":"K","channel":"BBC One","city":"Mexico City","stage":"GS"},
+    {"id":"A3","date":"Thu 18 Jun","bst":"5:00 PM","home":"Czechia","away":"South Africa","group":"A","channel":"BBC One","city":"Atlanta","stage":"GS"},
+    {"id":"B3","date":"Thu 18 Jun","bst":"8:00 PM","home":"Switzerland","away":"Bosnia & Herzegovina","group":"B","channel":"ITV1","city":"Los Angeles","stage":"GS"},
+    {"id":"B4","date":"Thu 18 Jun","bst":"11:00 PM","home":"Canada","away":"Qatar","group":"B","channel":"ITV1","city":"Vancouver","stage":"GS"},
+    {"id":"A4","date":"Fri 19 Jun","bst":"2:00 AM","home":"Mexico","away":"South Korea","group":"A","channel":"BBC One","city":"Guadalajara","stage":"GS"},
+    {"id":"D3","date":"Fri 19 Jun","bst":"8:00 PM","home":"USA","away":"Australia","group":"D","channel":"BBC One","city":"Seattle","stage":"GS"},
+    {"id":"C3","date":"Fri 19 Jun","bst":"11:00 PM","home":"Scotland","away":"Morocco","group":"C","channel":"ITV1","city":"Boston","stage":"GS"},
+    {"id":"C4","date":"Sat 20 Jun","bst":"2:00 AM","home":"Brazil","away":"Haiti","group":"C","channel":"ITV1","city":"Philadelphia","stage":"GS"},
+    {"id":"D4","date":"Sat 20 Jun","bst":"5:00 AM","home":"Türkiye","away":"Paraguay","group":"D","channel":"ITV1","city":"San Francisco","stage":"GS"},
+    {"id":"F3","date":"Sat 20 Jun","bst":"6:00 PM","home":"Netherlands","away":"Sweden","group":"F","channel":"BBC One","city":"Houston","stage":"GS"},
+    {"id":"E3","date":"Sat 20 Jun","bst":"9:00 PM","home":"Germany","away":"Ivory Coast","group":"E","channel":"ITV1","city":"Toronto","stage":"GS"},
+    {"id":"E4","date":"Sun 21 Jun","bst":"1:00 AM","home":"Ecuador","away":"Curaçao","group":"E","channel":"BBC One","city":"Kansas City","stage":"GS"},
+    {"id":"F4","date":"Sun 21 Jun","bst":"5:00 AM","home":"Tunisia","away":"Japan","group":"F","channel":"BBC One","city":"Monterrey","stage":"GS"},
+    {"id":"H3","date":"Sun 21 Jun","bst":"5:00 PM","home":"Spain","away":"Saudi Arabia","group":"H","channel":"BBC One","city":"Atlanta","stage":"GS"},
+    {"id":"G3","date":"Sun 21 Jun","bst":"8:00 PM","home":"Belgium","away":"Iran","group":"G","channel":"ITV1","city":"Los Angeles","stage":"GS"},
+    {"id":"H4","date":"Sun 21 Jun","bst":"11:00 PM","home":"Uruguay","away":"Cape Verde","group":"H","channel":"BBC One","city":"Miami","stage":"GS"},
+    {"id":"G4","date":"Mon 22 Jun","bst":"2:00 AM","home":"New Zealand","away":"Egypt","group":"G","channel":"ITV1","city":"Vancouver","stage":"GS"},
+    {"id":"J3","date":"Mon 22 Jun","bst":"6:00 PM","home":"Argentina","away":"Austria","group":"J","channel":"BBC One","city":"Dallas","stage":"GS"},
+    {"id":"I3","date":"Mon 22 Jun","bst":"10:00 PM","home":"France","away":"Iraq","group":"I","channel":"BBC One","city":"Philadelphia","stage":"GS"},
+    {"id":"I4","date":"Tue 23 Jun","bst":"1:00 AM","home":"Norway","away":"Senegal","group":"I","channel":"ITV1","city":"New York/NJ","stage":"GS"},
+    {"id":"J4","date":"Tue 23 Jun","bst":"4:00 AM","home":"Jordan","away":"Algeria","group":"J","channel":"ITV1","city":"San Francisco","stage":"GS"},
+    {"id":"K3","date":"Tue 23 Jun","bst":"6:00 PM","home":"Portugal","away":"Uzbekistan","group":"K","channel":"ITV1","city":"Houston","stage":"GS"},
+    {"id":"L3","date":"Tue 23 Jun","bst":"9:00 PM","home":"England","away":"Ghana","group":"L","channel":"BBC One","city":"Boston","stage":"GS"},
+    {"id":"L4","date":"Wed 24 Jun","bst":"12:00 AM","home":"Panama","away":"Croatia","group":"L","channel":"BBC One","city":"Toronto","stage":"GS"},
+    {"id":"K4","date":"Wed 24 Jun","bst":"3:00 AM","home":"Colombia","away":"DR Congo","group":"K","channel":"ITV1","city":"Guadalajara","stage":"GS"},
+    {"id":"B5","date":"Wed 24 Jun","bst":"8:00 PM","home":"Switzerland","away":"Canada","group":"B","channel":"ITV1","city":"Vancouver","stage":"GS"},
+    {"id":"B6","date":"Wed 24 Jun","bst":"8:00 PM","home":"Bosnia & Herzegovina","away":"Qatar","group":"B","channel":"ITV4","city":"Seattle","stage":"GS"},
+    {"id":"C5","date":"Wed 24 Jun","bst":"11:00 PM","home":"Scotland","away":"Brazil","group":"C","channel":"BBC One","city":"Miami","stage":"GS"},
+    {"id":"C6","date":"Wed 24 Jun","bst":"11:00 PM","home":"Morocco","away":"Haiti","group":"C","channel":"BBC Two","city":"Atlanta","stage":"GS"},
+    {"id":"A5","date":"Thu 25 Jun","bst":"2:00 AM","home":"Czechia","away":"Mexico","group":"A","channel":"BBC One","city":"Mexico City","stage":"GS"},
+    {"id":"A6","date":"Thu 25 Jun","bst":"2:00 AM","home":"South Africa","away":"South Korea","group":"A","channel":"BBC Two","city":"Monterrey","stage":"GS"},
+    {"id":"E5","date":"Thu 25 Jun","bst":"9:00 PM","home":"Ecuador","away":"Germany","group":"E","channel":"BBC One","city":"New York/NJ","stage":"GS"},
+    {"id":"E6","date":"Thu 25 Jun","bst":"9:00 PM","home":"Curaçao","away":"Ivory Coast","group":"E","channel":"BBC Two","city":"Philadelphia","stage":"GS"},
+    {"id":"F5","date":"Fri 26 Jun","bst":"12:00 AM","home":"Tunisia","away":"Netherlands","group":"F","channel":"BBC One","city":"Kansas City","stage":"GS"},
+    {"id":"F6","date":"Fri 26 Jun","bst":"12:00 AM","home":"Japan","away":"Sweden","group":"F","channel":"BBC Two","city":"Dallas","stage":"GS"},
+    {"id":"D5","date":"Fri 26 Jun","bst":"3:00 AM","home":"Türkiye","away":"USA","group":"D","channel":"ITV1","city":"Los Angeles","stage":"GS"},
+    {"id":"D6","date":"Fri 26 Jun","bst":"3:00 AM","home":"Paraguay","away":"Australia","group":"D","channel":"ITV4","city":"San Francisco","stage":"GS"},
+    {"id":"I5","date":"Fri 26 Jun","bst":"8:00 PM","home":"Norway","away":"France","group":"I","channel":"ITV1","city":"Boston","stage":"GS"},
+    {"id":"I6","date":"Fri 26 Jun","bst":"8:00 PM","home":"Senegal","away":"Iraq","group":"I","channel":"ITV4","city":"Toronto","stage":"GS"},
+    {"id":"H5","date":"Sat 27 Jun","bst":"1:00 AM","home":"Uruguay","away":"Spain","group":"H","channel":"ITV1","city":"Guadalajara","stage":"GS"},
+    {"id":"H6","date":"Sat 27 Jun","bst":"1:00 AM","home":"Cape Verde","away":"Saudi Arabia","group":"H","channel":"ITV4","city":"Houston","stage":"GS"},
+    {"id":"G5","date":"Sat 27 Jun","bst":"4:00 AM","home":"New Zealand","away":"Belgium","group":"G","channel":"BBC One","city":"Vancouver","stage":"GS"},
+    {"id":"G6","date":"Sat 27 Jun","bst":"4:00 AM","home":"Egypt","away":"Iran","group":"G","channel":"BBC Two","city":"Seattle","stage":"GS"},
+    {"id":"L5","date":"Sat 27 Jun","bst":"10:00 PM","home":"Panama","away":"England","group":"L","channel":"ITV1","city":"New York/NJ","stage":"GS"},
+    {"id":"L6","date":"Sat 27 Jun","bst":"10:00 PM","home":"Croatia","away":"Ghana","group":"L","channel":"ITV4","city":"Philadelphia","stage":"GS"},
+    {"id":"K5","date":"Sun 28 Jun","bst":"12:30 AM","home":"Colombia","away":"Portugal","group":"K","channel":"BBC One","city":"Miami","stage":"GS"},
+    {"id":"K6","date":"Sun 28 Jun","bst":"12:30 AM","home":"DR Congo","away":"Uzbekistan","group":"K","channel":"BBC Two","city":"Atlanta","stage":"GS"},
+    {"id":"J5","date":"Sun 28 Jun","bst":"3:00 AM","home":"Jordan","away":"Argentina","group":"J","channel":"BBC One","city":"Dallas","stage":"GS"},
+    {"id":"J6","date":"Sun 28 Jun","bst":"3:00 AM","home":"Algeria","away":"Austria","group":"J","channel":"BBC Two","city":"Kansas City","stage":"GS"},
+    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
+    {"id":"R32-2","date":"Mon 29 Jun","bst":"6:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Houston","stage":"R32"},
+    {"id":"R32-3","date":"Mon 29 Jun","bst":"9:30 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Boston","stage":"R32"},
+    {"id":"R32-4","date":"Tue 30 Jun","bst":"2:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Monterrey","stage":"R32"},
+    {"id":"R32-5","date":"Tue 30 Jun","bst":"6:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
+    {"id":"R32-6","date":"Tue 30 Jun","bst":"10:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"New York/NJ","stage":"R32"},
+    {"id":"R32-7","date":"Wed 1 Jul","bst":"2:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Mexico City","stage":"R32"},
+    {"id":"R32-8","date":"Wed 1 Jul","bst":"5:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Atlanta","stage":"R32"},
+    {"id":"R32-9","date":"Wed 1 Jul","bst":"9:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Seattle","stage":"R32"},
+    {"id":"R32-10","date":"Thu 2 Jul","bst":"1:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"San Francisco","stage":"R32"},
+    {"id":"R32-11","date":"Thu 2 Jul","bst":"8:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
+    {"id":"R32-12","date":"Fri 3 Jul","bst":"12:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Toronto","stage":"R32"},
+    {"id":"R32-13","date":"Fri 3 Jul","bst":"4:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Vancouver","stage":"R32"},
+    {"id":"R32-14","date":"Fri 3 Jul","bst":"7:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
+    {"id":"R32-15","date":"Fri 3 Jul","bst":"11:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Miami","stage":"R32"},
+    {"id":"R32-16","date":"Sat 4 Jul","bst":"2:30 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Kansas City","stage":"R32"},
+    {"id":"R16-1","date":"Sat 4 Jul","bst":"6:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Houston","stage":"R16"},
+    {"id":"R16-2","date":"Sat 4 Jul","bst":"10:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Philadelphia","stage":"R16"},
+    {"id":"R16-3","date":"Sun 5 Jul","bst":"9:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"New York/NJ","stage":"R16"},
+    {"id":"R16-4","date":"Mon 6 Jul","bst":"1:00 AM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Mexico City","stage":"R16"},
+    {"id":"R16-5","date":"Mon 6 Jul","bst":"8:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Dallas","stage":"R16"},
+    {"id":"R16-6","date":"Tue 7 Jul","bst":"1:00 AM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Seattle","stage":"R16"},
+    {"id":"R16-7","date":"Tue 7 Jul","bst":"5:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Atlanta","stage":"R16"},
+    {"id":"R16-8","date":"Tue 7 Jul","bst":"9:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Vancouver","stage":"R16"},
+    {"id":"QF-1","date":"Thu 9 Jul","bst":"9:00 PM","home":"TBD","away":"TBD","group":"QF","channel":"TBC","city":"Boston","stage":"QF"},
+    {"id":"QF-2","date":"Fri 10 Jul","bst":"8:00 PM","home":"TBD","away":"TBD","group":"QF","channel":"TBC","city":"Los Angeles","stage":"QF"},
+    {"id":"QF-3","date":"Sat 11 Jul","bst":"10:00 PM","home":"TBD","away":"TBD","group":"QF","channel":"TBC","city":"Miami","stage":"QF"},
+    {"id":"QF-4","date":"Sun 12 Jul","bst":"2:00 AM","home":"TBD","away":"TBD","group":"QF","channel":"TBC","city":"Kansas City","stage":"QF"},
+    {"id":"SF-1","date":"Tue 14 Jul","bst":"8:00 PM","home":"TBD","away":"TBD","group":"SF","channel":"TBC","city":"Dallas","stage":"SF"},
+    {"id":"SF-2","date":"Wed 15 Jul","bst":"8:00 PM","home":"TBD","away":"TBD","group":"SF","channel":"TBC","city":"Atlanta","stage":"SF"},
+    {"id":"3PO","date":"Sat 18 Jul","bst":"10:00 PM","home":"TBD","away":"TBD","group":"3PO","channel":"TBC","city":"Miami","stage":"TP"},
+    {"id":"FINAL","date":"Sun 19 Jul","bst":"8:00 PM","home":"TBD","away":"TBD","group":"🏆","channel":"BBC & ITV","city":"New York/NJ","stage":"FIN"}
+  ],
+
+  "results": {
+    "A1": [2, 0]
+  },
+
+  "standings": {
+    "A": [
+      {"name":"Mexico",       "p":1,"w":1,"d":0,"l":0,"gf":2,"ga":0,"pts":3},
+      {"name":"South Korea",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Czechia",      "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"South Africa", "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":2,"pts":0}
+    ],
+    "B": [
+      {"name":"Canada",               "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Switzerland",          "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Bosnia & Herzegovina", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Qatar",                "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "C": [
+      {"name":"Brazil",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Morocco",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Scotland", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Haiti",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "D": [
+      {"name":"USA",       "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Türkiye",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Australia", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Paraguay",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "E": [
+      {"name":"Germany",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Ivory Coast", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Ecuador",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Curaçao",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "F": [
+      {"name":"Netherlands", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Japan",       "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Sweden",      "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Tunisia",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "G": [
+      {"name":"Belgium",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Iran",        "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"New Zealand", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Egypt",       "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "H": [
+      {"name":"Spain",        "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Uruguay",      "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Cape Verde",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Saudi Arabia", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "I": [
+      {"name":"France",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Senegal", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Norway",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Iraq",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "J": [
+      {"name":"Argentina", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Austria",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Algeria",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Jordan",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "K": [
+      {"name":"Portugal",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Colombia",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Uzbekistan", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"DR Congo",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ],
+    "L": [
+      {"name":"England",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Ghana",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Croatia",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Panama",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+    ]
+  }
+}
