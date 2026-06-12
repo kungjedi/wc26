@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "12 Jun 2026 · Matchday 1",
+    "last_updated": "12 Jun 2026 · Matchday 1 complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -127,14 +127,15 @@
   ],
 
   "results": {
-    "A1": [2, 0]
+    "A1": [2, 0],
+    "A2": [2, 1]
   },
 
   "standings": {
     "A": [
       {"name":"Mexico",       "p":1,"w":1,"d":0,"l":0,"gf":2,"ga":0,"pts":3},
-      {"name":"South Korea",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Czechia",      "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"South Korea",  "p":1,"w":1,"d":0,"l":0,"gf":2,"ga":1,"pts":3},
+      {"name":"Czechia",      "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":2,"pts":0},
       {"name":"South Africa", "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":2,"pts":0}
     ],
     "B": [
