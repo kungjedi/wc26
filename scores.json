@@ -217,21 +217,31 @@
 
   "funnies": [
     {
-      "headline": "England arrive in Kansas City to find boots, balls and kit stolen from team van",
-      "summary": "Harry Kane, Jude Bellingham and co. were left with just one training ball after thieves broke into the squad's transit vehicles. Players' custom match boots and official World Cup balls were among the haul. Two suspects have since been arrested.",
-      "url": "https://www.goal.com/en/lists/world-cup-england-kit-theft-harry-kane-jude-bellingham-boots-stolen/blt8f7ed30e0e4f74aa"
+      "date": "Sat 13 Jun",
+      "headline": "Thomas Partey denied entry to Canada, misses Ghana's opener",
+      "summary": "Ghana's captain was refused entry by Canadian border officials and couldn't travel from the team's Rhode Island base to Toronto for their opener against Panama. The irony: he'd have been fine for their next match in the US. FIFA stressed it has no say in host nations' immigration decisions.",
+      "url": "https://www.aljazeera.com/sports/2026/6/13/thomas-partey-denied-entry-into-canada-will-miss-ghanas-world-cup-opener"
     },
     {
+      "date": "Fri 12 Jun",
       "headline": "FIFA blames empty seats at South Korea match on fans watching from the concourse",
       "summary": "Sections of the Guadalajara stadium looked worryingly empty during South Korea v Czechia — until FIFA explained that thousands of ticketed fans had simply decided they'd rather watch from the concourse and hang around the concession stands.",
       "url": "https://sports.yahoo.com/articles/fifa-blames-empty-seats-world-234214684.html"
     },
     {
+      "date": "Fri 12 Jun",
+      "headline": "England arrive in Kansas City to find boots, balls and kit stolen from team van",
+      "summary": "Harry Kane, Jude Bellingham and co. were left with just one training ball after thieves broke into the squad's transit vehicles. Players' custom match boots and official World Cup balls were among the haul. Two suspects have since been arrested.",
+      "url": "https://www.goal.com/en/lists/world-cup-england-kit-theft-harry-kane-jude-bellingham-boots-stolen/blt8f7ed30e0e4f74aa"
+    },
+    {
+      "date": "Thu 11 Jun",
       "headline": "FOX Sports ran so many ads during the World Cup hydration break it missed the restart",
       "summary": "During the very first match of the tournament, FOX cut to commercial during the cooling break — and ran so many ads that viewers were still watching Powerade spots when Mexico kicked off again. FIFA rules say broadcasters must be back on air 30 seconds before play resumes.",
       "url": "https://attackofthefanboy.com/sports/fox-sports-went-to-commercial-during-the-world-cup-and-came-back-too-late-and-the-backlash-was-instant/"
     },
     {
+      "date": "Thu 11 Jun",
       "headline": "Scotland fans' US travel permits revoked days before their first World Cup in 28 years",
       "summary": "Dozens of Tartan Army fans had their ESTAs flipped to 'Travel Not Authorized' with no explanation just days before flying out, threatening to miss Scotland's first World Cup since 1998. Scotland's First Minister vowed to 'do all I can to help'. One fan said Trump should 'return the hospitality'.",
       "url": "https://www.newsweek.com/scotland-fan-missing-world-cup-opener-says-trump-should-return-the-hospitality-12059715"
