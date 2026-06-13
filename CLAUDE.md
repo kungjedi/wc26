@@ -11,7 +11,7 @@ Search the web for all completed 2026 FIFA World Cup results, then update `score
 - `results` format: fixture id → [home_score, away_score] e.g. `"A1": [2, 0]`
 - Recalculate all `standings` from scratch based on the full results set
 - Set `_meta.last_updated` to today's date and a matchday summary e.g. `"13 Jun 2026 · Matchday 2"`
-- For each newly completed fixture, search for its BBC Sport match report URL and add it to `report_links` e.g. `"A1": "https://www.bbc.co.uk/sport/football/articles/..."` — leave as `""` if not found
+- For each newly completed fixture, search YouTube for the official FIFA highlights video and add the URL to `highlight_links` e.g. `"A1": "https://www.youtube.com/watch?v=..."` — look for titles containing "FIFA World Cup 2026™" from the official FIFA channel; leave as `""` if not found
 - Commit and push directly to `main` when done — this makes changes live immediately on the site
 
 ## Fixture IDs

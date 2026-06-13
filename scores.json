@@ -133,11 +133,11 @@
     "D1": [4, 1]
   },
 
-  "report_links": {
-    "A1": "",
-    "A2": "",
-    "B1": "",
-    "D1": ""
+  "highlight_links": {
+    "A1": "https://www.youtube.com/watch?v=PmevGCkUtM8",
+    "A2": "https://www.youtube.com/watch?v=RvOa5j-_DcI",
+    "B1": "https://www.youtube.com/watch?v=1BCzqYnu7TM",
+    "D1": "https://www.youtube.com/watch?v=BXD1_mhODBU"
   },
 
   "standings": {

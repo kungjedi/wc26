@@ -217,7 +217,7 @@ function buildResults(data){
     }
     const s=data.results[f.id];
     const ko=isKO(f.stage);
-    const link=(data.report_links||{})[f.id];
+    const link=(data.highlight_links||{})[f.id];
     const scoreHtml=`<span class="score">${s[0]}\u2013${s[1]}</span>`;
     html+=`<tr><td class="rt-left">${flags(f.home)}</td><td class="rt-score">${link?`<a class="score-link" href="${link}" target="_blank" rel="noopener">${scoreHtml}</a>`:scoreHtml}</td><td class="rt-right">${flags(f.away)}</td><td><span class="group-badge ${ko?"ko":""} ">${f.group}</span></td><td class="city">${f.bst}</td></tr>`;
   });
