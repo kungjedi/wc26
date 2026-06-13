@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "12 Jun 2026 · Matchday 1 complete",
+    "last_updated": "13 Jun 2026 · Matchday 1",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -128,12 +128,16 @@
 
   "results": {
     "A1": [2, 0],
-    "A2": [2, 1]
+    "A2": [2, 1],
+    "B1": [1, 1],
+    "D1": [4, 1]
   },
 
   "report_links": {
     "A1": "",
-    "A2": ""
+    "A2": "",
+    "B1": "",
+    "D1": ""
   },
 
   "standings": {
@@ -144,9 +148,9 @@
       {"name":"South Africa", "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":2,"pts":0}
     ],
     "B": [
-      {"name":"Canada",               "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Canada",               "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
+      {"name":"Bosnia & Herzegovina", "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
       {"name":"Switzerland",          "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Bosnia & Herzegovina", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
       {"name":"Qatar",                "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
     ],
     "C": [
@@ -156,10 +160,10 @@
       {"name":"Haiti",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
     ],
     "D": [
-      {"name":"USA",       "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"USA",       "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":1,"pts":3},
       {"name":"Türkiye",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
       {"name":"Australia", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Paraguay",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"Paraguay",  "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":4,"pts":0}
     ],
     "E": [
       {"name":"Germany",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
