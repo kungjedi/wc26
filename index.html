@@ -70,6 +70,12 @@
   .sn { padding:8px 20px; font-size:10px; color:var(--muted); border-top:1px solid var(--border); }
   .last-updated { padding:12px 24px; font-size:10px; color:var(--muted); border-bottom:1px solid var(--border); letter-spacing:1px; }
   .loading { padding:48px 24px; color:var(--muted); letter-spacing:2px; font-size:11px; text-transform:uppercase; }
+  .funny-item { padding:20px 24px; border-bottom:1px solid var(--border); }
+  .funny-item:last-child { border-bottom:none; }
+  .funny-item:hover { background:rgba(200,240,0,0.03); }
+  .funny-headline { color:var(--accent); font-weight:500; font-size:14px; text-decoration:none; display:block; margin-bottom:8px; line-height:1.4; }
+  .funny-headline:hover { text-decoration:underline; text-underline-offset:3px; }
+  .funny-summary { color:var(--text); font-size:12px; line-height:1.7; }
   @media(max-width:600px){
     td,th{padding:8px 12px;}
     .city{display:none;}
@@ -88,6 +94,7 @@
   <button class="tab-btn active" data-tab="schedule">Schedule</button>
   <button class="tab-btn" data-tab="results">Results</button>
   <button class="tab-btn" data-tab="standings">Standings</button>
+  <button class="tab-btn" data-tab="funnies">Funnies</button>
 </div>
 <div id="tab-schedule" class="tab-panel active">
   <div class="legend">
@@ -116,6 +123,9 @@
 <div id="tab-results" class="tab-panel">
   <div class="last-updated" id="results-updated"></div>
   <div id="results-wrap"><div class="loading">Loading results&hellip;</div></div>
+</div>
+<div id="tab-funnies" class="tab-panel">
+  <div id="funnies-wrap"><div class="loading">Loading&hellip;</div></div>
 </div>
 <div id="tab-standings" class="tab-panel">
   <div class="last-updated" id="standings-updated"></div>
@@ -147,6 +157,7 @@ fetch("scores.json?v="+Date.now())
     buildSchedule(data);
     buildResults(data);
     buildStandings(data);
+    buildFunnies(data);
   })
   .catch(e=>{
     document.getElementById("schedule").innerHTML=`<tr><td colspan="5" class="loading">Error loading data: ${e.message}</td></tr>`;
@@ -236,6 +247,16 @@ function buildStandings(data){
     card.innerHTML=`<div class="group-title">Group ${grp}</div><table class="st"><thead><tr><th class="left" colspan="2">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead><tbody>${sorted.map((t,i)=>`<tr class="${i===2?"qual-line":""}" ><td class="pos">${i+1}</td><td class="tn">${flags(t.name)}</td><td>${t.p}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td>${t.gf}</td><td>${t.ga}</td><td style="color:${gd(t)>0?"var(--accent)":gd(t)<0?"var(--accent2)":"var(--muted)"}">${gd(t)>0?"+":""}${gd(t)}</td><td class="pts">${t.pts}</td></tr>`).join("")}</tbody></table><div class="sn">Top 2 qualify &middot; <span style="color:var(--accent2)">\u2500</span> qualification line</div>`;
     grid.appendChild(card);
   });
+}
+
+function buildFunnies(data){
+  const wrap=document.getElementById("funnies-wrap");
+  const items=data.funnies||[];
+  if(!items.length){
+    wrap.innerHTML=`<div class="no-results">Nothing funny has happened yet &mdash; give it time.</div>`;
+    return;
+  }
+  wrap.innerHTML=items.map(f=>`<div class="funny-item"><a class="funny-headline" href="${f.url}" target="_blank" rel="noopener">${f.headline}</a><p class="funny-summary">${f.summary}</p></div>`).join('');
 }
 
 document.querySelectorAll(".tab-btn").forEach(btn=>{
