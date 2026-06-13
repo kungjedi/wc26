@@ -24,7 +24,7 @@
     {"id":"A2","date":"Fri 12 Jun","bst":"3:00 AM","home":"South Korea","away":"Czechia","group":"A","channel":"ITV1","city":"Guadalajara","stage":"GS"},
     {"id":"B1","date":"Fri 12 Jun","bst":"8:00 PM","home":"Canada","away":"Bosnia & Herzegovina","group":"B","channel":"BBC One","city":"Toronto","stage":"GS"},
     {"id":"D1","date":"Sat 13 Jun","bst":"2:00 AM","home":"USA","away":"Paraguay","group":"D","channel":"BBC One","city":"Los Angeles","stage":"GS"},
-    {"id":"D2","date":"Sat 13 Jun","bst":"5:00 AM","home":"Australia","away":"Türkiye","group":"D","channel":"ITV1","city":"Vancouver","stage":"GS"},
+    {"id":"D2","date":"Sun 14 Jun","bst":"5:00 AM","home":"Australia","away":"Türkiye","group":"D","channel":"ITV1","city":"Vancouver","stage":"GS"},
     {"id":"B2","date":"Sat 13 Jun","bst":"8:00 PM","home":"Qatar","away":"Switzerland","group":"B","channel":"ITV1","city":"San Francisco","stage":"GS"},
     {"id":"C1","date":"Sat 13 Jun","bst":"11:00 PM","home":"Brazil","away":"Morocco","group":"C","channel":"BBC One","city":"New York/NJ","stage":"GS"},
     {"id":"C2","date":"Sun 14 Jun","bst":"2:00 AM","home":"Haiti","away":"Scotland","group":"C","channel":"BBC One","city":"Boston","stage":"GS"},
