@@ -19,6 +19,14 @@ Search the web for all completed 2026 FIFA World Cup results, then update `score
 Group stage fixtures are named by group + sequence: A1, A2... L6.
 Knockout fixtures: R32-1 through R32-16, R16-1 through R16-8, QF-1 through QF-4, SF-1, SF-2, 3PO, FINAL.
 
+## Fixing fixture data
+
+Occasionally a fixture's `date` or `bst` may need correcting (e.g. a BST conversion error).
+
+**Critical:** the `fixtures` array must always stay in strict chronological order by `date` + `bst`. The schedule page groups fixtures into date sections based purely on array order — if a fixture is out of sequence it will create a duplicate date header on the page. When editing a fixture's date, also move it to the correct position in the array.
+
+BST conversion reminder: match times in North American venues are often late evening local time, which rolls into the next calendar day in BST (UTC+1). Always verify the BST date against the local kick-off time before committing.
+
 ## To update knockout teams/channels
 
 After the group stage, update the `home`/`away` fields on knockout fixtures in `scores.json`
