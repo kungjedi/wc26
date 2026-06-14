@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "13 Jun 2026 · Matchday 1",
+    "last_updated": "14 Jun 2026 · Matchday 1",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -130,6 +130,9 @@
     "A1": [2, 0],
     "A2": [2, 1],
     "B1": [1, 1],
+    "B2": [1, 1],
+    "C1": [1, 1],
+    "C2": [0, 1],
     "D1": [4, 1]
   },
 
@@ -137,6 +140,9 @@
     "A1": "https://www.youtube.com/watch?v=i76IOd-mUq0",
     "A2": "https://www.youtube.com/watch?v=VliZkhC7yX4",
     "B1": "https://www.youtube.com/watch?v=_FgYDeaz0Yk",
+    "B2": "https://www.youtube.com/watch?v=TomBXZ9lweQ",
+    "C1": "https://www.youtube.com/watch?v=kJ278WtIULw",
+    "C2": "",
     "D1": "https://youtu.be/mB-H7V6tp_o"
   },
 
@@ -149,15 +155,15 @@
     ],
     "B": [
       {"name":"Canada",               "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
+      {"name":"Switzerland",          "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
       {"name":"Bosnia & Herzegovina", "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Switzerland",          "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Qatar",                "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"Qatar",                "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1}
     ],
     "C": [
-      {"name":"Brazil",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Morocco",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Scotland", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Haiti",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"Scotland", "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
+      {"name":"Brazil",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
+      {"name":"Morocco",  "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
+      {"name":"Haiti",    "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0}
     ],
     "D": [
       {"name":"USA",       "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":1,"pts":3},
@@ -218,9 +224,21 @@
   "funnies": [
     {
       "date": "Sat 13 Jun",
+      "headline": "Scotland fan plays bagpipes outside Boston Airbnb at 6:30am — neighbour films it, 9 million views follow",
+      "summary": "Local resident Mike Morrison was woken by a lone piper in full regalia serenading the street before the Haiti v Scotland game. He filmed it, posted it, and by the afternoon had 9 million views. By the evening the Tartan Army had invited him over for drinks. He ended the night writing 'Viva #Scotland'.",
+      "url": "https://news.stv.tv/scotland/viral-video-of-scots-playing-bagpipes-in-boston-at-6-30am-ahead-of-world-cup"
+    },
+    {
+      "date": "Sat 13 Jun",
       "headline": "Thomas Partey denied entry to Canada, misses Ghana's opener",
       "summary": "Ghana's captain was refused entry by Canadian border officials and couldn't travel from the team's Rhode Island base to Toronto for their opener against Panama. The irony: he'd have been fine for their next match in the US. FIFA stressed it has no say in host nations' immigration decisions.",
       "url": "https://www.aljazeera.com/sports/2026/6/13/thomas-partey-denied-entry-into-canada-will-miss-ghanas-world-cup-opener"
+    },
+    {
+      "date": "Fri 12 Jun",
+      "headline": "The Brazilian referee explained his red card decision in English — nobody had any idea what he said",
+      "summary": "FIFA's new 'referee mic' initiative produced its first viral moment when Brazilian official Wilton Sampaio announced a red card decision over the stadium PA in English during Mexico v South Africa. Players, staff and fans alike looked completely baffled. Screenshots of South Africa's Khuliso Mudau's bewildered expression spread instantly — the first meme of the 2026 World Cup.",
+      "url": "https://www.euronews.com/2026/06/12/nobody-knew-what-the-ref-was-saying-and-the-internet-loved-it-world-cups-first-meme-is-alr"
     },
     {
       "date": "Fri 12 Jun",
