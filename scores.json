@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "14 Jun 2026 · Matchday 1",
+    "last_updated": "15 Jun 2026 · Matchday 1",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -135,7 +135,10 @@
     "C2": [0, 1],
     "D1": [4, 1],
     "D2": [2, 0],
-    "E1": [7, 1]
+    "E1": [7, 1],
+    "E2": [1, 0],
+    "F1": [2, 2],
+    "F2": [5, 1]
   },
 
   "highlight_links": {
@@ -147,7 +150,10 @@
     "C2": "https://www.youtube.com/watch?v=OHPWPVJNtpc",
     "D1": "https://youtu.be/mB-H7V6tp_o",
     "D2": "https://www.youtube.com/watch?v=JA5q07Fple8",
-    "E1": ""
+    "E1": "",
+    "E2": "https://www.youtube.com/watch?v=KbmxSnT4dQU",
+    "F1": "https://www.youtube.com/watch?v=uGDHa4Ze40g",
+    "F2": ""
   },
 
   "standings": {
@@ -177,15 +183,15 @@
     ],
     "E": [
       {"name":"Germany",     "p":1,"w":1,"d":0,"l":0,"gf":7,"ga":1,"pts":3},
-      {"name":"Ivory Coast", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Ecuador",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
+      {"name":"Ivory Coast", "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
+      {"name":"Ecuador",     "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0},
       {"name":"Curaçao",     "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":7,"pts":0}
     ],
     "F": [
-      {"name":"Netherlands", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Japan",       "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Sweden",      "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Tunisia",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"Sweden",      "p":1,"w":1,"d":0,"l":0,"gf":5,"ga":1,"pts":3},
+      {"name":"Netherlands", "p":1,"w":0,"d":1,"l":0,"gf":2,"ga":2,"pts":1},
+      {"name":"Japan",       "p":1,"w":0,"d":1,"l":0,"gf":2,"ga":2,"pts":1},
+      {"name":"Tunisia",     "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":5,"pts":0}
     ],
     "G": [
       {"name":"Belgium",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
@@ -226,6 +232,12 @@
   },
 
   "funnies": [
+    {
+      "date": "Sun 14 Jun",
+      "headline": "NZ defender goes from 'least known player at the World Cup' to 1.5 million Instagram followers overnight",
+      "summary": "Argentine content creator Valen Scarsini posted a video identifying New Zealand's Tim Payne — who had fewer followers than his own national team's account — as the tournament's most obscure player. He asked fans to follow him. By the next morning Payne had 1.5 million followers, fan accounts, custom shirts and a nickname: 'El Timmy'.",
+      "url": "https://www.espn.com/soccer/story/_/id/48901215/how-2026-world-cup-least-known-player-became-viral-sensation"
+    },
     {
       "date": "Sat 13 Jun",
       "headline": "Scotland fan plays bagpipes outside Boston Airbnb at 6:30am — neighbour films it, 9 million views follow",
