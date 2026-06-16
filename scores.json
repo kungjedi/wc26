@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "15 Jun 2026 · Matchday 1",
+    "last_updated": "16 Jun 2026 · Matchday 1",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -138,7 +138,11 @@
     "E1": [7, 1],
     "E2": [1, 0],
     "F1": [2, 2],
-    "F2": [5, 1]
+    "F2": [5, 1],
+    "H1": [0, 0],
+    "G1": [1, 1],
+    "H2": [1, 1],
+    "G2": [2, 2]
   },
 
   "highlight_links": {
@@ -153,7 +157,11 @@
     "E1": "",
     "E2": "https://www.youtube.com/watch?v=KbmxSnT4dQU",
     "F1": "https://www.youtube.com/watch?v=uGDHa4Ze40g",
-    "F2": ""
+    "F2": "",
+    "H1": "https://www.youtube.com/watch?v=pmtOaGnWYaI",
+    "G1": "https://www.youtube.com/watch?v=0WaTbQ_htsM",
+    "H2": "",
+    "G2": ""
   },
 
   "standings": {
@@ -194,16 +202,16 @@
       {"name":"Tunisia",     "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":5,"pts":0}
     ],
     "G": [
-      {"name":"Belgium",     "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Iran",        "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"New Zealand", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Egypt",       "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"Belgium",     "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
+      {"name":"Iran",        "p":1,"w":0,"d":1,"l":0,"gf":2,"ga":2,"pts":1},
+      {"name":"New Zealand", "p":1,"w":0,"d":1,"l":0,"gf":2,"ga":2,"pts":1},
+      {"name":"Egypt",       "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1}
     ],
     "H": [
-      {"name":"Spain",        "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Uruguay",      "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Cape Verde",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Saudi Arabia", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"Spain",        "p":1,"w":0,"d":1,"l":0,"gf":0,"ga":0,"pts":1},
+      {"name":"Uruguay",      "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
+      {"name":"Cape Verde",   "p":1,"w":0,"d":1,"l":0,"gf":0,"ga":0,"pts":1},
+      {"name":"Saudi Arabia", "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1}
     ],
     "I": [
       {"name":"France",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
@@ -232,6 +240,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Mon 15 Jun",
+      "headline": "Cape Verde's 40-year-old goalkeeper gains 3 million Instagram followers overnight after stunning Spain",
+      "summary": "Vozinha had 20,000 followers when the match kicked off. By full-time — after making seven saves to hold Spain to a 0-0 draw in Cape Verde's first ever World Cup match — he had over 3 million. He then broke down in tears as teammates mobbed him. Only one 'keeper aged 40+ has made more saves in a single World Cup game since 1966 (Pat Jennings, 1986).",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/15/vozinha-cape-verde-goalkeeper-spain-world-cup/e9698ac4-68fc-11f1-830e-133d20cadd28_story.html"
+    },
+    {
+      "date": "Mon 15 Jun",
+      "headline": "German fan Freddy discovers America one chain restaurant at a time and takes 600,000 followers with him",
+      "summary": "Freddy arrived in New York with 11,000 followers on a tight budget and a plan to drive across the country to games. Taco Bell was 'the holy land', a Waffle House visit earned a glowing review, and Buc-ee's left him lost for words. By June 15 he had 600,000 followers along for the ride. Republicans began citing him as proof the US was 'fun again'.",
+      "url": "https://www.washingtonpost.com/opinions/2026/06/15/viral-german-soccer-fan-freddy-travels-us-world-cup-marveling/"
+    },
     {
       "date": "Sun 14 Jun",
       "headline": "NZ defender goes from 'least known player at the World Cup' to 1.5 million Instagram followers overnight",
