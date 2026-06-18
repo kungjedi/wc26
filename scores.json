@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "16 Jun 2026 · Matchday 1",
+    "last_updated": "18 Jun 2026 · Matchday 1",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -142,7 +142,15 @@
     "H1": [0, 0],
     "G1": [1, 1],
     "H2": [1, 1],
-    "G2": [2, 2]
+    "G2": [2, 2],
+    "I1": [3, 1],
+    "I2": [1, 4],
+    "J1": [3, 0],
+    "J2": [3, 1],
+    "K1": [1, 1],
+    "L1": [4, 2],
+    "L2": [1, 0],
+    "K2": [1, 3]
   },
 
   "highlight_links": {
@@ -161,7 +169,15 @@
     "H1": "https://www.youtube.com/watch?v=pmtOaGnWYaI",
     "G1": "https://www.youtube.com/watch?v=0WaTbQ_htsM",
     "H2": "",
-    "G2": ""
+    "G2": "",
+    "I1": "https://www.youtube.com/watch?v=jI2mHdjIN58",
+    "I2": "",
+    "J1": "",
+    "J2": "",
+    "K1": "",
+    "L1": "",
+    "L2": "",
+    "K2": ""
   },
 
   "standings": {
@@ -214,32 +230,44 @@
       {"name":"Saudi Arabia", "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1}
     ],
     "I": [
-      {"name":"France",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Senegal", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Norway",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Iraq",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"France",  "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
+      {"name":"Norway",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":1,"pts":3},
+      {"name":"Senegal", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0},
+      {"name":"Iraq",    "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":4,"pts":0}
     ],
     "J": [
-      {"name":"Argentina", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Austria",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Algeria",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Jordan",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"Argentina", "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":0,"pts":3},
+      {"name":"Austria",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
+      {"name":"Algeria",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":3,"pts":0},
+      {"name":"Jordan",    "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
     ],
     "K": [
-      {"name":"Portugal",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Colombia",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Uzbekistan", "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"DR Congo",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
+      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
+      {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
+      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Ghana",    "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Croatia",  "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0},
-      {"name":"Panama",   "p":0,"w":0,"d":0,"l":0,"gf":0,"ga":0,"pts":0}
+      {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
+      {"name":"Ghana",    "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
+      {"name":"Croatia",  "p":1,"w":0,"d":0,"l":1,"gf":2,"ga":4,"pts":0},
+      {"name":"Panama",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0}
     ]
   },
 
   "funnies": [
+    {
+      "date": "Wed 17 Jun",
+      "headline": "Messi scores his first ever World Cup hat-trick — on his 200th cap, in his 6th World Cup, to equal Klose's all-time goals record",
+      "summary": "Argentina beat Algeria 3-0, but the scoreline barely mattered. At 38 years old, Messi scored all three goals to reach 16 World Cup goals — level with Miroslav Klose's all-time record. It was his 200th cap for Argentina, his 6th World Cup appearance (a men's record), and his first hat-trick at the tournament. Patrick Mahomes, Rio Ferdinand and roughly the entire internet lost their minds.",
+      "url": "https://www.espn.com/soccer/story/_/id/49090020/lionel-messi-argentina-hat-trick-2026-fifa-world-cup-social-media-reaction"
+    },
+    {
+      "date": "Wed 17 Jun",
+      "headline": "While Messi scored a hat-trick, 41-year-old Ronaldo became the oldest outfield player ever to start a World Cup match",
+      "summary": "On the same evening, Cristiano Ronaldo became the oldest outfield player to ever start a World Cup game, aged 41, as Portugal drew 1-1 with DR Congo. He didn't score. Messi scored three. The 'GOAT debate' ran so hot on social media that 'Ronaldo' was trending alongside 'Klose record', 'Messi GOAT', and — inevitably — 'retirement'.",
+      "url": "https://www.outlookindia.com/sports/football/portugal-vs-dr-congo-fifa-world-cup-2026-cristiano-ronaldo-goalless-appearance"
+    },
     {
       "date": "Mon 15 Jun",
       "headline": "Cape Verde's 40-year-old goalkeeper gains 3 million Instagram followers overnight after stunning Spain",
