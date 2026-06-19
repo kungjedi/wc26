@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "18 Jun 2026 · Matchday 1",
+    "last_updated": "19 Jun 2026 · Matchday 2",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -143,6 +143,10 @@
     "G1": [1, 1],
     "H2": [1, 1],
     "G2": [2, 2],
+    "A3": [1, 1],
+    "B3": [4, 1],
+    "B4": [6, 0],
+    "A4": [1, 0],
     "I1": [3, 1],
     "I2": [1, 4],
     "J1": [3, 0],
@@ -162,36 +166,40 @@
     "C2": "https://www.youtube.com/watch?v=OHPWPVJNtpc",
     "D1": "https://youtu.be/mB-H7V6tp_o",
     "D2": "https://www.youtube.com/watch?v=JA5q07Fple8",
-    "E1": "",
+    "E1": "https://www.youtube.com/watch?v=rVabIXAiZQI",
     "E2": "https://www.youtube.com/watch?v=KbmxSnT4dQU",
     "F1": "https://www.youtube.com/watch?v=uGDHa4Ze40g",
-    "F2": "",
+    "F2": "https://www.youtube.com/watch?v=jsXknr6ts0c",
     "H1": "https://www.youtube.com/watch?v=pmtOaGnWYaI",
     "G1": "https://www.youtube.com/watch?v=0WaTbQ_htsM",
-    "H2": "",
-    "G2": "",
+    "H2": "https://www.youtube.com/watch?v=fRuj2TLu4W0",
+    "G2": "https://www.youtube.com/watch?v=v7bNwNQzbKM",
     "I1": "https://www.youtube.com/watch?v=jI2mHdjIN58",
-    "I2": "",
-    "J1": "",
+    "I2": "https://www.youtube.com/watch?v=uU4ajvroSx4",
+    "J1": "https://www.youtube.com/watch?v=P9fqnZaYMqY",
     "J2": "",
     "K1": "",
-    "L1": "",
-    "L2": "",
-    "K2": ""
+    "L1": "https://www.youtube.com/watch?v=kFabAPJP5ys",
+    "L2": "https://www.youtube.com/watch?v=QLwetndfues",
+    "K2": "",
+    "A3": "https://www.youtube.com/watch?v=4tuL0vyP5co",
+    "B3": "",
+    "B4": "https://www.youtube.com/watch?v=n44ndE6mwV0",
+    "A4": ""
   },
 
   "standings": {
     "A": [
-      {"name":"Mexico",       "p":1,"w":1,"d":0,"l":0,"gf":2,"ga":0,"pts":3},
-      {"name":"South Korea",  "p":1,"w":1,"d":0,"l":0,"gf":2,"ga":1,"pts":3},
-      {"name":"Czechia",      "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":2,"pts":0},
-      {"name":"South Africa", "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":2,"pts":0}
+      {"name":"Mexico",       "p":2,"w":2,"d":0,"l":0,"gf":3,"ga":0,"pts":6},
+      {"name":"South Korea",  "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
+      {"name":"Czechia",      "p":2,"w":0,"d":1,"l":1,"gf":2,"ga":3,"pts":1},
+      {"name":"South Africa", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":3,"pts":1}
     ],
     "B": [
-      {"name":"Canada",               "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Switzerland",          "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Bosnia & Herzegovina", "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Qatar",                "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1}
+      {"name":"Canada",               "p":2,"w":1,"d":1,"l":0,"gf":7,"ga":1,"pts":4},
+      {"name":"Switzerland",          "p":2,"w":1,"d":1,"l":0,"gf":5,"ga":2,"pts":4},
+      {"name":"Bosnia & Herzegovina", "p":2,"w":0,"d":1,"l":1,"gf":2,"ga":5,"pts":1},
+      {"name":"Qatar",                "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":7,"pts":1}
     ],
     "C": [
       {"name":"Scotland", "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
@@ -256,6 +264,12 @@
   },
 
   "funnies": [
+    {
+      "date": "Thu 18 Jun",
+      "headline": "Canada beat Qatar 6-0 in their first ever World Cup win — 40 years after their only previous appearance",
+      "summary": "Canada had never won a World Cup match in their history — not in 1986, not in 2022. On Thursday they beat Qatar 6-0, with Jonathan David bagging a hat-trick. Canadian fans sang O Canada for what felt like an hour. One viral tweet: 'Canada waited 40 years for their first World Cup win and immediately went absolutely feral.' The players were seen doing the griddy on the pitch.",
+      "url": "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-june-18-live-updates-rcna350678"
+    },
     {
       "date": "Wed 17 Jun",
       "headline": "Messi scores his first ever World Cup hat-trick — on his 200th cap, in his 6th World Cup, to equal Klose's all-time goals record",
