@@ -67,6 +67,7 @@
   .pos { color:var(--muted); font-size:11px; }
   .pts { color:var(--accent); font-weight:500; }
   .qual-line { border-top:2px solid var(--accent2) !important; }
+  .q3-star { color:#f0b400; font-size:10px; margin-left:3px; }
   .sn { padding:8px 20px; font-size:10px; color:var(--muted); border-top:1px solid var(--border); }
   .last-updated { padding:12px 24px; font-size:10px; color:var(--muted); border-bottom:1px solid var(--border); letter-spacing:1px; }
   .loading { padding:48px 24px; color:var(--muted); letter-spacing:2px; font-size:11px; text-transform:uppercase; }
@@ -149,6 +150,15 @@ function chClass(ch){
   return "ch-tbc";
 }
 function gd(t){return t.gf-t.ga;}
+function best3rds(data){
+  const thirds=[];
+  Object.values(data.standings).forEach(teams=>{
+    const s=[...teams].sort((a,b)=>b.pts-a.pts||(gd(b)-gd(a))||b.gf-a.gf||a.name.localeCompare(b.name));
+    if(s.length>=3) thirds.push(s[2]);
+  });
+  thirds.sort((a,b)=>b.pts-a.pts||(gd(b)-gd(a))||b.gf-a.gf||a.name.localeCompare(b.name));
+  return new Set(thirds.slice(0,8).map(t=>t.name));
+}
 
 fetch("scores.json?v="+Date.now())
   .then(r=>r.json())
@@ -239,11 +249,12 @@ function buildStandings(data){
   document.getElementById("standings-updated").textContent="Updated: "+data._meta.last_updated;
   const grid=document.getElementById("standings-grid");
   grid.innerHTML="";
+  const q3=best3rds(data);
   Object.entries(data.standings).forEach(([grp,teams])=>{
     const sorted=[...teams].sort((a,b)=>b.pts-a.pts||(gd(b)-gd(a))||b.gf-a.gf||a.name.localeCompare(b.name));
     const card=document.createElement("div");
     card.className="group-card";
-    card.innerHTML=`<div class="group-title">Group ${grp}</div><table class="st"><thead><tr><th class="left" colspan="2">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead><tbody>${sorted.map((t,i)=>`<tr class="${i===2?"qual-line":""}" ><td class="pos">${i+1}</td><td class="tn">${flags(t.name)}</td><td>${t.p}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td>${t.gf}</td><td>${t.ga}</td><td style="color:${gd(t)>0?"var(--accent)":gd(t)<0?"var(--accent2)":"var(--muted)"}">${gd(t)>0?"+":""}${gd(t)}</td><td class="pts">${t.pts}</td></tr>`).join("")}</tbody></table><div class="sn">Top 2 qualify &middot; <span style="color:var(--accent2)">\u2500</span> qualification line</div>`;
+    card.innerHTML=`<div class="group-title">Group ${grp}</div><table class="st"><thead><tr><th class="left" colspan="2">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead><tbody>${sorted.map((t,i)=>`<tr class="${i===2?"qual-line":""}"><td class="pos">${i+1}${i===2&&q3.has(t.name)?'<span class="q3-star">\u2605</span>':''}</td><td class="tn">${flags(t.name)}</td><td>${t.p}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td><td>${t.gf}</td><td>${t.ga}</td><td style="color:${gd(t)>0?"var(--accent)":gd(t)<0?"var(--accent2)":"var(--muted)"}">${gd(t)>0?"+":""}${gd(t)}</td><td class="pts">${t.pts}</td></tr>`).join("")}</tbody></table><div class="sn">Top 2 qualify &middot; <span style="color:var(--accent2)">\u2500</span> qualification line &middot; <span class="q3-star">\u2605</span> currently 3rd-place qualifier</div>`;
     grid.appendChild(card);
   });
 }
