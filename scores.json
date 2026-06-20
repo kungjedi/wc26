@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "19 Jun 2026 · Matchday 2",
+    "last_updated": "20 Jun 2026 · Matchday 2",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -154,7 +154,11 @@
     "K1": [1, 1],
     "L1": [4, 2],
     "L2": [1, 0],
-    "K2": [1, 3]
+    "K2": [1, 3],
+    "C3": [0, 1],
+    "C4": [3, 0],
+    "D3": [2, 0],
+    "D4": [0, 1]
   },
 
   "highlight_links": {
@@ -177,15 +181,19 @@
     "I1": "https://www.youtube.com/watch?v=jI2mHdjIN58",
     "I2": "https://www.youtube.com/watch?v=uU4ajvroSx4",
     "J1": "https://www.youtube.com/watch?v=P9fqnZaYMqY",
-    "J2": "",
-    "K1": "",
+    "J2": "https://www.youtube.com/watch?v=rNMCbKYUnHQ",
+    "K1": "https://www.youtube.com/watch?v=frWeVnDQsTY",
     "L1": "https://www.youtube.com/watch?v=kFabAPJP5ys",
     "L2": "https://www.youtube.com/watch?v=QLwetndfues",
-    "K2": "",
+    "K2": "https://www.youtube.com/watch?v=yhz7_Cd8c2Y",
     "A3": "https://www.youtube.com/watch?v=4tuL0vyP5co",
-    "B3": "",
+    "B3": "https://www.youtube.com/watch?v=eIOPOv7Jp88",
     "B4": "https://www.youtube.com/watch?v=n44ndE6mwV0",
-    "A4": ""
+    "A4": "https://www.youtube.com/watch?v=igQo36nrUeM",
+    "C3": "https://www.youtube.com/watch?v=WZOBi6Sapwo",
+    "C4": "https://www.youtube.com/watch?v=rtS2J1JzolQ",
+    "D3": "https://www.youtube.com/watch?v=4zl6lvbFDdk",
+    "D4": "https://www.youtube.com/watch?v=GhBAOWv7ec4"
   },
 
   "standings": {
@@ -202,16 +210,16 @@
       {"name":"Qatar",                "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":7,"pts":1}
     ],
     "C": [
-      {"name":"Scotland", "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
-      {"name":"Brazil",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Morocco",  "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Haiti",    "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0}
+      {"name":"Brazil",   "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":1,"pts":4},
+      {"name":"Morocco",  "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
+      {"name":"Scotland", "p":2,"w":1,"d":0,"l":1,"gf":1,"ga":1,"pts":3},
+      {"name":"Haiti",    "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":4,"pts":0}
     ],
     "D": [
-      {"name":"USA",       "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":1,"pts":3},
-      {"name":"Australia", "p":1,"w":1,"d":0,"l":0,"gf":2,"ga":0,"pts":3},
-      {"name":"Paraguay",  "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":4,"pts":0},
-      {"name":"Türkiye",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":2,"pts":0}
+      {"name":"USA",       "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
+      {"name":"Australia", "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
+      {"name":"Paraguay",  "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":4,"pts":3},
+      {"name":"Türkiye",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":3,"pts":0}
     ],
     "E": [
       {"name":"Germany",     "p":1,"w":1,"d":0,"l":0,"gf":7,"ga":1,"pts":3},
@@ -264,6 +272,12 @@
   },
 
   "funnies": [
+    {
+      "date": "Sat 20 Jun",
+      "headline": "Paraguay's Almirón becomes first player ever red-carded at a World Cup for covering his mouth",
+      "summary": "Almirón had just helped Paraguay go 1-0 up against Türkiye when he was spotted covering his mouth while apparently exchanging words with a Turkish defender. VAR intervened. Straight red. Almirón broke down in tears on the touchline. Why? FIFA's new 'Prestianni Law' makes it an instant dismissal to deliberately hide your lips during an altercation — a rule introduced after a Chilean player used the trick to racially abuse Vinícius Júnior in the Champions League. Paraguay held on to win with ten men. The rule is now more famous than the match.",
+      "url": "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup"
+    },
     {
       "date": "Thu 18 Jun",
       "headline": "Canada beat Qatar 6-0 in their first ever World Cup win — 40 years after their only previous appearance",
@@ -353,6 +367,12 @@
       "headline": "England arrive in Kansas City to find boots, balls and kit stolen from team van",
       "summary": "Harry Kane, Jude Bellingham and co. were left with just one training ball after thieves broke into the squad's transit vehicles. Players' custom match boots and official World Cup balls were among the haul. Two suspects have since been arrested.",
       "url": "https://www.goal.com/en/lists/world-cup-england-kit-theft-harry-kane-jude-bellingham-boots-stolen/blt8f7ed30e0e4f74aa"
+    },
+    {
+      "date": "Thu 11 Jun",
+      "headline": "Merlín the duck, dressed in a tiny Mexico jersey and custom duck socks, went viral as Mexico City erupted",
+      "summary": "After Mexico's 2-0 win over South Africa on opening night, street vendor Carla Gómez led her pet duck Merlín — wearing a miniature Mexico shirt and bespoke duck socks — through the celebrating crowds on Reforma Avenue. The footage racked up millions of views within hours. Calls for Merlín to replace the official mascot (Zayu the jaguar) spread across Spanish-language social media. The official mascot has not responded.",
+      "url": "https://www.euronews.com/video/2026/06/15/meet-merlin-the-duck-that-became-the-world-cups-viral-mascot"
     },
     {
       "date": "Thu 11 Jun",
