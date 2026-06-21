@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "20 Jun 2026 · Matchday 2 (ongoing)",
+    "last_updated": "21 Jun 2026 · Matchday 2 (ongoing)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -92,22 +92,22 @@
     {"id":"K6","date":"Sun 28 Jun","bst":"12:30 AM","home":"DR Congo","away":"Uzbekistan","group":"K","channel":"BBC Two","city":"Atlanta","stage":"GS"},
     {"id":"J5","date":"Sun 28 Jun","bst":"3:00 AM","home":"Jordan","away":"Argentina","group":"J","channel":"BBC One","city":"Dallas","stage":"GS"},
     {"id":"J6","date":"Sun 28 Jun","bst":"3:00 AM","home":"Algeria","away":"Austria","group":"J","channel":"BBC Two","city":"Kansas City","stage":"GS"},
-    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
-    {"id":"R32-2","date":"Mon 29 Jun","bst":"6:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Houston","stage":"R32"},
-    {"id":"R32-3","date":"Mon 29 Jun","bst":"9:30 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Boston","stage":"R32"},
-    {"id":"R32-4","date":"Tue 30 Jun","bst":"2:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Monterrey","stage":"R32"},
-    {"id":"R32-5","date":"Tue 30 Jun","bst":"6:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
-    {"id":"R32-6","date":"Tue 30 Jun","bst":"10:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"New York/NJ","stage":"R32"},
-    {"id":"R32-7","date":"Wed 1 Jul","bst":"2:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Mexico City","stage":"R32"},
-    {"id":"R32-8","date":"Wed 1 Jul","bst":"5:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Atlanta","stage":"R32"},
-    {"id":"R32-9","date":"Wed 1 Jul","bst":"9:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Seattle","stage":"R32"},
-    {"id":"R32-10","date":"Thu 2 Jul","bst":"1:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"San Francisco","stage":"R32"},
-    {"id":"R32-11","date":"Thu 2 Jul","bst":"8:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
-    {"id":"R32-12","date":"Fri 3 Jul","bst":"12:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Toronto","stage":"R32"},
-    {"id":"R32-13","date":"Fri 3 Jul","bst":"4:00 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Vancouver","stage":"R32"},
-    {"id":"R32-14","date":"Fri 3 Jul","bst":"7:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
-    {"id":"R32-15","date":"Fri 3 Jul","bst":"11:00 PM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Miami","stage":"R32"},
-    {"id":"R32-16","date":"Sat 4 Jul","bst":"2:30 AM","home":"TBD","away":"TBD","group":"R32","channel":"TBC","city":"Kansas City","stage":"R32"},
+    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"South Korea*","away":"Switzerland*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
+    {"id":"R32-2","date":"Mon 29 Jun","bst":"6:00 PM","home":"Brazil*","away":"Japan*","group":"R32","channel":"TBC","city":"Houston","stage":"R32"},
+    {"id":"R32-3","date":"Mon 29 Jun","bst":"9:30 PM","home":"Germany*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Boston","stage":"R32"},
+    {"id":"R32-4","date":"Tue 30 Jun","bst":"2:00 AM","home":"Netherlands*","away":"Morocco*","group":"R32","channel":"TBC","city":"Monterrey","stage":"R32"},
+    {"id":"R32-5","date":"Tue 30 Jun","bst":"6:00 PM","home":"Ivory Coast*","away":"France*","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
+    {"id":"R32-6","date":"Tue 30 Jun","bst":"10:00 PM","home":"Norway*","away":"3rd Place*","group":"R32","channel":"TBC","city":"New York/NJ","stage":"R32"},
+    {"id":"R32-7","date":"Wed 1 Jul","bst":"2:00 AM","home":"Mexico*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Mexico City","stage":"R32"},
+    {"id":"R32-8","date":"Wed 1 Jul","bst":"5:00 PM","home":"England*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Atlanta","stage":"R32"},
+    {"id":"R32-9","date":"Wed 1 Jul","bst":"9:00 PM","home":"Belgium*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Seattle","stage":"R32"},
+    {"id":"R32-10","date":"Thu 2 Jul","bst":"1:00 AM","home":"USA*","away":"3rd Place*","group":"R32","channel":"TBC","city":"San Francisco","stage":"R32"},
+    {"id":"R32-11","date":"Thu 2 Jul","bst":"8:00 PM","home":"Saudi Arabia*","away":"Austria*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
+    {"id":"R32-12","date":"Fri 3 Jul","bst":"12:00 AM","home":"Portugal*","away":"Ghana*","group":"R32","channel":"TBC","city":"Toronto","stage":"R32"},
+    {"id":"R32-13","date":"Fri 3 Jul","bst":"4:00 AM","home":"Canada*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Vancouver","stage":"R32"},
+    {"id":"R32-14","date":"Fri 3 Jul","bst":"7:00 PM","home":"Australia*","away":"Egypt*","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
+    {"id":"R32-15","date":"Fri 3 Jul","bst":"11:00 PM","home":"Argentina*","away":"Uruguay*","group":"R32","channel":"TBC","city":"Miami","stage":"R32"},
+    {"id":"R32-16","date":"Sat 4 Jul","bst":"2:30 AM","home":"Colombia*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Kansas City","stage":"R32"},
     {"id":"R16-1","date":"Sat 4 Jul","bst":"6:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Houston","stage":"R16"},
     {"id":"R16-2","date":"Sat 4 Jul","bst":"10:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Philadelphia","stage":"R16"},
     {"id":"R16-3","date":"Sun 5 Jul","bst":"9:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"New York/NJ","stage":"R16"},
@@ -159,7 +159,11 @@
     "C4": [3, 0],
     "D3": [2, 0],
     "D4": [0, 1],
-    "F3": [5, 1]
+    "F3": [5, 1],
+    "E3": [2, 1],
+    "E4": [0, 0],
+    "F4": [0, 4],
+    "H3": [0, 1]
   },
 
   "highlight_links": {
@@ -195,7 +199,11 @@
     "C4": "https://www.youtube.com/watch?v=rtS2J1JzolQ",
     "D3": "https://www.youtube.com/watch?v=4zl6lvbFDdk",
     "D4": "https://www.youtube.com/watch?v=GhBAOWv7ec4",
-    "F3": "https://www.youtube.com/watch?v=PVQO9Xw5jRc"
+    "F3": "https://www.youtube.com/watch?v=PVQO9Xw5jRc",
+    "E3": "https://www.youtube.com/watch?v=QULH5vFiCv0",
+    "E4": "https://www.youtube.com/watch?v=Rl0XhyJDPMY",
+    "F4": "https://www.youtube.com/watch?v=scF9i_-lr4I",
+    "H3": ""
   },
 
   "standings": {
@@ -224,16 +232,16 @@
       {"name":"Türkiye",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":3,"pts":0}
     ],
     "E": [
-      {"name":"Germany",     "p":1,"w":1,"d":0,"l":0,"gf":7,"ga":1,"pts":3},
-      {"name":"Ivory Coast", "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
-      {"name":"Ecuador",     "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0},
-      {"name":"Curaçao",     "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":7,"pts":0}
+      {"name":"Germany",     "p":2,"w":2,"d":0,"l":0,"gf":9,"ga":2,"pts":6},
+      {"name":"Ivory Coast", "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
+      {"name":"Ecuador",     "p":2,"w":0,"d":1,"l":1,"gf":0,"ga":1,"pts":1},
+      {"name":"Curaçao",     "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":7,"pts":1}
     ],
     "F": [
       {"name":"Netherlands", "p":2,"w":1,"d":1,"l":0,"gf":7,"ga":3,"pts":4},
+      {"name":"Japan",       "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":2,"pts":4},
       {"name":"Sweden",      "p":2,"w":1,"d":0,"l":1,"gf":6,"ga":6,"pts":3},
-      {"name":"Japan",       "p":1,"w":0,"d":1,"l":0,"gf":2,"ga":2,"pts":1},
-      {"name":"Tunisia",     "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":5,"pts":0}
+      {"name":"Tunisia",     "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":9,"pts":0}
     ],
     "G": [
       {"name":"Belgium",     "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
@@ -242,10 +250,10 @@
       {"name":"Egypt",       "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1}
     ],
     "H": [
-      {"name":"Spain",        "p":1,"w":0,"d":1,"l":0,"gf":0,"ga":0,"pts":1},
+      {"name":"Saudi Arabia", "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
       {"name":"Uruguay",      "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
       {"name":"Cape Verde",   "p":1,"w":0,"d":1,"l":0,"gf":0,"ga":0,"pts":1},
-      {"name":"Saudi Arabia", "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1}
+      {"name":"Spain",        "p":2,"w":0,"d":1,"l":1,"gf":0,"ga":1,"pts":1}
     ],
     "I": [
       {"name":"France",  "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
@@ -274,6 +282,12 @@
   },
 
   "funnies": [
+    {
+      "date": "Sun 21 Jun",
+      "headline": "Saudi Arabia stun Spain 1-0 — La Roja become the latest World Cup giant felled by the Gulf state's most feared team",
+      "summary": "Abdullah Al-Amri's second-half header was enough for Saudi Arabia to beat Spain 1-0 in Atlanta and send shockwaves through Group H. Saudi Arabia — who famously knocked Argentina out of the 2022 World Cup group stage — have now beaten two former world champions in consecutive World Cups. Spain, bidding for their second World Cup title since 2010, are suddenly in serious trouble. 'Saudi Arabia stays doing things,' went the top tweet. Vozinha, Cape Verde's 40-year-old goalkeeper who held Spain 0-0 two weeks ago, sent a single thumbs-up emoji.",
+      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-spain-vs-saudi-arabia-jun-21-2026-game-boxscore-647653"
+    },
     {
       "date": "Sat 20 Jun",
       "headline": "Paraguay's Almirón becomes first player ever red-carded at a World Cup for covering his mouth",
@@ -329,6 +343,12 @@
       "url": "https://www.washingtonpost.com/opinions/2026/06/15/viral-german-soccer-fan-freddy-travels-us-world-cup-marveling/"
     },
     {
+      "date": "Mon 15 Jun",
+      "headline": "Lawrence, Kansas fell completely in love with Algeria — Riyad Mahrez kicked a field goal and the town chanted 'Rock Chalk Algeria'",
+      "summary": "Algeria's World Cup base camp is the University of Kansas in Lawrence. KU's football team invited the squad onto the pitch; Riyad Mahrez put on a helmet and booted a field goal clean through the uprights. It went massively viral. Hundreds of locals turned up for open training sessions, children wore Algerian face paint, the Marching Jayhawks band played Algeria's national anthem, and 'Rock Chalk Algeria' — a riff on the university's famous 'Rock Chalk Jayhawk' chant — spread across social media. It's been called the most wholesome subplot of the tournament.",
+      "url": "https://www.spokesman.com/stories/2026/jun/15/how-a-love-affair-between-algeria-and-lawrence-bec/"
+    },
+    {
       "date": "Sun 14 Jun",
       "headline": "Scotland fans export their finest tradition to Boston — orange traffic cones on every statue they can find",
       "summary": "In Glasgow, it's the Duke of Wellington. In Boston, it's anyone who'll stand still. Tartan Army fans have been spotted placing traffic cones on historic statues across the city, prompting locals to start calling Boston 'New Scotland'. Social media lit up with comparisons — and one tweet noting that the city was 'already used to drunk fans in kilts, so it's basically Edinburgh anyway'.",
@@ -339,6 +359,12 @@
       "headline": "NZ defender goes from 'least known player at the World Cup' to 1.5 million Instagram followers overnight",
       "summary": "Argentine content creator Valen Scarsini posted a video identifying New Zealand's Tim Payne — who had fewer followers than his own national team's account — as the tournament's most obscure player. He asked fans to follow him. By the next morning Payne had 1.5 million followers, fan accounts, custom shirts and a nickname: 'El Timmy'.",
       "url": "https://www.espn.com/soccer/story/_/id/48901215/how-2026-world-cup-least-known-player-became-viral-sensation"
+    },
+    {
+      "date": "Sun 14 Jun",
+      "headline": "NFL quarterback Jameis Winston helped Japan fans clean the stadium — then the internet argued about whether he meant it",
+      "summary": "After Japan's dramatic 2-2 draw with the Netherlands in Dallas, FOX Sports correspondent Jameis Winston joined Japanese fans in their famous post-match rubbish collection, carrying a blue bin bag around the stands. FOX broadcast it live. Within hours, critics were saying it was a PR stunt for the cameras. His former teammate Alvin Kamara then posted: 'He really is just a genuinely good dude in real life… cameras or not.' Mahomes agreed. The debate got nearly as much attention as the match itself.",
+      "url": "https://sports.yahoo.com/articles/nfl-star-weighs-jameis-winston-202607104.html"
     },
     {
       "date": "Sat 13 Jun",
