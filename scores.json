@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "21 Jun 2026 · Matchday 2 (ongoing)",
+    "last_updated": "22 Jun 2026 · Matchday 2 (ongoing)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -100,12 +100,12 @@
     {"id":"R32-6","date":"Tue 30 Jun","bst":"10:00 PM","home":"Norway*","away":"3rd Place*","group":"R32","channel":"TBC","city":"New York/NJ","stage":"R32"},
     {"id":"R32-7","date":"Wed 1 Jul","bst":"2:00 AM","home":"Mexico*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Mexico City","stage":"R32"},
     {"id":"R32-8","date":"Wed 1 Jul","bst":"5:00 PM","home":"England*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Atlanta","stage":"R32"},
-    {"id":"R32-9","date":"Wed 1 Jul","bst":"9:00 PM","home":"Belgium*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Seattle","stage":"R32"},
+    {"id":"R32-9","date":"Wed 1 Jul","bst":"9:00 PM","home":"Egypt*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Seattle","stage":"R32"},
     {"id":"R32-10","date":"Thu 2 Jul","bst":"1:00 AM","home":"USA*","away":"3rd Place*","group":"R32","channel":"TBC","city":"San Francisco","stage":"R32"},
-    {"id":"R32-11","date":"Thu 2 Jul","bst":"8:00 PM","home":"Saudi Arabia*","away":"Austria*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
+    {"id":"R32-11","date":"Thu 2 Jul","bst":"8:00 PM","home":"Spain*","away":"Austria*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
     {"id":"R32-12","date":"Fri 3 Jul","bst":"12:00 AM","home":"Portugal*","away":"Ghana*","group":"R32","channel":"TBC","city":"Toronto","stage":"R32"},
     {"id":"R32-13","date":"Fri 3 Jul","bst":"4:00 AM","home":"Canada*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Vancouver","stage":"R32"},
-    {"id":"R32-14","date":"Fri 3 Jul","bst":"7:00 PM","home":"Australia*","away":"Egypt*","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
+    {"id":"R32-14","date":"Fri 3 Jul","bst":"7:00 PM","home":"Australia*","away":"Iran*","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
     {"id":"R32-15","date":"Fri 3 Jul","bst":"11:00 PM","home":"Argentina*","away":"Uruguay*","group":"R32","channel":"TBC","city":"Miami","stage":"R32"},
     {"id":"R32-16","date":"Sat 4 Jul","bst":"2:30 AM","home":"Colombia*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Kansas City","stage":"R32"},
     {"id":"R16-1","date":"Sat 4 Jul","bst":"6:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Houston","stage":"R16"},
@@ -163,7 +163,10 @@
     "E3": [2, 1],
     "E4": [0, 0],
     "F4": [0, 4],
-    "H3": [0, 1]
+    "H3": [4, 0],
+    "G3": [0, 0],
+    "H4": [2, 2],
+    "G4": [1, 3]
   },
 
   "highlight_links": {
@@ -203,7 +206,10 @@
     "E3": "https://www.youtube.com/watch?v=QULH5vFiCv0",
     "E4": "https://www.youtube.com/watch?v=Rl0XhyJDPMY",
     "F4": "https://www.youtube.com/watch?v=scF9i_-lr4I",
-    "H3": ""
+    "H3": "https://www.youtube.com/watch?v=frplYMUG3AE",
+    "G3": "https://www.youtube.com/watch?v=MNUH8OqQGgE",
+    "H4": "https://www.youtube.com/watch?v=RR1QMWchMXs",
+    "G4": ""
   },
 
   "standings": {
@@ -244,16 +250,16 @@
       {"name":"Tunisia",     "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":9,"pts":0}
     ],
     "G": [
-      {"name":"Belgium",     "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Iran",        "p":1,"w":0,"d":1,"l":0,"gf":2,"ga":2,"pts":1},
-      {"name":"New Zealand", "p":1,"w":0,"d":1,"l":0,"gf":2,"ga":2,"pts":1},
-      {"name":"Egypt",       "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1}
+      {"name":"Egypt",       "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
+      {"name":"Iran",        "p":2,"w":0,"d":2,"l":0,"gf":2,"ga":2,"pts":2},
+      {"name":"Belgium",     "p":2,"w":0,"d":2,"l":0,"gf":1,"ga":1,"pts":2},
+      {"name":"New Zealand", "p":2,"w":0,"d":1,"l":1,"gf":3,"ga":5,"pts":1}
     ],
     "H": [
-      {"name":"Saudi Arabia", "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
-      {"name":"Uruguay",      "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Cape Verde",   "p":1,"w":0,"d":1,"l":0,"gf":0,"ga":0,"pts":1},
-      {"name":"Spain",        "p":2,"w":0,"d":1,"l":1,"gf":0,"ga":1,"pts":1}
+      {"name":"Spain",        "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":0,"pts":4},
+      {"name":"Uruguay",      "p":2,"w":0,"d":2,"l":0,"gf":3,"ga":3,"pts":2},
+      {"name":"Cape Verde",   "p":2,"w":0,"d":2,"l":0,"gf":2,"ga":2,"pts":2},
+      {"name":"Saudi Arabia", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":5,"pts":1}
     ],
     "I": [
       {"name":"France",  "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
@@ -284,9 +290,9 @@
   "funnies": [
     {
       "date": "Sun 21 Jun",
-      "headline": "Saudi Arabia stun Spain 1-0 — La Roja become the latest World Cup giant felled by the Gulf state's most feared team",
-      "summary": "Abdullah Al-Amri's second-half header was enough for Saudi Arabia to beat Spain 1-0 in Atlanta and send shockwaves through Group H. Saudi Arabia — who famously knocked Argentina out of the 2022 World Cup group stage — have now beaten two former world champions in consecutive World Cups. Spain, bidding for their second World Cup title since 2010, are suddenly in serious trouble. 'Saudi Arabia stays doing things,' went the top tweet. Vozinha, Cape Verde's 40-year-old goalkeeper who held Spain 0-0 two weeks ago, sent a single thumbs-up emoji.",
-      "url": "https://www.foxsports.com/soccer/fifa-world-cup-men-spain-vs-saudi-arabia-jun-21-2026-game-boxscore-647653"
+      "headline": "Lamine Yamal becomes one of the youngest WC scorers ever as Spain dismantle Saudi Arabia 4-0",
+      "summary": "After their tense 0-0 draw with Cape Verde, Spain needed a reaction — and got one with interest. Lamine Yamal, 18, opened the scoring in the 10th minute with his first ever World Cup goal, making him one of the youngest scorers in the tournament's history, eclipsing records set by Messi, Mbappé and Ronaldo. Mikel Oyarzabal added two more inside 25 minutes, and an own goal from Hassan Al-Tambakti sealed a 4-0 rout. Saudi Arabia — who famously upset Argentina in 2022 — were thoroughly outclassed. Spain sealed their Round of 32 spot and top Group H.",
+      "url": "https://www.espn.com/soccer/story/_/id/49134985/spain-saudi-arabia-live-world-cup-2026-latest-updates-commentary-score-result"
     },
     {
       "date": "Sat 20 Jun",
@@ -325,6 +331,12 @@
       "url": "https://www.outlookindia.com/sports/football/portugal-vs-dr-congo-fifa-world-cup-2026-cristiano-ronaldo-goalless-appearance"
     },
     {
+      "date": "Tue 16 Jun",
+      "headline": "Sprinkler malfunction soaks Gillette Stadium pitch at halftime of Iraq vs Norway — staff deployed buckets",
+      "summary": "At halftime of Iraq v Norway at Gillette Stadium in Foxborough, a sprinkler head malfunctioned on the edge of the penalty area, sending a large jet of water across the pitch for several seconds. Groundskeepers sprinted on with buckets and tools to disperse the flood; the rest of the sprinkler system had to be shut down entirely to stop the damage spreading. The pitch was back to normal by kick-off of the second half — which was just as well, as Norway ran riot in it to win 4-1.",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/16/world-cup-sprinkler-norway-iraq/7249c20a-69d9-11f1-830e-133d20cadd28_story.html"
+    },
+    {
       "date": "Mon 15 Jun",
       "headline": "Joshua Kimmich warns Germany squad of venomous snake at their training base: 'I don't think you'll die, but it's certainly dangerous'",
       "summary": "Germany are based in Winston-Salem, North Carolina, and Joshua Kimmich held a press conference to update journalists on the squad's wellbeing. The headline: a copperhead snake — one of North America's most venomous species — had been spotted near the training pitch. 'We were told if you get bitten, you have to go to hospital,' said Kimmich. 'I don't think you'll die, but it's certainly dangerous.' Days earlier they beat Curaçao 7-1.",
@@ -347,6 +359,18 @@
       "headline": "Lawrence, Kansas fell completely in love with Algeria — Riyad Mahrez kicked a field goal and the town chanted 'Rock Chalk Algeria'",
       "summary": "Algeria's World Cup base camp is the University of Kansas in Lawrence. KU's football team invited the squad onto the pitch; Riyad Mahrez put on a helmet and booted a field goal clean through the uprights. It went massively viral. Hundreds of locals turned up for open training sessions, children wore Algerian face paint, the Marching Jayhawks band played Algeria's national anthem, and 'Rock Chalk Algeria' — a riff on the university's famous 'Rock Chalk Jayhawk' chant — spread across social media. It's been called the most wholesome subplot of the tournament.",
       "url": "https://www.spokesman.com/stories/2026/jun/15/how-a-love-affair-between-algeria-and-lawrence-bec/"
+    },
+    {
+      "date": "Mon 15 Jun",
+      "headline": "USMNT goalkeeper Matt Turner throws a perfect strike at LA Angels game — then meets Mike Trout",
+      "summary": "On a day off from World Cup preparations, US goalkeeper Matt Turner threw out the ceremonial first pitch at an LA Angels vs Tampa Bay Rays game. Turner delivered a clean strike straight into the catcher's mitt. 'The highlight of the day was throwing a perfect strike,' he said, adding that catcher Logan O'Hoppe was complimentary. He also got to meet Mike Trout: 'To get to meet one of the best to ever do it — that was something special.' He then kept a clean sheet as the USA beat Australia 2-0 four days later.",
+      "url": "https://www.goal.com/en-us/lists/usmnt-world-cup-notebook-australia-matt-turner-los-angeles-angels-tyler-adams-new-york-knicks/blt47c95fc7064fcb20"
+    },
+    {
+      "date": "Sun 14 Jun",
+      "headline": "German fan cycled 26,000km through 27 countries over 21 months to reach Houston for Germany's opener",
+      "summary": "Jakob Alberti, 26, from Karlsruhe set off on his bike nearly two years before the World Cup with one goal: make it to Houston for Germany's first game. His route took him through Austria, the Balkans, Türkiye, the UAE, India, Thailand, Australia and 27 countries in total — and he ran a marathon in every country he visited. He arrived at NRG Stadium just in time to watch Germany beat Curaçao 7-1. FIFA profiled him and the story went enormously viral. His plan after the tournament: cycle home via North Africa.",
+      "url": "https://inside.fifa.com/organisation/news/fifa-world-cup-germany-curacao-thailand-karlsruhe"
     },
     {
       "date": "Sun 14 Jun",
