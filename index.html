@@ -150,14 +150,61 @@ function chClass(ch){
   return "ch-tbc";
 }
 function gd(t){return t.gf-t.ga;}
-function best3rds(data){
+
+// For each R32 "3rd Place" slot: the groups whose 3rd-place team is eligible to fill it.
+// A group's winner never faces their own group's 3rd-place team.
+const THIRD_ELIGIBLE={
+  'R32-3' :['A','B','C','D','F'],
+  'R32-6' :['C','D','F','G','H'],
+  'R32-7' :['C','E','F','H','I'],
+  'R32-8' :['E','H','I','J','K'],
+  'R32-9' :['A','E','H','I','J'],
+  'R32-10':['B','E','F','I','J'],
+  'R32-13':['D','E','I','J','L'],
+  'R32-16':['D','E','I','J','L'],
+};
+
+function rankThirds(data){
   const thirds=[];
-  Object.values(data.standings).forEach(teams=>{
+  Object.entries(data.standings).forEach(([grp,teams])=>{
     const s=[...teams].sort((a,b)=>b.pts-a.pts||(gd(b)-gd(a))||b.gf-a.gf||a.name.localeCompare(b.name));
-    if(s.length>=3) thirds.push(s[2]);
+    if(s.length>=3) thirds.push({grp,team:s[2]});
   });
-  thirds.sort((a,b)=>b.pts-a.pts||(gd(b)-gd(a))||b.gf-a.gf||a.name.localeCompare(b.name));
-  return new Set(thirds.slice(0,8).map(t=>t.name));
+  thirds.sort((a,b)=>b.team.pts-a.team.pts||(gd(b.team)-gd(a.team))||b.team.gf-a.team.gf||a.team.name.localeCompare(b.team.name));
+  return thirds;
+}
+
+function best3rds(data){
+  return new Set(rankThirds(data).slice(0,8).map(t=>t.team.name));
+}
+
+function assign3rds(data){
+  const thirds=rankThirds(data);
+  const top8=thirds.slice(0,8);
+  // eligible slots for each qualifying group
+  const grpSlots={};
+  for(const {grp} of top8){
+    grpSlots[grp]=Object.entries(THIRD_ELIGIBLE).filter(([,elig])=>elig.includes(grp)).map(([s])=>s);
+  }
+  // bipartite matching via augmenting paths (best-ranked groups processed first)
+  const slotToGrp={};
+  function augment(grp,visited){
+    for(const slot of grpSlots[grp]||[]){
+      if(!visited.has(slot)){
+        visited.add(slot);
+        const ex=slotToGrp[slot];
+        if(!ex||augment(ex,visited)){slotToGrp[slot]=grp; return true;}
+      }
+    }
+    return false;
+  }
+  for(const {grp} of top8) augment(grp,new Set());
+  const out={};
+  for(const [slot,grp] of Object.entries(slotToGrp)){
+    const t=top8.find(t=>t.grp===grp);
+    if(t) out[slot]=t.team.name+'*';
+  }
+  return out;
 }
 
 fetch("scores.json?v="+Date.now())
@@ -177,6 +224,7 @@ function buildSchedule(data){
   tbody.innerHTML="";
   const allRows=[];
   let lastDate=null,lastStage=null;
+  const thirds=assign3rds(data);
   data.fixtures.forEach(f=>{
     if(data.results[f.id]!==undefined) return;
     let headerRow=null;
@@ -189,12 +237,14 @@ function buildSchedule(data){
       lastDate=f.date;
     }
     const ko=isKO(f.stage);
-    const home=flags(f.home)||"TBD",away=flags(f.away)||"TBD";
+    const rawHome=(f.home==='3rd Place*'&&thirds[f.id])?thirds[f.id]:(f.home||'TBD');
+    const rawAway=(f.away==='3rd Place*'&&thirds[f.id])?thirds[f.id]:(f.away||'TBD');
+    const home=flags(rawHome),away=flags(rawAway);
     const tr=document.createElement("tr");
     if(f.stage==="FIN") tr.classList.add("final-row");
     tr.innerHTML=`<td><span class="time">${f.bst}</span></td><td class="match">${home} <span class="vs">v</span> ${away}</td><td><span class="group-badge ${ko?"ko":""} ">${f.group}</span></td><td class="channel ${chClass(f.channel)}">${f.channel}</td><td class="city">${f.city}</td>`;
     tbody.appendChild(tr);
-    allRows.push({matchRow:tr,headerRow,home:f.home||"",away:f.away||"",date:f.date});
+    allRows.push({matchRow:tr,headerRow,home:rawHome,away:rawAway,date:f.date});
   });
   if(!tbody.children.length) tbody.innerHTML=`<tr><td colspan="5" class="no-results">All matches complete!</td></tr>`;
   function applyFilter(filter){
