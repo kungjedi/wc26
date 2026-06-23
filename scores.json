@@ -170,7 +170,8 @@
     "J3": [2, 0],
     "I3": [3, 0],
     "I4": [3, 2],
-    "J4": [1, 2]
+    "J4": [1, 2],
+    "K3": [3, 0]
   },
 
   "highlight_links": {
@@ -217,7 +218,8 @@
     "J3": "https://www.youtube.com/watch?v=BVuXxylCcRo",
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
     "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
-    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY"
+    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
+    "K3": ""
   },
 
   "standings": {
@@ -282,10 +284,10 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
+      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":1,"pts":4},
       {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
-      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
       {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
+      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":6,"pts":0}
     ],
     "L": [
       {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
@@ -296,6 +298,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Ronaldo, 41, becomes the first player in history to score at six World Cups — and absolutely nobody is suggesting he retires",
+      "summary": "Cristiano Ronaldo opened the scoring against Uzbekistan in the 6th minute at Houston's NRG Stadium, then added a second in the 39th, as Portugal cruised to a 3–0 win. With that first goal, he became the only player ever to score at six different FIFA World Cups — 2006, 2010, 2014, 2018, 2022, 2026 — a span of 20 years. Messi had scored a hat-trick on Matchday 1 of his sixth World Cup; Ronaldo answered with a brace and a history-making record on Matchday 2. The 41-year-old also became the second-oldest World Cup goalscorer of all time, behind Roger Milla (42 in 1994). The GOAT debate's retirement date has, apparently, been cancelled.",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-2026-cristiano-ronaldo-becomes-first-man-to-score-a-goal-in-6-world-cups-171107583.html"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "headline": "Ghanaian witch doctor curses Harry Kane ahead of England vs Ghana — so Uri Geller stepped in to save him using Einstein",
+      "summary": "Nana Kwaku Bonsam, Ghana's most famous shaman (and the man who claims credit for Cristiano Ronaldo's 2014 World Cup knee injury), declared he would put a curse on Harry Kane ahead of Tuesday's Group L clash. 'I am working on Harry Kane. It will be just enough to stop him against my country,' he told reporters. Within hours, celebrity psychic Uri Geller had launched a counter-offensive, citing E=mc² to explain how he would beam 'good vibrations' at Kane to neutralise the dark energy. 'Everything in the universe is made from energy. Energy cannot be stopped,' Geller said. England's pre-match preparations apparently now involve the laws of physics.",
+      "url": "https://www.goal.com/en-us/lists/harry-kane-curse-uri-geller-ghana-voodoo-england-world-cup-witch-doctor/blt9b42f4546379855d"
+    },
     {
       "date": "Tue 23 Jun",
       "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
