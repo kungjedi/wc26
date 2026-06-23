@@ -4,6 +4,16 @@ This repo powers wc26.eggpot.co.uk — a World Cup 2026 schedule, results and st
 
 ## To refresh scores
 
+> **⚠️ CRITICAL — READ BEFORE ADDING ANY SCORE ⚠️**
+>
+> Only record a score when ALL of the following are true:
+> 1. **Match status is explicitly "Full Time" / "FT" / "Final"** — never use a live or in-progress score
+> 2. **Both team names match the fixture exactly** — check `fixtures` in `scores.json` for the exact home/away pair
+> 3. **The date matches** — verify the match was played on the date shown in the fixture, not a qualifier or friendly
+> 4. **Cross-check at least two independent sources** (e.g. BBC Sport + ESPN, or FIFA.com + Sky Sports) before writing any result
+>
+> The automated routine has previously committed live in-progress scores (e.g. a 1-0 scoreline mid-match) and scores from a completely different competition. **If you cannot find two sources confirming the same final result for the exact fixture, do not add the score.**
+
 Search the web for all completed 2026 FIFA World Cup results, then update `scores.json`:
 
 - Only modify the `results`, `standings` and `_meta.last_updated` fields
