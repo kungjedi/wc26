@@ -40,6 +40,8 @@ When refreshing scores, also search for updated player stats and update `top10` 
 - **goals** / **assists**: search official stats from FIFA.com, ESPN or fotmob — update after every matchday
 - **saves**: best single-match save tally per goalkeeper in the tournament; update when a keeper makes a notable haul
 - **shots / yellow_cards / dribbles / distance / touches**: populated from aggregated tournament stats (ESPN, fotmob, sofascore). These start empty and fill as data becomes available.
+- **red_cards_team**: count of red cards received per team — update after any match with a sending off
+- **red_cards_player**: list of all sent-off players; value = match ban length (Zwane=3 for violent conduct, others=1 for standard ban). Update after any red card.
 - **touches_team_most** / **touches_team_least**: average or total ball touches per team from official stats pages
 - **touches_player**: most touches by any individual player across the tournament
 

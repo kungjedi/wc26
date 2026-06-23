@@ -481,7 +481,8 @@
         {"name": "Lionel Messi",   "team": "Argentina", "value": 5},
         {"name": "Kylian Mbappé",  "team": "France",    "value": 4},
         {"name": "Erling Haaland", "team": "Norway",    "value": 4},
-        {"name": "Jonathan David", "team": "Canada",    "value": 3}
+        {"name": "Jonathan David", "team": "Canada",    "value": 3},
+        {"name": "Deniz Undav",    "team": "Germany",   "value": 3}
       ]
     },
     {
@@ -520,13 +521,20 @@
       "id": "dribbles",
       "label": "🌀 Dribbles Completed",
       "unit": "dribbles",
-      "entries": []
+      "entries": [
+        {"name": "Amad Diallo",      "team": "Ivory Coast",  "value": 6},
+        {"name": "Julián Quiñones",  "team": "Mexico",       "value": 5},
+        {"name": "Lee Kang-in",      "team": "South Korea",  "value": 5},
+        {"name": "César Volpato",    "team": "Australia",    "value": 5}
+      ]
     },
     {
       "id": "distance",
       "label": "🏃 Distance Run",
       "unit": "km",
-      "entries": []
+      "entries": [
+        {"name": "Scott McTominay", "team": "Scotland", "value": 24.7}
+      ]
     },
     {
       "id": "touches_team_most",
@@ -545,6 +553,34 @@
       "label": "✋ Ball Touches — Most (Player)",
       "unit": "touches",
       "entries": []
+    },
+    {
+      "id": "red_cards_team",
+      "label": "🟥 Red Cards (Team)",
+      "unit": "red cards",
+      "entries": [
+        {"name": "South Africa",        "team": "Group A", "value": 2},
+        {"name": "Qatar",               "team": "Group B", "value": 2},
+        {"name": "Mexico",              "team": "Group A", "value": 1},
+        {"name": "Bosnia & Herzegovina","team": "Group B", "value": 1},
+        {"name": "Paraguay",            "team": "Group D", "value": 1},
+        {"name": "Belgium",             "team": "Group G", "value": 1}
+      ]
+    },
+    {
+      "id": "red_cards_player",
+      "label": "🟥 Red Cards (Player)",
+      "unit": "game ban",
+      "entries": [
+        {"name": "Themba Zwane",          "team": "South Africa",        "value": 3},
+        {"name": "Sphephelo Sithole",     "team": "South Africa",        "value": 1},
+        {"name": "César Montes",          "team": "Mexico",              "value": 1},
+        {"name": "Tarik Muharemović",     "team": "Bosnia & Herzegovina","value": 1},
+        {"name": "Homam Ahmed",           "team": "Qatar",               "value": 1},
+        {"name": "Assim Madibo",          "team": "Qatar",               "value": 1},
+        {"name": "Miguel Almirón",        "team": "Paraguay",            "value": 1},
+        {"name": "Nathan Ngoy",           "team": "Belgium",             "value": 1}
+      ]
     }
   ]
 }
