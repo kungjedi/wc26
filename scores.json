@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "23 Jun 2026 · Matchday 2 (Groups I–J complete)",
+    "last_updated": "23 Jun 2026 · Matchday 2 (Groups K–L in progress)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -170,7 +170,8 @@
     "J3": [2, 0],
     "I3": [3, 0],
     "I4": [3, 2],
-    "J4": [1, 0]
+    "J4": [1, 2],
+    "K3": [1, 0]
   },
 
   "highlight_links": {
@@ -213,11 +214,12 @@
     "H3": "https://www.youtube.com/watch?v=frplYMUG3AE",
     "G3": "https://www.youtube.com/watch?v=MNUH8OqQGgE",
     "H4": "https://www.youtube.com/watch?v=RR1QMWchMXs",
-    "G4": "",
+    "G4": "https://www.youtube.com/watch?v=0XtNAQiyaX4",
     "J3": "https://www.youtube.com/watch?v=BVuXxylCcRo",
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
-    "I4": "",
-    "J4": ""
+    "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
+    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
+    "K3": ""
   },
 
   "standings": {
@@ -278,14 +280,14 @@
     "J": [
       {"name":"Argentina", "p":2,"w":2,"d":0,"l":0,"gf":5,"ga":0,"pts":6},
       {"name":"Austria",   "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":3,"pts":3},
-      {"name":"Jordan",    "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":3,"pts":3},
-      {"name":"Algeria",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":4,"pts":0}
+      {"name":"Algeria",   "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":4,"pts":3},
+      {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
+      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
       {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
-      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
       {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
+      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":4,"pts":0}
     ],
     "L": [
       {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
@@ -298,9 +300,9 @@
   "funnies": [
     {
       "date": "Tue 23 Jun",
-      "headline": "Jordan beat Algeria 1-0 for their first-ever World Cup win — fans gathered in Amman's ancient Roman amphitheatre at dawn to celebrate",
-      "summary": "After losing their debut 3-1 to Austria, Jordan needed a result against Algeria and delivered it in extraordinary fashion. Moussa Al Rashdan scored the only goal to give Jordan their first World Cup victory in the nation's history. Back in Amman — six hours ahead of San Francisco kick-off — thousands had packed into the 2,000-year-old Roman amphitheatre before 6am for a public viewing. When the final whistle blew, the scenes were extraordinary: flags, fireworks, tears. Algeria — who had become beloved in Lawrence, Kansas — were eliminated. Jordan still had to wait for Group J's other result to confirm their knockout fate.",
-      "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result"
+      "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
+      "summary": "Jordan had given their fans in Amman something to dream about when Moussa Al-Rashdan headed them in front on 36 minutes — a lead that stood deep into the second half. But Algeria, needing a win to progress, conjured a comeback for the ages. Riyad Mahrez swung in a corner and Benbouali glanced it home (69'); then, with eight minutes left, Amine Gouiri poked in the winner (82') — VAR checked it and confirmed. According to FIFA records, Algeria had never previously come from behind to win in all 10 World Cup matches where they conceded first. Jordan depart the tournament with their heads held high after a historic debut.",
+      "url": "https://www.skysports.com/football/news/11095/13556814/world-cup-2026-jordan-1-2-algeria-debutants-knocked-out-of-tournament-after-algerian-turnaround"
     },
     {
       "date": "Mon 22 Jun",
@@ -493,7 +495,8 @@
         {"name": "Michael Olise",  "team": "France",    "value": 3},
         {"name": "Alexander Isak", "team": "Sweden",    "value": 3},
         {"name": "Joshua Kimmich", "team": "Germany",   "value": 2},
-        {"name": "Brahim Díaz",    "team": "Morocco",   "value": 2}
+        {"name": "Brahim Díaz",    "team": "Morocco",   "value": 2},
+        {"name": "Riyad Mahrez",   "team": "Algeria",   "value": 2}
       ]
     },
     {
