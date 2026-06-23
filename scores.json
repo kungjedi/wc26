@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "23 Jun 2026 · Matchday 2 (Groups K–L in progress)",
+    "last_updated": "23 Jun 2026 · Matchday 2 (Groups A–J complete; K–L in progress)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -170,8 +170,7 @@
     "J3": [2, 0],
     "I3": [3, 0],
     "I4": [3, 2],
-    "J4": [1, 2],
-    "K3": [1, 0]
+    "J4": [1, 2]
   },
 
   "highlight_links": {
@@ -218,8 +217,7 @@
     "J3": "https://www.youtube.com/watch?v=BVuXxylCcRo",
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
     "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
-    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
-    "K3": ""
+    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY"
   },
 
   "standings": {
@@ -284,10 +282,10 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
-      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
       {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
+      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
       {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":4,"pts":0}
+      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
     ],
     "L": [
       {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
