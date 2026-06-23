@@ -28,13 +28,37 @@ Occasionally a fixture's `date` or `bst` may need correcting (e.g. a BST convers
 
 BST conversion reminder: match times in North American venues are often late evening local time, which rolls into the next calendar day in BST (UTC+1). Always verify the BST date against the local kick-off time before committing.
 
+## To refresh Top 10 stats
+
+The `top10` array in `scores.json` powers the "Top 10" tab. Each entry has:
+- `id` — unique key (never change)
+- `label` — display name with emoji
+- `unit` — column header (goals / assists / saves / etc.)
+- `entries` — array of `{"name": "...", "team": "...", "value": number}`, sorted descending by value
+
+When refreshing scores, also search for updated player stats and update `top10` entries:
+- **goals** / **assists**: search official stats from FIFA.com, ESPN or fotmob — update after every matchday
+- **saves**: best single-match save tally per goalkeeper in the tournament; update when a keeper makes a notable haul
+- **shots / yellow_cards / dribbles / distance / touches**: populated from aggregated tournament stats (ESPN, fotmob, sofascore). These start empty and fill as data becomes available.
+- **touches_team_most** / **touches_team_least**: average or total ball touches per team from official stats pages
+- **touches_player**: most touches by any individual player across the tournament
+
+Leave `"entries": []` for any category where reliable data isn't yet available — the UI shows "Data coming soon" for empty categories.
+
 ## To update knockout teams/channels
 
 After the group stage, update the `home`/`away` fields on knockout fixtures in `scores.json`
 and fill in confirmed `channel` values. Commit and push directly to `main`.
 
+## R32 bracket notes
+
+- R32-5: E2 (Ivory Coast) vs I2 (Norway) — runner-up of Groups E and I
+- R32-6: I1 (France) vs 3rd-place qualifier — winner of Group I
+- "3rd Place*" slots in R32 fixtures are dynamically replaced in JavaScript by `assign3rds()` using the `THIRD_ELIGIBLE` lookup. Never manually set them.
+- After each matchday, verify R32 fixture `home`/`away` names match actual group standings (i.e. G1=group winner, G2=runner-up). Update if a projected team name no longer matches.
+
 ## Files
 
 - `index.html` — presentation only, fetches scores.json at page load
-- `scores.json` — all data (static fixtures + dynamic results/standings)
+- `scores.json` — all data (static fixtures + dynamic results/standings/top10)
 - `CLAUDE.md` — this file, read automatically by Claude Code

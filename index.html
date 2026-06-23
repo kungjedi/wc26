@@ -71,6 +71,10 @@
   .sn { padding:8px 20px; font-size:10px; color:var(--muted); border-top:1px solid var(--border); }
   .last-updated { padding:12px 24px; font-size:10px; color:var(--muted); border-bottom:1px solid var(--border); letter-spacing:1px; }
   .loading { padding:48px 24px; color:var(--muted); letter-spacing:2px; font-size:11px; text-transform:uppercase; }
+  .top10-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:1px; background:var(--border); }
+  .top10-card { background:var(--bg); }
+  .top10-title { font-family:'Bebas Neue',sans-serif; font-size:18px; letter-spacing:1px; color:var(--accent); padding:14px 20px 8px; border-bottom:1px solid var(--border); }
+  .top10-empty { padding:16px 20px; font-size:11px; color:var(--muted); letter-spacing:1px; }
   .funny-item { padding:20px 24px; border-bottom:1px solid var(--border); }
   .funny-item:last-child { border-bottom:none; }
   .funny-item:hover { background:rgba(200,240,0,0.03); }
@@ -95,6 +99,7 @@
   <button class="tab-btn" data-tab="results">Results</button>
   <button class="tab-btn" data-tab="standings">Standings</button>
   <button class="tab-btn" data-tab="funnies">Funnies</button>
+  <button class="tab-btn" data-tab="top10">Top 10</button>
 </div>
 <div id="tab-schedule" class="tab-panel active">
   <div class="legend">
@@ -130,6 +135,9 @@
 <div id="tab-standings" class="tab-panel">
   <div class="last-updated" id="standings-updated"></div>
   <div class="standings-grid" id="standings-grid"><div class="loading" style="grid-column:1/-1">Loading standings&hellip;</div></div>
+</div>
+<div id="tab-top10" class="tab-panel">
+  <div id="top10-wrap"><div class="loading">Loading stats&hellip;</div></div>
 </div>
 <script>
 function flags(n){
@@ -214,6 +222,7 @@ fetch("scores.json?v="+Date.now())
     buildResults(data);
     buildStandings(data);
     buildFunnies(data);
+    buildTop10(data);
   })
   .catch(e=>{
     document.getElementById("schedule").innerHTML=`<tr><td colspan="5" class="loading">Error loading data: ${e.message}</td></tr>`;
@@ -325,6 +334,32 @@ function buildFunnies(data){
     }
     html+=`<div class="funny-item"><a class="funny-headline" href="${f.url}" target="_blank" rel="noopener">${f.headline}</a><p class="funny-summary">${f.summary}</p></div>`;
   });
+  wrap.innerHTML=html;
+}
+
+function buildTop10(data){
+  const wrap=document.getElementById("top10-wrap");
+  const cats=data.top10||[];
+  if(!cats.length){
+    wrap.innerHTML=`<div class="no-results">Top 10 stats coming soon!</div>`;
+    return;
+  }
+  let html=`<div class="top10-grid">`;
+  cats.forEach(cat=>{
+    html+=`<div class="top10-card"><div class="top10-title">${cat.label}</div>`;
+    const entries=cat.entries||[];
+    if(!entries.length){
+      html+=`<div class="top10-empty">Data coming soon</div>`;
+    } else {
+      html+=`<table class="st"><thead><tr><th class="left" style="padding-left:20px;width:32px"></th><th class="left">Player / Team</th><th class="left" style="color:var(--muted)">Nation</th><th>${cat.unit}</th></tr></thead><tbody>`;
+      entries.slice(0,10).forEach((e,i)=>{
+        html+=`<tr><td class="pos" style="padding-left:20px">${i+1}</td><td class="tn">${flags(e.name)}</td><td style="color:var(--muted);font-size:11px">${flags(e.team)}</td><td class="pts">${e.value}</td></tr>`;
+      });
+      html+=`</tbody></table>`;
+    }
+    html+=`</div>`;
+  });
+  html+=`</div>`;
   wrap.innerHTML=html;
 }
 
