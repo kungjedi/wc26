@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "23 Jun 2026 · Matchday 2 (Groups K–L in progress)",
+    "last_updated": "23 Jun 2026 · Matchday 2 complete (K4 & L4 to follow)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -171,7 +171,8 @@
     "I3": [3, 0],
     "I4": [3, 2],
     "J4": [1, 2],
-    "K3": [1, 0]
+    "K3": [5, 3],
+    "L3": [3, 2]
   },
 
   "highlight_links": {
@@ -219,7 +220,8 @@
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
     "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
     "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
-    "K3": ""
+    "K3": "",
+    "L3": ""
   },
 
   "standings": {
@@ -284,20 +286,32 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
-      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
+      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":4,"pts":4},
       {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
       {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":4,"pts":0}
+      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":4,"ga":8,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
-      {"name":"Ghana",    "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
-      {"name":"Croatia",  "p":1,"w":0,"d":0,"l":1,"gf":2,"ga":4,"pts":0},
-      {"name":"Panama",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0}
+      {"name":"England",  "p":2,"w":2,"d":0,"l":0,"gf":7,"ga":4,"pts":6},
+      {"name":"Ghana",    "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":3,"pts":3},
+      {"name":"Panama",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0},
+      {"name":"Croatia",  "p":1,"w":0,"d":0,"l":1,"gf":2,"ga":4,"pts":0}
     ]
   },
 
   "funnies": [
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Ronaldo finally ends his 10-game major tournament goal drought in a breathless Portugal 5-3 Uzbekistan thriller",
+      "summary": "Going into their second group game, Cristiano Ronaldo had not scored in 10 consecutive major tournament matches — a drought stretching back to Euro 2024 that spawned an increasingly uncomfortable subplot to his final World Cup. In a spectacular Group K match that produced eight goals and multiple lead changes, Ronaldo finally ended the run, his trademark celebration flooding the Houston night. The internet responded with relief, admiration, and the inevitable comparison to Messi, who now leads 5 goals to Ronaldo's tournament tally. Portugal are through to the R32.",
+      "url": "https://www.espn.com/soccer/story/_/id/49101842/fifa-world-cup-2026-stats-cristiano-ronaldo-0-10-record-41-ivan-perisic-equal-lionel-messi-jude-bellingham-join-pele-michael-owen"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Ghana's infamous witch doctor cursed Harry Kane — so Uri Geller stepped in with 'good vibrations' — England won 3-2 anyway",
+      "summary": "Nana Kwaku Bonsam — the Ghanaian witch doctor who claimed to have caused Ronaldo's injury before Portugal faced Ghana at the 2014 World Cup — announced he was turning his powers on Harry Kane ahead of the Group L clash in Massachusetts. World-famous psychic Uri Geller immediately volunteered to provide a metaphysical counter-shield, promising to channel 'good vibrations' into Kane before kick-off. England won 3-2. Kane appeared entirely unaffected. The internet spent the next 24 hours debating which supernatural entity deserved the credit.",
+      "url": "https://www.goal.com/en-us/lists/harry-kane-curse-uri-geller-ghana-voodoo-england-world-cup-witch-doctor/blt9b42f4546379855d"
+    },
     {
       "date": "Tue 23 Jun",
       "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
