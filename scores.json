@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "23 Jun 2026 · Matchday 2 (Groups A–J complete; K–L in progress)",
+    "last_updated": "23 Jun 2026 · Matchday 2 (Groups A–J complete; K3 done; L3 in progress)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -170,7 +170,8 @@
     "J3": [2, 0],
     "I3": [3, 0],
     "I4": [3, 2],
-    "J4": [1, 2]
+    "J4": [1, 2],
+    "K3": [5, 0]
   },
 
   "highlight_links": {
@@ -217,7 +218,8 @@
     "J3": "https://www.youtube.com/watch?v=BVuXxylCcRo",
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
     "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
-    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY"
+    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
+    "K3": ""
   },
 
   "standings": {
@@ -282,10 +284,10 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
+      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
       {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
-      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
       {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
+      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
     ],
     "L": [
       {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
@@ -296,6 +298,12 @@
   },
 
   "funnies": [
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Ronaldo becomes the first player in history to score at six World Cups — then Messi trends worldwide in response",
+      "summary": "At 41 years old, with doubters growing loud after a blank against DR Congo, Cristiano Ronaldo took just six minutes to silence every critic: a near-post finish against Uzbekistan made him the only player — man or woman — ever to score in six different World Cup tournaments (2006, 2010, 2014, 2018, 2022, 2026). He added a second before half-time to make it 3-0 en route to a 5-0 rout. Social media immediately split in two: one half celebrating the sheer longevity of the feat, the other pointing out that Messi still has more tournament goals (18 vs. 10) and more goals in this edition alone (5 vs. 2). 'Messi' and 'Six World Cups' both trended simultaneously on X/Twitter. Ronaldo's Instagram post — a simple photo of the goal celebration — got 12 million likes in two hours.",
+      "url": "https://www.espn.com/soccer/story/_/id/49154970/portugal-cristiano-ronaldo-goal-first-score-six-world-cups-uzbekistan"
+    },
     {
       "date": "Tue 23 Jun",
       "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
