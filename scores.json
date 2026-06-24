@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "24 Jun 2026 · Matchday 2 complete",
+    "last_updated": "24 Jun 2026 · Matchday 3 under way (Group B complete)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -174,7 +174,9 @@
     "K3": [5, 0],
     "L3": [0, 0],
     "L4": [0, 1],
-    "K4": [1, 0]
+    "K4": [1, 0],
+    "B5": [2, 1],
+    "B6": [3, 1]
   },
 
   "highlight_links": {
@@ -225,7 +227,9 @@
     "K3": "https://www.youtube.com/watch?v=FrGAsdwqbDc",
     "L3": "https://www.youtube.com/watch?v=fvBPDSIZ3sg",
     "L4": "https://www.youtube.com/watch?v=eFJSscg2TEk",
-    "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0"
+    "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
+    "B5": "",
+    "B6": ""
   },
 
   "standings": {
@@ -236,10 +240,10 @@
       {"name":"South Africa", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":3,"pts":1}
     ],
     "B": [
-      {"name":"Canada",               "p":2,"w":1,"d":1,"l":0,"gf":7,"ga":1,"pts":4},
-      {"name":"Switzerland",          "p":2,"w":1,"d":1,"l":0,"gf":5,"ga":2,"pts":4},
-      {"name":"Bosnia & Herzegovina", "p":2,"w":0,"d":1,"l":1,"gf":2,"ga":5,"pts":1},
-      {"name":"Qatar",                "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":7,"pts":1}
+      {"name":"Switzerland",          "p":3,"w":2,"d":1,"l":0,"gf":7,"ga":3,"pts":7},
+      {"name":"Canada",               "p":3,"w":1,"d":1,"l":1,"gf":8,"ga":3,"pts":4},
+      {"name":"Bosnia & Herzegovina", "p":3,"w":1,"d":1,"l":1,"gf":5,"ga":6,"pts":4},
+      {"name":"Qatar",                "p":3,"w":0,"d":1,"l":2,"gf":2,"ga":10,"pts":1}
     ],
     "C": [
       {"name":"Brazil",   "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":1,"pts":4},
@@ -357,6 +361,12 @@
       "headline": "Messi scores twice against Austria to become the men's World Cup's all-time leading goalscorer with 18 — and he's still only playing in the group stage",
       "summary": "In Argentina's 2-0 win over Austria in Dallas, Lionel Messi — 38 years old, playing in his sixth World Cup — scored both goals to move to 18 career World Cup strikes, two clear of Miroslav Klose's previous record. His first goal levelled the record at 17; his second, with Messi in tears before full-time, broke it. He now has five goals in two games at this tournament alone. Several sitting heads of state posted tributes. His Argentina teammates formed a guard of honour at the whistle. The word 'GOAT', again, crashed the internet.",
       "url": "https://www.nbcnews.com/sports/soccer/lionel-messi-breaks-record-career-goals-scored-world-cup-rcna351168"
+    },
+    {
+      "date": "Sun 21 Jun",
+      "headline": "King and Queen of the Netherlands gatecrashed two World Cup dressing rooms in one night — and Eloy Room kissed the Queen",
+      "summary": "After the Netherlands beat Sweden 5-1 and Ecuador drew 0-0 with Curaçao on the same night, King Willem-Alexander and Queen Máxima of the Netherlands managed the remarkable feat of joining both dressing rooms in sequence. First they congratulated the Dutch squad, then they surprised the Curaçao players — who had just earned their first-ever World Cup point, thanks to goalkeeper Eloy Room's extraordinary 15 saves. The squad were stunned to find royalty walking through the door. Room — who later said 'We danced in the locker room, it was just wonderful' — was photographed giving Queen Máxima a kiss. The images went viral and briefly made Curaçao the most talked-about team in the tournament.",
+      "url": "https://www.yardbarker.com/soccer/articles/dutch_royalty_stun_curacao_players_by_joining_dressing_room_celebrations_after_first_world_cup_point/s1_17664_43978192"
     },
     {
       "date": "Sun 21 Jun",
