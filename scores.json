@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "23 Jun 2026 · Matchday 2 (Groups A–J complete; K–L in progress)",
+    "last_updated": "24 Jun 2026 · Matchday 2 complete (all groups); Matchday 3 starts tonight",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -170,7 +170,11 @@
     "J3": [2, 0],
     "I3": [3, 0],
     "I4": [3, 2],
-    "J4": [1, 2]
+    "J4": [1, 2],
+    "K3": [5, 0],
+    "L3": [0, 0],
+    "L4": [0, 1],
+    "K4": [3, 1]
   },
 
   "highlight_links": {
@@ -217,7 +221,11 @@
     "J3": "https://www.youtube.com/watch?v=BVuXxylCcRo",
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
     "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
-    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY"
+    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
+    "K3": "https://www.youtube.com/watch?v=FrGAsdwqbDc",
+    "L3": "https://www.youtube.com/watch?v=fvBPDSIZ3sg",
+    "L4": "",
+    "K4": ""
   },
 
   "standings": {
@@ -282,20 +290,38 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
-      {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
-      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
+      {"name":"Colombia",   "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":2,"pts":6},
+      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
+      {"name":"DR Congo",   "p":2,"w":0,"d":1,"l":1,"gf":2,"ga":4,"pts":1},
+      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
-      {"name":"Ghana",    "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
-      {"name":"Croatia",  "p":1,"w":0,"d":0,"l":1,"gf":2,"ga":4,"pts":0},
-      {"name":"Panama",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0}
+      {"name":"England",  "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
+      {"name":"Ghana",    "p":2,"w":1,"d":1,"l":0,"gf":1,"ga":0,"pts":4},
+      {"name":"Croatia",  "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":4,"pts":3},
+      {"name":"Panama",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":2,"pts":0}
     ]
   },
 
   "funnies": [
+    {
+      "date": "Wed 24 Jun",
+      "headline": "Luka Modric plays his 200th cap at age 40 — wearing a face mask — as Croatia eliminate Panama 1-0",
+      "summary": "Only Messi, Ronaldo and Kuwait's Bader Al-Mutawa had previously earned 200 international caps in the men's game. Modric joined that club in Toronto, wearing a protective mask following a facial injury, still captaining Croatia from midfield. Ante Budimir tapped in a late Josip Stanisic cross to send Panama home and keep Croatia's knockout hopes alive. Modric received a standing ovation when substituted with 10 minutes left; his manager was visibly emotional on the touchline. Panama, who had never previously won a World Cup match, were eliminated after two straight 0-1 defeats.",
+      "url": "https://onefootball.com/en/news/panama-0-1-croatia-modric-celebrates-200th-cap-with-win-as-canaleros-out-of-world-cup-43049617"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "England draw 0-0 with Ghana — their 13th World Cup goalless draw, more than any nation in history",
+      "summary": "England had 79% possession and 19 shots to Ghana's one, yet couldn't score against a side ranked 65th in the world — the lowest-ranked team England have faced at a major tournament in 30 years. Harry Kane missed a sitter with the goal gaping late on. It was England's 13th World Cup goalless draw; Brazil are second in the all-time list with just 9. 'We played like a team afraid to win,' said one ex-England striker on air. Thomas Tuchel's side are unbeaten but go into the final group game against Brazil needing a result.",
+      "url": "https://www.espn.com/soccer/story/_/id/49155118/england-ghana-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Ronaldo becomes the first player ever to score at six different World Cups — and almost got a hat-trick at age 41",
+      "summary": "Cristiano Ronaldo opened the scoring in the 6th minute against Uzbekistan to become the first player in history to net at six different World Cups: 2006, 2010, 2014, 2018, 2022 and 2026. He was 41 years and 138 days old — the second-oldest scorer in World Cup history, behind Roger Milla (1994). He added a second before half-time, then raged at missing a third. Messi, who failed to score at the 2010 World Cup, can never match the record. Nuno Mendes, an own goal from Nematov and Rafael Leão completed Portugal's 5-0 rout. The record that can never be beaten: Ronaldo is six-for-six in World Cup appearances with at least one goal.",
+      "url": "https://abcnews.com/Sports/wireStory/ronaldo-player-score-world-cups-goal-uzbekistan-134140054"
+    },
     {
       "date": "Tue 23 Jun",
       "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
