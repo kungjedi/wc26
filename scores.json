@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "23 Jun 2026 · Matchday 2 (Groups I–J complete)",
+    "last_updated": "24 Jun 2026 · Matchday 2 complete (all groups)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -170,7 +170,11 @@
     "J3": [2, 0],
     "I3": [3, 0],
     "I4": [3, 2],
-    "J4": [1, 0]
+    "J4": [1, 2],
+    "K3": [5, 0],
+    "L3": [0, 0],
+    "L4": [0, 1],
+    "K4": [1, 0]
   },
 
   "highlight_links": {
@@ -216,8 +220,12 @@
     "G4": "",
     "J3": "https://www.youtube.com/watch?v=BVuXxylCcRo",
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
-    "I4": "",
-    "J4": ""
+    "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
+    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
+    "K3": "https://www.youtube.com/watch?v=FrGAsdwqbDc",
+    "L3": "https://www.youtube.com/watch?v=fvBPDSIZ3sg",
+    "L4": "https://www.youtube.com/watch?v=eFJSscg2TEk",
+    "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0"
   },
 
   "standings": {
@@ -278,29 +286,41 @@
     "J": [
       {"name":"Argentina", "p":2,"w":2,"d":0,"l":0,"gf":5,"ga":0,"pts":6},
       {"name":"Austria",   "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":3,"pts":3},
-      {"name":"Jordan",    "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":3,"pts":3},
-      {"name":"Algeria",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":4,"pts":0}
+      {"name":"Algeria",   "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":4,"pts":3},
+      {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
-      {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
-      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
+      {"name":"Colombia",   "p":2,"w":2,"d":0,"l":0,"gf":4,"ga":1,"pts":6},
+      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
+      {"name":"DR Congo",   "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":2,"pts":1},
+      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
-      {"name":"Ghana",    "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
-      {"name":"Croatia",  "p":1,"w":0,"d":0,"l":1,"gf":2,"ga":4,"pts":0},
-      {"name":"Panama",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0}
+      {"name":"England",  "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
+      {"name":"Ghana",    "p":2,"w":1,"d":1,"l":0,"gf":1,"ga":0,"pts":4},
+      {"name":"Croatia",  "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":4,"pts":3},
+      {"name":"Panama",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":2,"pts":0}
     ]
   },
 
   "funnies": [
     {
       "date": "Tue 23 Jun",
-      "headline": "Jordan beat Algeria 1-0 for their first-ever World Cup win — fans gathered in Amman's ancient Roman amphitheatre at dawn to celebrate",
-      "summary": "After losing their debut 3-1 to Austria, Jordan needed a result against Algeria and delivered it in extraordinary fashion. Moussa Al Rashdan scored the only goal to give Jordan their first World Cup victory in the nation's history. Back in Amman — six hours ahead of San Francisco kick-off — thousands had packed into the 2,000-year-old Roman amphitheatre before 6am for a public viewing. When the final whistle blew, the scenes were extraordinary: flags, fireworks, tears. Algeria — who had become beloved in Lawrence, Kansas — were eliminated. Jordan still had to wait for Group J's other result to confirm their knockout fate.",
-      "url": "https://www.espn.com/soccer/story/_/id/49145580/jordan-algeria-live-world-cup-2026-latest-updates-commentary-score-result"
+      "headline": "Ronaldo becomes first player to score at six World Cups — 'I'm back' — while Messi leads the Golden Boot from five goals away",
+      "summary": "Aged 41, Cristiano Ronaldo broke one of football's last unbroken records: he became the first player ever to score at six different World Cups. His first goal against Uzbekistan — a composed finish in the sixth minute — was the landmark; he added a second before half-time as Portugal won 5-0 in Houston. After the match, staring directly into the television camera, he delivered his verdict: 'I'm back.' He had gone his previous match goalless and faced intense public criticism. 'A very tough week, with public opinion very harsh on me,' he acknowledged. Lionel Messi, meanwhile, leads the Golden Boot race on five goals. The GOAT debate thunders ever onward.",
+      "url": "https://www.espn.com/soccer/story/_/id/49154970/portugal-cristiano-ronaldo-goal-first-score-six-world-cups-uzbekistan"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "England held to a 0-0 draw by Ghana — Bellingham given player of the match and immediately says he 'didn't deserve it'",
+      "summary": "England dominated 79% possession, fired 19 shots, and scored zero goals against a well-organised Ghana side in Boston. Jude Bellingham was handed the player-of-the-match award and immediately distanced himself from it: 'I didn't deserve it.' Declan Rice was visibly frustrated at full time. Manager Thomas Tuchel admitted the lack of goals was 'coming'. Ghana — who had Thomas Partey back in the squad after his Canadian border farce — held firm throughout. It is officially England's 13th World Cup goalless draw. They need a result against Panama in the final group game.",
+      "url": "https://www.espn.com/soccer/story/_/id/49155118/england-ghana-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Algeria stun Jordan with two late goals to keep their World Cup alive — Gouiri's 82nd-minute winner the key",
+      "summary": "Jordan had led 1-0 through Moussa Al Rashdan and looked on course for their first-ever World Cup win — which would have been an extraordinary achievement. But Algeria's Benbouali equalised on 69 minutes and Amine Gouiri then struck the winner in the 82nd minute to seal a dramatic 2-1 comeback. Jordan, making their group stage debut, are eliminated. Algeria — who had become beloved in Lawrence, Kansas during their base camp — kept their knockout hopes alive with a stunning finish. In Amman, thousands who had gathered for a dawn public viewing were left heartbroken as the result turned.",
+      "url": "https://www.aljazeera.com/sports/2026/6/23/algeria-jordan-score-fifa-world-cup-2026"
     },
     {
       "date": "Mon 22 Jun",
@@ -433,6 +453,12 @@
       "headline": "Thomas Partey denied entry to Canada, misses Ghana's opener",
       "summary": "Ghana's captain was refused entry by Canadian border officials and couldn't travel from the team's Rhode Island base to Toronto for their opener against Panama. The irony: he'd have been fine for their next match in the US. FIFA stressed it has no say in host nations' immigration decisions.",
       "url": "https://www.aljazeera.com/sports/2026/6/13/thomas-partey-denied-entry-into-canada-will-miss-ghanas-world-cup-opener"
+    },
+    {
+      "date": "Sat 13 Jun",
+      "headline": "Peruvian police dressed as World Cup mascots Clutch and Maple to arrest a suspected drug dealer — using a battering ram",
+      "summary": "Peru's anti-drug unit calculated that their target, Carlos Cabrera (48), would be completely distracted watching the World Cup opening match between Mexico and South Africa. Their plan: disguise two officers as Clutch (the US bald eagle mascot) and Maple (the Canadian moose). The costumed officers then smashed his door down with a battering ram while colleagues stormed in behind them. Police found 2,524 packets of cocaine base and a gun. The footage — posted to Peru's national police TikTok — went enormously viral. It's not even the first time: Peruvian law enforcement have previously dressed as Freddy Krueger, Santa Claus, Deadpool and the Grinch. Zayu the jaguar was unavailable for comment.",
+      "url": "https://www.espn.com/soccer/story/_/id/49048786/peruvian-police-world-cup-mascots-disguise-drugs-raid"
     },
     {
       "date": "Fri 12 Jun",
