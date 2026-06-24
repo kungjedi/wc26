@@ -174,7 +174,7 @@
     "K3": [5, 0],
     "L3": [0, 0],
     "L4": [0, 1],
-    "K4": [0, 0]
+    "K4": [1, 0]
   },
 
   "highlight_links": {
@@ -290,9 +290,9 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
+      {"name":"Colombia",   "p":2,"w":2,"d":0,"l":0,"gf":4,"ga":1,"pts":6},
       {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
-      {"name":"Colombia",   "p":2,"w":1,"d":1,"l":0,"gf":3,"ga":1,"pts":4},
-      {"name":"DR Congo",   "p":2,"w":0,"d":2,"l":0,"gf":1,"ga":1,"pts":2},
+      {"name":"DR Congo",   "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":2,"pts":1},
       {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
     ],
     "L": [
@@ -327,6 +327,12 @@
       "headline": "France vs Iraq was suspended for 28 minutes by a lightning storm — Mbappé had just scored to make it 1-0",
       "summary": "Kylian Mbappé had barely finished celebrating his opening goal at Lincoln Financial Field in Philadelphia when storm clouds rolled in, lightning struck near the stadium, and officials pulled the players off. The 28-minute delay saw fans sheltering under every overhang in the building and the BBC commentator wondering aloud if the match would be completed. It was: France returned to the pitch and scored twice more to win 3-0, Mbappé adding his second. Iraq, who arrived knowing they were already eliminated, at least got the most theatrical exit in the tournament.",
       "url": "https://www.youtube.com/watch?v=MV3-lGTuUg8"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "headline": "100-year-old Messi superfan shows up to Argentina vs Austria — with a marriage proposal sign",
+      "summary": "Pauline Kana, a 100-year-old American and Guinness World Record holder for crowd surfing, travelled to Dallas to watch Argentina play Austria and held up a sign reading '100-Year-Old Messi Fan' in the stands — then produced a second sign proposing marriage to Lionel Messi. When her face appeared on the big screen, the stadium roared. The centenarian, who creates viral content with her grandson Ross Smith, has attended multiple Messi matches over the years. She was in the building as Messi broke the all-time men's World Cup scoring record with two goals. Afterwards she told reporters she was still waiting for Messi's answer: 'I've been patient this long.'",
+      "url": "https://sports.yahoo.com/articles/meet-pauline-kana-100-old-205243850.html"
     },
     {
       "date": "Mon 22 Jun",
@@ -447,6 +453,12 @@
       "headline": "Scotland fan plays bagpipes outside Boston Airbnb at 6:30am — neighbour films it, 9 million views follow",
       "summary": "Local resident Mike Morrison was woken by a lone piper in full regalia serenading the street before the Haiti v Scotland game. He filmed it, posted it, and by the afternoon had 9 million views. By the evening the Tartan Army had invited him over for drinks. He ended the night writing 'Viva #Scotland'.",
       "url": "https://news.stv.tv/scotland/viral-video-of-scots-playing-bagpipes-in-boston-at-6-30am-ahead-of-world-cup"
+    },
+    {
+      "date": "Sat 13 Jun",
+      "headline": "Peruvian police disguise themselves as 2026 World Cup mascots to bust a drug dealer",
+      "summary": "Officers from Peru's anti-narcotics unit dressed as Clutch the Bald Eagle and Maple the Moose — the official FIFA 2026 mascots — to ambush a drug dealer they described as a 'diehard football fan', reasoning he might open the door for mascots where he wouldn't for police. They broke through a gate with a battering ram, arrested 48-year-old Carlos Cabrera, and seized 2,524 packets of cocaine base and a firearm. Footage of the costumed officers making the bust went viral within hours. It reportedly wasn't Peru's first creative disguise operation: on Valentine's Day 2025, an officer dressed as a capybara made a drugs arrest.",
+      "url": "https://sports.yahoo.com/soccer/article/peruvian-police-use-2026-world-cup-mascot-costumes-as-disguises-to-make-arrest-in-drug-raid-175709939.html"
     },
     {
       "date": "Sat 13 Jun",
