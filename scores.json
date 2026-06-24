@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "24 Jun 2026 · Matchday 2 complete",
+    "last_updated": "24 Jun 2026 · Matchday 3 underway",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -304,6 +304,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Wed 24 Jun",
+      "headline": "Messi turns 39 at the World Cup — the all-time leading scorer posts birthday pull-ups video at Argentina's training base",
+      "summary": "Lionel Messi celebrated his 39th birthday on June 24 while sitting atop World Cup history. Having broken Miroslav Klose's all-time record two days earlier against Austria, the Argentina captain marked the occasion with a now-viral video of himself performing perfect pull-ups in the team gym — biceps gleaming, expression utterly serene. Teammates posted tributes, the internet wished him happy birthday in roughly 47 languages, and Klose sent a handwritten note. It is, as several historians confirmed, the first time in World Cup history that the tournament's all-time leading scorer has turned 39 during the tournament in which they set the record.",
+      "url": "https://sports.yahoo.com/articles/lionel-messi-celebrates-39th-birthday-145036638.html"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "The Tartan Army and Brazil fans threw a joint dawn-to-dusk street party in Miami's Little Havana — together",
+      "summary": "Ahead of Wednesday's Scotland vs Brazil match in Miami, thousands of Tartan Army supporters descended on Little Havana and South Beach, draping saltires across palm trees and teaching samba dancers the 'Yes Sir, I Can Boogie'. The twist: Brazilian fans joined rather than watched. Videos circulated of Scots in full kilts dancing alongside Brazilians in yellow shirts, chanting 'No Scotland, No Party'. Local bars ran dry and needed emergency beer deliveries. Miami New Times called it 'a cross-cultural football party this city has never seen before'. It may be the first recorded instance of the fans who desperately need a result and the fans who just need to turn up having an equally brilliant time the night before.",
+      "url": "https://www.wlrn.org/sports/2026-06-23/miami-scotland-tartan-army-world-cup"
+    },
     {
       "date": "Wed 24 Jun",
       "headline": "DR Congo superfan Michel Mboladinga stood completely still for 90 minutes as a Patrice Lumumba statue — after missing their opener due to Ebola quarantine",
