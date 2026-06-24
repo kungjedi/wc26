@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "23 Jun 2026 · Matchday 2 (Groups A–J complete; K–L in progress)",
+    "last_updated": "24 Jun 2026 · Matchday 2 (Groups K–L partial: K3 & L3 added; K4 & L4 pending; Matchday 3 Groups B–C pending)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -170,7 +170,9 @@
     "J3": [2, 0],
     "I3": [3, 0],
     "I4": [3, 2],
-    "J4": [1, 2]
+    "J4": [1, 2],
+    "K3": [5, 0],
+    "L3": [0, 0]
   },
 
   "highlight_links": {
@@ -217,7 +219,9 @@
     "J3": "https://www.youtube.com/watch?v=BVuXxylCcRo",
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
     "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
-    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY"
+    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
+    "K3": "https://www.youtube.com/watch?v=FrGAsdwqbDc",
+    "L3": "https://www.youtube.com/watch?v=fvBPDSIZ3sg"
   },
 
   "standings": {
@@ -282,20 +286,32 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
+      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
       {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
-      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
       {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
+      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
-      {"name":"Ghana",    "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
+      {"name":"England",  "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
+      {"name":"Ghana",    "p":2,"w":1,"d":1,"l":0,"gf":1,"ga":0,"pts":4},
       {"name":"Croatia",  "p":1,"w":0,"d":0,"l":1,"gf":2,"ga":4,"pts":0},
       {"name":"Panama",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0}
     ]
   },
 
   "funnies": [
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Ronaldo scores in a sixth World Cup — first in history to do so, at 41, after being written off just days earlier",
+      "summary": "After going goalless in Portugal's 1-1 draw with DR Congo — with pundits calling for him to be benched — Cristiano Ronaldo responded in definitive fashion. He scored in the 6th minute against Uzbekistan, added a second before halftime, and Portugal ran out 5-0 winners. At 41 years and 138 days, he became the first player in history, man or woman, to score in six different World Cup tournaments. He is also now the second-oldest scorer in World Cup history, behind only Cameroon's Roger Milla (who scored at 42 in 1994). Ronaldo was in tears on the pitch at full-time. Roberto Martínez, asked if he'd ever considered dropping him, looked mildly offended.",
+      "url": "https://www.nbcnews.com/sports/soccer/cristiano-ronaldo-score-six-world-cups-portugal-rcna351417"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Harry Kane skies an open goal as England draw 0-0 with Ghana — their 13th World Cup goalless draw",
+      "summary": "England arrived in Foxborough on a wave of optimism after thumping Croatia 4-2. They left with a 0-0 draw against a Ghana side ranked 65th by FIFA — the lowest-ranked team England have faced at a major tournament in 30 years. The defining moment came in the dying minutes: Harry Kane, unmarked in the six-yard box, somehow ballooned a close-range volley over the bar with the goal gaping. It was simultaneously very funny and very England. The result means England have now played 13 goalless draws at World Cups. Thomas Tuchel's post-match press conference was a study in controlled frustration.",
+      "url": "https://www.skysports.com/football/england-vs-ghana/549812"
+    },
     {
       "date": "Tue 23 Jun",
       "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
