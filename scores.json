@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "23 Jun 2026 · Matchday 2 (Groups A–J complete; K–L in progress)",
+    "last_updated": "24 Jun 2026 · Matchday 2 complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -170,7 +170,11 @@
     "J3": [2, 0],
     "I3": [3, 0],
     "I4": [3, 2],
-    "J4": [1, 2]
+    "J4": [1, 2],
+    "K3": [5, 0],
+    "L3": [0, 0],
+    "L4": [0, 1],
+    "K4": [0, 0]
   },
 
   "highlight_links": {
@@ -217,7 +221,11 @@
     "J3": "https://www.youtube.com/watch?v=BVuXxylCcRo",
     "I3": "https://www.youtube.com/watch?v=MV3-lGTuUg8",
     "I4": "https://www.youtube.com/watch?v=q9thzeC8_tE",
-    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY"
+    "J4": "https://www.youtube.com/watch?v=7DXxJpFQDYY",
+    "K3": "https://www.youtube.com/watch?v=FrGAsdwqbDc",
+    "L3": "https://www.youtube.com/watch?v=fvBPDSIZ3sg",
+    "L4": "https://www.youtube.com/watch?v=eFJSscg2TEk",
+    "K4": ""
   },
 
   "standings": {
@@ -282,20 +290,32 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
-      {"name":"Colombia",   "p":1,"w":1,"d":0,"l":0,"gf":3,"ga":1,"pts":3},
-      {"name":"Portugal",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"DR Congo",   "p":1,"w":0,"d":1,"l":0,"gf":1,"ga":1,"pts":1},
-      {"name":"Uzbekistan", "p":1,"w":0,"d":0,"l":1,"gf":1,"ga":3,"pts":0}
+      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
+      {"name":"Colombia",   "p":2,"w":1,"d":1,"l":0,"gf":3,"ga":1,"pts":4},
+      {"name":"DR Congo",   "p":2,"w":0,"d":2,"l":0,"gf":1,"ga":1,"pts":2},
+      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":1,"w":1,"d":0,"l":0,"gf":4,"ga":2,"pts":3},
-      {"name":"Ghana",    "p":1,"w":1,"d":0,"l":0,"gf":1,"ga":0,"pts":3},
-      {"name":"Croatia",  "p":1,"w":0,"d":0,"l":1,"gf":2,"ga":4,"pts":0},
-      {"name":"Panama",   "p":1,"w":0,"d":0,"l":1,"gf":0,"ga":1,"pts":0}
+      {"name":"England",  "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
+      {"name":"Ghana",    "p":2,"w":1,"d":1,"l":0,"gf":1,"ga":0,"pts":4},
+      {"name":"Croatia",  "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":4,"pts":3},
+      {"name":"Panama",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":2,"pts":0}
     ]
   },
 
   "funnies": [
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Ronaldo scores in his SIXTH World Cup at 41 — the first player in history, men's or women's, to do so",
+      "summary": "Cristiano Ronaldo, 41 years and 138 days old, opened the scoring in the 6th minute of Portugal's 5-0 thrashing of Uzbekistan to become the first player in World Cup history — across men's and women's football — to score in six different tournaments. He added a second in the second half. His 10 World Cup goals are now a Portugal record, and at 41 he is the second-oldest scorer in World Cup history behind Cameroon's Roger Milla (42 in 1994). Before the match he'd been the subject of widespread criticism for his performance against DR Congo. He answered in typically understated fashion.",
+      "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-record-breaking-cristiano-ronaldo-leads-portugals-5-0-rout-of-uzbekistan-185936619.html"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Harry Kane somehow blasts an empty net over the crossbar in the 86th minute — England held 0-0 by Ghana",
+      "summary": "England controlled the ball for 60% of the match and created 3.0 xG against a Ghana side ranked 65th in the world, yet couldn't score. The crowning moment of frustration came in the 86th minute: Nico O'Reilly's header struck the crossbar and bounced back to Harry Kane, England's all-time top scorer, six yards out with the goal gaping. Kane somehow blasted it high and wide. He held his head in his hands; the Boston crowd did likewise. England stay top of Group L on goal difference from Ghana, but the result means their round-of-32 place still isn't mathematically sealed.",
+      "url": "https://www.espn.com/soccer/story/_/id/49157561/england-ghana-2026-fifa-world-cup-harry-kane"
+    },
     {
       "date": "Tue 23 Jun",
       "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
