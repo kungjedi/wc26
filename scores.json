@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "24 Jun 2026 · Matchday 3 under way (Group B complete)",
+    "last_updated": "25 Jun 2026 · Matchday 3 (Groups B & C complete; A5/A6 awaiting confirmation)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -176,7 +176,9 @@
     "L4": [0, 1],
     "K4": [1, 0],
     "B5": [2, 1],
-    "B6": [3, 1]
+    "B6": [3, 1],
+    "C5": [0, 3],
+    "C6": [4, 2]
   },
 
   "highlight_links": {
@@ -228,8 +230,10 @@
     "L3": "https://www.youtube.com/watch?v=fvBPDSIZ3sg",
     "L4": "https://www.youtube.com/watch?v=eFJSscg2TEk",
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
-    "B5": "",
-    "B6": ""
+    "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
+    "B6": "",
+    "C5": "",
+    "C6": ""
   },
 
   "standings": {
@@ -246,10 +250,10 @@
       {"name":"Qatar",                "p":3,"w":0,"d":1,"l":2,"gf":2,"ga":10,"pts":1}
     ],
     "C": [
-      {"name":"Brazil",   "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":1,"pts":4},
-      {"name":"Morocco",  "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
-      {"name":"Scotland", "p":2,"w":1,"d":0,"l":1,"gf":1,"ga":1,"pts":3},
-      {"name":"Haiti",    "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":4,"pts":0}
+      {"name":"Brazil",   "p":3,"w":2,"d":1,"l":0,"gf":7,"ga":1,"pts":7},
+      {"name":"Morocco",  "p":3,"w":2,"d":1,"l":0,"gf":6,"ga":3,"pts":7},
+      {"name":"Scotland", "p":3,"w":1,"d":0,"l":2,"gf":1,"ga":4,"pts":3},
+      {"name":"Haiti",    "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":8,"pts":0}
     ],
     "D": [
       {"name":"USA",       "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
