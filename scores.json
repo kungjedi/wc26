@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "24 Jun 2026 · Matchday 3 under way (Group B complete)",
+    "last_updated": "25 Jun 2026 · Group C complete; Group A matchday 3 under way",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -176,7 +176,10 @@
     "L4": [0, 1],
     "K4": [1, 0],
     "B5": [2, 1],
-    "B6": [3, 1]
+    "B6": [3, 1],
+    "C5": [0, 3],
+    "C6": [4, 2],
+    "A6": [0, 1]
   },
 
   "highlight_links": {
@@ -228,16 +231,19 @@
     "L3": "https://www.youtube.com/watch?v=fvBPDSIZ3sg",
     "L4": "https://www.youtube.com/watch?v=eFJSscg2TEk",
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
-    "B5": "",
-    "B6": ""
+    "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
+    "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
+    "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
+    "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4",
+    "A6": ""
   },
 
   "standings": {
     "A": [
       {"name":"Mexico",       "p":2,"w":2,"d":0,"l":0,"gf":3,"ga":0,"pts":6},
-      {"name":"South Korea",  "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
+      {"name":"South Korea",  "p":3,"w":2,"d":0,"l":1,"gf":3,"ga":2,"pts":6},
       {"name":"Czechia",      "p":2,"w":0,"d":1,"l":1,"gf":2,"ga":3,"pts":1},
-      {"name":"South Africa", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":3,"pts":1}
+      {"name":"South Africa", "p":3,"w":0,"d":1,"l":2,"gf":1,"ga":4,"pts":1}
     ],
     "B": [
       {"name":"Switzerland",          "p":3,"w":2,"d":1,"l":0,"gf":7,"ga":3,"pts":7},
@@ -246,10 +252,10 @@
       {"name":"Qatar",                "p":3,"w":0,"d":1,"l":2,"gf":2,"ga":10,"pts":1}
     ],
     "C": [
-      {"name":"Brazil",   "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":1,"pts":4},
-      {"name":"Morocco",  "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
-      {"name":"Scotland", "p":2,"w":1,"d":0,"l":1,"gf":1,"ga":1,"pts":3},
-      {"name":"Haiti",    "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":4,"pts":0}
+      {"name":"Brazil",   "p":3,"w":2,"d":1,"l":0,"gf":7,"ga":1,"pts":7},
+      {"name":"Morocco",  "p":3,"w":2,"d":1,"l":0,"gf":6,"ga":3,"pts":7},
+      {"name":"Scotland", "p":3,"w":1,"d":0,"l":2,"gf":1,"ga":4,"pts":3},
+      {"name":"Haiti",    "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":8,"pts":0}
     ],
     "D": [
       {"name":"USA",       "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
@@ -308,6 +314,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Wed 24 Jun",
+      "headline": "18-year-old Alajbegovic scores 'Goal of the Tournament' for Bosnia — youngest-ever scorer for his country at a World Cup",
+      "summary": "Kerim Alajbegovic, 18, became Bosnia & Herzegovina's youngest ever World Cup scorer when he struck a ferocious 20-yard effort past Qatar's goalkeeper in their final group game. The goal — which powered Bosnia to a win that boosted their knockout hopes — was immediately hailed as the Goal of the Tournament by fans and pundits across social media.",
+      "url": "https://www.france24.com/en/sport/20260624-world-cup-2026-bosnia-boost-knockout-hopes-after-dominant-win-over-qatar"
+    },
+    {
+      "date": "Sun 22 Jun",
+      "headline": "French TV presenter suspended after calling Doku leaving Belgium camp to attend his baby's birth 'disgusting'",
+      "summary": "Jeremy Doku left the Belgian squad ahead of their match against Iran to be present for the birth of his first son, Praise. France Pierron, a presenter on L'Equipe TV, described Doku's decision as 'disgusting', saying there are 'hundreds of footballers who would kill to be in your place.' Following immediate backlash, Pierron apologised and was suspended from the channel. Belgian teammates publicly defended Doku's decision.",
+      "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/tv-presenter-suspended-over-comments-on-jeremy-doku-451757-20260622"
+    },
     {
       "date": "Wed 24 Jun",
       "headline": "DR Congo superfan Michel Mboladinga stood completely still for 90 minutes as a Patrice Lumumba statue — after missing their opener due to Ebola quarantine",
