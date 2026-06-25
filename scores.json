@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "25 Jun 2026 · Groups A, B, C complete (Group E MD3 tonight)",
+    "last_updated": "25 Jun 2026 · Groups A–C complete · highlights & stats updated",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -234,8 +234,8 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=1HoU0dDvW2c",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
   },
@@ -324,6 +324,12 @@
     },
     {
       "date": "Wed 24 Jun",
+      "headline": "Neymar comes off the bench against Scotland — his first World Cup minutes since a ruptured ACL in October 2023",
+      "summary": "Neymar missed both of Brazil's first two matches (vs Morocco and Haiti) with a lingering injury, and many feared his World Cup was already over. But with Brazil 3-0 up against Scotland in Miami, Carlo Ancelotti sent on the 34-year-old in the 76th minute to a thunderous ovation from Selecão fans. His last international appearance had been October 2023, when he was stretchered off against Uruguay with a ruptured ACL and meniscus — nearly three years of rehabilitation. He didn't score; Vinícius Júnior had already bagged a brace and Matheus Cunha the third. Several Brazil fans were openly in tears in the stands. Brazilian social media called it 'the best substitute appearance of all time'.",
+      "url": "https://www.espn.com/soccer/story/_/id/49168785/neymar-comes-brazil-bench-first-26-world-cup-minutes"
+    },
+    {
+      "date": "Wed 24 Jun",
       "headline": "Bosnia's 18-year-old Alajbegović scores the early contender for Goal of the Tournament — then eliminates Qatar",
       "summary": "Kerim Alajbegović — 18 years old, playing in his first World Cup — opened the scoring against Qatar with a long-range curler that the highlight team titled 'Goal of the Tournament'. He ran the length of the pitch, received the ball, and bent it into the top corner from 25 yards. Bosnia won 3-1 to eliminate Qatar and keep their own knockout hopes alive. 'He has no fear,' said coach Sergej Barbarez. 'He plays like he's been in five World Cups already.'",
       "url": "https://www.espn.com/soccer/report/_/gameId/760462"
@@ -351,6 +357,12 @@
       "headline": "Germany lose Nico Schlotterbeck for the rest of the World Cup — he's choosing to stay with the squad anyway",
       "summary": "Nico Schlotterbeck went down in the first half of Germany's 2-1 win over Ivory Coast but played on through half-time before being replaced by Antonio Rüdiger. An MRI confirmed a torn medial ligament in his left ankle — minimum two months out, ruling him out of the entire knockout stage. It was described as a 'devastating blow' by the German FA. What caught the world's attention was what came next: Schlotterbeck announced he would remain with the squad at their North Carolina base to support his teammates rather than fly home. The DFB confirmed no replacement would be called up. Several Germany players posted tributes. Joshua Kimmich, who'd already warned the squad about venomous snakes, called Schlotterbeck's decision 'the most German thing I've ever seen'.",
       "url": "https://www.espn.com/soccer/story/_/id/49143768/germany-nico-schlotterbeck-miss-rest-world-cup-ankle-injury"
+    },
+    {
+      "date": "Sun 21 Jun",
+      "headline": "Doku leaves Belgium's World Cup camp for his son's birth — French TV presenter calls it 'disgusting' and has to publicly apologise",
+      "summary": "With Belgium preparing for their final group game, Manchester City winger Jérémy Doku flew to London on Sunday to be present for the birth of his son, Praise. He returned to camp two days later. The story might have ended there — except French presenter France Pierron appeared on television to describe childbirth as 'a disgusting moment, if you'll excuse the expression, where the dad is completely useless.' She was immediately excoriated online, trending across every European social media platform, and issued a public apology by Tuesday. Doku's Belgium teammates welcomed him back with a guard of honour. The Belgian federation publicly backed his decision throughout.",
+      "url": "https://sports.yahoo.com/soccer/article/belgiums-jeremy-doku-welcomes-first-child-after-exiting-camp-during-world-cup-205856900.html"
     },
     {
       "date": "Tue 23 Jun",
@@ -387,6 +399,12 @@
       "headline": "Messi scores twice against Austria to become the men's World Cup's all-time leading goalscorer with 18 — and he's still only playing in the group stage",
       "summary": "In Argentina's 2-0 win over Austria in Dallas, Lionel Messi — 38 years old, playing in his sixth World Cup — scored both goals to move to 18 career World Cup strikes, two clear of Miroslav Klose's previous record. His first goal levelled the record at 17; his second, with Messi in tears before full-time, broke it. He now has five goals in two games at this tournament alone. Several sitting heads of state posted tributes. His Argentina teammates formed a guard of honour at the whistle. The word 'GOAT', again, crashed the internet.",
       "url": "https://www.nbcnews.com/sports/soccer/lionel-messi-breaks-record-career-goals-scored-world-cup-rcna351168"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "headline": "A drone over Bangladesh showed hundreds of thousands celebrating as Messi broke the World Cup scoring record",
+      "summary": "When Lionel Messi scored his 17th World Cup goal against Austria to equal Miroslav Klose's record, and then his 18th to surpass it, drone footage from Dhaka and other Bangladeshi cities showed vast seas of people who had gathered for public viewings — celebrating as one. The images immediately became the most-shared visuals of the match: Bangladeshis, with no national team in the tournament, celebrating an Argentine's goals as if they were their own. Bangladesh has millions of fervent Messi devotees dating back to previous World Cups. FOX Sports described the drone footage as 'the most extraordinary crowd footage of any sporting event this year'.",
+      "url": "https://onefootball.com/en/news/albiceleste-fever-video-of-bangladeshs-wild-turnout-for-messi-bow-43023566"
     },
     {
       "date": "Sun 21 Jun",
@@ -435,6 +453,12 @@
       "headline": "While Messi scored a hat-trick, 41-year-old Ronaldo became the oldest outfield player ever to start a World Cup match",
       "summary": "On the same evening, Cristiano Ronaldo became the oldest outfield player to ever start a World Cup game, aged 41, as Portugal drew 1-1 with DR Congo. He didn't score. Messi scored three. The 'GOAT debate' ran so hot on social media that 'Ronaldo' was trending alongside 'Klose record', 'Messi GOAT', and — inevitably — 'retirement'.",
       "url": "https://www.outlookindia.com/sports/football/portugal-vs-dr-congo-fifa-world-cup-2026-cristiano-ronaldo-goalless-appearance"
+    },
+    {
+      "date": "Wed 17 Jun",
+      "headline": "Jordan played their first ever World Cup game — the PM shifted the working day and thousands filled a 2,000-year-old Roman Theatre to watch",
+      "summary": "On the eve of Jordan's debut match against Austria, Prime Minister Jafar Hassan issued a government decree shifting the start of the working day from 8:30 a.m. to 10 a.m. so citizens could watch the early-morning kick-off. Thousands chose to do so at Amman's ancient Roman Theatre, a 2nd-century amphitheatre dating to when Amman was the Roman city of Philadelphia — and built to hold 6,000. The PM attended in person. Jordan lost 3-1 to Austria, but images of the packed, flood-lit theatre against the Amman night sky circled the world. Brut called it 'the most beautiful backdrop for a World Cup watch party that has ever existed'. A second Jordan match later saw the venue so packed it sparked a brief crowd crush.",
+      "url": "https://en.royanews.tv/news/70927/Brut-America-hails-Jordanian-fans-at-Amman%E2%80%99s-Roman-Theatre-during-World-Cup-debut"
     },
     {
       "date": "Tue 16 Jun",
@@ -495,6 +519,12 @@
       "headline": "NFL quarterback Jameis Winston helped Japan fans clean the stadium — then the internet argued about whether he meant it",
       "summary": "After Japan's dramatic 2-2 draw with the Netherlands in Dallas, FOX Sports correspondent Jameis Winston joined Japanese fans in their famous post-match rubbish collection, carrying a blue bin bag around the stands. FOX broadcast it live. Within hours, critics were saying it was a PR stunt for the cameras. His former teammate Alvin Kamara then posted: 'He really is just a genuinely good dude in real life… cameras or not.' Mahomes agreed. The debate got nearly as much attention as the match itself.",
       "url": "https://sports.yahoo.com/articles/nfl-star-weighs-jameis-winston-202607104.html"
+    },
+    {
+      "date": "Sun 14 Jun",
+      "headline": "Ecuador fans draped a jersey on the Rocky statue before their opener — immediately lost in the 90th minute — and are now bringing fish soup to apologise",
+      "summary": "Ahead of Ecuador's opener against Ivory Coast at Lincoln Financial Field in Philadelphia, fans placed their team's jersey on the iconic Rocky Balboa statue at the Philadelphia Museum of Art — triggering the 'Rocky curse': no team that has dressed the statue in a rival kit has won since 2015. Ecuador duly lost to a 90th-minute Ivory Coast goal, having hit the post three times. By the next morning, videos of Ecuadorians bringing beer and bowls of encebollado (a traditional hangover-curing fish soup) to Rocky as an offering had gone viral. One fan allegedly travelled 3,000 miles from Ecuador specifically to deliver a handmade jersey and apologise in person. The Pennsylvania Tourism Office issued an official advisory: 'Philadelphia can't wait to host you! (but Rocky does not need your kit.)'",
+      "url": "https://www.cbsnews.com/philadelphia/news/ecuador-rocky-statue-curse/"
     },
     {
       "date": "Sat 13 Jun",
@@ -564,11 +594,13 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",   "team": "Argentina", "value": 5},
-        {"name": "Kylian Mbappé",  "team": "France",    "value": 4},
-        {"name": "Erling Haaland", "team": "Norway",    "value": 4},
-        {"name": "Jonathan David", "team": "Canada",    "value": 3},
-        {"name": "Deniz Undav",    "team": "Germany",   "value": 3}
+        {"name": "Lionel Messi",       "team": "Argentina", "value": 5},
+        {"name": "Kylian Mbappé",      "team": "France",    "value": 4},
+        {"name": "Erling Haaland",     "team": "Norway",    "value": 4},
+        {"name": "Vinícius Júnior",    "team": "Brazil",    "value": 4},
+        {"name": "Jonathan David",     "team": "Canada",    "value": 3},
+        {"name": "Deniz Undav",        "team": "Germany",   "value": 3},
+        {"name": "Matheus Cunha",      "team": "Brazil",    "value": 3}
       ]
     },
     {
