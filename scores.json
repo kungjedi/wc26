@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "25 Jun 2026 · Groups A, B, C complete; Matchday 3 continuing",
+    "last_updated": "25 Jun 2026 · Groups A, B, C complete; E/F/D play tonight",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -372,6 +372,12 @@
     },
     {
       "date": "Mon 22 Jun",
+      "headline": "Jérémy Doku left Belgium's World Cup camp to be at his son's birth — a French TV host said 'the dad is useless' and the internet erupted",
+      "summary": "Belgium winger Jérémy Doku requested permission to fly to London for the birth of his first child, missing the Belgium vs Iran 0-0 draw on the Sunday. He was back with the squad the following evening. The story might have ended there — except a French TV presenter, France Pierron, weighed in on L'Equipe de Choc: 'Childbirth is a disgusting moment, excuse me, where the dad is useless.' The backlash was instant and thunderous. Pierron issued a public apology within 24 hours. Belgium captain Youri Tielemans said 'we think he did the perfect thing.' The baby — a boy named Praise — was born on June 22. Doku returned in time for Belgium's final group game against New Zealand.",
+      "url": "https://www.aljazeera.com/sports/2026/6/22/belgiums-doku-welcomes-son-during-world-cup-amid-commentator-controversy"
+    },
+    {
+      "date": "Mon 22 Jun",
       "headline": "France vs Iraq was suspended for 28 minutes by a lightning storm — Mbappé had just scored to make it 1-0",
       "summary": "Kylian Mbappé had barely finished celebrating his opening goal at Lincoln Financial Field in Philadelphia when storm clouds rolled in, lightning struck near the stadium, and officials pulled the players off. The 28-minute delay saw fans sheltering under every overhang in the building and the BBC commentator wondering aloud if the match would be completed. It was: France returned to the pitch and scored twice more to win 3-0, Mbappé adding his second. Iraq, who arrived knowing they were already eliminated, at least got the most theatrical exit in the tournament.",
       "url": "https://www.youtube.com/watch?v=MV3-lGTuUg8"
@@ -568,7 +574,8 @@
         {"name": "Vinícius Júnior",    "team": "Brazil",    "value": 4},
         {"name": "Kylian Mbappé",      "team": "France",    "value": 4},
         {"name": "Erling Haaland",     "team": "Norway",    "value": 4},
-        {"name": "Jonathan David",     "team": "Canada",    "value": 3}
+        {"name": "Jonathan David",     "team": "Canada",    "value": 3},
+        {"name": "Deniz Undav",         "team": "Germany",   "value": 3}
       ]
     },
     {
