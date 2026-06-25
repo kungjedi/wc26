@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "25 Jun 2026 · Groups A, B, C complete (Group E MD3 tonight)",
+    "last_updated": "25 Jun 2026 · Groups A–C complete; Group E MD3 underway tonight",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -234,8 +234,8 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=1HoU0dDvW2c",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
   },
@@ -318,9 +318,21 @@
   "funnies": [
     {
       "date": "Thu 25 Jun",
+      "headline": "Guillermo Ochoa, 40, comes on as a sub at 2 AM to make his 6th World Cup appearance — his teammates threw him into the air at full-time",
+      "summary": "With Mexico already 3-0 up against Czechia at Estadio Azteca, manager Jaime Lozano sent on Guillermo Ochoa in the 78th minute — giving the 40-year-old goalkeeper his sixth World Cup appearance, equalling the all-time record shared by Messi and Ronaldo. Ochoa, who has saved penalties in five previous tournaments and is Mexico's most-capped goalkeeper, wore the FIFA Legacy Patch on his shirt and was greeted by a thunderous roar. He announced after the match that this would be his final World Cup. His teammates threw him into the air at the final whistle as Mexico sealed a perfect group stage — three wins, three clean sheets, nine goals scored.",
+      "url": "https://www.espn.com/soccer/story/_/id/49171513/guillermo-ochoa-cameo-seals-perfect-mexico-group-stage"
+    },
+    {
+      "date": "Thu 25 Jun",
       "headline": "South Africa reach World Cup knockouts for the FIRST TIME EVER — coach Broos collapsed to the turf at full-time",
       "summary": "Thapelo Maseko's 63rd-minute counter-attack goal against South Korea sent the Bafana Bafana to a World Cup Round of 32 for the very first time — a feat they never achieved even when hosting in 2010. Coach Hugo Broos, 72, sank to his knees and then to the ground at the final whistle as his substitutes piled on top of him. South Africa had been widely written off after losing 2-0 to Mexico on day one; they rallied with a draw vs Czechia, then won the match that mattered most. They face Canada in Los Angeles in the R32.",
       "url": "https://www.aljazeera.com/sports/2026/6/25/south-africa-stun-south-korea-to-reach-world-cup-knockouts-for-the-first-time"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "headline": "Neymar returns from the dead — walks onto the pitch in Miami for his first international appearance in 31 months",
+      "summary": "Neymar came on as a substitute in the 76th minute of Brazil's 3-0 win over Scotland in Miami, making his first appearance for the Seleção since October 2023, when he ruptured his ACL and meniscus in a qualifier against Uruguay. He missed the entirety of that recovery, the 2024 Copa América, and the first two games of this World Cup with a calf strain. The crowd at Hard Rock Stadium roared when his number was held up. He finished with 24 touches, three chances created, and a shot on target. Vinícius Júnior — who scored twice, taking his tournament tally to four goals — said: 'It's the best news of the night.' At 34, this is almost certainly Neymar's last World Cup. It's his fourth overall. Thousands of Brazilian fans in the stands wept.",
+      "url": "https://www.nbcmiami.com/world-cup/neymar-returns-brazil-scotland/3825522/"
     },
     {
       "date": "Wed 24 Jun",
@@ -564,11 +576,12 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",   "team": "Argentina", "value": 5},
-        {"name": "Kylian Mbappé",  "team": "France",    "value": 4},
-        {"name": "Erling Haaland", "team": "Norway",    "value": 4},
-        {"name": "Jonathan David", "team": "Canada",    "value": 3},
-        {"name": "Deniz Undav",    "team": "Germany",   "value": 3}
+        {"name": "Lionel Messi",       "team": "Argentina", "value": 5},
+        {"name": "Kylian Mbappé",      "team": "France",    "value": 4},
+        {"name": "Erling Haaland",     "team": "Norway",    "value": 4},
+        {"name": "Vinícius Júnior",    "team": "Brazil",    "value": 4},
+        {"name": "Jonathan David",     "team": "Canada",    "value": 3},
+        {"name": "Deniz Undav",        "team": "Germany",   "value": 3}
       ]
     },
     {
