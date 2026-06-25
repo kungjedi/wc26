@@ -234,8 +234,8 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=IR891e2-JBc",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
   },
@@ -384,6 +384,12 @@
     },
     {
       "date": "Mon 22 Jun",
+      "headline": "Jérémy Doku left Belgium's World Cup camp to see his son born — a French TV host called it 'disgusting', then had to apologise on air",
+      "summary": "Belgium winger Jérémy Doku had told anyone who'd listen that he would leave the squad if his wife went into labour during the World Cup. She did. Doku flew to London, held his newborn son Praise, and rejoined the squad in Seattle within 48 hours. The furore started when France Pierron, a presenter on L'Équipe de Choc, described childbirth as 'a disgusting moment, excuse me, where the dad is useless' and said 'You are not going to cut an umbilical cord; you can't miss a World Cup.' The backlash was immediate and worldwide. Pierron issued a public apology; L'Équipe distanced itself from her remarks. Meanwhile, Norway centre-back Leo Østigård watched his partner go through labour via FaceTime from his World Cup hotel room. 'I had to choose between being there and being here,' he said. 'Leo made a different choice. Leo also never explained it on television,' a teammate noted.",
+      "url": "https://www.cbsnews.com/news/france-pierron-jeremy-doku-soccer-world-cup-baby-birth/"
+    },
+    {
+      "date": "Mon 22 Jun",
       "headline": "Messi scores twice against Austria to become the men's World Cup's all-time leading goalscorer with 18 — and he's still only playing in the group stage",
       "summary": "In Argentina's 2-0 win over Austria in Dallas, Lionel Messi — 38 years old, playing in his sixth World Cup — scored both goals to move to 18 career World Cup strikes, two clear of Miroslav Klose's previous record. His first goal levelled the record at 17; his second, with Messi in tears before full-time, broke it. He now has five goals in two games at this tournament alone. Several sitting heads of state posted tributes. His Argentina teammates formed a guard of honour at the whistle. The word 'GOAT', again, crashed the internet.",
       "url": "https://www.nbcnews.com/sports/soccer/lionel-messi-breaks-record-career-goals-scored-world-cup-rcna351168"
@@ -417,6 +423,12 @@
       "headline": "Canada beat Qatar 6-0 in their first ever World Cup win — 40 years after their only previous appearance",
       "summary": "Canada had never won a World Cup match in their history — not in 1986, not in 2022. On Thursday they beat Qatar 6-0, with Jonathan David bagging a hat-trick. Canadian fans sang O Canada for what felt like an hour. One viral tweet: 'Canada waited 40 years for their first World Cup win and immediately went absolutely feral.' The players were seen doing the griddy on the pitch.",
       "url": "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-june-18-live-updates-rcna350678"
+    },
+    {
+      "date": "Wed 17 Jun",
+      "headline": "Jordan's Prime Minister officially decreed the working day would start at 10am — so the whole country could watch their first-ever World Cup match",
+      "summary": "Jordan qualified for the 2026 World Cup for the first time in the country's history. On the eve of their Group J opener against Austria (which kicked off at 5:00 AM BST, meaning the small hours of the morning back home), Prime Minister Jafar Hassan issued an official government decree shifting the working day start time from 8:30 AM to 10 AM for all three of Jordan's group stage games. The Labour Minister urged the private sector to follow suit. Thousands of fans watched together in public squares and cafes across Amman. Jordan lost 3-1 to Austria, drew with Algeria 2-1 in reverse (Algeria came back), and finished bottom of Group J — but the Prime Minister's overnight decree became one of the tournament's most memorable off-pitch moments.",
+      "url": "https://english.aawsat.com/sports/5279021-jordan-let-fans-start-work-late-world-cup-debut"
     },
     {
       "date": "Wed 17 Jun",
@@ -565,10 +577,11 @@
       "unit": "goals",
       "entries": [
         {"name": "Lionel Messi",   "team": "Argentina", "value": 5},
-        {"name": "Kylian Mbappé",  "team": "France",    "value": 4},
-        {"name": "Erling Haaland", "team": "Norway",    "value": 4},
-        {"name": "Jonathan David", "team": "Canada",    "value": 3},
-        {"name": "Deniz Undav",    "team": "Germany",   "value": 3}
+        {"name": "Kylian Mbappé",   "team": "France",    "value": 4},
+        {"name": "Erling Haaland",  "team": "Norway",    "value": 4},
+        {"name": "Vinícius Júnior", "team": "Brazil",    "value": 4},
+        {"name": "Jonathan David",  "team": "Canada",    "value": 3},
+        {"name": "Deniz Undav",     "team": "Germany",   "value": 3}
       ]
     },
     {
