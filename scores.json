@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "25 Jun 2026 · Groups A, B, C complete (Group E MD3 tonight)",
+    "last_updated": "25 Jun 2026 · Groups A, B, C complete; E5/E6 kick off 9 PM BST tonight",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -234,8 +234,8 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=1HoU0dDvW2c",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
   },
@@ -316,6 +316,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Thu 25 Jun",
+      "headline": "Memo Ochoa, 40, comes on as a substitute to become the first goalkeeper ever to play in six World Cups",
+      "summary": "With Mexico 3-0 up against Czechia and the group already won, coach Javier Aguirre brought on veteran goalkeeper Guillermo 'Memo' Ochoa in the 78th minute to a deafening roar. The 40-year-old became the first goalkeeper in history to appear at six World Cups, joining Cristiano Ronaldo and Lionel Messi as the only men's players to have achieved the feat. He also became the oldest Mexican ever to play at a World Cup. Aguirre said: 'It was Memo Ochoa's night. He is Mexican, six World Cups, and I think people are happy tonight.' They were.",
+      "url": "https://www.espn.com/soccer/story/_/id/49171513/guillermo-ochoa-cameo-seals-perfect-mexico-group-stage"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "headline": "Messi turns 39 at the World Cup — his teammates gave him shirts with photos of themselves with him reading 'the best part was living it with you'",
+      "summary": "Lionel Messi celebrated his 39th birthday on June 24 at Argentina's World Cup base in Kansas City — his fifth birthday during a World Cup. His teammates surprised him with personalised T-shirts featuring a photo of each player alongside Messi and individual messages reading: 'To the man who changed our lives, gave us unforgettable moments, and made us believe that dreams are possible... The best part wasn't just seeing it — it was living it with you! Happy birthday, Captain; we love you.' The cake was from Pan Caliente, a local bakery owned by an Argentine pastry chef. Messi had already scored 18 World Cup goals at the time, surpassing every record in tournament history.",
+      "url": "https://www.washingtonpost.com/sports/soccer/2026/06/24/lionel-messi-birthday-argentina-world-cup/a88b6c6a-701e-11f1-8730-e7fd0e2a6404_story.html"
+    },
     {
       "date": "Thu 25 Jun",
       "headline": "South Africa reach World Cup knockouts for the FIRST TIME EVER — coach Broos collapsed to the turf at full-time",
