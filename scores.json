@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "24 Jun 2026 · Matchday 3 under way (Group B complete)",
+    "last_updated": "25 Jun 2026 · Groups A, B, C complete (Group E MD3 tonight)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -176,7 +176,11 @@
     "L4": [0, 1],
     "K4": [1, 0],
     "B5": [2, 1],
-    "B6": [3, 1]
+    "B6": [3, 1],
+    "A5": [0, 3],
+    "A6": [1, 0],
+    "C5": [0, 3],
+    "C6": [4, 2]
   },
 
   "highlight_links": {
@@ -228,16 +232,20 @@
     "L3": "https://www.youtube.com/watch?v=fvBPDSIZ3sg",
     "L4": "https://www.youtube.com/watch?v=eFJSscg2TEk",
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
-    "B5": "",
-    "B6": ""
+    "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
+    "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
+    "A5": "",
+    "A6": "",
+    "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
+    "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
   },
 
   "standings": {
     "A": [
-      {"name":"Mexico",       "p":2,"w":2,"d":0,"l":0,"gf":3,"ga":0,"pts":6},
-      {"name":"South Korea",  "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
-      {"name":"Czechia",      "p":2,"w":0,"d":1,"l":1,"gf":2,"ga":3,"pts":1},
-      {"name":"South Africa", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":3,"pts":1}
+      {"name":"Mexico",       "p":3,"w":3,"d":0,"l":0,"gf":6,"ga":0,"pts":9},
+      {"name":"South Africa", "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":3,"pts":4},
+      {"name":"South Korea",  "p":3,"w":1,"d":0,"l":2,"gf":2,"ga":3,"pts":3},
+      {"name":"Czechia",      "p":3,"w":0,"d":1,"l":2,"gf":2,"ga":6,"pts":1}
     ],
     "B": [
       {"name":"Switzerland",          "p":3,"w":2,"d":1,"l":0,"gf":7,"ga":3,"pts":7},
@@ -246,10 +254,10 @@
       {"name":"Qatar",                "p":3,"w":0,"d":1,"l":2,"gf":2,"ga":10,"pts":1}
     ],
     "C": [
-      {"name":"Brazil",   "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":1,"pts":4},
-      {"name":"Morocco",  "p":2,"w":1,"d":1,"l":0,"gf":2,"ga":1,"pts":4},
-      {"name":"Scotland", "p":2,"w":1,"d":0,"l":1,"gf":1,"ga":1,"pts":3},
-      {"name":"Haiti",    "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":4,"pts":0}
+      {"name":"Brazil",   "p":3,"w":2,"d":1,"l":0,"gf":7,"ga":1,"pts":7},
+      {"name":"Morocco",  "p":3,"w":2,"d":1,"l":0,"gf":6,"ga":3,"pts":7},
+      {"name":"Scotland", "p":3,"w":1,"d":0,"l":2,"gf":1,"ga":4,"pts":3},
+      {"name":"Haiti",    "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":8,"pts":0}
     ],
     "D": [
       {"name":"USA",       "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
@@ -308,6 +316,24 @@
   },
 
   "funnies": [
+    {
+      "date": "Thu 25 Jun",
+      "headline": "South Africa reach World Cup knockouts for the FIRST TIME EVER — coach Broos collapsed to the turf at full-time",
+      "summary": "Thapelo Maseko's 63rd-minute counter-attack goal against South Korea sent the Bafana Bafana to a World Cup Round of 32 for the very first time — a feat they never achieved even when hosting in 2010. Coach Hugo Broos, 72, sank to his knees and then to the ground at the final whistle as his substitutes piled on top of him. South Africa had been widely written off after losing 2-0 to Mexico on day one; they rallied with a draw vs Czechia, then won the match that mattered most. They face Canada in Los Angeles in the R32.",
+      "url": "https://www.aljazeera.com/sports/2026/6/25/south-africa-stun-south-korea-to-reach-world-cup-knockouts-for-the-first-time"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "headline": "Bosnia's 18-year-old Alajbegović scores the early contender for Goal of the Tournament — then eliminates Qatar",
+      "summary": "Kerim Alajbegović — 18 years old, playing in his first World Cup — opened the scoring against Qatar with a long-range curler that the highlight team titled 'Goal of the Tournament'. He ran the length of the pitch, received the ball, and bent it into the top corner from 25 yards. Bosnia won 3-1 to eliminate Qatar and keep their own knockout hopes alive. 'He has no fear,' said coach Sergej Barbarez. 'He plays like he's been in five World Cups already.'",
+      "url": "https://www.espn.com/soccer/report/_/gameId/760462"
+    },
+    {
+      "date": "Wed 24 Jun",
+      "headline": "Alisson makes two stunning late saves to deny Scotland — but Vinicius Jr and Selecão top Group C in style",
+      "summary": "Vinicius Júnior scored twice (7', 45+2') and Matheus Cunha added a third (60') as Brazil strolled past Scotland 3-0. But Scotland pushed hard in the final 20 minutes, forcing Alisson Becker into superb saves to deny Scott McTominay and Lewis Ferguson from close range. Scotland end with 3 points in third place and must wait to learn if they're among the eight best third-placed teams to make the knockouts — their -3 goal difference makes it uncertain.",
+      "url": "https://www.youtube.com/watch?v=UW8VXg2qULw"
+    },
     {
       "date": "Wed 24 Jun",
       "headline": "DR Congo superfan Michel Mboladinga stood completely still for 90 minutes as a Patrice Lumumba statue — after missing their opener due to Ebola quarantine",
