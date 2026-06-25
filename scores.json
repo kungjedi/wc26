@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "25 Jun 2026 · Groups A, B, C complete (Group E MD3 tonight)",
+    "last_updated": "25 Jun 2026 · Groups A, B, C complete · Groups D, E, F MD3 tonight",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -234,8 +234,8 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=1HoU0dDvW2c",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
   },
@@ -324,6 +324,12 @@
     },
     {
       "date": "Wed 24 Jun",
+      "headline": "Neymar breaks down in tears on the pitch after first Brazil cap in 981 days — then creates three chances in 14 minutes as a substitute",
+      "summary": "Neymar Jr, 34, hadn't represented Brazil since October 2023, when he was stretchered off against Uruguay with a ruptured ACL and meniscus. After missing Brazil's first two World Cup matches with a calf injury, he came off the bench in the 76th minute of the 3-0 win over Scotland at Hard Rock Stadium in Miami, receiving a standing ovation as he entered. He immediately teared up on the pitch. In 14 minutes he completed 92% of his passes, created three chances, had one shot on target, and took 24 touches. He told TV Globo afterwards: 'My heart was racing, very nervous... but happy! Proud, everything went well.' It was his fourth World Cup, and his first match since suffering one of the most publicised injuries in football history.",
+      "url": "https://www.goal.com/en/lists/neymar-981-day-brazil-star-forward-scotland/blta8b13308f9c26da6"
+    },
+    {
+      "date": "Wed 24 Jun",
       "headline": "Bosnia's 18-year-old Alajbegović scores the early contender for Goal of the Tournament — then eliminates Qatar",
       "summary": "Kerim Alajbegović — 18 years old, playing in his first World Cup — opened the scoring against Qatar with a long-range curler that the highlight team titled 'Goal of the Tournament'. He ran the length of the pitch, received the ball, and bent it into the top corner from 25 yards. Bosnia won 3-1 to eliminate Qatar and keep their own knockout hopes alive. 'He has no fear,' said coach Sergej Barbarez. 'He plays like he's been in five World Cups already.'",
       "url": "https://www.espn.com/soccer/report/_/gameId/760462"
@@ -405,6 +411,12 @@
       "headline": "Paraguay's Almirón becomes first player ever red-carded at a World Cup for covering his mouth",
       "summary": "Almirón had just helped Paraguay go 1-0 up against Türkiye when he was spotted covering his mouth while apparently exchanging words with a Turkish defender. VAR intervened. Straight red. Almirón broke down in tears on the touchline. Why? FIFA's new 'Prestianni Law' makes it an instant dismissal to deliberately hide your lips during an altercation — a rule introduced after a Chilean player used the trick to racially abuse Vinícius Júnior in the Champions League. Paraguay held on to win with ten men. The rule is now more famous than the match.",
       "url": "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup"
+    },
+    {
+      "date": "Sat 20 Jun",
+      "headline": "DHS posts 'Built the Wall' World Cup meme featuring players who only exist as Americans thanks to birthright citizenship — then quietly deletes it",
+      "summary": "After USA's advancement from Group D, the Department of Homeland Security posted a photo of USMNT players celebrating a goal, with the US–Mexico border wall digitally inserted behind the net, captioned 'Built the Wall' — alongside a separate 'Our Soil / One Nation / One Team' image. Both featured Folarin Balogun (born in England, eligible for the USA only via birthright citizenship — the very right the Trump administration is trying to abolish), Sergiño Dest (born in the Netherlands), and Chris Richards. Roughly a quarter of the squad was born outside the United States. California Representative Ted Lieu publicly noted the contradiction. DHS deleted the 'Built the Wall' post after widespread mockery. The 'Our Soil' image stayed up.",
+      "url": "https://www.newsweek.com/dhs-posts-then-deletes-built-the-wall-world-cup-meme-12103873"
     },
     {
       "date": "Thu 19 Jun",
@@ -564,7 +576,8 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",   "team": "Argentina", "value": 5},
+        {"name": "Lionel Messi",    "team": "Argentina", "value": 5},
+        {"name": "Vinícius Júnior","team": "Brazil",    "value": 4},
         {"name": "Kylian Mbappé",  "team": "France",    "value": 4},
         {"name": "Erling Haaland", "team": "Norway",    "value": 4},
         {"name": "Jonathan David", "team": "Canada",    "value": 3},
