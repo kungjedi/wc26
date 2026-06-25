@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "25 Jun 2026 · Groups A, B, C complete (Group E MD3 tonight)",
+    "last_updated": "25 Jun 2026 · Groups A–C complete; R32 bracket updated; E MD3 tonight",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -92,13 +92,13 @@
     {"id":"K6","date":"Sun 28 Jun","bst":"12:30 AM","home":"DR Congo","away":"Uzbekistan","group":"K","channel":"BBC Two","city":"Atlanta","stage":"GS"},
     {"id":"J5","date":"Sun 28 Jun","bst":"3:00 AM","home":"Jordan","away":"Argentina","group":"J","channel":"BBC One","city":"Dallas","stage":"GS"},
     {"id":"J6","date":"Sun 28 Jun","bst":"3:00 AM","home":"Algeria","away":"Austria","group":"J","channel":"BBC Two","city":"Kansas City","stage":"GS"},
-    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"South Korea*","away":"Switzerland*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
-    {"id":"R32-2","date":"Mon 29 Jun","bst":"6:00 PM","home":"Brazil*","away":"Japan*","group":"R32","channel":"TBC","city":"Houston","stage":"R32"},
-    {"id":"R32-3","date":"Mon 29 Jun","bst":"9:30 PM","home":"Germany*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Boston","stage":"R32"},
-    {"id":"R32-4","date":"Tue 30 Jun","bst":"2:00 AM","home":"Netherlands*","away":"Morocco*","group":"R32","channel":"TBC","city":"Monterrey","stage":"R32"},
+    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"South Africa","away":"Canada","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
+    {"id":"R32-2","date":"Mon 29 Jun","bst":"6:00 PM","home":"Brazil","away":"Japan*","group":"R32","channel":"TBC","city":"Houston","stage":"R32"},
+    {"id":"R32-3","date":"Mon 29 Jun","bst":"9:30 PM","home":"Germany","away":"3rd Place*","group":"R32","channel":"TBC","city":"Boston","stage":"R32"},
+    {"id":"R32-4","date":"Tue 30 Jun","bst":"2:00 AM","home":"Netherlands*","away":"Morocco","group":"R32","channel":"TBC","city":"Monterrey","stage":"R32"},
     {"id":"R32-5","date":"Tue 30 Jun","bst":"6:00 PM","home":"Ivory Coast*","away":"Norway*","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
     {"id":"R32-6","date":"Tue 30 Jun","bst":"10:00 PM","home":"France*","away":"3rd Place*","group":"R32","channel":"TBC","city":"New York/NJ","stage":"R32"},
-    {"id":"R32-7","date":"Wed 1 Jul","bst":"2:00 AM","home":"Mexico*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Mexico City","stage":"R32"},
+    {"id":"R32-7","date":"Wed 1 Jul","bst":"2:00 AM","home":"Mexico","away":"3rd Place*","group":"R32","channel":"TBC","city":"Mexico City","stage":"R32"},
     {"id":"R32-8","date":"Wed 1 Jul","bst":"5:00 PM","home":"England*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Atlanta","stage":"R32"},
     {"id":"R32-9","date":"Wed 1 Jul","bst":"9:00 PM","home":"Egypt*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Seattle","stage":"R32"},
     {"id":"R32-10","date":"Thu 2 Jul","bst":"1:00 AM","home":"USA*","away":"3rd Place*","group":"R32","channel":"TBC","city":"San Francisco","stage":"R32"},
@@ -234,8 +234,8 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=1HoU0dDvW2c",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
   },
@@ -341,6 +341,12 @@
       "url": "https://www.espn.com/soccer/story/_/id/49160863/congo-statue-fan-lumumba-vea-makes-world-cup"
     },
     {
+      "date": "Wed 24 Jun",
+      "headline": "Neymar comes off the bench against Scotland — first Brazil appearance in almost three years after horror injury",
+      "summary": "Neymar Jr, 34, entered the pitch in the 76th minute of Brazil's 3-0 win over Scotland in Miami, making his first international appearance since October 2023 when he was stretchered off against Uruguay with a ruptured ACL and torn meniscus. He received a rousing reception at the Hard Rock Stadium, and Brazil supporters serenaded him with chants throughout the closing stages. It was Neymar's fourth World Cup — only the fourth Brazilian to appear in four or more tournaments. 'The return of a legend,' wrote Vinícius Júnior on Instagram. Neymar, who had missed Brazil's first two games against Morocco and Haiti, was smiling and embracing teammates at the final whistle as Brazil topped Group C.",
+      "url": "https://www.nbcmiami.com/world-cup/neymar-returns-brazil-scotland/3825522/"
+    },
+    {
       "date": "Tue 23 Jun",
       "headline": "8,000 Scotland fans took over a Miami Marlins game, Billy Gilmour threw out the first pitch, and bagpipers marched around the warning track",
       "summary": "With Scotland facing Brazil in Miami on Wednesday, the Tartan Army arrived two days early and needed something to do. Solution: buy 8,000 tickets to the Miami Marlins vs Texas Rangers game at loanDepot Park. Injured Scotland midfielder Billy Gilmour threw out the first pitch. Fans in full kilts danced in the aisles to 'Yes Sir, I Can Boogie'. Bagpipers led a march around the warning track. When a kid in an Argentina jersey was spotted, the entire section erupted in Maradona chants. The Marlins PA staff played traditional Scottish folk music between innings. The game sold out almost entirely in Tartan Army tartan. It's been called the most unexpected crossover event of the 2026 World Cup.",
@@ -369,6 +375,18 @@
       "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
       "summary": "Jordan had given their fans in Amman something to dream about when Moussa Al-Rashdan headed them in front on 36 minutes — a lead that stood deep into the second half. But Algeria, needing a win to progress, conjured a comeback for the ages. Riyad Mahrez swung in a corner and Benbouali glanced it home (69'); then, with eight minutes left, Amine Gouiri poked in the winner (82') — VAR checked it and confirmed. According to FIFA records, Algeria had never previously come from behind to win in all 10 World Cup matches where they conceded first. Jordan depart the tournament with their heads held high after a historic debut.",
       "url": "https://www.skysports.com/football/news/11095/13556814/world-cup-2026-jordan-1-2-algeria-debutants-knocked-out-of-tournament-after-algerian-turnaround"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Ghana coach Queiroz: 'VAR went for a coffee' — England escape red card and penalty in 0-0 draw",
+      "summary": "Ghana boss Carlos Queiroz did not hold back after England escaped what he called a 'clear penalty and red card' when defender Ezri Konsa bundled Prince Adu inside the area in the dying stages of their 0-0 draw in Boston. At the post-match press conference Queiroz said: 'I'm not sure VAR is still working in the World Cup. Another penalty they needed to give Ghana — a clear penalty against England. VAR went for a coffee. It's natural; I would like to also take my coffees once in a while.' He added: 'I'm sorry for my sarcasm, but if I say these things seriously they punish me.' Videos of the Konsa challenge spread instantly across social media. England escaped with a point.",
+      "url": "https://www.espn.com/soccer/story/_/id/49159828/ghana-england-2026-world-cup-penalty-carlos-queiroz"
+    },
+    {
+      "date": "Tue 23 Jun",
+      "headline": "Jordan's PM issues decree to shift the working day — thousands watch Algeria match at 6am from ancient Roman Theatre in Amman",
+      "summary": "Jordan's Prime Minister Jafar Hassan issued an official decree shifting public sector working hours from 8:30 a.m. to 10:00 a.m. on all three of Jordan's World Cup match days, to allow citizens to watch their historic first tournament. For the Algeria match on June 23 — which kicked off at 6 a.m. Amman time — thousands descended on the 2nd-century Roman Theatre in downtown Amman to watch on a giant screen, erupting when Nizar Al-Rashdan headed Jordan in front. 'The government aims to enable citizens to rally behind our national football team during its historic participation,' read the official decree. Jordan lost the match 2-1 and were eliminated — but the images of Jordanians cheering in a Roman amphitheatre at dawn became some of the tournament's most striking.",
+      "url": "https://gulfnews.com/sport/world-cup-2026-jordan-supports-world-cup-debut-with-delayed-office-hours-for-employees-1.500561894"
     },
     {
       "date": "Mon 22 Jun",
@@ -564,9 +582,10 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",   "team": "Argentina", "value": 5},
+        {"name": "Lionel Messi",    "team": "Argentina", "value": 5},
         {"name": "Kylian Mbappé",  "team": "France",    "value": 4},
         {"name": "Erling Haaland", "team": "Norway",    "value": 4},
+        {"name": "Vinícius Júnior","team": "Brazil",    "value": 4},
         {"name": "Jonathan David", "team": "Canada",    "value": 3},
         {"name": "Deniz Undav",    "team": "Germany",   "value": 3}
       ]
