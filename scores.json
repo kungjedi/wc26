@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "25 Jun 2026 · Groups A, B, C complete (Group E MD3 tonight)",
+    "last_updated": "25 Jun 2026 · Groups A, B, C, E complete (Matchday 3 ongoing)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -180,7 +180,9 @@
     "A5": [0, 3],
     "A6": [1, 0],
     "C5": [0, 3],
-    "C6": [4, 2]
+    "C6": [4, 2],
+    "E5": [2, 1],
+    "E6": [0, 2]
   },
 
   "highlight_links": {
@@ -234,10 +236,12 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=1HoU0dDvW2c",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
-    "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
+    "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4",
+    "E5": "",
+    "E6": ""
   },
 
   "standings": {
@@ -266,10 +270,10 @@
       {"name":"Türkiye",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":3,"pts":0}
     ],
     "E": [
-      {"name":"Germany",     "p":2,"w":2,"d":0,"l":0,"gf":9,"ga":2,"pts":6},
-      {"name":"Ivory Coast", "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
-      {"name":"Ecuador",     "p":2,"w":0,"d":1,"l":1,"gf":0,"ga":1,"pts":1},
-      {"name":"Curaçao",     "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":7,"pts":1}
+      {"name":"Germany",     "p":3,"w":2,"d":0,"l":1,"gf":10,"ga":4,"pts":6},
+      {"name":"Ivory Coast", "p":3,"w":2,"d":0,"l":1,"gf":4,"ga":2,"pts":6},
+      {"name":"Ecuador",     "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":2,"pts":4},
+      {"name":"Curaçao",     "p":3,"w":0,"d":1,"l":2,"gf":1,"ga":9,"pts":1}
     ],
     "F": [
       {"name":"Netherlands", "p":2,"w":1,"d":1,"l":0,"gf":7,"ga":3,"pts":4},
@@ -316,6 +320,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Thu 25 Jun",
+      "headline": "BBC Sport enlisted The Sidemen to co-host Ecuador vs Germany — and YouTube's biggest collective were genuinely into it",
+      "summary": "In a genuinely unexpected editorial decision, BBC Sport partnered with The Sidemen — the UK's biggest YouTube collective — to produce a live watchalong for Ecuador vs Germany. Tobi Brown, Simon Minter, Ethan Payne and Josh Bradley hosted from 8:45pm BST on BBC iPlayer, MoreSidemen and the BBC Football YouTube channel, providing their own commentary track through the game. Reaction on social media was broadly positive, with many younger viewers saying it was their first time actually watching a World Cup match live. Whether by design or coincidence, they picked the right game: Ecuador won 2–1 in the kind of dramatic upset that demands a live audience.",
+      "url": "https://sports.yahoo.com/articles/bbc-sidemen-host-world-cup-105809380.html"
+    },
+    {
+      "date": "Thu 25 Jun",
+      "headline": "Ecuador were FURIOUS after Germany's controversial VAR non-call — then went and won 2-1 anyway",
+      "summary": "Germany took a second-minute lead through Leroy Sané, but replays showed Aleksandar Pavlović had clipped Ecuadorian midfielder Pedro Vite's face with a high boot in the build-up. Ecuador's players protested furiously; VAR reviewed it and — to widespread disbelief in the New York/NJ stadium — the goal stood. Rather than crumbling, Ecuador responded with goals from Nilson Angulo (9') and Gonzalo Plata (77') to win 2-1 and keep their knockout stage hopes alive. Plata's winner came from a deflection at a corner after he'd missed earlier with the goal gaping — he lay on the turf, head in hands, before producing the moment that sent Ecuador through.",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/2026-world-cup-ecuador-left-furious-after-controversial-non-call-on-germanys-early-goal-211042774.html"
+    },
     {
       "date": "Thu 25 Jun",
       "headline": "South Africa reach World Cup knockouts for the FIRST TIME EVER — coach Broos collapsed to the turf at full-time",
