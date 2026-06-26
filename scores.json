@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "26 Jun 2026 · Groups E and F complete (Group I MD3 tonight)",
+    "last_updated": "26 Jun 2026 · Group D complete; Groups I, H, G, L finish tonight/Sat",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -184,7 +184,9 @@
     "E5": [2, 1],
     "E6": [0, 2],
     "F5": [0, 2],
-    "F6": [0, 0]
+    "F6": [0, 0],
+    "D5": [3, 2],
+    "D6": [0, 0]
   },
 
   "highlight_links": {
@@ -238,14 +240,16 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=1HoU0dDvW2c",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4",
     "E5": "https://www.youtube.com/watch?v=aKEzPck7ehk",
-    "E6": "",
-    "F5": "",
-    "F6": ""
+    "E6": "https://www.youtube.com/watch?v=m80mh1_2L3M",
+    "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
+    "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
+    "D5": "",
+    "D6": ""
   },
 
   "standings": {
@@ -268,10 +272,10 @@
       {"name":"Haiti",    "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":8,"pts":0}
     ],
     "D": [
-      {"name":"USA",       "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
-      {"name":"Australia", "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
-      {"name":"Paraguay",  "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":4,"pts":3},
-      {"name":"Türkiye",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":3,"pts":0}
+      {"name":"USA",       "p":3,"w":2,"d":0,"l":1,"gf":8,"ga":4,"pts":6},
+      {"name":"Australia", "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":2,"pts":4},
+      {"name":"Paraguay",  "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":4,"pts":4},
+      {"name":"Türkiye",   "p":3,"w":1,"d":0,"l":2,"gf":3,"ga":5,"pts":3}
     ],
     "E": [
       {"name":"Germany",     "p":3,"w":2,"d":0,"l":1,"gf":10,"ga":4,"pts":6},
@@ -324,6 +328,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Turkey beat USA 3-2 with a 98th-minute winner at SoFi Stadium — then packed their bags and flew home anyway",
+      "summary": "Türkiye had zero points from their first two World Cup games and were mathematically eliminated before kick-off if the other Group D game stayed level. They didn't care. They produced their best performance of the tournament — Arda Güler, Barış Alper Yılmaz and, in the 98th minute, Kaan Ayhan scored to beat the co-hosts 3-2 in front of a sold-out SoFi Stadium in Los Angeles. Turkish fans celebrated like they'd won the trophy. Then the other result came through: Paraguay had drawn 0-0 with Australia, leaving USA top on six points, Australia second on four, Paraguay third on four, and Turkey fourth on three. Turkey are out. They beat the hosts on their home turf and will be watching the knockouts on television.",
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021459"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Sebastian Berhalter scored against Turkey at the World Cup — four years after his dad told him he 'wasn't even close' to making the team",
+      "summary": "In 2022, Gregg Berhalter was the United States head coach and Sebastian was sitting in the stands in Qatar, watching his father's team, having been told bluntly that he wasn't close to the squad. Four years later, at the 2026 World Cup on home soil, Sebastian Berhalter came on and equalised for the USA against Turkey with a thunderbolt from the top of the box in the 49th minute, making it 2-2. The moment — son on the pitch, father watching — went viral. Former coach Gregg had already written his son an emotional open letter before the tournament began. Turkey ultimately won 3-2 with Kaan Ayhan's 98th-minute winner, but the Berhalter story dominated the post-match coverage.",
+      "url": "https://www.nbcnews.com/sports/soccer/sebastian-berhalter-turned-fathers-tough-truth-world-cup-breakthrough-rcna348177"
+    },
     {
       "date": "Thu 25 Jun",
       "headline": "Ecuador stun Germany 2-1 to reach the knockouts — Germany had already won the group and were 'resting'",
