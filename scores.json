@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "26 Jun 2026 · Groups E and F complete (Group I MD3 tonight)",
+    "last_updated": "26 Jun 2026 · Groups D, E and F complete (Group I MD3 tonight)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -184,7 +184,9 @@
     "E5": [2, 1],
     "E6": [0, 2],
     "F5": [0, 2],
-    "F6": [0, 0]
+    "F6": [0, 0],
+    "D5": [3, 2],
+    "D6": [0, 0]
   },
 
   "highlight_links": {
@@ -238,14 +240,16 @@
     "K4": "https://www.youtube.com/watch?v=GHNdcbfBcl0",
     "B5": "https://www.youtube.com/watch?v=4qZxkOqikRU",
     "B6": "https://www.youtube.com/watch?v=lbghABKpKWQ",
-    "A5": "",
-    "A6": "",
+    "A5": "https://www.youtube.com/watch?v=1HoU0dDvW2c",
+    "A6": "https://www.youtube.com/watch?v=eQHEClHublI",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4",
     "E5": "https://www.youtube.com/watch?v=aKEzPck7ehk",
-    "E6": "",
-    "F5": "",
-    "F6": ""
+    "E6": "https://www.youtube.com/watch?v=m80mh1_2L3M",
+    "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
+    "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
+    "D5": "",
+    "D6": ""
   },
 
   "standings": {
@@ -268,10 +272,10 @@
       {"name":"Haiti",    "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":8,"pts":0}
     ],
     "D": [
-      {"name":"USA",       "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
-      {"name":"Australia", "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
-      {"name":"Paraguay",  "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":4,"pts":3},
-      {"name":"Türkiye",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":3,"pts":0}
+      {"name":"USA",       "p":3,"w":2,"d":0,"l":1,"gf":8,"ga":4,"pts":6},
+      {"name":"Australia", "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":2,"pts":4},
+      {"name":"Paraguay",  "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":4,"pts":4},
+      {"name":"Türkiye",   "p":3,"w":1,"d":0,"l":2,"gf":3,"ga":5,"pts":3}
     ],
     "E": [
       {"name":"Germany",     "p":3,"w":2,"d":0,"l":1,"gf":10,"ga":4,"pts":6},
@@ -324,6 +328,24 @@
   },
 
   "funnies": [
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Didier Deschamps misses France's final group game to fly home to France for his mother's funeral",
+      "summary": "France head coach Didier Deschamps, who announced before the tournament that this would be his final World Cup in charge after 14 years, was dealt a devastating personal blow mid-tournament when his mother passed away. He flew back to France to attend her funeral, leaving assistant Guy Stéphan to take charge of the decisive Group I clash against Norway — a match that would decide who topped the group. Both teams had already qualified for the knockouts. 'We are all behind him at this incredibly difficult time,' said captain Mbappé. Deschamps, 57, planned to return to the squad after the ceremony.",
+      "url": "https://www.espn.com/soccer/story/_/id/49156450/france-boss-didier-deschamps-miss-norway-game-death-mother"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Türkiye stun USA 3-2 with a 98th-minute winner — USA had made nine changes and still didn't have enough",
+      "summary": "The United States, already guaranteed to top Group D, made nine changes for their final group game against Türkiye at Los Angeles Stadium. Auston Trusty put USA ahead in the 3rd minute. Arda Güler equalised in the 10th, Orkun Kökcü made it 2-1, then Sebastian Berhalter's rocket from outside the box restored parity at 2-2 (49'). Then, in the 8th minute of stoppage time, Güler nutmegged Christian Pulisic, Can Uzun's cross squeezed through Matt Turner's legs and past three defenders, and substitute Kaan Ayhan poked it home. Turkey, already eliminated, had nothing to play for — and celebrated as if they'd won the tournament. USA still topped the group.",
+      "url": "https://www.nbclosangeles.com/world-cup/usa-turkiye-score-live-updates/3908698/"
+    },
+    {
+      "date": "Tue 16 Jun",
+      "headline": "New Zealand's Tyler Bindon and his mum Jenny become the first mother-and-son pair to play at separate World Cups",
+      "summary": "When Tyler Bindon came off the bench in the 92nd minute of New Zealand's 2-2 draw with Iran at SoFi Stadium, he completed a piece of history no son had made before. His mother Jenny Bindon is a New Zealand international goalkeeper who played at the Women's World Cups of 2007 and 2011. With Tyler's appearance, they became the first mother-son pair in World Cup history across men's and women's tournaments. Tyler plays for Nottingham Forest. He was partly raised by the Football Ferns squad when the family relocated to California for Jenny's coaching role at UCLA. Jenny watched from the stands. FIFA called it 'a uniquely beautiful moment in World Cup history'.",
+      "url": "https://inside.fifa.com/news/tyler-bindon-jenny-mother-son-record-new-zealand-football-ferns"
+    },
     {
       "date": "Thu 25 Jun",
       "headline": "Ecuador stun Germany 2-1 to reach the knockouts — Germany had already won the group and were 'resting'",
