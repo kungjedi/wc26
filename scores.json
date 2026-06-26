@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "25 Jun 2026 · Groups A, B, C complete (Group E MD3 tonight)",
+    "last_updated": "26 Jun 2026 · Groups E and F complete (Group I MD3 tonight)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -180,7 +180,11 @@
     "A5": [0, 3],
     "A6": [1, 0],
     "C5": [0, 3],
-    "C6": [4, 2]
+    "C6": [4, 2],
+    "E5": [2, 1],
+    "E6": [0, 2],
+    "F5": [0, 2],
+    "F6": [0, 0]
   },
 
   "highlight_links": {
@@ -237,7 +241,11 @@
     "A5": "",
     "A6": "",
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
-    "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4"
+    "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4",
+    "E5": "https://www.youtube.com/watch?v=aKEzPck7ehk",
+    "E6": "",
+    "F5": "",
+    "F6": ""
   },
 
   "standings": {
@@ -266,16 +274,16 @@
       {"name":"Türkiye",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":3,"pts":0}
     ],
     "E": [
-      {"name":"Germany",     "p":2,"w":2,"d":0,"l":0,"gf":9,"ga":2,"pts":6},
-      {"name":"Ivory Coast", "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
-      {"name":"Ecuador",     "p":2,"w":0,"d":1,"l":1,"gf":0,"ga":1,"pts":1},
-      {"name":"Curaçao",     "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":7,"pts":1}
+      {"name":"Germany",     "p":3,"w":2,"d":0,"l":1,"gf":10,"ga":4,"pts":6},
+      {"name":"Ivory Coast", "p":3,"w":2,"d":0,"l":1,"gf":4,"ga":2,"pts":6},
+      {"name":"Ecuador",     "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":2,"pts":4},
+      {"name":"Curaçao",     "p":3,"w":0,"d":1,"l":2,"gf":1,"ga":9,"pts":1}
     ],
     "F": [
-      {"name":"Netherlands", "p":2,"w":1,"d":1,"l":0,"gf":7,"ga":3,"pts":4},
-      {"name":"Japan",       "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":2,"pts":4},
-      {"name":"Sweden",      "p":2,"w":1,"d":0,"l":1,"gf":6,"ga":6,"pts":3},
-      {"name":"Tunisia",     "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":9,"pts":0}
+      {"name":"Netherlands", "p":3,"w":2,"d":1,"l":0,"gf":9,"ga":3,"pts":7},
+      {"name":"Japan",       "p":3,"w":1,"d":2,"l":0,"gf":6,"ga":2,"pts":5},
+      {"name":"Sweden",      "p":3,"w":1,"d":1,"l":1,"gf":6,"ga":6,"pts":4},
+      {"name":"Tunisia",     "p":3,"w":0,"d":0,"l":3,"gf":1,"ga":11,"pts":0}
     ],
     "G": [
       {"name":"Egypt",       "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
@@ -316,6 +324,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Thu 25 Jun",
+      "headline": "Ecuador stun Germany 2-1 to reach the knockouts — Germany had already won the group and were 'resting'",
+      "summary": "Germany had already secured top spot in Group E and made changes ahead of the knockouts. Ecuador, needing a win to survive as a best third-place team, took full advantage. Leroy Sané put Germany ahead in the 2nd minute; Nilson Angulo levelled in the 9th; then Gonzalo Plata headed home a corner in the 77th to send MetLife Stadium into pandemonium. Ecuador reach the Round of 32 for the first time since 2006. Germany finish second in the group on goal difference despite the defeat — but it's their first group-stage loss since 2018.",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/ecuador-pulls-off-a-historic-upset-by-defeating-germany-at-the-2026-world-cup-2026-06-25"
+    },
+    {
+      "date": "Thu 25 Jun",
+      "headline": "Ivory Coast reach a World Cup Round of 32 for the very FIRST TIME — four World Cup attempts, four group exits, until now",
+      "summary": "In four previous World Cup appearances (2006, 2010, 2014, 2023) Ivory Coast had never made it past the group stage. That ended on Thursday night in Philadelphia. Nicolas Pépé scored a brace in a 2-0 win over Curaçao to seal their historic first knockout-stage qualification. Ivory Coast finish second in Group E on goal difference behind Germany. Their Round of 32 opponents: Norway, group winners from Group I.",
+      "url": "https://www.espn.com/soccer/story/_/id/49178155/ivory-coast-curacao-live-world-cup-2026-latest-updates-commentary-score-result"
+    },
     {
       "date": "Thu 25 Jun",
       "headline": "South Africa reach World Cup knockouts for the FIRST TIME EVER — coach Broos collapsed to the turf at full-time",
@@ -564,11 +584,12 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",   "team": "Argentina", "value": 5},
-        {"name": "Kylian Mbappé",  "team": "France",    "value": 4},
-        {"name": "Erling Haaland", "team": "Norway",    "value": 4},
-        {"name": "Jonathan David", "team": "Canada",    "value": 3},
-        {"name": "Deniz Undav",    "team": "Germany",   "value": 3}
+        {"name": "Lionel Messi",   "team": "Argentina",   "value": 5},
+        {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
+        {"name": "Erling Haaland", "team": "Norway",      "value": 4},
+        {"name": "Jonathan David", "team": "Canada",      "value": 3},
+        {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
+        {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
       ]
     },
     {
