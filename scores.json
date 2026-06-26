@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "26 Jun 2026 · Groups E and F complete (Group I MD3 tonight)",
+    "last_updated": "26 Jun 2026 · Group D complete — all of Groups A–F done (Groups G, H, L MD3 tomorrow; Group I MD3 tonight)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -184,7 +184,9 @@
     "E5": [2, 1],
     "E6": [0, 2],
     "F5": [0, 2],
-    "F6": [0, 0]
+    "F6": [0, 0],
+    "D5": [0, 0],
+    "D6": [0, 0]
   },
 
   "highlight_links": {
@@ -243,9 +245,11 @@
     "C5": "https://www.youtube.com/watch?v=UW8VXg2qULw",
     "C6": "https://www.youtube.com/watch?v=D5YbmFGtco4",
     "E5": "https://www.youtube.com/watch?v=aKEzPck7ehk",
-    "E6": "",
+    "E6": "https://www.youtube.com/watch?v=m80mh1_2L3M",
     "F5": "",
-    "F6": ""
+    "F6": "",
+    "D5": "",
+    "D6": ""
   },
 
   "standings": {
@@ -268,10 +272,10 @@
       {"name":"Haiti",    "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":8,"pts":0}
     ],
     "D": [
-      {"name":"USA",       "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
-      {"name":"Australia", "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":2,"pts":3},
-      {"name":"Paraguay",  "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":4,"pts":3},
-      {"name":"Türkiye",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":3,"pts":0}
+      {"name":"USA",       "p":3,"w":2,"d":1,"l":0,"gf":6,"ga":1,"pts":7},
+      {"name":"Australia", "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":2,"pts":4},
+      {"name":"Paraguay",  "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":4,"pts":4},
+      {"name":"Türkiye",   "p":3,"w":0,"d":1,"l":2,"gf":0,"ga":3,"pts":1}
     ],
     "E": [
       {"name":"Germany",     "p":3,"w":2,"d":0,"l":1,"gf":10,"ga":4,"pts":6},
@@ -324,6 +328,12 @@
   },
 
   "funnies": [
+    {
+      "date": "Fri 26 Jun",
+      "headline": "France face Norway without their manager — Deschamps stood down to attend his mother's funeral",
+      "summary": "Didier Deschamps stepped back from his duties for France's Group I decider against Norway in Boston after the death of his mother. Assistant Guy Stephan took interim charge of Les Bleus for the match. Deschamps, who has managed France since 2012 and led them to the 2018 World Cup title, informed his players personally before the squad flew to Foxborough. Several senior players including Kylian Mbappé and Antoine Griezmann paid public tributes. The match went ahead as scheduled.",
+      "url": "https://www.espn.com/soccer/story/_/id/49178155/didier-deschamps-misses-france-norway-world-cup-2026-mothers-funeral"
+    },
     {
       "date": "Thu 25 Jun",
       "headline": "Ecuador stun Germany 2-1 to reach the knockouts — Germany had already won the group and were 'resting'",
