@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "26 Jun 2026 · Groups D, E and F complete (Group I MD3 tonight)",
+    "last_updated": "26 Jun 2026 · Group I complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -186,7 +186,9 @@
     "F5": [0, 2],
     "F6": [0, 0],
     "D5": [3, 2],
-    "D6": [0, 0]
+    "D6": [0, 0],
+    "I5": [2, 3],
+    "I6": [1, 0]
   },
 
   "highlight_links": {
@@ -248,8 +250,10 @@
     "E6": "https://www.youtube.com/watch?v=m80mh1_2L3M",
     "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
     "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
-    "D5": "",
-    "D6": ""
+    "D5": "https://www.youtube.com/watch?v=P1KGhu6UC80",
+    "D6": "https://www.youtube.com/watch?v=_zbSbW0Y0AA",
+    "I5": "",
+    "I6": ""
   },
 
   "standings": {
@@ -302,10 +306,10 @@
       {"name":"Saudi Arabia", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":5,"pts":1}
     ],
     "I": [
-      {"name":"France",  "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
-      {"name":"Norway",  "p":2,"w":2,"d":0,"l":0,"gf":7,"ga":3,"pts":6},
-      {"name":"Senegal", "p":2,"w":0,"d":0,"l":2,"gf":3,"ga":6,"pts":0},
-      {"name":"Iraq",    "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":7,"pts":0}
+      {"name":"France",  "p":3,"w":3,"d":0,"l":0,"gf":9,"ga":3,"pts":9},
+      {"name":"Norway",  "p":3,"w":2,"d":0,"l":1,"gf":9,"ga":6,"pts":6},
+      {"name":"Senegal", "p":3,"w":1,"d":0,"l":2,"gf":4,"ga":6,"pts":3},
+      {"name":"Iraq",    "p":3,"w":0,"d":0,"l":3,"gf":1,"ga":8,"pts":0}
     ],
     "J": [
       {"name":"Argentina", "p":2,"w":2,"d":0,"l":0,"gf":5,"ga":0,"pts":6},
@@ -328,6 +332,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Dembélé scores the second-fastest hat-trick in World Cup history while Deschamps is at his mother's funeral",
+      "summary": "Ousmane Dembélé needed just 32 minutes to complete a hat-trick against Norway — the second-fastest in World Cup history, behind only Austria's Erich Probst who did it in 24 minutes in 1954. All three goals came in the first half (7', 20', 32'). It was arguably the performance of the tournament so far, and it happened while manager Didier Deschamps — who has led France for 14 years — was away attending his mother's funeral. Assistant Guy Stéphan took charge from the touchline. France eventually won 3-2 to top Group I with 9 points.",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/frances-ousmane-dembele-records-second-fastest-hat-trick-in-world-cup-history-vs-norway-195324171.html"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Norway defender Østigård watches his son born over FaceTime mid-World Cup — then gets parenting tips from Haaland",
+      "summary": "Leo Østigård, who scored for Norway in their 4-1 win over Iraq, became a father in the middle of the tournament — watching his partner Aurora Eidmann give birth to their son over FaceTime from the team hotel. He remained with the squad rather than flying home. Teammate Erling Haaland, who became a father himself last year, reportedly became an on-demand parenting consultant in the dressing room, offering advice on nappies, sleep schedules and the rest. The story went viral on the day Norway faced France in their final group game, where Norway lost 3-2.",
+      "url": "https://sports.yahoo.com/articles/soccer-world-cup-baby-joy-173740093.html"
+    },
     {
       "date": "Fri 26 Jun",
       "headline": "Didier Deschamps misses France's final group game to fly home to France for his mother's funeral",
@@ -609,9 +625,10 @@
         {"name": "Lionel Messi",   "team": "Argentina",   "value": 5},
         {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
         {"name": "Erling Haaland", "team": "Norway",      "value": 4},
-        {"name": "Jonathan David", "team": "Canada",      "value": 3},
-        {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
-        {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
+        {"name": "Jonathan David",   "team": "Canada",      "value": 3},
+        {"name": "Deniz Undav",      "team": "Germany",     "value": 3},
+        {"name": "Brian Brobbey",    "team": "Netherlands", "value": 3},
+        {"name": "Ousmane Dembélé", "team": "France",      "value": 3}
       ]
     },
     {
@@ -694,7 +711,8 @@
         {"name": "Mexico",              "team": "Group A", "value": 1},
         {"name": "Bosnia & Herzegovina","team": "Group B", "value": 1},
         {"name": "Paraguay",            "team": "Group D", "value": 1},
-        {"name": "Belgium",             "team": "Group G", "value": 1}
+        {"name": "Belgium",             "team": "Group G", "value": 1},
+        {"name": "Iraq",                "team": "Group I", "value": 1}
       ]
     },
     {
@@ -709,7 +727,8 @@
         {"name": "Homam Ahmed",           "team": "Qatar",               "value": 1},
         {"name": "Assim Madibo",          "team": "Qatar",               "value": 1},
         {"name": "Miguel Almirón",        "team": "Paraguay",            "value": 1},
-        {"name": "Nathan Ngoy",           "team": "Belgium",             "value": 1}
+        {"name": "Nathan Ngoy",           "team": "Belgium",             "value": 1},
+        {"name": "Rebin Sulaka",          "team": "Iraq",                "value": 1}
       ]
     }
   ]
