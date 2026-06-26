@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "26 Jun 2026 · Groups D, E and F complete (Group I MD3 tonight)",
+    "last_updated": "26 Jun 2026 · Groups A–F complete; Group I MD3 tonight (Norway v France, Senegal v Iraq)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -92,7 +92,7 @@
     {"id":"K6","date":"Sun 28 Jun","bst":"12:30 AM","home":"DR Congo","away":"Uzbekistan","group":"K","channel":"BBC Two","city":"Atlanta","stage":"GS"},
     {"id":"J5","date":"Sun 28 Jun","bst":"3:00 AM","home":"Jordan","away":"Argentina","group":"J","channel":"BBC One","city":"Dallas","stage":"GS"},
     {"id":"J6","date":"Sun 28 Jun","bst":"3:00 AM","home":"Algeria","away":"Austria","group":"J","channel":"BBC Two","city":"Kansas City","stage":"GS"},
-    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"South Korea*","away":"Switzerland*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
+    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"South Africa*","away":"Switzerland*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
     {"id":"R32-2","date":"Mon 29 Jun","bst":"6:00 PM","home":"Brazil*","away":"Japan*","group":"R32","channel":"TBC","city":"Houston","stage":"R32"},
     {"id":"R32-3","date":"Mon 29 Jun","bst":"9:30 PM","home":"Germany*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Boston","stage":"R32"},
     {"id":"R32-4","date":"Tue 30 Jun","bst":"2:00 AM","home":"Netherlands*","away":"Morocco*","group":"R32","channel":"TBC","city":"Monterrey","stage":"R32"},
@@ -248,7 +248,7 @@
     "E6": "https://www.youtube.com/watch?v=m80mh1_2L3M",
     "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
     "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
-    "D5": "",
+    "D5": "https://www.youtube.com/watch?v=P1KGhu6UC80",
     "D6": ""
   },
 
