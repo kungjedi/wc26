@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "26 Jun 2026 · Groups D, E and F complete (Group I MD3 tonight)",
+    "last_updated": "26 Jun 2026 · Group I complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -186,7 +186,9 @@
     "F5": [0, 2],
     "F6": [0, 0],
     "D5": [3, 2],
-    "D6": [0, 0]
+    "D6": [0, 0],
+    "I5": [1, 4],
+    "I6": [5, 0]
   },
 
   "highlight_links": {
@@ -248,8 +250,10 @@
     "E6": "https://www.youtube.com/watch?v=m80mh1_2L3M",
     "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
     "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
-    "D5": "",
-    "D6": ""
+    "D5": "https://www.youtube.com/watch?v=P1KGhu6UC80",
+    "D6": "",
+    "I5": "",
+    "I6": ""
   },
 
   "standings": {
@@ -302,10 +306,10 @@
       {"name":"Saudi Arabia", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":5,"pts":1}
     ],
     "I": [
-      {"name":"France",  "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
-      {"name":"Norway",  "p":2,"w":2,"d":0,"l":0,"gf":7,"ga":3,"pts":6},
-      {"name":"Senegal", "p":2,"w":0,"d":0,"l":2,"gf":3,"ga":6,"pts":0},
-      {"name":"Iraq",    "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":7,"pts":0}
+      {"name":"France",  "p":3,"w":3,"d":0,"l":0,"gf":10,"ga":2,"pts":9},
+      {"name":"Norway",  "p":3,"w":2,"d":0,"l":1,"gf":8,"ga":7,"pts":6},
+      {"name":"Senegal", "p":3,"w":1,"d":0,"l":2,"gf":8,"ga":6,"pts":3},
+      {"name":"Iraq",    "p":3,"w":0,"d":0,"l":3,"gf":1,"ga":12,"pts":0}
     ],
     "J": [
       {"name":"Argentina", "p":2,"w":2,"d":0,"l":0,"gf":5,"ga":0,"pts":6},
@@ -328,6 +332,24 @@
   },
 
   "funnies": [
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Dembélé scores World Cup hat-trick in 32 minutes — after never having scored in 13 previous World Cup appearances",
+      "summary": "In a stunning turnaround for a player long criticised for inconsistency at major tournaments, Ousmane Dembélé completed the second-fastest hat-trick in World Cup history at Gillette Stadium in Boston. All three goals came in the first half: the first off a Mbappé pass (7'), the second from a three-man move involving Olise and Mbappé (20'), the third a left-footed curler (32'). It was Dembélé's first-ever World Cup goal — then he scored three of them inside 32 minutes. Norway's Thelo Aasgaard pulled one back, before Désire Doué added a fourth in stoppage time to seal a 4-1 win. France won all three group games, with Deschamps absent from the touchline due to his mother's funeral.",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/frances-ousmane-dembele-records-second-fastest-hat-trick-in-world-cup-history-in-4-1-win-over-norway-195324171.html"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Senegal thrash Iraq 5-0 — the first African nation ever to score five goals in a World Cup match",
+      "summary": "Senegal produced a historically dominant performance at BMO Field in Toronto, shattering the record for the biggest win by an African nation at a World Cup. Habib Diarra opened the scoring in the 4th minute; a VAR review then upgraded Rebin Sulaka's yellow card to red for stopping a Sadio Mané run, leaving Iraq with ten men. Ismaila Sarr doubled the lead, Pape Gueye scored twice, and Iliman Ndiaye completed the rout with a long-range strike. The 5-0 scoreline is the first time an African nation has scored five goals in a single World Cup game. The Lions of Teranga finish third in Group I on 3 points — their knockout fate depends on the overall third-place rankings.",
+      "url": "https://www.skysports.com/football/senegal-vs-iraq/report/549830"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "headline": "Belgian winger Jérémy Doku leaves squad for his son's birth — French TV presenter says dads are 'useless' at childbirth, gets suspended from her show",
+      "summary": "Manchester City winger Jérémy Doku was given permission to briefly leave Belgium's World Cup camp to be present for the birth of his first child in London. He made it in time, welcomed a son named Praise, and was back with the squad within days. The story seemed uncontroversial — until L'Equipe TV presenter France Pierron described childbirth on air as 'a disgusting moment, excuse me, where the dad is useless', arguing players shouldn't leave World Cup squads for it. The backlash was immediate: Pierron was suspended from L'Equipe TV until July 3, and L'Equipe issued a public apology to Doku. Belgium teammates rallied around him. His next match: Belgium vs Iran.",
+      "url": "https://www.cbsnews.com/news/france-pierron-jeremy-doku-soccer-world-cup-baby-birth/"
+    },
     {
       "date": "Fri 26 Jun",
       "headline": "Didier Deschamps misses France's final group game to fly home to France for his mother's funeral",
@@ -611,7 +633,8 @@
         {"name": "Erling Haaland", "team": "Norway",      "value": 4},
         {"name": "Jonathan David", "team": "Canada",      "value": 3},
         {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
-        {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
+        {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3},
+        {"name": "Ousmane Dembélé","team": "France",      "value": 3}
       ]
     },
     {
