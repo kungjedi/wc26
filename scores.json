@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "27 Jun 2026 · Groups H and I complete",
+    "last_updated": "27 Jun 2026 · Group G complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -92,7 +92,7 @@
     {"id":"K6","date":"Sun 28 Jun","bst":"12:30 AM","home":"DR Congo","away":"Uzbekistan","group":"K","channel":"BBC Two","city":"Atlanta","stage":"GS"},
     {"id":"J5","date":"Sun 28 Jun","bst":"3:00 AM","home":"Jordan","away":"Argentina","group":"J","channel":"BBC One","city":"Dallas","stage":"GS"},
     {"id":"J6","date":"Sun 28 Jun","bst":"3:00 AM","home":"Algeria","away":"Austria","group":"J","channel":"BBC Two","city":"Kansas City","stage":"GS"},
-    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"South Korea*","away":"Switzerland*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
+    {"id":"R32-1","date":"Sun 28 Jun","bst":"8:00 PM","home":"South Africa*","away":"Switzerland*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
     {"id":"R32-2","date":"Mon 29 Jun","bst":"6:00 PM","home":"Brazil*","away":"Japan*","group":"R32","channel":"TBC","city":"Houston","stage":"R32"},
     {"id":"R32-3","date":"Mon 29 Jun","bst":"9:30 PM","home":"Germany*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Boston","stage":"R32"},
     {"id":"R32-4","date":"Tue 30 Jun","bst":"2:00 AM","home":"Netherlands*","away":"Morocco*","group":"R32","channel":"TBC","city":"Monterrey","stage":"R32"},
@@ -106,7 +106,7 @@
     {"id":"R32-12","date":"Fri 3 Jul","bst":"12:00 AM","home":"Portugal*","away":"Ghana*","group":"R32","channel":"TBC","city":"Toronto","stage":"R32"},
     {"id":"R32-13","date":"Fri 3 Jul","bst":"4:00 AM","home":"Canada*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Vancouver","stage":"R32"},
     {"id":"R32-14","date":"Fri 3 Jul","bst":"7:00 PM","home":"Australia*","away":"Iran*","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
-    {"id":"R32-15","date":"Fri 3 Jul","bst":"11:00 PM","home":"Argentina*","away":"Uruguay*","group":"R32","channel":"TBC","city":"Miami","stage":"R32"},
+    {"id":"R32-15","date":"Fri 3 Jul","bst":"11:00 PM","home":"Argentina*","away":"Cape Verde*","group":"R32","channel":"TBC","city":"Miami","stage":"R32"},
     {"id":"R32-16","date":"Sat 4 Jul","bst":"2:30 AM","home":"Colombia*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Kansas City","stage":"R32"},
     {"id":"R16-1","date":"Sat 4 Jul","bst":"6:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Houston","stage":"R16"},
     {"id":"R16-2","date":"Sat 4 Jul","bst":"10:00 PM","home":"TBD","away":"TBD","group":"R16","channel":"TBC","city":"Philadelphia","stage":"R16"},
@@ -190,7 +190,9 @@
     "I5": [1, 4],
     "I6": [5, 0],
     "H5": [0, 1],
-    "H6": [0, 0]
+    "H6": [0, 0],
+    "G5": [1, 1],
+    "G6": [1, 1]
   },
 
   "highlight_links": {
@@ -257,7 +259,9 @@
     "I5": "https://www.youtube.com/watch?v=zmBVzE5x9p8",
     "I6": "https://www.youtube.com/watch?v=o1F3dconFDg",
     "H5": "",
-    "H6": ""
+    "H6": "",
+    "G5": "",
+    "G6": ""
   },
 
   "standings": {
@@ -298,10 +302,10 @@
       {"name":"Tunisia",     "p":3,"w":0,"d":0,"l":3,"gf":1,"ga":11,"pts":0}
     ],
     "G": [
-      {"name":"Egypt",       "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
-      {"name":"Iran",        "p":2,"w":0,"d":2,"l":0,"gf":2,"ga":2,"pts":2},
-      {"name":"Belgium",     "p":2,"w":0,"d":2,"l":0,"gf":1,"ga":1,"pts":2},
-      {"name":"New Zealand", "p":2,"w":0,"d":1,"l":1,"gf":3,"ga":5,"pts":1}
+      {"name":"Egypt",       "p":3,"w":1,"d":2,"l":0,"gf":5,"ga":3,"pts":5},
+      {"name":"Iran",        "p":3,"w":0,"d":3,"l":0,"gf":3,"ga":3,"pts":3},
+      {"name":"Belgium",     "p":3,"w":0,"d":3,"l":0,"gf":2,"ga":2,"pts":3},
+      {"name":"New Zealand", "p":3,"w":0,"d":2,"l":1,"gf":4,"ga":6,"pts":2}
     ],
     "H": [
       {"name":"Spain",        "p":3,"w":2,"d":1,"l":0,"gf":5,"ga":0,"pts":7},
@@ -336,6 +340,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Sat 27 Jun",
+      "headline": "Cape Verde become the smallest nation by population ever to reach a World Cup knockout stage — population 525,000, smaller than all 50 US states",
+      "summary": "Cape Verde's goalless draw with Saudi Arabia in Houston sealed their place in the Round of 32 on their World Cup debut, making them the smallest country by population ever to reach the knockout stage of a men's World Cup. Their 525,000 inhabitants is smaller than Wyoming, the least-populated US state (576,000). They went unbeaten in all three group games — holding Spain 0-0, drawing 2-2 with Uruguay, and holding Saudi Arabia 0-0 — becoming the first tournament debutants to go unbeaten in three group games since Senegal in 2002. ESPN called it one of the greatest underdog stories in World Cup history.",
+      "url": "https://www.espn.com/soccer/story/_/id/49192570/cape-verde-w2026-world-cup-knockout-stage-smallest-nation"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "headline": "Muslera's howler eliminates Uruguay — he set a record for World Cup goalkeeping errors, then asked Bielsa to take him off at halftime",
+      "summary": "Fernando Muslera's mistake gifted Spain their winner against Uruguay: he got both hands on Álex Baena's shot in the 42nd minute but swatted it into his own net. It was the third time in the tournament that a Muslera error had led directly to a goal — the first goalkeeper to do that in a single World Cup since 1966. During the halftime break, Muslera reportedly told coach Marcelo Bielsa he couldn't continue. 'It's a decision Muslera took himself,' Bielsa told reporters. Uruguay had never made a mid-match goalkeeper substitution at a World Cup before. On social media, the slow-motion replays of the non-save immediately became a meme. Uruguay, who were unbeaten at the 2022 World Cup, are out.",
+      "url": "https://sports.yahoo.com/articles/muslera-howler-sets-unwanted-cup-012900741.html"
+    },
     {
       "date": "Sat 27 Jun",
       "headline": "Egypt and Iran formally object to FIFA over 'Pride Match' branding in Seattle — Iran demands ban on rainbow flags inside stadium",
