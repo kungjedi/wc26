@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "27 Jun 2026 · Group G complete; R32 bracket updated",
+    "last_updated": "27 Jun 2026 · Groups G & H complete; L5/L6 tonight",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -255,7 +255,7 @@
     "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
     "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
     "D5": "https://www.youtube.com/watch?v=P1KGhu6UC80",
-    "D6": "",
+    "D6": "https://www.youtube.com/watch?v=_zbSbW0Y0AA",
     "I5": "https://www.youtube.com/watch?v=zmBVzE5x9p8",
     "I6": "https://www.youtube.com/watch?v=o1F3dconFDg",
     "H5": "https://www.youtube.com/watch?v=55dW1Glv_bU",
@@ -650,8 +650,9 @@
       "entries": [
         {"name": "Lionel Messi",    "team": "Argentina",   "value": 5},
         {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
-        {"name": "Erling Haaland", "team": "Norway",      "value": 4},
-        {"name": "Ousmane Dembélé","team": "France",      "value": 4},
+        {"name": "Erling Haaland",    "team": "Norway",      "value": 4},
+        {"name": "Ousmane Dembélé", "team": "France",      "value": 4},
+        {"name": "Vinícius Júnior", "team": "Brazil",      "value": 4},
         {"name": "Jonathan David", "team": "Canada",      "value": 3},
         {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
         {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
