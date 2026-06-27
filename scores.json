@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "27 Jun 2026 · Group G complete; R32 bracket updated",
+    "last_updated": "27 Jun 2026 · Groups A-I complete; red cards updated",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -738,7 +738,8 @@
         {"name": "Bosnia & Herzegovina","team": "Group B", "value": 1},
         {"name": "Paraguay",            "team": "Group D", "value": 1},
         {"name": "Belgium",             "team": "Group G", "value": 1},
-        {"name": "Iraq",                "team": "Group I", "value": 1}
+        {"name": "Iraq",                "team": "Group I", "value": 1},
+        {"name": "Uruguay",             "team": "Group H", "value": 1}
       ]
     },
     {
@@ -754,7 +755,8 @@
         {"name": "Assim Madibo",          "team": "Qatar",               "value": 1},
         {"name": "Miguel Almirón",        "team": "Paraguay",            "value": 1},
         {"name": "Nathan Ngoy",           "team": "Belgium",             "value": 1},
-        {"name": "Rebin Sulaka",          "team": "Iraq",                "value": 1}
+        {"name": "Rebin Sulaka",          "team": "Iraq",                "value": 1},
+        {"name": "Agustín Canobbio",      "team": "Uruguay",             "value": 1}
       ]
     }
   ]
