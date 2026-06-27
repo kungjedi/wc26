@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "27 Jun 2026 · Group G complete; R32 bracket updated",
+    "last_updated": "27 Jun 2026 · Top scorers & highlights updated; Groups J/K/L MD3 pending",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -255,7 +255,7 @@
     "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
     "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
     "D5": "https://www.youtube.com/watch?v=P1KGhu6UC80",
-    "D6": "",
+    "D6": "https://www.youtube.com/watch?v=_zbSbW0Y0AA",
     "I5": "https://www.youtube.com/watch?v=zmBVzE5x9p8",
     "I6": "https://www.youtube.com/watch?v=o1F3dconFDg",
     "H5": "https://www.youtube.com/watch?v=55dW1Glv_bU",
@@ -357,6 +357,12 @@
       "headline": "Egypt and Iran formally object to FIFA over 'Pride Match' branding in Seattle — Iran demands ban on rainbow flags inside stadium",
       "summary": "As Egypt and Iran prepared for their Group G finale at Lumen Field in Seattle, organisers branded the fixture a 'Pride Match' to coincide with LGBTQ Pride celebrations in the city. Both nations — where homosexuality is illegal — formally objected to FIFA. Iran's Football Federation President called it 'an irrational move that supports a certain group' and demanded all pride flags be banned inside the stadium. FIFA declined to intervene. It became one of the most diplomatically fraught incidents of the entire tournament, drawing statements from multiple governments and human rights organisations.",
       "url": "https://komonews.com/news/local/fifa-world-cup-soccer-futbol-football-egypt-iran-seattle-stadium-lumen-field-sports-pride-match"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Iraq concede a goal AND a red card inside 13 minutes vs Senegal — then collapse to a 5-0 rout, the biggest defeat in Arab World Cup history",
+      "summary": "Habib Diarra headed Senegal in front in the 4th minute at BMO Field in Toronto. By the 13th minute, it was over as a contest: defender Rebin Sulaka brought down Sadio Mané in a clear scoring position, a yellow was upgraded to red after a VAR review, and Iraq were down to 10 men with 80 minutes still to play. What followed was demolition: Pape Gueye scored twice, Ismaila Sarr added a third, Iliman Ndiaye hammered home a long-range fifth. Final score: 5-0. The defeat is the heaviest ever suffered by an Arab nation at a FIFA World Cup group stage, surpassing Algeria's 6-1 loss to West Germany in 1982. Iraq also became only the second team in World Cup history to concede a goal AND receive a red card inside the opening 15 minutes (after Colombia vs Japan in 2018). The result was not enough to save Senegal from going out — they finish third in Group I on 3 points — but it will haunt Iraqi football for a generation. Thousands of fans in Baghdad had stayed up until 4am local time to watch.",
+      "url": "https://www.skysports.com/football/news/12098/13556680/world-cup-2026-senegal-5-0-iraq-ismaila-sarr-iliman-ndiaye-score-as-lions-of-teranga-move-closer-to-knockout-stages"
     },
     {
       "date": "Fri 26 Jun",
@@ -651,10 +657,12 @@
         {"name": "Lionel Messi",    "team": "Argentina",   "value": 5},
         {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
         {"name": "Erling Haaland", "team": "Norway",      "value": 4},
-        {"name": "Ousmane Dembélé","team": "France",      "value": 4},
-        {"name": "Jonathan David", "team": "Canada",      "value": 3},
-        {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
-        {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
+        {"name": "Ousmane Dembélé",  "team": "France",      "value": 4},
+        {"name": "Vinícius Júnior", "team": "Brazil",      "value": 4},
+        {"name": "Jonathan David",  "team": "Canada",      "value": 3},
+        {"name": "Deniz Undav",     "team": "Germany",     "value": 3},
+        {"name": "Brian Brobbey",   "team": "Netherlands", "value": 3},
+        {"name": "Ismael Saibari",  "team": "Morocco",     "value": 3}
       ]
     },
     {
