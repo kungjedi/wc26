@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "26 Jun 2026 · Groups D, E and F complete (Group I MD3 tonight)",
+    "last_updated": "27 Jun 2026 · Groups H and I complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -186,7 +186,11 @@
     "F5": [0, 2],
     "F6": [0, 0],
     "D5": [3, 2],
-    "D6": [0, 0]
+    "D6": [0, 0],
+    "I5": [1, 4],
+    "I6": [5, 0],
+    "H5": [0, 1],
+    "H6": [0, 0]
   },
 
   "highlight_links": {
@@ -248,8 +252,12 @@
     "E6": "https://www.youtube.com/watch?v=m80mh1_2L3M",
     "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
     "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
-    "D5": "",
-    "D6": ""
+    "D5": "https://www.youtube.com/watch?v=P1KGhu6UC80",
+    "D6": "",
+    "I5": "https://www.youtube.com/watch?v=zmBVzE5x9p8",
+    "I6": "https://www.youtube.com/watch?v=o1F3dconFDg",
+    "H5": "",
+    "H6": ""
   },
 
   "standings": {
@@ -296,16 +304,16 @@
       {"name":"New Zealand", "p":2,"w":0,"d":1,"l":1,"gf":3,"ga":5,"pts":1}
     ],
     "H": [
-      {"name":"Spain",        "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":0,"pts":4},
-      {"name":"Uruguay",      "p":2,"w":0,"d":2,"l":0,"gf":3,"ga":3,"pts":2},
-      {"name":"Cape Verde",   "p":2,"w":0,"d":2,"l":0,"gf":2,"ga":2,"pts":2},
-      {"name":"Saudi Arabia", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":5,"pts":1}
+      {"name":"Spain",        "p":3,"w":2,"d":1,"l":0,"gf":5,"ga":0,"pts":7},
+      {"name":"Cape Verde",   "p":3,"w":0,"d":3,"l":0,"gf":2,"ga":2,"pts":3},
+      {"name":"Uruguay",      "p":3,"w":0,"d":2,"l":1,"gf":3,"ga":4,"pts":2},
+      {"name":"Saudi Arabia", "p":3,"w":0,"d":2,"l":1,"gf":1,"ga":5,"pts":2}
     ],
     "I": [
-      {"name":"France",  "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
-      {"name":"Norway",  "p":2,"w":2,"d":0,"l":0,"gf":7,"ga":3,"pts":6},
-      {"name":"Senegal", "p":2,"w":0,"d":0,"l":2,"gf":3,"ga":6,"pts":0},
-      {"name":"Iraq",    "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":7,"pts":0}
+      {"name":"France",  "p":3,"w":3,"d":0,"l":0,"gf":10,"ga":2,"pts":9},
+      {"name":"Norway",  "p":3,"w":2,"d":0,"l":1,"gf":8,"ga":7,"pts":6},
+      {"name":"Senegal", "p":3,"w":1,"d":0,"l":2,"gf":8,"ga":6,"pts":3},
+      {"name":"Iraq",    "p":3,"w":0,"d":0,"l":3,"gf":1,"ga":12,"pts":0}
     ],
     "J": [
       {"name":"Argentina", "p":2,"w":2,"d":0,"l":0,"gf":5,"ga":0,"pts":6},
@@ -328,6 +336,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Sat 27 Jun",
+      "headline": "Egypt and Iran formally object to FIFA over 'Pride Match' branding in Seattle — Iran demands ban on rainbow flags inside stadium",
+      "summary": "As Egypt and Iran prepared for their Group G finale at Lumen Field in Seattle, organisers branded the fixture a 'Pride Match' to coincide with LGBTQ Pride celebrations in the city. Both nations — where homosexuality is illegal — formally objected to FIFA. Iran's Football Federation President called it 'an irrational move that supports a certain group' and demanded all pride flags be banned inside the stadium. FIFA declined to intervene. It became one of the most diplomatically fraught incidents of the entire tournament, drawing statements from multiple governments and human rights organisations.",
+      "url": "https://komonews.com/news/local/fifa-world-cup-soccer-futbol-football-egypt-iran-seattle-stadium-lumen-field-sports-pride-match"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Dembélé scores the second-fastest hat-trick in World Cup history — all three in 32 minutes as France thrash Norway 4-1",
+      "summary": "With coach Didier Deschamps absent to attend his mother's funeral, France needed a response — and got one from an unlikely hero. Ousmane Dembélé, starting in place of the rested Kylian Mbappé, scored three times in the first 32 minutes against Norway at Gillette Stadium in Foxborough. Only Austria's Erich Probst (24 minutes, 1954) has scored a World Cup hat-trick faster. Désiré Doué added a fourth late on. It was only the third hat-trick ever scored by a French player at a World Cup. Norway — who had topped the group going into the game — ended up second, with Haaland left on the bench throughout.",
+      "url": "https://www.espn.com/soccer/story/_/id/49190626/france-norway-fifa-world-cup-ousmane-dembele-kylian-mbappe"
+    },
     {
       "date": "Fri 26 Jun",
       "headline": "Didier Deschamps misses France's final group game to fly home to France for his mother's funeral",
@@ -606,9 +626,10 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",   "team": "Argentina",   "value": 5},
+        {"name": "Lionel Messi",    "team": "Argentina",   "value": 5},
         {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
         {"name": "Erling Haaland", "team": "Norway",      "value": 4},
+        {"name": "Ousmane Dembélé","team": "France",      "value": 4},
         {"name": "Jonathan David", "team": "Canada",      "value": 3},
         {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
         {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
@@ -694,7 +715,8 @@
         {"name": "Mexico",              "team": "Group A", "value": 1},
         {"name": "Bosnia & Herzegovina","team": "Group B", "value": 1},
         {"name": "Paraguay",            "team": "Group D", "value": 1},
-        {"name": "Belgium",             "team": "Group G", "value": 1}
+        {"name": "Belgium",             "team": "Group G", "value": 1},
+        {"name": "Iraq",                "team": "Group I", "value": 1}
       ]
     },
     {
@@ -709,7 +731,8 @@
         {"name": "Homam Ahmed",           "team": "Qatar",               "value": 1},
         {"name": "Assim Madibo",          "team": "Qatar",               "value": 1},
         {"name": "Miguel Almirón",        "team": "Paraguay",            "value": 1},
-        {"name": "Nathan Ngoy",           "team": "Belgium",             "value": 1}
+        {"name": "Nathan Ngoy",           "team": "Belgium",             "value": 1},
+        {"name": "Rebin Sulaka",          "team": "Iraq",                "value": 1}
       ]
     }
   ]
