@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "27 Jun 2026 · Group G complete; R32 bracket updated",
+    "last_updated": "27 Jun 2026 · Sarr added to top scorers; Uruguay & Senegal funnies added",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -342,6 +342,18 @@
   "funnies": [
     {
       "date": "Sat 27 Jun",
+      "headline": "Muslera's howler and Bielsa's devastating farewell: Uruguay, 2-time World Cup winners, crash out at the group stage",
+      "summary": "Uruguay came into the 2026 World Cup as a nation that had reached the knockout stage in 10 of their previous 14 appearances. They left after three matches and just two points. The decisive blow came in the 42nd minute against Spain in Guadalajara, when goalkeeper Fernando Muslera got both hands on Álex Baena's shot — and somehow swatted it into his own net. He asked to be substituted at half-time; coach Marcelo Bielsa obliged. Uruguay could not find an equaliser. Bielsa, who had staked his reputation on this campaign, delivered one of the World Cup's most haunting farewell quotes: 'What I gave Uruguayan football is nothing because any contribution that a coach can make to a national team is futile if you don't have a positive outcome. If you ask me how they'll remember me, they'll remember me as someone who left nothing.' Uruguay are the highest-ranked team eliminated at the group stage in 2026.",
+      "url": "https://www.espn.com/soccer/story/_/id/49192407/uruguay-yank-keeper-muslera-howler-spain"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Senegal thrash Iraq 5-0 — the biggest victory by an African nation in World Cup history",
+      "summary": "Senegal didn't just beat Iraq on Friday night in Denver. They made history. Five goals in 82 minutes — from Habib Diarra (4'), Ismaïla Sarr (56'), Pape Gueye (59', 71') and Iliman Ndiaye (82') — made it the largest ever winning margin by any African side in the history of the World Cup, surpassing Cameroon, Senegal and Egypt's previous 3-0 wins. Sarr's goal was his fourth of the tournament, making him Senegal's all-time top scorer at the World Cup. Gueye, meanwhile, became only the second African player ever to score twice in a World Cup match as a substitute. Iraq, already eliminated, finished with ten men after a red card from a VAR review. Senegal's night of records came simultaneously with France's 4-1 win over Norway in Boston — and both teams' supporters at the two venues had little idea of what was happening at the other stadium until the final whistles blew.",
+      "url": "https://www.skysports.com/football/news/12098/13556680/world-cup-2026-senegal-5-0-iraq-ismaila-sarr-iliman-ndiaye-score-as-lions-of-teranga-move-closer-to-knockout-stages"
+    },
+    {
+      "date": "Sat 27 Jun",
       "headline": "Iran's Khalilzadeh thought he'd sent his country to the knockouts — then VAR crushed them in the 93rd minute",
       "summary": "With Egypt and Iran locked at 1-1 in their decisive Group G clash at Lumen Field in Seattle, Iran defender Shoja Khalilzadeh rifled into the roof of the net in the 93rd minute. The Iranian bench erupted, players sprinted across the pitch to celebrate, and the packed away end lost its mind. Then came the VAR check. Two Iranian attackers had drifted into offside positions at the critical moment of a flick-on deep in the area, and after an agonising wait, the goal was chalked off. Final score: 1-1. Egypt advance to the R32 as Group G runners-up; Iran — three points, zero goals conceded in extra time — must wait in desperate hope of being one of the eight best third-placed teams. Khalilzadeh was still sitting on the pitch, head in hands, long after the final whistle.",
       "url": "https://sports.yahoo.com/articles/irans-disallowed-goal-final-minutes-052708263.html"
@@ -652,6 +664,7 @@
         {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
         {"name": "Erling Haaland", "team": "Norway",      "value": 4},
         {"name": "Ousmane Dembélé","team": "France",      "value": 4},
+        {"name": "Ismaïla Sarr",  "team": "Senegal",     "value": 4},
         {"name": "Jonathan David", "team": "Canada",      "value": 3},
         {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
         {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
