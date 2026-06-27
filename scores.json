@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "26 Jun 2026 · Groups D, E and F complete (Group I MD3 tonight)",
+    "last_updated": "27 Jun 2026 · Group I complete (Groups G, H playing now; L, K, J tonight/tomorrow)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -186,7 +186,9 @@
     "F5": [0, 2],
     "F6": [0, 0],
     "D5": [3, 2],
-    "D6": [0, 0]
+    "D6": [0, 0],
+    "I5": [1, 4],
+    "I6": [5, 0]
   },
 
   "highlight_links": {
@@ -248,8 +250,10 @@
     "E6": "https://www.youtube.com/watch?v=m80mh1_2L3M",
     "F5": "https://www.youtube.com/watch?v=IEsZMXBHd4w",
     "F6": "https://www.youtube.com/watch?v=VaWJoGpz7uM",
-    "D5": "",
-    "D6": ""
+    "D5": "https://www.youtube.com/watch?v=P1KGhu6UC80",
+    "D6": "https://www.youtube.com/watch?v=_zbSbW0Y0AA",
+    "I5": "https://www.youtube.com/watch?v=zmBVzE5x9p8",
+    "I6": "https://www.youtube.com/watch?v=o1F3dconFDg"
   },
 
   "standings": {
@@ -302,10 +306,10 @@
       {"name":"Saudi Arabia", "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":5,"pts":1}
     ],
     "I": [
-      {"name":"France",  "p":2,"w":2,"d":0,"l":0,"gf":6,"ga":1,"pts":6},
-      {"name":"Norway",  "p":2,"w":2,"d":0,"l":0,"gf":7,"ga":3,"pts":6},
-      {"name":"Senegal", "p":2,"w":0,"d":0,"l":2,"gf":3,"ga":6,"pts":0},
-      {"name":"Iraq",    "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":7,"pts":0}
+      {"name":"France",  "p":3,"w":3,"d":0,"l":0,"gf":10,"ga":2,"pts":9},
+      {"name":"Norway",  "p":3,"w":2,"d":0,"l":1,"gf":8,"ga":7,"pts":6},
+      {"name":"Senegal", "p":3,"w":1,"d":0,"l":2,"gf":8,"ga":6,"pts":3},
+      {"name":"Iraq",    "p":3,"w":0,"d":0,"l":3,"gf":1,"ga":12,"pts":0}
     ],
     "J": [
       {"name":"Argentina", "p":2,"w":2,"d":0,"l":0,"gf":5,"ga":0,"pts":6},
@@ -328,6 +332,18 @@
   },
 
   "funnies": [
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Norway defender Leo Østigård watches his son born on FaceTime from the World Cup — four teammates pile into his room to celebrate",
+      "summary": "Norway centre-back Leo Østigård became a father for the first time on Friday, June 26 — the day of Norway's final group match against France. Unable to fly home, he watched the birth of his son via FaceTime from the team hotel, supported by his partner Aurora Eidmann. He later told reporters: 'She did so well. There wasn't much I could say, I just had to help her work and get him out. I'm proud, amazing.' What he didn't mention was that four of his teammates — reportedly including Erling Haaland, who had been offering him parenting tips throughout the tournament — burst into his hotel room cheering when the baby arrived. Norway then went on to lose 4-1 to France that evening. Parenthood and heartbreak in the same 24 hours.",
+      "url": "https://sports.yahoo.com/articles/soccer-world-cup-baby-joy-173740093.html"
+    },
+    {
+      "date": "Fri 26 Jun",
+      "headline": "Dembélé scores the second-fastest hat-trick in World Cup history as France thrash Norway 4-1 — while their manager is at his mother's funeral",
+      "summary": "With Didier Deschamps away in France attending his mother's funeral (already the subject of an earlier story in this list), assistant Guy Stéphan had to take charge for France's Group I finale. He needn't have worried. Ousmane Dembélé scored three goals in the first 32 minutes — the second-fastest hat-trick in World Cup history, the fastest in 72 years. Mbappé assisted twice. Thelo Aasgaard briefly made it 1-2 for Norway, but Désiré Doué added a fourth late on to seal a 4-1 win. France won Group I with nine points from nine. 'He played like a man possessed,' said Stéphan of Dembélé. Norway, despite the heavy defeat, still qualified for the Round of 32 as group runners-up.",
+      "url": "https://www.aljazeera.com/sports/2026/6/26/dembele-scores-hat-trick-as-france-beat-norway-4-1-at-world-cup-2026"
+    },
     {
       "date": "Fri 26 Jun",
       "headline": "Didier Deschamps misses France's final group game to fly home to France for his mother's funeral",
@@ -606,12 +622,14 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",   "team": "Argentina",   "value": 5},
-        {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
-        {"name": "Erling Haaland", "team": "Norway",      "value": 4},
-        {"name": "Jonathan David", "team": "Canada",      "value": 3},
-        {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
-        {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
+        {"name": "Lionel Messi",      "team": "Argentina",   "value": 5},
+        {"name": "Ousmane Dembélé",   "team": "France",      "value": 4},
+        {"name": "Kylian Mbappé",     "team": "France",      "value": 4},
+        {"name": "Erling Haaland",    "team": "Norway",      "value": 4},
+        {"name": "Vinícius Júnior",   "team": "Brazil",      "value": 4},
+        {"name": "Jonathan David",    "team": "Canada",      "value": 3},
+        {"name": "Deniz Undav",       "team": "Germany",     "value": 3},
+        {"name": "Brian Brobbey",     "team": "Netherlands", "value": 3}
       ]
     },
     {
