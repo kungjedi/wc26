@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "27 Jun 2026 · Group G complete; R32 bracket updated",
+    "last_updated": "28 Jun 2026 · Group stage complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -103,7 +103,7 @@
     {"id":"R32-9","date":"Wed 1 Jul","bst":"9:00 PM","home":"Belgium*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Seattle","stage":"R32"},
     {"id":"R32-10","date":"Thu 2 Jul","bst":"1:00 AM","home":"USA*","away":"3rd Place*","group":"R32","channel":"TBC","city":"San Francisco","stage":"R32"},
     {"id":"R32-11","date":"Thu 2 Jul","bst":"8:00 PM","home":"Spain*","away":"Austria*","group":"R32","channel":"TBC","city":"Los Angeles","stage":"R32"},
-    {"id":"R32-12","date":"Fri 3 Jul","bst":"12:00 AM","home":"Portugal*","away":"Ghana*","group":"R32","channel":"TBC","city":"Toronto","stage":"R32"},
+    {"id":"R32-12","date":"Fri 3 Jul","bst":"12:00 AM","home":"Portugal*","away":"Croatia*","group":"R32","channel":"TBC","city":"Toronto","stage":"R32"},
     {"id":"R32-13","date":"Fri 3 Jul","bst":"4:00 AM","home":"Switzerland*","away":"3rd Place*","group":"R32","channel":"TBC","city":"Vancouver","stage":"R32"},
     {"id":"R32-14","date":"Fri 3 Jul","bst":"7:00 PM","home":"Australia*","away":"Egypt*","group":"R32","channel":"TBC","city":"Dallas","stage":"R32"},
     {"id":"R32-15","date":"Fri 3 Jul","bst":"11:00 PM","home":"Argentina*","away":"Cape Verde*","group":"R32","channel":"TBC","city":"Miami","stage":"R32"},
@@ -192,7 +192,13 @@
     "H5": [0, 1],
     "H6": [0, 0],
     "G5": [1, 5],
-    "G6": [1, 1]
+    "G6": [1, 1],
+    "L5": [0, 2],
+    "L6": [2, 1],
+    "K5": [0, 0],
+    "K6": [3, 1],
+    "J5": [1, 3],
+    "J6": [3, 3]
   },
 
   "highlight_links": {
@@ -261,7 +267,13 @@
     "H5": "https://www.youtube.com/watch?v=55dW1Glv_bU",
     "H6": "https://www.youtube.com/watch?v=6W6Ys1aIXj0",
     "G5": "https://www.youtube.com/watch?v=QzIbZkwnDdg",
-    "G6": "https://www.youtube.com/watch?v=RRglAYuA0Lc"
+    "G6": "https://www.youtube.com/watch?v=RRglAYuA0Lc",
+    "L5": "",
+    "L6": "",
+    "K5": "",
+    "K6": "",
+    "J5": "",
+    "J6": ""
   },
 
   "standings": {
@@ -320,26 +332,44 @@
       {"name":"Iraq",    "p":3,"w":0,"d":0,"l":3,"gf":1,"ga":12,"pts":0}
     ],
     "J": [
-      {"name":"Argentina", "p":2,"w":2,"d":0,"l":0,"gf":5,"ga":0,"pts":6},
-      {"name":"Austria",   "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":3,"pts":3},
-      {"name":"Algeria",   "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":4,"pts":3},
-      {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
+      {"name":"Argentina", "p":3,"w":3,"d":0,"l":0,"gf":8,"ga":1,"pts":9},
+      {"name":"Austria",   "p":3,"w":1,"d":1,"l":1,"gf":6,"ga":6,"pts":4},
+      {"name":"Algeria",   "p":3,"w":1,"d":1,"l":1,"gf":5,"ga":7,"pts":4},
+      {"name":"Jordan",    "p":3,"w":0,"d":0,"l":3,"gf":3,"ga":8,"pts":0}
     ],
     "K": [
-      {"name":"Colombia",   "p":2,"w":2,"d":0,"l":0,"gf":4,"ga":1,"pts":6},
-      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
-      {"name":"DR Congo",   "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":2,"pts":1},
-      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
+      {"name":"Colombia",   "p":3,"w":2,"d":1,"l":0,"gf":4,"ga":1,"pts":7},
+      {"name":"Portugal",   "p":3,"w":1,"d":2,"l":0,"gf":6,"ga":1,"pts":5},
+      {"name":"DR Congo",   "p":3,"w":1,"d":1,"l":1,"gf":4,"ga":3,"pts":4},
+      {"name":"Uzbekistan", "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":11,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
-      {"name":"Ghana",    "p":2,"w":1,"d":1,"l":0,"gf":1,"ga":0,"pts":4},
-      {"name":"Croatia",  "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":4,"pts":3},
-      {"name":"Panama",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":2,"pts":0}
+      {"name":"England",  "p":3,"w":2,"d":1,"l":0,"gf":6,"ga":2,"pts":7},
+      {"name":"Croatia",  "p":3,"w":2,"d":0,"l":1,"gf":5,"ga":5,"pts":6},
+      {"name":"Ghana",    "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":2,"pts":4},
+      {"name":"Panama",   "p":3,"w":0,"d":0,"l":3,"gf":0,"ga":4,"pts":0}
     ]
   },
 
   "funnies": [
+    {
+      "date": "Sun 28 Jun",
+      "headline": "Riyad Mahrez thought he'd won it in the 90th+3 — then Sasa Kalajdzic equalised in the 96th minute to break Algerian hearts",
+      "summary": "Kansas City was in a state of pure chaos. With both Algeria and Austria needing a result to advance from Group J, Riyad Mahrez rifled home his second goal of the match in the third minute of stoppage time to make it 3-2. The Algerian bench erupted. Fans in the stands were already filming celebrations. Then, with the board showing six added minutes and barely any time left, Austrian substitute Sasa Kalajdzic — on the pitch for just 12 minutes — powered a header into the net to make it 3-3. Both teams advance to the knockouts; both benches both celebrated and collapsed simultaneously. Mahrez knelt on the turf, head bowed, for a long time after the final whistle. Algeria needed that win to avoid a potential third-place playoff for the best 3rd-place spots; now they wait nervously to see if 4 points and a -2 goal difference is enough.",
+      "url": "https://www.skysports.com/football/news/12309/13556709/world-cup-2026-algeria-3-3-austria-sasa-kalajdzic-scores-96th-minute-equaliser-amid-incredible-finish-which-sees-both-sides-reach-knockouts"
+    },
+    {
+      "date": "Sun 28 Jun",
+      "headline": "DR Congo win their first ever World Cup match — Wissa's brace seals a 3-1 comeback to bring joy to 100 million people",
+      "summary": "DR Congo had played six World Cup matches across 2014 and 2022 without a single win. Uzbekistan threatened to make it seven when they went ahead early in Atlanta. Then Yoane Wissa, the Brentford striker, took over: he converted from the spot, then added a late brace to complete a stunning 3-1 comeback. The DR Congo bench — players, staff, fans — descended into complete delirium at the final whistle. The country's famous 'statue fan' Michel Mboladinga, who had stood motionless for 90 minutes against Colombia, finally broke character. Back in Kinshasa, a city of five million people, the scenes were extraordinary. It is the most celebrated result in Congolese football history.",
+      "url": "https://www.101greatgoals.com/football/world-cup-news/dr-congo-uzbekistan-report-result-goals-wissa-england/"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "headline": "Harry Kane surpasses Gary Lineker to become England's all-time top scorer at World Cups — 11 goals, three tournaments",
+      "summary": "In the 67th minute against Panama at MetLife Stadium in New Jersey, Harry Kane tapped home from close range to make it 2-0 — and in doing so moved to 11 career World Cup goals, one clear of Gary Lineker's record that had stood since 1990. Lineker, watching from the BBC studio in London, congratulated Kane on air. Jude Bellingham had opened the scoring with a header in the 62nd minute. England topped Group L and await a Round of 32 opponent. Afterwards Kane said: 'Records like that don't really mean anything unless the team goes all the way — that's all I'm focused on.'",
+      "url": "https://www.espn.com/soccer/match/_/gameId/760485/england-panama"
+    },
     {
       "date": "Sat 27 Jun",
       "headline": "Iran's Khalilzadeh thought he'd sent his country to the knockouts — then VAR crushed them in the 93rd minute",
@@ -648,10 +678,11 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",    "team": "Argentina",   "value": 5},
+        {"name": "Lionel Messi",    "team": "Argentina",   "value": 6},
         {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
         {"name": "Erling Haaland", "team": "Norway",      "value": 4},
         {"name": "Ousmane Dembélé","team": "France",      "value": 4},
+        {"name": "Vinícius Jr",    "team": "Brazil",      "value": 4},
         {"name": "Jonathan David", "team": "Canada",      "value": 3},
         {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
         {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
