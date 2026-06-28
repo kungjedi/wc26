@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "27 Jun 2026 · Group G complete; R32 bracket updated",
+    "last_updated": "28 Jun 2026 · Groups K & L complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -192,7 +192,11 @@
     "H5": [0, 1],
     "H6": [0, 0],
     "G5": [1, 5],
-    "G6": [1, 1]
+    "G6": [1, 1],
+    "L5": [0, 2],
+    "L6": [2, 1],
+    "K5": [0, 0],
+    "K6": [3, 1]
   },
 
   "highlight_links": {
@@ -261,7 +265,11 @@
     "H5": "https://www.youtube.com/watch?v=55dW1Glv_bU",
     "H6": "https://www.youtube.com/watch?v=6W6Ys1aIXj0",
     "G5": "https://www.youtube.com/watch?v=QzIbZkwnDdg",
-    "G6": "https://www.youtube.com/watch?v=RRglAYuA0Lc"
+    "G6": "https://www.youtube.com/watch?v=RRglAYuA0Lc",
+    "L5": "https://www.youtube.com/watch?v=5QgvEKvqVbQ",
+    "L6": "https://www.youtube.com/watch?v=7dkbhbqzLOE",
+    "K5": "",
+    "K6": ""
   },
 
   "standings": {
@@ -326,20 +334,26 @@
       {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
     ],
     "K": [
-      {"name":"Colombia",   "p":2,"w":2,"d":0,"l":0,"gf":4,"ga":1,"pts":6},
-      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
-      {"name":"DR Congo",   "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":2,"pts":1},
-      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
+      {"name":"Colombia",   "p":3,"w":2,"d":1,"l":0,"gf":4,"ga":1,"pts":7},
+      {"name":"Portugal",   "p":3,"w":1,"d":2,"l":0,"gf":6,"ga":1,"pts":5},
+      {"name":"DR Congo",   "p":3,"w":1,"d":1,"l":1,"gf":4,"ga":3,"pts":4},
+      {"name":"Uzbekistan", "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":11,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
-      {"name":"Ghana",    "p":2,"w":1,"d":1,"l":0,"gf":1,"ga":0,"pts":4},
-      {"name":"Croatia",  "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":4,"pts":3},
-      {"name":"Panama",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":2,"pts":0}
+      {"name":"England",  "p":3,"w":2,"d":1,"l":0,"gf":6,"ga":2,"pts":7},
+      {"name":"Croatia",  "p":3,"w":2,"d":0,"l":1,"gf":5,"ga":5,"pts":6},
+      {"name":"Ghana",    "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":2,"pts":4},
+      {"name":"Panama",   "p":3,"w":0,"d":0,"l":3,"gf":0,"ga":4,"pts":0}
     ]
   },
 
   "funnies": [
+    {
+      "date": "Sat 27 Jun",
+      "headline": "Harry Kane becomes England's all-time World Cup top scorer — breaking Gary Lineker's 36-year-old record with a header against Panama",
+      "summary": "Harry Kane needed just two games at this World Cup to equal Gary Lineker's England record of ten World Cup goals, courtesy of a brace against Croatia in the opener. Then, in the 67th minute against Panama, Jude Bellingham crossed from the left and Kane powered home a header to make it 2-0, sealing England's top-spot finish in Group L and his 11th career World Cup goal. The record had stood since Lineker scored six at Mexico 1986 and four at Italia 1990. Lineker himself tweeted 'Well done @HKane — richly deserved' within seconds. Kane is now the fourth player in history to score 11 or more World Cup goals, sitting behind Messi (18), Klose (16) and Mbappé (16). He is 30 years old and has three tournament wins remaining to go further.",
+      "url": "https://sports.yahoo.com/soccer/article/harry-kane-passes-gary-lineker-to-become-englands-all-time-leading-world-cup-goal-scorer-223044246.html"
+    },
     {
       "date": "Sat 27 Jun",
       "headline": "Iran's Khalilzadeh thought he'd sent his country to the knockouts — then VAR crushed them in the 93rd minute",
@@ -654,7 +668,8 @@
         {"name": "Ousmane Dembélé","team": "France",      "value": 4},
         {"name": "Jonathan David", "team": "Canada",      "value": 3},
         {"name": "Deniz Undav",    "team": "Germany",     "value": 3},
-        {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3}
+        {"name": "Brian Brobbey",  "team": "Netherlands", "value": 3},
+        {"name": "Harry Kane",     "team": "England",     "value": 3}
       ]
     },
     {
