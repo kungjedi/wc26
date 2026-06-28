@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "27 Jun 2026 · Group G complete; R32 bracket updated",
+    "last_updated": "28 Jun 2026 · Group stage complete",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
 
@@ -192,7 +192,13 @@
     "H5": [0, 1],
     "H6": [0, 0],
     "G5": [1, 5],
-    "G6": [1, 1]
+    "G6": [1, 1],
+    "L5": [0, 2],
+    "L6": [2, 1],
+    "K5": [0, 0],
+    "K6": [3, 1],
+    "J5": [1, 3],
+    "J6": [3, 3]
   },
 
   "highlight_links": {
@@ -261,7 +267,13 @@
     "H5": "https://www.youtube.com/watch?v=55dW1Glv_bU",
     "H6": "https://www.youtube.com/watch?v=6W6Ys1aIXj0",
     "G5": "https://www.youtube.com/watch?v=QzIbZkwnDdg",
-    "G6": "https://www.youtube.com/watch?v=RRglAYuA0Lc"
+    "G6": "https://www.youtube.com/watch?v=RRglAYuA0Lc",
+    "L5": "https://www.youtube.com/watch?v=5QgvEKvqVbQ",
+    "L6": "https://www.youtube.com/watch?v=7dkbhbqzLOE",
+    "K5": "https://www.youtube.com/watch?v=-3tSQyZ6miY",
+    "K6": "",
+    "J5": "",
+    "J6": ""
   },
 
   "standings": {
@@ -320,26 +332,44 @@
       {"name":"Iraq",    "p":3,"w":0,"d":0,"l":3,"gf":1,"ga":12,"pts":0}
     ],
     "J": [
-      {"name":"Argentina", "p":2,"w":2,"d":0,"l":0,"gf":5,"ga":0,"pts":6},
-      {"name":"Austria",   "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":3,"pts":3},
-      {"name":"Algeria",   "p":2,"w":1,"d":0,"l":1,"gf":2,"ga":4,"pts":3},
-      {"name":"Jordan",    "p":2,"w":0,"d":0,"l":2,"gf":2,"ga":5,"pts":0}
+      {"name":"Argentina", "p":3,"w":3,"d":0,"l":0,"gf":8,"ga":1,"pts":9},
+      {"name":"Austria",   "p":3,"w":1,"d":1,"l":1,"gf":6,"ga":6,"pts":4},
+      {"name":"Algeria",   "p":3,"w":1,"d":1,"l":1,"gf":5,"ga":7,"pts":4},
+      {"name":"Jordan",    "p":3,"w":0,"d":0,"l":3,"gf":3,"ga":8,"pts":0}
     ],
     "K": [
-      {"name":"Colombia",   "p":2,"w":2,"d":0,"l":0,"gf":4,"ga":1,"pts":6},
-      {"name":"Portugal",   "p":2,"w":1,"d":1,"l":0,"gf":6,"ga":1,"pts":4},
-      {"name":"DR Congo",   "p":2,"w":0,"d":1,"l":1,"gf":1,"ga":2,"pts":1},
-      {"name":"Uzbekistan", "p":2,"w":0,"d":0,"l":2,"gf":1,"ga":8,"pts":0}
+      {"name":"Colombia",   "p":3,"w":2,"d":1,"l":0,"gf":4,"ga":1,"pts":7},
+      {"name":"Portugal",   "p":3,"w":1,"d":2,"l":0,"gf":6,"ga":1,"pts":5},
+      {"name":"DR Congo",   "p":3,"w":1,"d":1,"l":1,"gf":4,"ga":3,"pts":4},
+      {"name":"Uzbekistan", "p":3,"w":0,"d":0,"l":3,"gf":2,"ga":11,"pts":0}
     ],
     "L": [
-      {"name":"England",  "p":2,"w":1,"d":1,"l":0,"gf":4,"ga":2,"pts":4},
-      {"name":"Ghana",    "p":2,"w":1,"d":1,"l":0,"gf":1,"ga":0,"pts":4},
-      {"name":"Croatia",  "p":2,"w":1,"d":0,"l":1,"gf":3,"ga":4,"pts":3},
-      {"name":"Panama",   "p":2,"w":0,"d":0,"l":2,"gf":0,"ga":2,"pts":0}
+      {"name":"England",  "p":3,"w":2,"d":1,"l":0,"gf":6,"ga":2,"pts":7},
+      {"name":"Croatia",  "p":3,"w":2,"d":0,"l":1,"gf":5,"ga":5,"pts":6},
+      {"name":"Ghana",    "p":3,"w":1,"d":1,"l":1,"gf":2,"ga":2,"pts":4},
+      {"name":"Panama",   "p":3,"w":0,"d":0,"l":3,"gf":0,"ga":4,"pts":0}
     ]
   },
 
   "funnies": [
+    {
+      "date": "Sun 28 Jun",
+      "headline": "Messi scores a 90th-minute free kick to become the first man ever to score in seven straight World Cup games",
+      "summary": "Argentina had already secured top spot in Group J and Lionel Messi hadn't even started against Jordan. He came on as a substitute, won a free kick, and curled it into the net in the 80th minute for his 19th career World Cup goal — the most by any man in history, two clear of his previous record. He has now scored in every single World Cup he has entered, across 2006, 2010, 2014, 2018, 2022, and 2026, and has scored in seven consecutive World Cup matches — a record no man has ever come close to. He did it off the bench, in a match Argentina had already won 2-1 before he arrived. Opta noted it was his 49th career goal in knockout or decisive international matches.",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/lionel-messi-becomes-first-man-to-score-in-7-straight-world-cup-games-with-free-kick-goal-in-win-over-jordan-035656101.html"
+    },
+    {
+      "date": "Sun 28 Jun",
+      "headline": "Algeria thought they'd beaten Austria with a 93rd-minute Mahrez wonder goal — Kalajdzic equalised with the very last touch of the match in the 96th",
+      "summary": "Algeria led 2-2 going into the final minutes against Austria at Kansas City, with both sides assured of progression. Then Riyad Mahrez smashed in a magnificent curling strike in the 90+3rd minute to make it 3-2. The Austrian bench looked devastated; Iran, watching from afar, suddenly had knockout hope. Then, in the 90+6th minute — with no time left — giant striker Saša Kalajdžić rose to head in a Michael Gregoritsch cross and force a 3-3 draw. His header was the very last touch of the match. Iran were eliminated. Algeria and Austria both advanced. An entire stadium in Kansas City looked as though it had forgotten to breathe.",
+      "url": "https://www.espn.com/soccer/story/_/id/49203568/algeria-austria-iran-2026-world-cup-draw-advance-eliminated"
+    },
+    {
+      "date": "Sat 27 Jun",
+      "headline": "Harry Kane becomes England's all-time World Cup top scorer — with a headed goal the day after he missed an open net",
+      "summary": "Less than 72 hours after blazing an unmissable chance over the bar against Ghana, Harry Kane rose to meet a Jude Bellingham corner and headed England's second goal against Panama with clinical precision, becoming England's all-time record World Cup scorer with 11 goals — one ahead of Gary Lineker. Kane, who has 82 international goals in total, scored the goal the day before Panama also became the first team in World Cup history to be knocked out without having a single shot on target across their three group games. England topped Group L. Kane looked relieved.",
+      "url": "https://www.espn.com/soccer/story/_/id/49190714/harry-kane-england-leading-goalscorer-world-cup-70-goals-lineker-panama"
+    },
     {
       "date": "Sat 27 Jun",
       "headline": "Iran's Khalilzadeh thought he'd sent his country to the knockouts — then VAR crushed them in the 93rd minute",
@@ -648,7 +678,7 @@
       "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
-        {"name": "Lionel Messi",    "team": "Argentina",   "value": 5},
+        {"name": "Lionel Messi",    "team": "Argentina",   "value": 6},
         {"name": "Kylian Mbappé",  "team": "France",      "value": 4},
         {"name": "Erling Haaland", "team": "Norway",      "value": 4},
         {"name": "Ousmane Dembélé","team": "France",      "value": 4},
