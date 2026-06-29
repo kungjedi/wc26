@@ -1587,10 +1587,10 @@
     "L5": "https://www.youtube.com/watch?v=5QgvEKvqVbQ",
     "L6": "https://www.youtube.com/watch?v=7dkbhbqzLOE",
     "K5": "https://www.youtube.com/watch?v=-3tSQyZ6miY",
-    "K6": "",
-    "J5": "",
-    "J6": "",
-    "R32-1": ""
+    "K6": "https://www.youtube.com/watch?v=GysGCE8iKXE",
+    "J5": "https://www.youtube.com/watch?v=PD9df88QpOs",
+    "J6": "https://www.youtube.com/watch?v=NIMe2mIfTdI",
+    "R32-1": "https://www.youtube.com/watch?v=pVxERbYk7D0"
   },
   "standings": {
     "A": [
@@ -2099,6 +2099,12 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Sun 28 Jun",
+      "headline": "Eustáquio fires Canada into the Round of 16 in the 92nd minute — their first-ever World Cup knockout win",
+      "summary": "Stephen Eustáquio met a half-cleared corner on the edge of the area and hammered it into the net with 92 minutes on the clock, sending co-hosts Canada into the World Cup's last 16 for the first time in their history. Canada had never previously won a World Cup knockout match — they had never been in one. As co-hosts in 2026, they did it in the most dramatic fashion possible, in front of a delirious crowd at the Los Angeles Stadium. Coach Jesse Marsch sprinted onto the pitch at full-time. 'You guys are Canadian heroes today!' he told the squad. 'Canadian heroes for the future children of this country who play this sport.' South Africa — themselves debutants in the knockouts — were knocked straight back out.",
+      "url": "https://www.aljazeera.com/sports/2026/6/28/canada-score-late-to-beat-south-africa-and-reach-last-16-at-world-cup-2026"
+    },
     {
       "date": "Sun 28 Jun",
       "headline": "Mahrez scores in 90+3, Kalajdzic equalises in 90+5 — both teams go through in six minutes of madness",
