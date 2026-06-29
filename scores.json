@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "28 Jun 2026 · R32 day 1 — Canada 1-0 South Africa",
+    "last_updated": "29 Jun 2026 · R32 highlights & stats updated; day 2 matches (Brazil/Japan, Germany/Paraguay) pending",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -1587,9 +1587,9 @@
     "L5": "https://www.youtube.com/watch?v=5QgvEKvqVbQ",
     "L6": "https://www.youtube.com/watch?v=7dkbhbqzLOE",
     "K5": "https://www.youtube.com/watch?v=-3tSQyZ6miY",
-    "K6": "",
-    "J5": "",
-    "J6": "",
+    "K6": "https://www.youtube.com/watch?v=GysGCE8iKXE",
+    "J5": "https://www.youtube.com/watch?v=PD9df88QpOs",
+    "J6": "https://www.youtube.com/watch?v=NIMe2mIfTdI",
     "R32-1": ""
   },
   "standings": {
@@ -2101,6 +2101,12 @@
   "funnies": [
     {
       "date": "Sun 28 Jun",
+      "headline": "Canada coach admitted he used injured Alphonso Davies as a DECOY for the entire group stage — Switzerland held a press conference about him",
+      "summary": "Jesse Marsch confirmed after Canada's 1-0 R32 win over South Africa that captain Alphonso Davies — who missed all three group stage matches with a hamstring injury — was deliberately kept in public view to make opponents waste preparation time game-planning for someone who wasn't actually fit to play. 'He was never ready to play today, but I used him as a decoy,' said Marsch. Switzerland devoted their pre-match press conference to discussing Davies. He then came off the bench in Canada's historic 95th-minute winner against South Africa — his first appearance of the tournament, in the match that sent Canada to the Round of 16 for the first time ever.",
+      "url": "https://www.espn.com/soccer/story/_/id/49201528/canada-star-alphonso-davies-ready-world-cup-knockouts-decoy-role"
+    },
+    {
+      "date": "Sun 28 Jun",
       "headline": "Mahrez scores in 90+3, Kalajdzic equalises in 90+5 — both teams go through in six minutes of madness",
       "summary": "Algeria appeared to have snatched a dramatic winner through Riyad Mahrez in the 93rd minute that would have sent Austria home. But substitute Sasa Kalajdzic equalised barely 90 seconds later in the 95th minute to make it 3-3 — sending both sides through to the knockouts in the wildest ending of the group stage.",
       "url": "https://www.foxsports.com/stories/soccer/4-takeaways-from-wild-ending-between-austria-algeria-group-j-finale"
@@ -2401,6 +2407,11 @@
         {
           "name": "Erling Haaland",
           "team": "Norway",
+          "value": 4
+        },
+        {
+          "name": "Vinicius Junior",
+          "team": "Brazil",
           "value": 4
         },
         {
