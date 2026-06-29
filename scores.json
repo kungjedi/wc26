@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "28 Jun 2026 · R32 day 1 — Canada 1-0 South Africa",
+    "last_updated": "29 Jun 2026 · R32 day 2 — Brazil v Japan, Germany v Paraguay (pending)",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -2099,6 +2099,18 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Sun 28 Jun",
+      "headline": "Eustáquio's 92nd-minute poke sends Canada to their first ever World Cup Round of 16",
+      "summary": "Stephen Eustáquio prodded home in the 92nd minute at SoFi Stadium to give Canada a 1-0 win over South Africa — sending the Canucks to a World Cup Round of 16 for the very first time. The goal sparked scenes of pure elation among Canadian players and staff, many of whom have spent their entire careers dreaming of this moment. Canada had already made history by winning their first ever World Cup match earlier in the tournament (6-0 vs Qatar); now they've gone one step further and reached the last 16. Next up: Netherlands or Morocco in Houston on 4 July.",
+      "url": "https://www.cbc.ca/sports/soccer/worldcup/fifa-world-cup-canada-south-africa-recap-june-28-9.7251885"
+    },
+    {
+      "date": "Mon 22 Jun",
+      "headline": "French pundit calls childbirth 'a disgusting moment' after Doku leaves Belgium camp for his son's birth — and is taken off air",
+      "summary": "Jeremy Doku left Belgium's World Cup camp to be present at the birth of his first son, missing a training session. An RMC Sport pundit described childbirth as 'a disgusting moment' that 'has no place in football', insisting players should 'prioritise their team'. She was promptly stood down from her broadcast slot. Meanwhile Doku's Belgium teammates celebrated the news, he returned to camp within 24 hours, and the pundit's comments became the most-discussed football opinion of the week — for all the wrong reasons.",
+      "url": "https://www.aljazeera.com/sports/2026/6/22/belgiums-doku-welcomes-son-during-world-cup-amid-commentator-controversy"
+    },
     {
       "date": "Sun 28 Jun",
       "headline": "Mahrez scores in 90+3, Kalajdzic equalises in 90+5 — both teams go through in six minutes of madness",
