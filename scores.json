@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "28 Jun 2026 · R32 day 1 — Canada 1-0 South Africa",
+    "last_updated": "29 Jun 2026 · R32 day 2 — Brazil v Japan & Germany v Paraguay in progress",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -1587,9 +1587,9 @@
     "L5": "https://www.youtube.com/watch?v=5QgvEKvqVbQ",
     "L6": "https://www.youtube.com/watch?v=7dkbhbqzLOE",
     "K5": "https://www.youtube.com/watch?v=-3tSQyZ6miY",
-    "K6": "",
-    "J5": "",
-    "J6": "",
+    "K6": "https://www.youtube.com/watch?v=GysGCE8iKXE",
+    "J5": "https://www.youtube.com/watch?v=PD9df88QpOs",
+    "J6": "https://www.youtube.com/watch?v=NIMe2mIfTdI",
     "R32-1": ""
   },
   "standings": {
