@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "28 Jun 2026 · R32 day 1 — Canada 1-0 South Africa",
+    "last_updated": "29 Jun 2026 · R32 day 2 in progress — Brazil vs Japan & Germany vs Paraguay",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -1587,9 +1587,9 @@
     "L5": "https://www.youtube.com/watch?v=5QgvEKvqVbQ",
     "L6": "https://www.youtube.com/watch?v=7dkbhbqzLOE",
     "K5": "https://www.youtube.com/watch?v=-3tSQyZ6miY",
-    "K6": "",
-    "J5": "",
-    "J6": "",
+    "K6": "https://www.youtube.com/watch?v=GysGCE8iKXE",
+    "J5": "https://www.youtube.com/watch?v=PD9df88QpOs",
+    "J6": "https://www.youtube.com/watch?v=NIMe2mIfTdI",
     "R32-1": ""
   },
   "standings": {
@@ -2099,6 +2099,12 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Sun 28 Jun",
+      "headline": "Eustáquio's 90+2 volley sends Canada to their first-ever World Cup Round of 16 — scored in memory of parents lost to illness and heartbreak",
+      "summary": "With 0-0 and extra time looming at SoFi Stadium in Los Angeles, Stephen Eustáquio met a loose ball on the edge of South Africa's box in the second minute of stoppage time and hammered a half-volley into the bottom corner. Canada's first-ever World Cup Round of 16, delivered in Hollywood fashion. The goal hit the internet harder when people found out who scored it: Eustáquio lost his mother to brain cancer in April 2023, then his father to a sudden heart attack barely a year later. At the final whistle he fell to his knees, raised both hands to the sky, and was buried under teammates. Alphonso Davies — returning from injury and making his first World Cup appearance — had set up the crucial chance in the 75th minute. Canada's improbable journey continues.",
+      "url": "https://www.aljazeera.com/sports/2026/6/29/who-is-stephen-eustaquio-who-scored-for-canada-against-south-africa"
+    },
     {
       "date": "Sun 28 Jun",
       "headline": "Mahrez scores in 90+3, Kalajdzic equalises in 90+5 — both teams go through in six minutes of madness",
