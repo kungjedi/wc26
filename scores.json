@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "28 Jun 2026 · R32 day 1 — Canada 1-0 South Africa",
+    "last_updated": "2 Jul 2026 · R32 day 4 — England beat DR Congo, Belgium fight back to beat Senegal in extra time",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -1515,6 +1515,38 @@
     "R32-1": [
       0,
       1
+    ],
+    "R32-2": [
+      2,
+      1
+    ],
+    "R32-3": [
+      1,
+      1
+    ],
+    "R32-4": [
+      1,
+      1
+    ],
+    "R32-5": [
+      1,
+      2
+    ],
+    "R32-6": [
+      3,
+      0
+    ],
+    "R32-7": [
+      2,
+      0
+    ],
+    "R32-8": [
+      2,
+      1
+    ],
+    "R32-9": [
+      3,
+      2
     ]
   },
   "highlight_links": {
@@ -1590,7 +1622,15 @@
     "K6": "",
     "J5": "",
     "J6": "",
-    "R32-1": ""
+    "R32-1": "",
+    "R32-2": "https://www.youtube.com/watch?v=GiwKDrb6WdA",
+    "R32-3": "https://www.youtube.com/watch?v=gVYimAh7meQ",
+    "R32-4": "https://www.youtube.com/watch?v=He2Fm2LCB0U",
+    "R32-5": "",
+    "R32-6": "https://www.youtube.com/watch?v=WHJhjGYcLeY",
+    "R32-7": "https://www.youtube.com/watch?v=HpZf48QB-M0",
+    "R32-8": "https://www.youtube.com/watch?v=T3_ekbdc1to",
+    "R32-9": ""
   },
   "standings": {
     "A": [
@@ -2100,6 +2140,24 @@
   },
   "funnies": [
     {
+      "date": "Wed 1 Jul",
+      "headline": "A lone DR Congo fan celebrates his side's shock early goal surrounded by a sea of stunned England supporters",
+      "summary": "When Brian Cipenga fired DR Congo ahead inside the first ten minutes against England in Atlanta, cameras found a single Congolese fan perched among a packed England section — leaping to his feet, waving his flag wildly while a wall of deflated Three Lions fans sat motionless around him. It went viral within minutes. England fought back through two late Harry Kane goals to win 2-1, but the lone fan's celebration was the moment of the match for many watching at home. DR Congo's famous 'statue fan' Michel Mboladinga, who normally poses motionless as a Lumumba memorial throughout matches, was reportedly unable to get a US visa in time for the knockout game.",
+      "url": "https://www.hitc.com/watch-the-brilliant-moment-dr-congo-fan-celebrates-opening-goal-surrounded-by-england-fans/"
+    },
+    {
+      "date": "Tue 30 Jun",
+      "headline": "Morocco's penalty hero Ismael Saibari runs straight to his sobbing mother after eliminating the Netherlands — a decade after doctors said he might never walk properly",
+      "summary": "Ismael Saibari scored the winning spot-kick as Morocco beat the Netherlands 3-2 on penalties (1-1 after extra time) to reach the last 16. He immediately sprinted to the stands to embrace his mother, who broke down in tears. The moment carried extra weight: as a child, doctors told Saibari's parents he might never walk properly, and he spent over a year in restrictive orthopedic braces to correct his bone alignment before going on to become a professional footballer.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/morocco-player-hugs-mother-as-team-celebrates-win-against-netherlands"
+    },
+    {
+      "date": "Mon 29 Jun",
+      "headline": "Paraguay stun four-time champions Germany on penalties in one of the biggest upsets in World Cup history",
+      "summary": "Ranked 41st in the world to Germany's 10th, Paraguay held Germany to a 1-1 draw after extra time in Boston (Enciso for Paraguay, Havertz for Germany) then won 4-3 on penalties — Germany's first ever World Cup shootout defeat. Goalkeeper Orlando Gill saved spot-kicks from Kai Havertz and Nick Woltemade before Jose Canale converted the winner. 'We had to analyze every player, every detail,' said Gill afterwards. Manuel Neuer and Germany were eliminated in the Round of 32.",
+      "url": "https://www.aljazeera.com/sports/2026/6/29/paraguay-shock-germany-in-shootout-win-for-one-of-all-time-world-cup-upsets"
+    },
+    {
       "date": "Sun 28 Jun",
       "headline": "Mahrez scores in 90+3, Kalajdzic equalises in 90+5 — both teams go through in six minutes of madness",
       "summary": "Algeria appeared to have snatched a dramatic winner through Riyad Mahrez in the 93rd minute that would have sent Austria home. But substitute Sasa Kalajdzic equalised barely 90 seconds later in the 95th minute to make it 3-3 — sending both sides through to the knockouts in the wildest ending of the group stage.",
@@ -2396,12 +2454,12 @@
         {
           "name": "Kylian Mbappé",
           "team": "France",
-          "value": 4
+          "value": 6
         },
         {
           "name": "Erling Haaland",
           "team": "Norway",
-          "value": 4
+          "value": 5
         },
         {
           "name": "Jonathan David",
