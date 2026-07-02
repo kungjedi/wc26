@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2 Jul 2026 \u00b7 R32 day 5 \u2014 USA beat Bosnia 2-0, R16 bracket set",
+    "last_updated": "2 Jul 2026 \u00b7 R32 day 5 \u2014 USA beat Bosnia 2-0, R16 bracket set; Spain, Portugal & Switzerland still to play, no new full-time results yet",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -2144,6 +2144,12 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Thu 2 Jul",
+      "headline": "Tielemans' 125th-minute penalty is the latest goal ever scored at a men's World Cup as Belgium stun Senegal 3-2",
+      "summary": "Senegal led 2-0 through Habib Diarra and Ismaila Sarr before Belgium hit back late through Romelu Lukaku and Youri Tielemans to force extra time, then won a controversial penalty in the 125th minute after a seven-minute VAR review \u2014 Tielemans converted to make it the latest goal in men's World Cup history. Senegal players surrounded the pitchside monitor in protest, with one lying across the penalty spot to delay the kick.",
+      "url": "https://www.espn.com/soccer/story/_/id/49238481/belgium-vs-senegal-live-world-cup-2026-updates-round-32-clash"
+    },
     {
       "date": "Thu 2 Jul",
       "headline": "Balogun scores then gets sent off \u2014 banned for USA vs Belgium",
