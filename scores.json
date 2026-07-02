@@ -2462,9 +2462,19 @@
           "value": 5
         },
         {
-          "name": "Jonathan David",
-          "team": "Canada",
-          "value": 3
+          "name": "Harry Kane",
+          "team": "England",
+          "value": 5
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "team": "France",
+          "value": 4
+        },
+        {
+          "name": "Vinicius Júnior",
+          "team": "Brazil",
+          "value": 4
         },
         {
           "name": "Deniz Undav",
@@ -2472,8 +2482,18 @@
           "value": 3
         },
         {
-          "name": "Ousmane Dembélé",
-          "team": "France",
+          "name": "Jonathan David",
+          "team": "Canada",
+          "value": 3
+        },
+        {
+          "name": "Folarin Balogun",
+          "team": "USA",
+          "value": 3
+        },
+        {
+          "name": "Ismael Saibari",
+          "team": "Morocco",
           "value": 3
         }
       ]
@@ -2486,7 +2506,12 @@
         {
           "name": "Michael Olise",
           "team": "France",
-          "value": 3
+          "value": 5
+        },
+        {
+          "name": "Bruno Guimarães",
+          "team": "Brazil",
+          "value": 4
         },
         {
           "name": "Alexander Isak",
@@ -2494,18 +2519,13 @@
           "value": 3
         },
         {
-          "name": "Joshua Kimmich",
-          "team": "Germany",
+          "name": "Julio Enciso",
+          "team": "Paraguay",
           "value": 2
         },
         {
           "name": "Brahim Díaz",
           "team": "Morocco",
-          "value": 2
-        },
-        {
-          "name": "Riyad Mahrez",
-          "team": "Algeria",
           "value": 2
         }
       ]
@@ -2521,6 +2541,11 @@
           "value": 15
         },
         {
+          "name": "Mohammad Al-Owais",
+          "team": "Saudi Arabia",
+          "value": 9
+        },
+        {
           "name": "Vozinha",
           "team": "Cape Verde",
           "value": 7
@@ -2531,7 +2556,23 @@
       "id": "shots",
       "label": "🔫 Shots on Target",
       "unit": "shots",
-      "entries": []
+      "entries": [
+        {
+          "name": "Kylian Mbappé",
+          "team": "France",
+          "value": 16
+        },
+        {
+          "name": "Lionel Messi",
+          "team": "Argentina",
+          "value": 8
+        },
+        {
+          "name": "Erling Haaland",
+          "team": "Norway",
+          "value": 7
+        }
+      ]
     },
     {
       "id": "yellow_cards",
@@ -2572,6 +2613,16 @@
       "unit": "km",
       "entries": [
         {
+          "name": "Andrés Cubas",
+          "team": "Paraguay",
+          "value": 49.88
+        },
+        {
+          "name": "Kylian Mbappé",
+          "team": "France",
+          "value": 26.3
+        },
+        {
           "name": "Scott McTominay",
           "team": "Scotland",
           "value": 24.7
@@ -2594,7 +2645,23 @@
       "id": "touches_player",
       "label": "✋ Ball Touches — Most (Player)",
       "unit": "touches",
-      "entries": []
+      "entries": [
+        {
+          "name": "Gabriel Magalhães",
+          "team": "Brazil",
+          "value": 382
+        },
+        {
+          "name": "Marquinhos",
+          "team": "Brazil",
+          "value": 348
+        },
+        {
+          "name": "Rodri",
+          "team": "Spain",
+          "value": 328
+        }
+      ]
     },
     {
       "id": "red_cards_team",
@@ -2634,6 +2701,16 @@
         {
           "name": "Iraq",
           "team": "Group I",
+          "value": 1
+        },
+        {
+          "name": "Ecuador",
+          "team": "Group E",
+          "value": 1
+        },
+        {
+          "name": "USA",
+          "team": "Group D",
           "value": 1
         }
       ]
@@ -2686,6 +2763,16 @@
         {
           "name": "Rebin Sulaka",
           "team": "Iraq",
+          "value": 1
+        },
+        {
+          "name": "Piero Hincapié",
+          "team": "Ecuador",
+          "value": 1
+        },
+        {
+          "name": "Folarin Balogun",
+          "team": "USA",
           "value": 1
         }
       ]
