@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2 Jul 2026 \u00b7 R32 day 5 \u2014 USA beat Bosnia 2-0, R16 bracket set; Spain, Portugal & Switzerland still to play, no new full-time results yet",
+    "last_updated": "3 Jul 2026 \u00b7 R32 day 6 \u2014 Spain beat Austria 3-0 to reach the last 16; Portugal v Croatia and Switzerland v Algeria still to finish",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1094,7 +1094,7 @@
       "id": "R16-5",
       "date": "Mon 6 Jul",
       "bst": "8:00 PM",
-      "home": "Spa. / Austria",
+      "home": "Spain",
       "away": "Por. / Croatia",
       "group": "R16",
       "channel": "TBC",
@@ -1551,6 +1551,10 @@
     "R32-10": [
       2,
       0
+    ],
+    "R32-11": [
+      3,
+      0
     ]
   },
   "highlight_links": {
@@ -1635,7 +1639,8 @@
     "R32-7": "https://www.youtube.com/watch?v=HpZf48QB-M0",
     "R32-8": "https://www.youtube.com/watch?v=T3_ekbdc1to",
     "R32-9": "",
-    "R32-10": "https://www.youtube.com/watch?v=4GKwrvlM-x4"
+    "R32-10": "https://www.youtube.com/watch?v=4GKwrvlM-x4",
+    "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU"
   },
   "standings": {
     "A": [
@@ -2144,6 +2149,12 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Thu 2 Jul",
+      "headline": "Spain don't face a single shot on target as they cruise past Austria 3-0",
+      "summary": "Mikel Oyarzabal's brace and a Pedro Porro header sent Spain into the last 16 in Los Angeles without conceding a single shot on target all game — the first time that's happened in a men's World Cup knockout match since Germany's win over Argentina in the 2014 final.",
+      "url": "https://theanalyst.com/articles/spain-vs-austria-stats-world-cup-2026"
+    },
     {
       "date": "Thu 2 Jul",
       "headline": "Tielemans' 125th-minute penalty is the latest goal ever scored at a men's World Cup as Belgium stun Senegal 3-2",
