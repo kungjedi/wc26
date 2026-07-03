@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "3 Jul 2026 \u00b7 R32 day 6 \u2014 Spain beat Austria 3-0 to reach the last 16; Portugal v Croatia and Switzerland v Algeria still to finish",
+    "last_updated": "3 Jul 2026 \u00b7 R32 day 6 \u2014 Portugal beat Croatia 2-1 and Switzerland beat Algeria 2-0 to reach the last 16; Australia v Egypt, Argentina v Cape Verde and Colombia v Ghana still to play",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1095,7 +1095,7 @@
       "date": "Mon 6 Jul",
       "bst": "8:00 PM",
       "home": "Spain",
-      "away": "Por. / Croatia",
+      "away": "Portugal",
       "group": "R16",
       "channel": "TBC",
       "city": "Dallas",
@@ -1127,7 +1127,7 @@
       "id": "R16-8",
       "date": "Tue 7 Jul",
       "bst": "9:00 PM",
-      "home": "Swi. / Algeria",
+      "home": "Switzerland",
       "away": "Col. / Ghana",
       "group": "R16",
       "channel": "TBC",
@@ -1555,6 +1555,14 @@
     "R32-11": [
       3,
       0
+    ],
+    "R32-12": [
+      2,
+      1
+    ],
+    "R32-13": [
+      2,
+      0
     ]
   },
   "highlight_links": {
@@ -1640,7 +1648,9 @@
     "R32-8": "https://www.youtube.com/watch?v=T3_ekbdc1to",
     "R32-9": "",
     "R32-10": "https://www.youtube.com/watch?v=4GKwrvlM-x4",
-    "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU"
+    "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU",
+    "R32-12": "",
+    "R32-13": ""
   },
   "standings": {
     "A": [
@@ -2149,6 +2159,18 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Fri 3 Jul",
+      "headline": "Luka Modric's international career ends in VAR heartbreak as Portugal edge Croatia 2-1",
+      "summary": "Croatia thought they'd forced extra time when Josko Gvardiol scored in the 113th minute, only for the goal to be chalked off after a lengthy VAR review found Igor Matanovic offside in the build-up. It brought the curtain down on 40-year-old Luka Modric's five-World-Cup international career with an emotional embrace with former Real Madrid teammate Cristiano Ronaldo, who kept his own dream alive with a second-half penalty before Goncalo Ramos's stoppage-time header won it.",
+      "url": "https://www.skysports.com/football/news/11095/13558808/world-cup-2026-portugal-2-1-croatia-cristiano-ronaldos-dreams-survive-after-late-var-drama-forces-luka-modric-farewell"
+    },
+    {
+      "date": "Fri 3 Jul",
+      "headline": "Ghanaian witch doctor who 'cursed' Harry Kane now predicts Cape Verde will eliminate Argentina",
+      "summary": "Nana Kwaku Bonsam, the self-styled witch doctor who claimed responsibility for Harry Kane's missed sitters against Ghana in the group stage, has turned his attention to Saturday's Round of 32 tie — predicting World Cup debutants Cape Verde will knock out Lionel Messi's defending champions Argentina, while tipping Cristiano Ronaldo's Portugal to lift the trophy.",
+      "url": "https://tribuna.com/en/news/2026-06-27-ghanaian-witch-doctor-claims-cape-verde-will-eliminate-argentina-from-world-cup/"
+    },
     {
       "date": "Thu 2 Jul",
       "headline": "Spain don't face a single shot on target as they cruise past Austria 3-0",
