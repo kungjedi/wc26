@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "3 Jul 2026 \u00b7 R32 day 6 \u2014 Portugal beat Croatia 2-1 and Switzerland beat Algeria 2-0 to reach the last 16; Australia v Egypt, Argentina v Cape Verde and Colombia v Ghana still to play",
+    "last_updated": "4 Jul 2026 \u00b7 R32 complete (last match) \u2014 Egypt beat Australia 4-2 on penalties (1-1 after extra time) to complete the last-16 line-up; Argentina v Cape Verde and Colombia v Ghana still in progress/unconfirmed at time of writing",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1117,7 +1117,7 @@
       "date": "Tue 7 Jul",
       "bst": "5:00 PM",
       "home": "Arg. / Cape Verde",
-      "away": "Aus. / Egypt",
+      "away": "Egypt",
       "group": "R16",
       "channel": "TBC",
       "city": "Atlanta",
@@ -1563,6 +1563,10 @@
     "R32-13": [
       2,
       0
+    ],
+    "R32-14": [
+      1,
+      1
     ]
   },
   "highlight_links": {
@@ -1650,7 +1654,8 @@
     "R32-10": "https://www.youtube.com/watch?v=4GKwrvlM-x4",
     "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU",
     "R32-12": "",
-    "R32-13": ""
+    "R32-13": "",
+    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw"
   },
   "standings": {
     "A": [
@@ -2159,6 +2164,12 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Fri 3 Jul",
+      "headline": "Salah's Panenka penalty helps send Egypt through as Australia keeper Mat Ryan comes off the bench to face the shootout - and can't save one",
+      "summary": "Egypt beat Australia 4-2 on penalties (1-1 after extra time) in Dallas to record their first-ever World Cup knockout win. Australia keeper Patrick Beach had been the hero minutes earlier, denying Ramy Rabia a 94th-minute winner to force extra time, only for manager Tony Popovic to bring on veteran Mat Ryan for the shootout - a gamble that backfired as Ryan couldn't stop a single spot-kick. Mohamed Salah coolly dinked his effort down the middle, Panenka-style, as Egypt converted four in a row; Harry Souttar and Lucas Herrington both missed for Australia.",
+      "url": "https://www.skysports.com/football/australia-vs-egypt/report/549851"
+    },
     {
       "date": "Fri 3 Jul",
       "headline": "Luka Modric's international career ends in VAR heartbreak as Portugal edge Croatia 2-1",
