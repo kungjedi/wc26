@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "4 Jul 2026 \u00b7 R32 complete (last match) \u2014 Egypt beat Australia 4-2 on penalties (1-1 after extra time) to complete the last-16 line-up; Argentina v Cape Verde and Colombia v Ghana still in progress/unconfirmed at time of writing",
+    "last_updated": "4 Jul 2026 \u00b7 R32 complete \u2014 Argentina beat Cape Verde 3-2 (AET) and Colombia beat Ghana 1-0 to finish the last-16 line-up",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1116,7 +1116,7 @@
       "id": "R16-7",
       "date": "Tue 7 Jul",
       "bst": "5:00 PM",
-      "home": "Arg. / Cape Verde",
+      "home": "Argentina",
       "away": "Egypt",
       "group": "R16",
       "channel": "TBC",
@@ -1128,7 +1128,7 @@
       "date": "Tue 7 Jul",
       "bst": "9:00 PM",
       "home": "Switzerland",
-      "away": "Col. / Ghana",
+      "away": "Colombia",
       "group": "R16",
       "channel": "TBC",
       "city": "Vancouver",
@@ -1567,6 +1567,14 @@
     "R32-14": [
       1,
       1
+    ],
+    "R32-15": [
+      3,
+      2
+    ],
+    "R32-16": [
+      1,
+      0
     ]
   },
   "highlight_links": {
@@ -1655,7 +1663,9 @@
     "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU",
     "R32-12": "",
     "R32-13": "",
-    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw"
+    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw",
+    "R32-15": "https://www.youtube.com/watch?v=HNomjgxfrPU",
+    "R32-16": "https://www.youtube.com/watch?v=q9fXwjLYvG4"
   },
   "standings": {
     "A": [
@@ -2165,6 +2175,12 @@
   },
   "funnies": [
     {
+      "date": "Sat 4 Jul",
+      "headline": "Messi jokes Cape Verde players \"kick the crap\" out of him - then queue up for his shirt and a selfie",
+      "summary": "Moments after Argentina's dramatic 3-2 extra-time win over Cape Verde, several Cape Verde players who had spent 120 minutes kicking lumps out of the reigning champions were seen waiting for Messi at full time to ask for shirt swaps and selfies. Messi happily obliged and joked about the rough treatment afterwards. It capped an emotional night for Cape Verde, the lowest-ranked team ever to reach a men's World Cup knockout round, who had earlier gone viral in the group stage dancing in their dressing room to celebrate the '1 per cent' odds they'd been given of advancing.",
+      "url": "https://sports.yahoo.com/articles/cape-verde-players-viral-live-094614199.html"
+    },
+    {
       "date": "Fri 3 Jul",
       "headline": "Salah's Panenka penalty helps send Egypt through as Australia keeper Mat Ryan comes off the bench to face the shootout - and can't save one",
       "summary": "Egypt beat Australia 4-2 on penalties (1-1 after extra time) in Dallas to record their first-ever World Cup knockout win. Australia keeper Patrick Beach had been the hero minutes earlier, denying Ramy Rabia a 94th-minute winner to force extra time, only for manager Tony Popovic to bring on veteran Mat Ryan for the shootout - a gamble that backfired as Ryan couldn't stop a single spot-kick. Mohamed Salah coolly dinked his effort down the middle, Panenka-style, as Egypt converted four in a row; Harry Souttar and Lucas Herrington both missed for Australia.",
@@ -2528,7 +2544,7 @@
         {
           "name": "Lionel Messi",
           "team": "Argentina",
-          "value": 6
+          "value": 7
         },
         {
           "name": "Kylian Mbapp\u00e9",
