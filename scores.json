@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "4 Jul 2026 \u00b7 R32 complete (last match) \u2014 Egypt beat Australia 4-2 on penalties (1-1 after extra time) to complete the last-16 line-up; Argentina v Cape Verde and Colombia v Ghana still in progress/unconfirmed at time of writing",
+    "last_updated": "5 Jul 2026 \u00b7 Round of 16",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1116,7 +1116,7 @@
       "id": "R16-7",
       "date": "Tue 7 Jul",
       "bst": "5:00 PM",
-      "home": "Arg. / Cape Verde",
+      "home": "Argentina",
       "away": "Egypt",
       "group": "R16",
       "channel": "TBC",
@@ -1128,7 +1128,7 @@
       "date": "Tue 7 Jul",
       "bst": "9:00 PM",
       "home": "Switzerland",
-      "away": "Col. / Ghana",
+      "away": "Colombia",
       "group": "R16",
       "channel": "TBC",
       "city": "Vancouver",
@@ -1567,6 +1567,22 @@
     "R32-14": [
       1,
       1
+    ],
+    "R32-15": [
+      3,
+      2
+    ],
+    "R32-16": [
+      1,
+      0
+    ],
+    "R16-1": [
+      0,
+      3
+    ],
+    "R16-2": [
+      0,
+      1
     ]
   },
   "highlight_links": {
@@ -1655,7 +1671,11 @@
     "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU",
     "R32-12": "",
     "R32-13": "",
-    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw"
+    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw",
+    "R32-15": "https://www.youtube.com/watch?v=HNomjgxfrPU",
+    "R32-16": "https://www.youtube.com/watch?v=q9fXwjLYvG4",
+    "R16-1": "https://www.youtube.com/watch?v=B-WtYh_aNag",
+    "R16-2": "https://www.youtube.com/watch?v=5OxGV8aVG-k"
   },
   "standings": {
     "A": [
@@ -2165,6 +2185,18 @@
   },
   "funnies": [
     {
+      "date": "Sat 4 Jul",
+      "headline": "Cape Verde's Vozinha ends World Cup run as most-followed goalkeeper on the planet",
+      "summary": "Josimar 'Vozinha' Dias, the 40-year-old Cape Verde goalkeeper who went from 50,000 to millions of Instagram followers overnight after the group-stage draw with Spain, saw his following swell past 20 million by the time Cape Verde's dream run ended in a 3-2 extra-time defeat to Argentina in Miami - overtaking Thibaut Courtois to become the most-followed goalkeeper on Instagram.",
+      "url": "https://bleacherreport.com/articles/25451004-vozinha-gains-over-20m-instagram-followers-after-cape-verdes-2026-world-cup-run"
+    },
+    {
+      "date": "Fri 3 Jul",
+      "headline": "Drake's shocked-then-delighted reaction to Ronaldo goal goes viral pitchside",
+      "summary": "Cameras caught rapper Drake in the crowd for Portugal's Round of 32 win over Croatia doing a double-take as Cristiano Ronaldo scored, his facial expression turning into an instant meme across social media.",
+      "url": "https://sports.yahoo.com/articles/drakes-hilarious-reaction-ronaldos-goal-133000179.html"
+    },
+    {
       "date": "Fri 3 Jul",
       "headline": "Salah's Panenka penalty helps send Egypt through as Australia keeper Mat Ryan comes off the bench to face the shootout - and can't save one",
       "summary": "Egypt beat Australia 4-2 on penalties (1-1 after extra time) in Dallas to record their first-ever World Cup knockout win. Australia keeper Patrick Beach had been the hero minutes earlier, denying Ramy Rabia a 94th-minute winner to force extra time, only for manager Tony Popovic to bring on veteran Mat Ryan for the shootout - a gamble that backfired as Ryan couldn't stop a single spot-kick. Mohamed Salah coolly dinked his effort down the middle, Panenka-style, as Egypt converted four in a row; Harry Souttar and Lucas Herrington both missed for Australia.",
@@ -2179,13 +2211,13 @@
     {
       "date": "Fri 3 Jul",
       "headline": "Ghanaian witch doctor who 'cursed' Harry Kane now predicts Cape Verde will eliminate Argentina",
-      "summary": "Nana Kwaku Bonsam, the self-styled witch doctor who claimed responsibility for Harry Kane's missed sitters against Ghana in the group stage, has turned his attention to Saturday's Round of 32 tie — predicting World Cup debutants Cape Verde will knock out Lionel Messi's defending champions Argentina, while tipping Cristiano Ronaldo's Portugal to lift the trophy.",
+      "summary": "Nana Kwaku Bonsam, the self-styled witch doctor who claimed responsibility for Harry Kane's missed sitters against Ghana in the group stage, has turned his attention to Saturday's Round of 32 tie \u2014 predicting World Cup debutants Cape Verde will knock out Lionel Messi's defending champions Argentina, while tipping Cristiano Ronaldo's Portugal to lift the trophy.",
       "url": "https://tribuna.com/en/news/2026-06-27-ghanaian-witch-doctor-claims-cape-verde-will-eliminate-argentina-from-world-cup/"
     },
     {
       "date": "Thu 2 Jul",
       "headline": "Spain don't face a single shot on target as they cruise past Austria 3-0",
-      "summary": "Mikel Oyarzabal's brace and a Pedro Porro header sent Spain into the last 16 in Los Angeles without conceding a single shot on target all game — the first time that's happened in a men's World Cup knockout match since Germany's win over Argentina in the 2014 final.",
+      "summary": "Mikel Oyarzabal's brace and a Pedro Porro header sent Spain into the last 16 in Los Angeles without conceding a single shot on target all game \u2014 the first time that's happened in a men's World Cup knockout match since Germany's win over Argentina in the 2014 final.",
       "url": "https://theanalyst.com/articles/spain-vs-austria-stats-world-cup-2026"
     },
     {
@@ -2528,12 +2560,12 @@
         {
           "name": "Lionel Messi",
           "team": "Argentina",
-          "value": 6
+          "value": 7
         },
         {
           "name": "Kylian Mbapp\u00e9",
           "team": "France",
-          "value": 6
+          "value": 7
         },
         {
           "name": "Erling Haaland",
