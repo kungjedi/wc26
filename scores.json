@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "4 Jul 2026 \u00b7 R32 complete (last match) \u2014 Egypt beat Australia 4-2 on penalties (1-1 after extra time) to complete the last-16 line-up; Argentina v Cape Verde and Colombia v Ghana still in progress/unconfirmed at time of writing",
+    "last_updated": "5 Jul 2026 \u00b7 R16 in progress \u2014 Argentina beat Cape Verde 3-2 (AET), Colombia beat Ghana 1-0, Morocco beat Canada 3-0 and France beat Paraguay 1-0 to set up a Morocco v France quarter-final; Brazil v Norway (R16-3) had not yet kicked off at time of writing so is not yet included",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1116,7 +1116,7 @@
       "id": "R16-7",
       "date": "Tue 7 Jul",
       "bst": "5:00 PM",
-      "home": "Arg. / Cape Verde",
+      "home": "Argentina",
       "away": "Egypt",
       "group": "R16",
       "channel": "TBC",
@@ -1128,7 +1128,7 @@
       "date": "Tue 7 Jul",
       "bst": "9:00 PM",
       "home": "Switzerland",
-      "away": "Col. / Ghana",
+      "away": "Colombia",
       "group": "R16",
       "channel": "TBC",
       "city": "Vancouver",
@@ -1138,8 +1138,8 @@
       "id": "QF-1",
       "date": "Thu 9 Jul",
       "bst": "9:00 PM",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Morocco",
+      "away": "France",
       "group": "QF",
       "channel": "TBC",
       "city": "Boston",
@@ -1567,6 +1567,22 @@
     "R32-14": [
       1,
       1
+    ],
+    "R32-15": [
+      3,
+      2
+    ],
+    "R32-16": [
+      1,
+      0
+    ],
+    "R16-1": [
+      0,
+      3
+    ],
+    "R16-2": [
+      0,
+      1
     ]
   },
   "highlight_links": {
@@ -1655,7 +1671,11 @@
     "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU",
     "R32-12": "",
     "R32-13": "",
-    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw"
+    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw",
+    "R32-15": "https://www.youtube.com/watch?v=HNomjgxfrPU",
+    "R32-16": "https://www.youtube.com/watch?v=q9fXwjLYvG4",
+    "R16-1": "https://www.youtube.com/watch?v=B-WtYh_aNag",
+    "R16-2": ""
   },
   "standings": {
     "A": [
@@ -2164,6 +2184,24 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Sat 4 Jul",
+      "headline": "FIFA president Gianni Infantino sparks bias row after saying he 'suffered with Argentina' during Cape Verde thriller",
+      "summary": "Video clips went viral of Infantino telling an Argentine broadcaster post-match 'Tonight, I suffered with Argentina... but I'm neutral,' prompting accusations he was favouring the defending champions over World Cup debutants Cape Verde. Fuller footage showed he'd also sent 'a hug' to both sets of fans and said FIFA was 'supporting both teams,' but the shorter clip spread fastest and dragged the FIFA boss into an impartiality row anyway.",
+      "url": "https://sports.yahoo.com/articles/fifa-president-under-fire-claiming-205626156.html"
+    },
+    {
+      "date": "Sat 4 Jul",
+      "headline": "Ghanaian 'witch doctor' who predicted Cape Verde would eliminate Argentina now says he 'loves' Messi",
+      "summary": "Nana Kwaku Bonsam, who confidently backed Cape Verde to knock out Lionel Messi's Argentina in the Round of 32, did a swift about-turn after the 3-2 extra-time defeat, posting on Instagram: 'Nana Kwaku Bonsam loves u more, my brother Messi... Still Powers.' He'd previously claimed to have cursed Harry Kane during the group stage.",
+      "url": "https://sundayguardianlive.com/sports/did-ghana-witch-doctor-bonsam-change-his-prediction-for-argentina-vs-cape-verde-sends-shocking-message-to-lionel-messi-ahead-of-fifa-world-cup-knockout-clash-225809/"
+    },
+    {
+      "date": "Sat 4 Jul",
+      "headline": "Cape Verde parties into the night despite World Cup exit — 'feels like victory'",
+      "summary": "Fans packed a public screening in the capital, Praia, and kept celebrating with drums, vuvuzelas and car horns until nearly 3am after their side pushed defending champions Argentina to extra time before losing 3-2. 'We lost the match, but we feel like we achieved a victory because we held our own against the world champions,' one supporter said, as the island nation of roughly 500,000 revelled in its fairytale first World Cup run.",
+      "url": "https://www.france24.com/en/live-news/20260704-feels-like-victory-cape-verde-celebrates-heroic-world-cup-defeat"
+    },
     {
       "date": "Fri 3 Jul",
       "headline": "Salah's Panenka penalty helps send Egypt through as Australia keeper Mat Ryan comes off the bench to face the shootout - and can't save one",
