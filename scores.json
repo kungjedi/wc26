@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "6 Jul 2026 \u00b7 Round of 16 (Games 1-3 played) \u2014 Argentina beat Cape Verde 3-2 (AET) and Colombia beat Ghana 1-0 to complete the R32; Morocco, France and Norway won their R16 openers over Canada, Paraguay and Brazil respectively. Mexico v England and Spain v Portugal still to be played/unconfirmed at time of writing",
+    "last_updated": "6 Jul 2026 \u00b7 Round of 16 (Game 4 played) \u2014 England beat Mexico 3-2 at the Azteca despite being reduced to 10 men, with a Bellingham brace and a Kane penalty sealing a quarter-final spot. Spain v Portugal still to be played at time of writing",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1587,6 +1587,10 @@
     "R16-3": [
       1,
       2
+    ],
+    "R16-4": [
+      2,
+      3
     ]
   },
   "highlight_links": {
@@ -1680,7 +1684,8 @@
     "R32-16": "",
     "R16-1": "",
     "R16-2": "",
-    "R16-3": ""
+    "R16-3": "",
+    "R16-4": ""
   },
   "standings": {
     "A": [
@@ -2189,6 +2194,12 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Mon 6 Jul",
+      "headline": "England survive Azteca classic with 10 men as the craziest moments of the World Cup pile up",
+      "summary": "England's 3-2 win over Mexico delivered one of the tournament's wildest 90 minutes: a Bellingham brace, red card, VAR penalty overturn and a rival penalty, all played out in front of a hostile Estadio Azteca crowd, before England held on a man light to reach the quarter-finals.",
+      "url": "https://sports.yahoo.com/articles/13-craziest-moments-englands-world-050257913.html"
+    },
     {
       "date": "Sun 5 Jul",
       "headline": "Norway's 'Viking Row' celebration has taken over North America - elevators, escalators and even parliament",
