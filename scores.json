@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "4 Jul 2026 \u00b7 R32 complete (last match) \u2014 Egypt beat Australia 4-2 on penalties (1-1 after extra time) to complete the last-16 line-up; Argentina v Cape Verde and Colombia v Ghana still in progress/unconfirmed at time of writing",
+    "last_updated": "6 Jul 2026 \u00b7 Round of 16 (Games 1-3 played) \u2014 Argentina beat Cape Verde 3-2 (AET) and Colombia beat Ghana 1-0 to complete the R32; Morocco, France and Norway won their R16 openers over Canada, Paraguay and Brazil respectively. Mexico v England and Spain v Portugal still to be played/unconfirmed at time of writing",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1116,7 +1116,7 @@
       "id": "R16-7",
       "date": "Tue 7 Jul",
       "bst": "5:00 PM",
-      "home": "Arg. / Cape Verde",
+      "home": "Argentina",
       "away": "Egypt",
       "group": "R16",
       "channel": "TBC",
@@ -1128,7 +1128,7 @@
       "date": "Tue 7 Jul",
       "bst": "9:00 PM",
       "home": "Switzerland",
-      "away": "Col. / Ghana",
+      "away": "Colombia",
       "group": "R16",
       "channel": "TBC",
       "city": "Vancouver",
@@ -1567,6 +1567,26 @@
     "R32-14": [
       1,
       1
+    ],
+    "R32-15": [
+      3,
+      2
+    ],
+    "R32-16": [
+      1,
+      0
+    ],
+    "R16-1": [
+      0,
+      3
+    ],
+    "R16-2": [
+      0,
+      1
+    ],
+    "R16-3": [
+      1,
+      2
     ]
   },
   "highlight_links": {
@@ -1655,7 +1675,12 @@
     "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU",
     "R32-12": "",
     "R32-13": "",
-    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw"
+    "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw",
+    "R32-15": "",
+    "R32-16": "",
+    "R16-1": "",
+    "R16-2": "",
+    "R16-3": ""
   },
   "standings": {
     "A": [
@@ -2165,6 +2190,18 @@
   },
   "funnies": [
     {
+      "date": "Sun 5 Jul",
+      "headline": "Norway's 'Viking Row' celebration has taken over North America - elevators, escalators and even parliament",
+      "summary": "Thousands of Norway fans sitting in unison and mimicking the rowing of a Viking longship to cries of 'Ro! Ro!' has become the viral phenomenon of the tournament, spreading from the stands (led by captain Martin Odegaard and the players after full time) to a Boston train station escalator, Times Square, an NFL locker room and even the floor of Norway's parliament. The chant has been credited with helping fuel Erling Haaland and co's run to a first-ever World Cup quarter-final.",
+      "url": "https://www.npr.org/2026/06/25/nx-s1-5866742/world-cup-norway-soccer-viking-row"
+    },
+    {
+      "date": "Sat 4 Jul",
+      "headline": "Cape Verde's World Cup dream ends in Argentina thriller, but fans back home celebrate anyway",
+      "summary": "Cape Verde's 3-2 extra-time defeat to reigning champions Argentina brought the debutants' fairytale run to a close, but supporters on the islands and across the diaspora poured onto the streets to celebrate a team that went from footballing afterthought to the tournament's darlings, taking Lionel Messi and co to the brink in the Round of 32.",
+      "url": "https://www.aljazeera.com/sports/2026/7/4/cape-verde-fans-overjoyed-with-teams-world-cup-run-despite-argentina-loss"
+    },
+    {
       "date": "Fri 3 Jul",
       "headline": "Salah's Panenka penalty helps send Egypt through as Australia keeper Mat Ryan comes off the bench to face the shootout - and can't save one",
       "summary": "Egypt beat Australia 4-2 on penalties (1-1 after extra time) in Dallas to record their first-ever World Cup knockout win. Australia keeper Patrick Beach had been the hero minutes earlier, denying Ramy Rabia a 94th-minute winner to force extra time, only for manager Tony Popovic to bring on veteran Mat Ryan for the shootout - a gamble that backfired as Ryan couldn't stop a single spot-kick. Mohamed Salah coolly dinked his effort down the middle, Panenka-style, as Egypt converted four in a row; Harry Souttar and Lucas Herrington both missed for Australia.",
@@ -2528,17 +2565,17 @@
         {
           "name": "Lionel Messi",
           "team": "Argentina",
-          "value": 6
+          "value": 7
         },
         {
           "name": "Kylian Mbapp\u00e9",
           "team": "France",
-          "value": 6
+          "value": 7
         },
         {
           "name": "Erling Haaland",
           "team": "Norway",
-          "value": 5
+          "value": 7
         },
         {
           "name": "Harry Kane",
@@ -2553,6 +2590,11 @@
         {
           "name": "Vinicius J\u00fanior",
           "team": "Brazil",
+          "value": 4
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "team": "Spain",
           "value": 4
         },
         {
@@ -2593,18 +2635,23 @@
           "value": 4
         },
         {
+          "name": "Brahim D\u00edaz",
+          "team": "Morocco",
+          "value": 4
+        },
+        {
           "name": "Alexander Isak",
           "team": "Sweden",
           "value": 3
         },
         {
-          "name": "Julio Enciso",
-          "team": "Paraguay",
-          "value": 2
+          "name": "Achraf Hakimi",
+          "team": "Morocco",
+          "value": 3
         },
         {
-          "name": "Brahim D\u00edaz",
-          "team": "Morocco",
+          "name": "Julio Enciso",
+          "team": "Paraguay",
           "value": 2
         }
       ]
@@ -2627,7 +2674,7 @@
         {
           "name": "Vozinha",
           "team": "Cape Verde",
-          "value": 7
+          "value": 8
         }
       ]
     },
