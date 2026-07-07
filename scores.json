@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "6 Jul 2026 \u00b7 Round of 16 (Game 4 played) \u2014 England beat Mexico 3-2 at the Azteca despite being reduced to 10 men, with a Bellingham brace and a Kane penalty sealing a quarter-final spot. Spain v Portugal still to be played at time of writing",
+    "last_updated": "7 Jul 2026 \u00b7 Round of 16 (Game 5 played) \u2014 Mikel Merino's stoppage-time winner sent Spain past Portugal 1-0, ending Cristiano Ronaldo's international career. Belgium v USA, Argentina v Egypt and Switzerland v Colombia still to be confirmed at time of writing",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1138,8 +1138,8 @@
       "id": "QF-1",
       "date": "Thu 9 Jul",
       "bst": "9:00 PM",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "France",
+      "away": "Morocco",
       "group": "QF",
       "channel": "TBC",
       "city": "Boston",
@@ -1149,7 +1149,7 @@
       "id": "QF-2",
       "date": "Fri 10 Jul",
       "bst": "8:00 PM",
-      "home": "TBD",
+      "home": "Spain",
       "away": "TBD",
       "group": "QF",
       "channel": "TBC",
@@ -1160,8 +1160,8 @@
       "id": "QF-3",
       "date": "Sat 11 Jul",
       "bst": "10:00 PM",
-      "home": "TBD",
-      "away": "TBD",
+      "home": "Norway",
+      "away": "England",
       "group": "QF",
       "channel": "TBC",
       "city": "Miami",
@@ -1591,6 +1591,10 @@
     "R16-4": [
       2,
       3
+    ],
+    "R16-5": [
+      1,
+      0
     ]
   },
   "highlight_links": {
@@ -1683,9 +1687,10 @@
     "R32-15": "",
     "R32-16": "",
     "R16-1": "",
-    "R16-2": "",
-    "R16-3": "",
-    "R16-4": ""
+    "R16-2": "https://www.youtube.com/watch?v=5OxGV8aVG-k",
+    "R16-3": "https://www.youtube.com/watch?v=g0kC9asDAIQ",
+    "R16-4": "https://www.youtube.com/watch?v=1FVVKb0UNFo",
+    "R16-5": "https://www.youtube.com/watch?v=KHTXATo7kL8"
   },
   "standings": {
     "A": [
@@ -2196,6 +2201,24 @@
   "funnies": [
     {
       "date": "Mon 6 Jul",
+      "headline": "Cristiano Ronaldo's international career ends in tears as iShowSpeed's reaction to Portugal's exit goes viral",
+      "summary": "Mikel Merino's stoppage-time winner sent Spain past Portugal 1-0 in the last 16, bringing the curtain down on Cristiano Ronaldo's international career — the 41-year-old wept and went to thank the Portugal fans before leaving the pitch for the final time. Streamer iShowSpeed, watching in the stands as a self-declared Ronaldo superfan, was filmed visibly devastated at the final whistle, and the clip of his reaction spread even faster online than the match report itself.",
+      "url": "https://www.espn.com/soccer/story/_/id/49290017/cristiano-ronaldo-portugal-spain-last-world-cup-2026"
+    },
+    {
+      "date": "Sun 5 Jul",
+      "headline": "Trump calls Infantino to get Balogun's red card lifted — FIFA agrees in an unprecedented decision that has Belgium and UEFA furious",
+      "summary": "Folarin Balogun's automatic one-match ban for his red card against Bosnia & Herzegovina was suspended by FIFA on a one-year probationary period after President Trump personally phoned FIFA president Gianni Infantino to call the sending-off \"very unfair\", clearing Balogun to face Belgium in the round of 16. It's believed to be the first time in over 60 years of World Cup football that a suspension has been lifted this way. UEFA said FIFA had \"crossed a red line\" with a decision it called \"incomprehensible and unjustifiable\", and the Belgian FA vowed to pursue \"all potential options\" for recourse.",
+      "url": "https://www.npr.org/2026/07/06/nx-s1-5879131/2026-world-cup-fifa-usmnt-belgium-round-of-16"
+    },
+    {
+      "date": "Sun 5 Jul",
+      "headline": "Neymar retires from Brazil duty after Haaland brace ends the Selecao's World Cup in the round of 16",
+      "summary": "Neymar scored a stoppage-time consolation penalty as Brazil's World Cup ended with a 2-1 defeat to Norway, Erling Haaland's double the difference at MetLife Stadium. Afterwards an emotional Neymar announced his international career was over, telling reporters \"it started here, at MetLife Stadium, and I finished here\" — a reference to his Brazil debut at the same stadium in 2010. He leaves as Brazil's all-time leading scorer with 80 goals in 129 caps.",
+      "url": "https://www.espn.com/soccer/story/_/id/49281072/neymar-brazil-retires-world-cup-2026-exit-norway"
+    },
+    {
+      "date": "Mon 6 Jul",
       "headline": "England survive Azteca classic with 10 men as the craziest moments of the World Cup pile up",
       "summary": "England's 3-2 win over Mexico delivered one of the tournament's wildest 90 minutes: a Bellingham brace, red card, VAR penalty overturn and a rival penalty, all played out in front of a hostile Estadio Azteca crowd, before England held on a man light to reach the quarter-finals.",
       "url": "https://sports.yahoo.com/articles/13-craziest-moments-englands-world-050257913.html"
@@ -2591,7 +2614,7 @@
         {
           "name": "Harry Kane",
           "team": "England",
-          "value": 5
+          "value": 6
         },
         {
           "name": "Ousmane Demb\u00e9l\u00e9",
@@ -2658,6 +2681,21 @@
         {
           "name": "Achraf Hakimi",
           "team": "Morocco",
+          "value": 3
+        },
+        {
+          "name": "Roberto Alvarado",
+          "team": "Mexico",
+          "value": 3
+        },
+        {
+          "name": "Martin Ødegaard",
+          "team": "Norway",
+          "value": 3
+        },
+        {
+          "name": "Florian Wirtz",
+          "team": "Germany",
           "value": 3
         },
         {
@@ -2849,6 +2887,11 @@
           "name": "USA",
           "team": "Group D",
           "value": 1
+        },
+        {
+          "name": "England",
+          "team": "Group L",
+          "value": 1
         }
       ]
     },
@@ -2910,6 +2953,11 @@
         {
           "name": "Folarin Balogun",
           "team": "USA",
+          "value": 1
+        },
+        {
+          "name": "Jarell Quansah",
+          "team": "England",
           "value": 1
         }
       ]
