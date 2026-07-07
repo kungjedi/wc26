@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "6 Jul 2026 \u00b7 Round of 16 (Game 4 played) \u2014 England beat Mexico 3-2 at the Azteca despite being reduced to 10 men, with a Bellingham brace and a Kane penalty sealing a quarter-final spot. Spain v Portugal still to be played at time of writing",
+    "last_updated": "7 Jul 2026 \u00b7 Round of 16 (6 of 8 played) \u2014 Spain beat Portugal 1-0 with a Mikel Merino stoppage-time header; Belgium routed USA 4-1 in Seattle. Argentina vs Egypt (5 PM BST) and Switzerland vs Colombia (9 PM BST) still to kick off today.",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1053,7 +1053,7 @@
       "home": "Canada",
       "away": "Morocco",
       "group": "R16",
-      "channel": "TBC",
+      "channel": "ITV1",
       "city": "Houston",
       "stage": "R16"
     },
@@ -1064,7 +1064,7 @@
       "home": "Paraguay",
       "away": "France",
       "group": "R16",
-      "channel": "TBC",
+      "channel": "BBC One",
       "city": "Philadelphia",
       "stage": "R16"
     },
@@ -1075,7 +1075,7 @@
       "home": "Brazil",
       "away": "Norway",
       "group": "R16",
-      "channel": "TBC",
+      "channel": "ITV1",
       "city": "New York/NJ",
       "stage": "R16"
     },
@@ -1086,7 +1086,7 @@
       "home": "Mexico",
       "away": "England",
       "group": "R16",
-      "channel": "TBC",
+      "channel": "BBC One",
       "city": "Mexico City",
       "stage": "R16"
     },
@@ -1097,7 +1097,7 @@
       "home": "Spain",
       "away": "Portugal",
       "group": "R16",
-      "channel": "TBC",
+      "channel": "BBC One",
       "city": "Dallas",
       "stage": "R16"
     },
@@ -1108,7 +1108,7 @@
       "home": "Belgium",
       "away": "USA",
       "group": "R16",
-      "channel": "TBC",
+      "channel": "BBC One",
       "city": "Seattle",
       "stage": "R16"
     },
@@ -1119,7 +1119,7 @@
       "home": "Argentina",
       "away": "Egypt",
       "group": "R16",
-      "channel": "TBC",
+      "channel": "ITV1",
       "city": "Atlanta",
       "stage": "R16"
     },
@@ -1130,7 +1130,7 @@
       "home": "Switzerland",
       "away": "Colombia",
       "group": "R16",
-      "channel": "TBC",
+      "channel": "ITV1",
       "city": "Vancouver",
       "stage": "R16"
     },
@@ -1591,6 +1591,14 @@
     "R16-4": [
       2,
       3
+    ],
+    "R16-5": [
+      1,
+      0
+    ],
+    "R16-6": [
+      4,
+      1
     ]
   },
   "highlight_links": {
@@ -1670,22 +1678,24 @@
     "R32-2": "https://www.youtube.com/watch?v=GiwKDrb6WdA",
     "R32-3": "https://www.youtube.com/watch?v=gVYimAh7meQ",
     "R32-4": "https://www.youtube.com/watch?v=He2Fm2LCB0U",
-    "R32-5": "",
+    "R32-5": "https://www.youtube.com/watch?v=jMSLtGojEa0",
     "R32-6": "https://www.youtube.com/watch?v=WHJhjGYcLeY",
     "R32-7": "https://www.youtube.com/watch?v=HpZf48QB-M0",
     "R32-8": "https://www.youtube.com/watch?v=T3_ekbdc1to",
-    "R32-9": "",
+    "R32-9": "https://www.youtube.com/watch?v=-FCb6yonyUs",
     "R32-10": "https://www.youtube.com/watch?v=4GKwrvlM-x4",
     "R32-11": "https://www.youtube.com/watch?v=fU1cH3BjebU",
-    "R32-12": "",
-    "R32-13": "",
+    "R32-12": "https://www.youtube.com/watch?v=YxGPPy72iNs",
+    "R32-13": "https://www.youtube.com/watch?v=SoSnKdCz8sQ",
     "R32-14": "https://www.youtube.com/watch?v=I8NFWsaxYdw",
-    "R32-15": "",
-    "R32-16": "",
-    "R16-1": "",
-    "R16-2": "",
-    "R16-3": "",
-    "R16-4": ""
+    "R32-15": "https://www.youtube.com/watch?v=HNomjgxfrPU",
+    "R32-16": "https://www.youtube.com/watch?v=q9fXwjLYvG4",
+    "R16-1": "https://www.youtube.com/watch?v=B-WtYh_aNag",
+    "R16-2": "https://www.youtube.com/watch?v=5OxGV8aVG-k",
+    "R16-3": "https://www.youtube.com/watch?v=g0kC9asDAIQ",
+    "R16-4": "https://www.youtube.com/watch?v=1FVVKb0UNFo",
+    "R16-5": "https://www.youtube.com/watch?v=KHTXATo7kL8",
+    "R16-6": ""
   },
   "standings": {
     "A": [
@@ -2194,6 +2204,30 @@
     ]
   },
   "funnies": [
+    {
+      "date": "Tue 7 Jul",
+      "headline": "Belgium goalkeeper Matt Freese wanders out of his box — and Belgium immediately score to go 3-1 up",
+      "summary": "In one of the most disastrous sequences of the tournament, USA keeper Matt Freese inexplicably wandered to the edge of his area while play was live, leaving the net unguarded. Belgium exploited the chaos instantly, with Hans Vanaken steering the ball home to effectively end the game at 3-1. Belgium eventually ran out 4-1 winners as the host nation's World Cup campaign ended in humiliation before an expectant home crowd in Seattle.",
+      "url": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-disastrous-us-sequence-with-goalie-out-of-box-allows-belgium-to-take-3-1-lead-014711089.html"
+    },
+    {
+      "date": "Mon 6 Jul",
+      "headline": "Ronaldo kisses the post and weeps as his six-World-Cup career ends in defeat to Spain",
+      "summary": "Cristiano Ronaldo's final World Cup chapter closed with a gut-wrenching 1-0 loss to Spain in Dallas, Mikel Merino's stoppage-time header the decisive blow. The 41-year-old was seen kissing the goalpost, wiping tears from his eyes and applauding fans long after the final whistle. His six World Cups are the joint-most by any player alongside Messi, spanning 21 years from Germany 2006 to USA/Canada/Mexico 2026.",
+      "url": "https://www.espn.com/soccer/story/_/id/49290017/cristiano-ronaldo-portugal-spain-last-world-cup-2026"
+    },
+    {
+      "date": "Mon 6 Jul",
+      "headline": "'My first game, Azteca. My last game, Azteca.' — Ochoa retires in tears after England defeat",
+      "summary": "Mexico goalkeeper Guillermo Ochoa, 40, announced his immediate retirement after the 3-2 defeat to England at the Estadio Azteca. In a courtside interview watched by millions, a tearful Ochoa reflected that his international career began and ended at the same iconic stadium across 153 caps and five World Cups. 'It's been a beautiful final chapter,' he said, before teammates surrounded him in a long embrace.",
+      "url": "https://www.nbcnews.com/sports/soccer/guillermo-memo-ochoa-mexico-world-cup-farewell-rcna351877"
+    },
+    {
+      "date": "Sat 4 Jul",
+      "headline": "Paraguay goalkeeper throws ball at Mbappe after handshake snub goes viral",
+      "summary": "Orlando Gill, the Paraguay goalkeeper who had earlier been the hero against Germany, approached Kylian Mbappe after France's 1-0 win in Philadelphia to offer a handshake. Mbappe walked away without acknowledging him. Gill promptly hurled the match ball into Mbappe's back, triggering a mass confrontation involving both teams' benches. 'I tried to shake his hand, but since he didn't pay me any attention, I lost my temper,' Gill said afterwards.",
+      "url": "https://sports.yahoo.com/articles/video-paraguay-goalkeeper-orlando-gills-043824698.html"
+    },
     {
       "date": "Mon 6 Jul",
       "headline": "England survive Azteca classic with 10 men as the craziest moments of the World Cup pile up",
