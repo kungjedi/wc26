@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "7 Jul 2026 \u00b7 R16 complete (6 of 8) \u2014 QF bracket set; Argentina vs Egypt and Switzerland vs Colombia (both ITV1 today) to complete QF-4",
+    "last_updated": "8 Jul 2026 \u00b7 Round of 16 complete \u2014 full QF lineup set: France v Morocco, Spain v Belgium, Norway v England, Argentina v Switzerland",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1171,8 +1171,8 @@
       "id": "QF-4",
       "date": "Sun 12 Jul",
       "bst": "2:00 AM",
-      "home": "Arg. / Egypt",
-      "away": "Swi. / Colombia",
+      "home": "Argentina",
+      "away": "Switzerland",
       "group": "QF",
       "channel": "ITV1",
       "city": "Kansas City",
@@ -1599,6 +1599,14 @@
     "R16-6": [
       4,
       1
+    ],
+    "R16-7": [
+      3,
+      2
+    ],
+    "R16-8": [
+      0,
+      0
     ]
   },
   "highlight_links": {
@@ -1695,7 +1703,9 @@
     "R16-3": "https://www.youtube.com/watch?v=g0kC9asDAIQ",
     "R16-4": "https://www.youtube.com/watch?v=1FVVKb0UNFo",
     "R16-5": "https://www.youtube.com/watch?v=KHTXATo7kL8",
-    "R16-6": ""
+    "R16-6": "https://www.youtube.com/watch?v=RzhjHsBCffA",
+    "R16-7": "https://www.youtube.com/watch?v=SQAVHtEcDEk",
+    "R16-8": ""
   },
   "standings": {
     "A": [
@@ -2206,6 +2216,18 @@
   "funnies": [
     {
       "date": "Tue 7 Jul",
+      "headline": "Ruben Vargas, who wasn't even fit to start, comes off the bench to send Switzerland into their first World Cup quarter-final since 1954",
+      "summary": "Switzerland and Colombia played out a goalless 120 minutes in Vancouver before the Swiss won 4-3 on penalties. Colombia's Cucho Hernandez had his spot-kick saved by Gregor Kobel and Carlos Sanchez smashed his effort against the crossbar, while Switzerland's Manuel Akanji blazed his own attempt over. It fell to substitute Ruben Vargas -- named among the replacements only because he wasn't fully fit to start -- to send Kobel the wrong way and win it, sending Switzerland into the last eight for the first time since 1954.",
+      "url": "https://www.espn.com/soccer/story/_/id/49297866/switzerland-vs-colombia-live-updates-team-news-kick-granit-xhaka-2026-world-cup-round-16-vancouver"
+    },
+    {
+      "date": "Tue 7 Jul",
+      "headline": "Egypt keeper Mostafa Shobeir saves a Messi penalty -- his second spot-kick save of the tournament, following in his World-Cup-goalkeeper father's footsteps",
+      "summary": "Mostafa Shobeir pushed away Lionel Messi's 21st-minute penalty to keep Egypt 1-0 up, then denied Alexis Mac Allister and Julian Alvarez in a string of first-half saves. It was Shobeir's second penalty save of the tournament, after also stopping Iran's Mehdi Taremi in the group stage -- making him only the fourth goalkeeper, and the first African, to save two penalties at a single World Cup. He is the son of Ahmed Shobeir, Egypt's goalkeeper at the 1990 World Cup. Despite his heroics, Egypt eventually lost 3-2 as Argentina fought back from 2-0 down, Messi atoning for his miss with an 83rd-minute equaliser -- his tournament-leading 8th goal -- before Enzo Fernandez's stoppage-time header sent Argentina through.",
+      "url": "https://sports.yahoo.com/articles/egypts-goalie-mostafa-shobeir-used-162741799.html"
+    },
+    {
+      "date": "Tue 7 Jul",
       "headline": "Belgium goalkeeper Matt Freese wanders out of his box \u2014 and Belgium immediately score to go 3-1 up",
       "summary": "In one of the most disastrous sequences of the tournament, USA keeper Matt Freese inexplicably wandered to the edge of his area while play was live, leaving the net unguarded. Belgium exploited the chaos instantly, with Hans Vanaken steering the ball home to effectively end the game at 3-1. Belgium eventually ran out 4-1 winners as the host nation's World Cup campaign ended in humiliation before an expectant home crowd in Seattle.",
       "url": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-disastrous-us-sequence-with-goalie-out-of-box-allows-belgium-to-take-3-1-lead-014711089.html"
@@ -2610,7 +2632,7 @@
         {
           "name": "Lionel Messi",
           "team": "Argentina",
-          "value": 7
+          "value": 8
         },
         {
           "name": "Kylian Mbapp\u00e9",
@@ -2625,7 +2647,7 @@
         {
           "name": "Harry Kane",
           "team": "England",
-          "value": 5
+          "value": 6
         },
         {
           "name": "Ousmane Demb\u00e9l\u00e9",
