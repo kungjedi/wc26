@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "8 Jul 2026 \u00b7 Round of 16 complete \u2014 full QF lineup set: France v Morocco, Spain v Belgium, Norway v England, Argentina v Switzerland",
+    "last_updated": "10 Jul 2026 \u00b7 Matchday QF1 \u2014 France beat Morocco 2-0 to reach the semi-finals",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1607,6 +1607,10 @@
     "R16-8": [
       0,
       0
+    ],
+    "QF-1": [
+      2,
+      0
     ]
   },
   "highlight_links": {
@@ -1705,7 +1709,8 @@
     "R16-5": "https://www.youtube.com/watch?v=KHTXATo7kL8",
     "R16-6": "https://www.youtube.com/watch?v=RzhjHsBCffA",
     "R16-7": "https://www.youtube.com/watch?v=SQAVHtEcDEk",
-    "R16-8": "https://www.youtube.com/watch?v=_RAxvAKNc5Y"
+    "R16-8": "https://www.youtube.com/watch?v=_RAxvAKNc5Y",
+    "QF-1": "https://www.youtube.com/watch?v=fLeA9wFInyA"
   },
   "standings": {
     "A": [
@@ -2215,6 +2220,12 @@
   },
   "funnies": [
     {
+      "date": "Thu 9 Jul",
+      "headline": "Haaland brands VAR penalty delay 'way too long' as Mbappé misses first World Cup spot-kick -- then scores anyway to sink Morocco",
+      "summary": "A three-minute VAR review forced Kylian Mbappé to restart his run-up multiple times before Morocco keeper Yassine Bounou saved his 28th-minute penalty, making him only the second Frenchman to miss a spot-kick at a World Cup. Rival Golden Boot chaser Erling Haaland couldn't resist a dig, posting on Snapchat that 'need to wait 5 mins to take a penalty is way too long.' Mbappé had the last laugh, scoring in the 60th minute to draw level with Messi on eight World Cup goals before setting up Ousmane Dembélé to seal a 2-0 win and send France into the semi-finals.",
+      "url": "https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/kylian-mbappe-becomes-second-french-player-to-miss-a-penalty-in-fifa-world-cup-history-2026-07-09"
+    },
+    {
       "date": "Tue 7 Jul",
       "headline": "Ruben Vargas, who wasn't even fit to start, comes off the bench to send Switzerland into their first World Cup quarter-final since 1954",
       "summary": "Switzerland and Colombia played out a goalless 120 minutes in Vancouver before the Swiss won 4-3 on penalties. Colombia's Cucho Hernandez had his spot-kick saved by Gregor Kobel and Carlos Sanchez smashed his effort against the crossbar, while Switzerland's Manuel Akanji blazed his own attempt over. It fell to substitute Ruben Vargas -- named among the replacements only because he wasn't fully fit to start -- to send Kobel the wrong way and win it, sending Switzerland into the last eight for the first time since 1954.",
@@ -2637,7 +2648,7 @@
         {
           "name": "Kylian Mbapp\u00e9",
           "team": "France",
-          "value": 7
+          "value": 8
         },
         {
           "name": "Erling Haaland",
@@ -2652,7 +2663,7 @@
         {
           "name": "Ousmane Demb\u00e9l\u00e9",
           "team": "France",
-          "value": 4
+          "value": 5
         },
         {
           "name": "Vinicius J\u00fanior",
@@ -2905,6 +2916,11 @@
           "name": "USA",
           "team": "Group D",
           "value": 1
+        },
+        {
+          "name": "England",
+          "team": "Group L",
+          "value": 1
         }
       ]
     },
@@ -2966,6 +2982,11 @@
         {
           "name": "Folarin Balogun",
           "team": "USA",
+          "value": 1
+        },
+        {
+          "name": "Jarell Quansah",
+          "team": "England",
           "value": 1
         }
       ]
