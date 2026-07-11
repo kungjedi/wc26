@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "10 Jul 2026 \u00b7 Matchday QF1 \u2014 France beat Morocco 2-0 to reach the semi-finals",
+    "last_updated": "11 Jul 2026 \u00b7 Matchday QF2 \u2014 Spain beat Belgium 2-1 to reach the semi-finals",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
   },
   "groups": {
@@ -1611,6 +1611,10 @@
     "QF-1": [
       2,
       0
+    ],
+    "QF-2": [
+      2,
+      1
     ]
   },
   "highlight_links": {
@@ -1710,7 +1714,8 @@
     "R16-6": "https://www.youtube.com/watch?v=RzhjHsBCffA",
     "R16-7": "https://www.youtube.com/watch?v=SQAVHtEcDEk",
     "R16-8": "https://www.youtube.com/watch?v=_RAxvAKNc5Y",
-    "QF-1": "https://www.youtube.com/watch?v=fLeA9wFInyA"
+    "QF-1": "https://www.youtube.com/watch?v=fLeA9wFInyA",
+    "QF-2": "https://www.youtube.com/watch?v=tZ362IlU5tY"
   },
   "standings": {
     "A": [
