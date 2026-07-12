@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "last_updated": "10 Jul 2026 \u00b7 Matchday QF1 \u2014 France beat Morocco 2-0 to reach the semi-finals",
-    "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections \u2014 never touch fixtures or groups."
+    "last_updated": "12 Jul 2026 · Matchday QF3 — England beat Norway 2-1 after extra time, Spain beat Belgium 2-1, to complete the semi-final line-up",
+    "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
     "A": [
@@ -24,7 +24,7 @@
     ],
     "D": [
       "USA",
-      "T\u00fcrkiye",
+      "Türkiye",
       "Australia",
       "Paraguay"
     ],
@@ -32,7 +32,7 @@
       "Germany",
       "Ivory Coast",
       "Ecuador",
-      "Cura\u00e7ao"
+      "Curaçao"
     ],
     "F": [
       "Netherlands",
@@ -160,7 +160,7 @@
       "date": "Sun 14 Jun",
       "bst": "5:00 AM",
       "home": "Australia",
-      "away": "T\u00fcrkiye",
+      "away": "Türkiye",
       "group": "D",
       "channel": "ITV1",
       "city": "Vancouver",
@@ -171,7 +171,7 @@
       "date": "Sun 14 Jun",
       "bst": "6:00 PM",
       "home": "Germany",
-      "away": "Cura\u00e7ao",
+      "away": "Curaçao",
       "group": "E",
       "channel": "ITV1",
       "city": "Houston",
@@ -423,7 +423,7 @@
       "id": "D4",
       "date": "Sat 20 Jun",
       "bst": "5:00 AM",
-      "home": "T\u00fcrkiye",
+      "home": "Türkiye",
       "away": "Paraguay",
       "group": "D",
       "channel": "ITV1",
@@ -457,7 +457,7 @@
       "date": "Sun 21 Jun",
       "bst": "1:00 AM",
       "home": "Ecuador",
-      "away": "Cura\u00e7ao",
+      "away": "Curaçao",
       "group": "E",
       "channel": "BBC One",
       "city": "Kansas City",
@@ -687,7 +687,7 @@
       "id": "E6",
       "date": "Thu 25 Jun",
       "bst": "9:00 PM",
-      "home": "Cura\u00e7ao",
+      "home": "Curaçao",
       "away": "Ivory Coast",
       "group": "E",
       "channel": "BBC Two",
@@ -720,7 +720,7 @@
       "id": "D5",
       "date": "Fri 26 Jun",
       "bst": "3:00 AM",
-      "home": "T\u00fcrkiye",
+      "home": "Türkiye",
       "away": "USA",
       "group": "D",
       "channel": "ITV1",
@@ -1217,7 +1217,7 @@
       "bst": "8:00 PM",
       "home": "TBD",
       "away": "TBD",
-      "group": "\ud83c\udfc6",
+      "group": "🏆",
       "channel": "BBC & ITV",
       "city": "New York/NJ",
       "stage": "FIN"
@@ -1611,6 +1611,14 @@
     "QF-1": [
       2,
       0
+    ],
+    "QF-2": [
+      2,
+      1
+    ],
+    "QF-3": [
+      1,
+      2
     ]
   },
   "highlight_links": {
@@ -1710,7 +1718,9 @@
     "R16-6": "https://www.youtube.com/watch?v=RzhjHsBCffA",
     "R16-7": "https://www.youtube.com/watch?v=SQAVHtEcDEk",
     "R16-8": "https://www.youtube.com/watch?v=_RAxvAKNc5Y",
-    "QF-1": "https://www.youtube.com/watch?v=fLeA9wFInyA"
+    "QF-1": "https://www.youtube.com/watch?v=fLeA9wFInyA",
+    "QF-2": "https://www.youtube.com/watch?v=tZ362IlU5tY",
+    "QF-3": ""
   },
   "standings": {
     "A": [
@@ -1871,7 +1881,7 @@
         "pts": 4
       },
       {
-        "name": "T\u00fcrkiye",
+        "name": "Türkiye",
         "p": 3,
         "w": 1,
         "d": 0,
@@ -1913,7 +1923,7 @@
         "pts": 4
       },
       {
-        "name": "Cura\u00e7ao",
+        "name": "Curaçao",
         "p": 3,
         "w": 0,
         "d": 1,
@@ -2220,6 +2230,12 @@
   },
   "funnies": [
     {
+      "date": "Sat 11 Jul",
+      "headline": "Haaland heartbreak as Norway have two goals chalked off by VAR in extra-time thriller",
+      "summary": "Erling Haaland's World Cup dream stalled again as England edged Norway 2-1 after extra time in the quarter-final. Andreas Schjelderup's post-and-in strike gave Norway hope, but VAR ruled out a Haaland-won goal for a foul and later chalked off what Norway thought was a extra-time corner winner for another foul in the build-up. Jude Bellingham scored twice, including the decisive extra-time goal, while Haaland was limited to just 21 touches before going off with an apparent leg injury.",
+      "url": "https://sports.yahoo.com/articles/haaland-foul-costs-norway-goal-222825569.html"
+    },
+    {
       "date": "Thu 9 Jul",
       "headline": "Haaland brands VAR penalty delay 'way too long' as Mbappé misses first World Cup spot-kick -- then scores anyway to sink Morocco",
       "summary": "A three-minute VAR review forced Kylian Mbappé to restart his run-up multiple times before Morocco keeper Yassine Bounou saved his 28th-minute penalty, making him only the second Frenchman to miss a spot-kick at a World Cup. Rival Golden Boot chaser Erling Haaland couldn't resist a dig, posting on Snapchat that 'need to wait 5 mins to take a penalty is way too long.' Mbappé had the last laugh, scoring in the 60th minute to draw level with Messi on eight World Cup goals before setting up Ousmane Dembélé to seal a 2-0 win and send France into the semi-finals.",
@@ -2239,7 +2255,7 @@
     },
     {
       "date": "Tue 7 Jul",
-      "headline": "Belgium goalkeeper Matt Freese wanders out of his box \u2014 and Belgium immediately score to go 3-1 up",
+      "headline": "Belgium goalkeeper Matt Freese wanders out of his box — and Belgium immediately score to go 3-1 up",
       "summary": "In one of the most disastrous sequences of the tournament, USA keeper Matt Freese inexplicably wandered to the edge of his area while play was live, leaving the net unguarded. Belgium exploited the chaos instantly, with Hans Vanaken steering the ball home to effectively end the game at 3-1. Belgium eventually ran out 4-1 winners as the host nation's World Cup campaign ended in humiliation before an expectant home crowd in Seattle.",
       "url": "https://sports.yahoo.com/soccer/breaking-news/article/world-cup-disastrous-us-sequence-with-goalie-out-of-box-allows-belgium-to-take-3-1-lead-014711089.html"
     },
@@ -2251,7 +2267,7 @@
     },
     {
       "date": "Mon 6 Jul",
-      "headline": "'My first game, Azteca. My last game, Azteca.' \u2014 Ochoa retires in tears after England defeat",
+      "headline": "'My first game, Azteca. My last game, Azteca.' — Ochoa retires in tears after England defeat",
       "summary": "Mexico goalkeeper Guillermo Ochoa, 40, announced his immediate retirement after the 3-2 defeat to England at the Estadio Azteca. In a courtside interview watched by millions, a tearful Ochoa reflected that his international career began and ended at the same iconic stadium across 153 caps and five World Cups. 'It's been a beautiful final chapter,' he said, before teammates surrounded him in a long embrace.",
       "url": "https://www.nbcnews.com/sports/soccer/guillermo-memo-ochoa-mexico-world-cup-farewell-rcna351877"
     },
@@ -2294,126 +2310,126 @@
     {
       "date": "Fri 3 Jul",
       "headline": "Ghanaian witch doctor who 'cursed' Harry Kane now predicts Cape Verde will eliminate Argentina",
-      "summary": "Nana Kwaku Bonsam, the self-styled witch doctor who claimed responsibility for Harry Kane's missed sitters against Ghana in the group stage, has turned his attention to Saturday's Round of 32 tie \u2014 predicting World Cup debutants Cape Verde will knock out Lionel Messi's defending champions Argentina, while tipping Cristiano Ronaldo's Portugal to lift the trophy.",
+      "summary": "Nana Kwaku Bonsam, the self-styled witch doctor who claimed responsibility for Harry Kane's missed sitters against Ghana in the group stage, has turned his attention to Saturday's Round of 32 tie — predicting World Cup debutants Cape Verde will knock out Lionel Messi's defending champions Argentina, while tipping Cristiano Ronaldo's Portugal to lift the trophy.",
       "url": "https://tribuna.com/en/news/2026-06-27-ghanaian-witch-doctor-claims-cape-verde-will-eliminate-argentina-from-world-cup/"
     },
     {
       "date": "Thu 2 Jul",
       "headline": "Spain don't face a single shot on target as they cruise past Austria 3-0",
-      "summary": "Mikel Oyarzabal's brace and a Pedro Porro header sent Spain into the last 16 in Los Angeles without conceding a single shot on target all game \u2014 the first time that's happened in a men's World Cup knockout match since Germany's win over Argentina in the 2014 final.",
+      "summary": "Mikel Oyarzabal's brace and a Pedro Porro header sent Spain into the last 16 in Los Angeles without conceding a single shot on target all game — the first time that's happened in a men's World Cup knockout match since Germany's win over Argentina in the 2014 final.",
       "url": "https://theanalyst.com/articles/spain-vs-austria-stats-world-cup-2026"
     },
     {
       "date": "Thu 2 Jul",
       "headline": "Tielemans' 125th-minute penalty is the latest goal ever scored at a men's World Cup as Belgium stun Senegal 3-2",
-      "summary": "Senegal led 2-0 through Habib Diarra and Ismaila Sarr before Belgium hit back late through Romelu Lukaku and Youri Tielemans to force extra time, then won a controversial penalty in the 125th minute after a seven-minute VAR review \u2014 Tielemans converted to make it the latest goal in men's World Cup history. Senegal players surrounded the pitchside monitor in protest, with one lying across the penalty spot to delay the kick.",
+      "summary": "Senegal led 2-0 through Habib Diarra and Ismaila Sarr before Belgium hit back late through Romelu Lukaku and Youri Tielemans to force extra time, then won a controversial penalty in the 125th minute after a seven-minute VAR review — Tielemans converted to make it the latest goal in men's World Cup history. Senegal players surrounded the pitchside monitor in protest, with one lying across the penalty spot to delay the kick.",
       "url": "https://www.espn.com/soccer/story/_/id/49238481/belgium-vs-senegal-live-world-cup-2026-updates-round-32-clash"
     },
     {
       "date": "Thu 2 Jul",
-      "headline": "Balogun scores then gets sent off \u2014 banned for USA vs Belgium",
+      "headline": "Balogun scores then gets sent off — banned for USA vs Belgium",
       "summary": "Folarin Balogun was the hero and villain for USA in a 2-0 win over Bosnia & Herzegovina: he netted in first-half stoppage time then was controversially sent off in the 65th minute, ruling him out of the R16 clash with Belgium in Seattle.",
       "url": ""
     },
     {
       "date": "Thu 2 Jul",
       "headline": "NFL star Jameis Winston spotted cleaning stands with Japan fans after their exit",
-      "summary": "Fox Sports correspondent Jameis Winston joined Japanese supporters in their famous post-match stadium clean-up after Japan were knocked out by Brazil 2-1, photographed carrying a blue rubbish bag in a custom Japan shirt \u2014 to the delight of fans worldwide.",
+      "summary": "Fox Sports correspondent Jameis Winston joined Japanese supporters in their famous post-match stadium clean-up after Japan were knocked out by Brazil 2-1, photographed carrying a blue rubbish bag in a custom Japan shirt — to the delight of fans worldwide.",
       "url": ""
     },
     {
       "date": "Wed 1 Jul",
       "headline": "German fan 'Freddy' goes viral for eating his way through America's chain restaurants",
-      "summary": "A German tourist following the World Cup has attracted hundreds of thousands of social media followers with his wide-eyed dispatches from Whataburger, Waffle House, and Chick-fil-A \u2014 documenting American fast food culture 'one chain restaurant at a time'.",
+      "summary": "A German tourist following the World Cup has attracted hundreds of thousands of social media followers with his wide-eyed dispatches from Whataburger, Waffle House, and Chick-fil-A — documenting American fast food culture 'one chain restaurant at a time'.",
       "url": ""
     },
     {
       "date": "Tue 30 Jun",
       "headline": "Lawrence, Kansas falls head over heels for Algeria: 'I feel Algerian'",
-      "summary": "Algeria's training base in Lawrence became a local love affair \u2014 the University of Kansas Marching Jayhawks performed the Algerian national anthem before a session, kids wore Algerian face paint, and one resident's viral video saying 'I feel Algerian' captured the town's full adoption of Les Fennecs.",
+      "summary": "Algeria's training base in Lawrence became a local love affair — the University of Kansas Marching Jayhawks performed the Algerian national anthem before a session, kids wore Algerian face paint, and one resident's viral video saying 'I feel Algerian' captured the town's full adoption of Les Fennecs.",
       "url": ""
     },
     {
       "date": "Wed 1 Jul",
       "headline": "A lone DR Congo fan celebrates his side's shock early goal surrounded by a sea of stunned England supporters",
-      "summary": "When Brian Cipenga fired DR Congo ahead inside the first ten minutes against England in Atlanta, cameras found a single Congolese fan perched among a packed England section \u2014 leaping to his feet, waving his flag wildly while a wall of deflated Three Lions fans sat motionless around him. It went viral within minutes. England fought back through two late Harry Kane goals to win 2-1, but the lone fan's celebration was the moment of the match for many watching at home. DR Congo's famous 'statue fan' Michel Mboladinga, who normally poses motionless as a Lumumba memorial throughout matches, was reportedly unable to get a US visa in time for the knockout game.",
+      "summary": "When Brian Cipenga fired DR Congo ahead inside the first ten minutes against England in Atlanta, cameras found a single Congolese fan perched among a packed England section — leaping to his feet, waving his flag wildly while a wall of deflated Three Lions fans sat motionless around him. It went viral within minutes. England fought back through two late Harry Kane goals to win 2-1, but the lone fan's celebration was the moment of the match for many watching at home. DR Congo's famous 'statue fan' Michel Mboladinga, who normally poses motionless as a Lumumba memorial throughout matches, was reportedly unable to get a US visa in time for the knockout game.",
       "url": "https://www.hitc.com/watch-the-brilliant-moment-dr-congo-fan-celebrates-opening-goal-surrounded-by-england-fans/"
     },
     {
       "date": "Tue 30 Jun",
-      "headline": "Morocco's penalty hero Ismael Saibari runs straight to his sobbing mother after eliminating the Netherlands \u2014 a decade after doctors said he might never walk properly",
+      "headline": "Morocco's penalty hero Ismael Saibari runs straight to his sobbing mother after eliminating the Netherlands — a decade after doctors said he might never walk properly",
       "summary": "Ismael Saibari scored the winning spot-kick as Morocco beat the Netherlands 3-2 on penalties (1-1 after extra time) to reach the last 16. He immediately sprinted to the stands to embrace his mother, who broke down in tears. The moment carried extra weight: as a child, doctors told Saibari's parents he might never walk properly, and he spent over a year in restrictive orthopedic braces to correct his bone alignment before going on to become a professional footballer.",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/6/30/morocco-player-hugs-mother-as-team-celebrates-win-against-netherlands"
     },
     {
       "date": "Mon 29 Jun",
       "headline": "Paraguay stun four-time champions Germany on penalties in one of the biggest upsets in World Cup history",
-      "summary": "Ranked 41st in the world to Germany's 10th, Paraguay held Germany to a 1-1 draw after extra time in Boston (Enciso for Paraguay, Havertz for Germany) then won 4-3 on penalties \u2014 Germany's first ever World Cup shootout defeat. Goalkeeper Orlando Gill saved spot-kicks from Kai Havertz and Nick Woltemade before Jose Canale converted the winner. 'We had to analyze every player, every detail,' said Gill afterwards. Manuel Neuer and Germany were eliminated in the Round of 32.",
+      "summary": "Ranked 41st in the world to Germany's 10th, Paraguay held Germany to a 1-1 draw after extra time in Boston (Enciso for Paraguay, Havertz for Germany) then won 4-3 on penalties — Germany's first ever World Cup shootout defeat. Goalkeeper Orlando Gill saved spot-kicks from Kai Havertz and Nick Woltemade before Jose Canale converted the winner. 'We had to analyze every player, every detail,' said Gill afterwards. Manuel Neuer and Germany were eliminated in the Round of 32.",
       "url": "https://www.aljazeera.com/sports/2026/6/29/paraguay-shock-germany-in-shootout-win-for-one-of-all-time-world-cup-upsets"
     },
     {
       "date": "Sun 28 Jun",
-      "headline": "Mahrez scores in 90+3, Kalajdzic equalises in 90+5 \u2014 both teams go through in six minutes of madness",
-      "summary": "Algeria appeared to have snatched a dramatic winner through Riyad Mahrez in the 93rd minute that would have sent Austria home. But substitute Sasa Kalajdzic equalised barely 90 seconds later in the 95th minute to make it 3-3 \u2014 sending both sides through to the knockouts in the wildest ending of the group stage.",
+      "headline": "Mahrez scores in 90+3, Kalajdzic equalises in 90+5 — both teams go through in six minutes of madness",
+      "summary": "Algeria appeared to have snatched a dramatic winner through Riyad Mahrez in the 93rd minute that would have sent Austria home. But substitute Sasa Kalajdzic equalised barely 90 seconds later in the 95th minute to make it 3-3 — sending both sides through to the knockouts in the wildest ending of the group stage.",
       "url": "https://www.foxsports.com/stories/soccer/4-takeaways-from-wild-ending-between-austria-algeria-group-j-finale"
     },
     {
       "date": "Sun 28 Jun",
-      "headline": "DR Congo reach World Cup knockouts for the first time in 52 years \u2014 erasing Zaire's 0-goal 1974 legacy",
-      "summary": "DR Congo beat Uzbekistan 3-1 in Atlanta, with Yoane Wissa (\u00d72) and Fiston Mayele completing the turnaround. The Leopards' only previous World Cup was in 1974 as Zaire \u2014 when they failed to score a single goal in three matches. Scenes of players and fans in tears at full-time were among the most emotional of the tournament.",
+      "headline": "DR Congo reach World Cup knockouts for the first time in 52 years — erasing Zaire's 0-goal 1974 legacy",
+      "summary": "DR Congo beat Uzbekistan 3-1 in Atlanta, with Yoane Wissa (×2) and Fiston Mayele completing the turnaround. The Leopards' only previous World Cup was in 1974 as Zaire — when they failed to score a single goal in three matches. Scenes of players and fans in tears at full-time were among the most emotional of the tournament.",
       "url": "https://www.sportsmole.co.uk/football/congo-dr/world-cup-2026/feature/dr-congo-continue-to-defy-history-and-advance-at-world-cup-2026_600253.html"
     },
     {
       "date": "Sat 27 Jun",
-      "headline": "Cape Verde: population 525,000, first World Cup, now facing Messi's Argentina \u2014 smallest nation ever in the knockouts",
-      "summary": "A goalless draw with Saudi Arabia was enough for Cape Verde \u2014 a debutant island nation of just 525,000 people \u2014 to seal second place in Group H and become the smallest country by population ever to reach the knockout stage of a men's World Cup. Their population is smaller than Wyoming's (576,000). Their reward: a Round of 32 tie against Argentina in Miami.",
+      "headline": "Cape Verde: population 525,000, first World Cup, now facing Messi's Argentina — smallest nation ever in the knockouts",
+      "summary": "A goalless draw with Saudi Arabia was enough for Cape Verde — a debutant island nation of just 525,000 people — to seal second place in Group H and become the smallest country by population ever to reach the knockout stage of a men's World Cup. Their population is smaller than Wyoming's (576,000). Their reward: a Round of 32 tie against Argentina in Miami.",
       "url": "https://www.aljazeera.com/sports/2026/6/27/cape-verde-break-record-as-smallest-nation-to-reach-world-cup-knockouts"
     },
     {
       "date": "Fri 26 Jun",
-      "headline": "Demb\u00e9l\u00e9 hat-trick inside 32 minutes is the fastest at a World Cup since 1954 as France demolish Norway 4-1",
-      "summary": "Ousmane Demb\u00e9l\u00e9 lit up Group I with a scintillating first-half hat-trick as France hammered Norway 4-1 to finish the group stage with a perfect nine points. His three goals arrived inside 32 minutes \u2014 the second-fastest World Cup hat-trick in history, behind only Austria's Erich Probst (24 minutes vs Czechoslovakia, 1954). Mbapp\u00e9 played provider throughout as France topped Group I in dominant style.",
+      "headline": "Dembélé hat-trick inside 32 minutes is the fastest at a World Cup since 1954 as France demolish Norway 4-1",
+      "summary": "Ousmane Dembélé lit up Group I with a scintillating first-half hat-trick as France hammered Norway 4-1 to finish the group stage with a perfect nine points. His three goals arrived inside 32 minutes — the second-fastest World Cup hat-trick in history, behind only Austria's Erich Probst (24 minutes vs Czechoslovakia, 1954). Mbappé played provider throughout as France topped Group I in dominant style.",
       "url": "https://www.cbssports.com/soccer/news/france-norway-ousmane-dembele-starring-role-fastest-world-cup-hat-trick-in-72-years/"
     },
     {
       "date": "Fri 26 Jun",
       "headline": "Senegal make history as the first African nation to score five goals in a single World Cup match",
-      "summary": "Senegal thrashed a 10-man Iraq 5-0 in Toronto \u2014 the first time any African nation has scored five goals in a single World Cup game. Iraq's Rebin Sulaka was sent off early for denying a clear goal, and Senegal poured it on through Habib Diarra, Ismaila Sarr, Pape Gueye (twice), and Iliman Ndiaye. The result sent the Lions through as one of the best third-placed teams.",
+      "summary": "Senegal thrashed a 10-man Iraq 5-0 in Toronto — the first time any African nation has scored five goals in a single World Cup game. Iraq's Rebin Sulaka was sent off early for denying a clear goal, and Senegal poured it on through Habib Diarra, Ismaila Sarr, Pape Gueye (twice), and Iliman Ndiaye. The result sent the Lions through as one of the best third-placed teams.",
       "url": "https://www.aljazeera.com/sports/2026/6/26/senegal-score-5-0-win-over-10-man-iraq-keep-world-cup-knockout-hopes-alive"
     },
     {
       "date": "Fri 26 Jun",
       "headline": "Kaan Ayhan's 98th-minute poke stuns co-hosts USA on home soil as already-eliminated Turkey win their only match",
-      "summary": "Already-eliminated Turkey spoiled the USA's group-stage send-off with a 3-2 win at SoFi Stadium in Los Angeles. Kaan Ayhan prodded home in the 98th minute after the hosts failed to clear. The USMNT still advanced as Group D winners but the capacity crowd was stunned into silence. It was Turkey's only win of the tournament \u2014 achieved against a co-host nation, on their soil, playing for pride alone.",
+      "summary": "Already-eliminated Turkey spoiled the USA's group-stage send-off with a 3-2 win at SoFi Stadium in Los Angeles. Kaan Ayhan prodded home in the 98th minute after the hosts failed to clear. The USMNT still advanced as Group D winners but the capacity crowd was stunned into silence. It was Turkey's only win of the tournament — achieved against a co-host nation, on their soil, playing for pride alone.",
       "url": "https://www.skysports.com/football/news/11095/13556675/world-cup-2026-turkey-3-2-usa-christian-pulisic-returns-from-injury-for-co-hosts-but-kaan-ayhans-late-goal-settles-group-d-clash"
     },
     {
       "date": "Thu 25 Jun",
-      "headline": "Ecuador stun four-time champions Germany in New Jersey \u2014 a second high-profile upset at a major tournament",
-      "summary": "Ecuador came from behind to beat Germany 2-1, with Plata poking home a 77th-minute winner after Angulo cancelled out San\u00e9's second-minute opener. Germany still advanced as group winners, but it was another high-profile upset loss at a major tournament \u2014 recalling the Japan shock from Qatar 2022 \u2014 raising uncomfortable questions about their big-game pedigree heading into the knockouts.",
+      "headline": "Ecuador stun four-time champions Germany in New Jersey — a second high-profile upset at a major tournament",
+      "summary": "Ecuador came from behind to beat Germany 2-1, with Plata poking home a 77th-minute winner after Angulo cancelled out Sané's second-minute opener. Germany still advanced as group winners, but it was another high-profile upset loss at a major tournament — recalling the Japan shock from Qatar 2022 — raising uncomfortable questions about their big-game pedigree heading into the knockouts.",
       "url": "https://www.skysports.com/football/news/12098/13556661/world-cup-2026-ecuador-2-1-germany-south-american-side-stun-four-time-winners-to-reach-knockout-stages"
     },
     {
       "date": "Thu 25 Jun",
-      "headline": "South Africa reach World Cup knockouts for the FIRST TIME EVER \u2014 coach Broos collapsed to the turf at full-time",
-      "summary": "Thapelo Maseko's 63rd-minute counter-attack goal against South Korea sent the Bafana Bafana to a World Cup Round of 32 for the very first time \u2014 a feat they never achieved even when hosting in 2010. Coach Hugo Broos, 72, sank to his knees and then to the ground at the final whistle as his substitutes piled on top of him. South Africa had been widely written off after losing 2-0 to Mexico on day one; they rallied with a draw vs Czechia, then won the match that mattered most. They face Canada in Los Angeles in the R32.",
+      "headline": "South Africa reach World Cup knockouts for the FIRST TIME EVER — coach Broos collapsed to the turf at full-time",
+      "summary": "Thapelo Maseko's 63rd-minute counter-attack goal against South Korea sent the Bafana Bafana to a World Cup Round of 32 for the very first time — a feat they never achieved even when hosting in 2010. Coach Hugo Broos, 72, sank to his knees and then to the ground at the final whistle as his substitutes piled on top of him. South Africa had been widely written off after losing 2-0 to Mexico on day one; they rallied with a draw vs Czechia, then won the match that mattered most. They face Canada in Los Angeles in the R32.",
       "url": "https://www.aljazeera.com/sports/2026/6/25/south-africa-stun-south-korea-to-reach-world-cup-knockouts-for-the-first-time"
     },
     {
       "date": "Wed 24 Jun",
-      "headline": "Bosnia's 18-year-old Alajbegovi\u0107 scores the early contender for Goal of the Tournament \u2014 then eliminates Qatar",
-      "summary": "Kerim Alajbegovi\u0107 \u2014 18 years old, playing in his first World Cup \u2014 opened the scoring against Qatar with a long-range curler that the highlight team titled 'Goal of the Tournament'. He ran the length of the pitch, received the ball, and bent it into the top corner from 25 yards. Bosnia won 3-1 to eliminate Qatar and keep their own knockout hopes alive. 'He has no fear,' said coach Sergej Barbarez. 'He plays like he's been in five World Cups already.'",
+      "headline": "Bosnia's 18-year-old Alajbegović scores the early contender for Goal of the Tournament — then eliminates Qatar",
+      "summary": "Kerim Alajbegović — 18 years old, playing in his first World Cup — opened the scoring against Qatar with a long-range curler that the highlight team titled 'Goal of the Tournament'. He ran the length of the pitch, received the ball, and bent it into the top corner from 25 yards. Bosnia won 3-1 to eliminate Qatar and keep their own knockout hopes alive. 'He has no fear,' said coach Sergej Barbarez. 'He plays like he's been in five World Cups already.'",
       "url": "https://www.espn.com/soccer/report/_/gameId/760462"
     },
     {
       "date": "Wed 24 Jun",
-      "headline": "Alisson makes two stunning late saves to deny Scotland \u2014 but Vinicius Jr and Selec\u00e3o top Group C in style",
-      "summary": "Vinicius J\u00fanior scored twice (7', 45+2') and Matheus Cunha added a third (60') as Brazil strolled past Scotland 3-0. But Scotland pushed hard in the final 20 minutes, forcing Alisson Becker into superb saves to deny Scott McTominay and Lewis Ferguson from close range. Scotland end with 3 points in third place and must wait to learn if they're among the eight best third-placed teams to make the knockouts \u2014 their -3 goal difference makes it uncertain.",
+      "headline": "Alisson makes two stunning late saves to deny Scotland — but Vinicius Jr and Selecão top Group C in style",
+      "summary": "Vinicius Júnior scored twice (7', 45+2') and Matheus Cunha added a third (60') as Brazil strolled past Scotland 3-0. But Scotland pushed hard in the final 20 minutes, forcing Alisson Becker into superb saves to deny Scott McTominay and Lewis Ferguson from close range. Scotland end with 3 points in third place and must wait to learn if they're among the eight best third-placed teams to make the knockouts — their -3 goal difference makes it uncertain.",
       "url": "https://www.youtube.com/watch?v=UW8VXg2qULw"
     },
     {
       "date": "Wed 24 Jun",
-      "headline": "DR Congo superfan Michel Mboladinga stood completely still for 90 minutes as a Patrice Lumumba statue \u2014 after missing their opener due to Ebola quarantine",
+      "headline": "DR Congo superfan Michel Mboladinga stood completely still for 90 minutes as a Patrice Lumumba statue — after missing their opener due to Ebola quarantine",
       "summary": "Michel Mboladinga, Congo DR's famous 'statue fan', went viral during the Africa Cup of Nations for standing perfectly motionless throughout entire matches, arms raised, posing as a memorial statue of the country's assassinated first prime minister Patrice Lumumba. He'd missed DR Congo's World Cup opener against Portugal because Ebola quarantine requirements meant he couldn't enter the United States in time. He finally made it for the Colombia match in Guadalajara, took his place in the stands, and stood completely still for 90 minutes as Colombia won 1-0. The internet erupted: clips of him surrounded by dancing fans cut with shots of the statue itself became the most-shared image of the week.",
       "url": "https://www.espn.com/soccer/story/_/id/49160863/congo-statue-fan-lumumba-vea-makes-world-cup"
     },
@@ -2425,110 +2441,110 @@
     },
     {
       "date": "Sun 21 Jun",
-      "headline": "Germany lose Nico Schlotterbeck for the rest of the World Cup \u2014 he's choosing to stay with the squad anyway",
-      "summary": "Nico Schlotterbeck went down in the first half of Germany's 2-1 win over Ivory Coast but played on through half-time before being replaced by Antonio R\u00fcdiger. An MRI confirmed a torn medial ligament in his left ankle \u2014 minimum two months out, ruling him out of the entire knockout stage. It was described as a 'devastating blow' by the German FA. What caught the world's attention was what came next: Schlotterbeck announced he would remain with the squad at their North Carolina base to support his teammates rather than fly home. The DFB confirmed no replacement would be called up. Several Germany players posted tributes. Joshua Kimmich, who'd already warned the squad about venomous snakes, called Schlotterbeck's decision 'the most German thing I've ever seen'.",
+      "headline": "Germany lose Nico Schlotterbeck for the rest of the World Cup — he's choosing to stay with the squad anyway",
+      "summary": "Nico Schlotterbeck went down in the first half of Germany's 2-1 win over Ivory Coast but played on through half-time before being replaced by Antonio Rüdiger. An MRI confirmed a torn medial ligament in his left ankle — minimum two months out, ruling him out of the entire knockout stage. It was described as a 'devastating blow' by the German FA. What caught the world's attention was what came next: Schlotterbeck announced he would remain with the squad at their North Carolina base to support his teammates rather than fly home. The DFB confirmed no replacement would be called up. Several Germany players posted tributes. Joshua Kimmich, who'd already warned the squad about venomous snakes, called Schlotterbeck's decision 'the most German thing I've ever seen'.",
       "url": "https://www.espn.com/soccer/story/_/id/49143768/germany-nico-schlotterbeck-miss-rest-world-cup-ankle-injury"
     },
     {
       "date": "Tue 23 Jun",
-      "headline": "Ronaldo scores in his SIXTH World Cup at 41 \u2014 the first player in history, men's or women's, to do so",
-      "summary": "Cristiano Ronaldo, 41 years and 138 days old, opened the scoring in the 6th minute of Portugal's 5-0 thrashing of Uzbekistan to become the first player in World Cup history \u2014 across men's and women's football \u2014 to score in six different tournaments. He added a second in the second half. His 10 World Cup goals are now a Portugal record, and at 41 he is the second-oldest scorer in World Cup history behind Cameroon's Roger Milla (42 in 1994). Before the match he'd been the subject of widespread criticism for his performance against DR Congo. He answered in typically understated fashion.",
+      "headline": "Ronaldo scores in his SIXTH World Cup at 41 — the first player in history, men's or women's, to do so",
+      "summary": "Cristiano Ronaldo, 41 years and 138 days old, opened the scoring in the 6th minute of Portugal's 5-0 thrashing of Uzbekistan to become the first player in World Cup history — across men's and women's football — to score in six different tournaments. He added a second in the second half. His 10 World Cup goals are now a Portugal record, and at 41 he is the second-oldest scorer in World Cup history behind Cameroon's Roger Milla (42 in 1994). Before the match he'd been the subject of widespread criticism for his performance against DR Congo. He answered in typically understated fashion.",
       "url": "https://sports.yahoo.com/soccer/article/world-cup-2026-record-breaking-cristiano-ronaldo-leads-portugals-5-0-rout-of-uzbekistan-185936619.html"
     },
     {
       "date": "Tue 23 Jun",
-      "headline": "Harry Kane somehow blasts an empty net over the crossbar in the 86th minute \u2014 England held 0-0 by Ghana",
+      "headline": "Harry Kane somehow blasts an empty net over the crossbar in the 86th minute — England held 0-0 by Ghana",
       "summary": "England controlled the ball for 60% of the match and created 3.0 xG against a Ghana side ranked 65th in the world, yet couldn't score. The crowning moment of frustration came in the 86th minute: Nico O'Reilly's header struck the crossbar and bounced back to Harry Kane, England's all-time top scorer, six yards out with the goal gaping. Kane somehow blasted it high and wide. He held his head in his hands; the Boston crowd did likewise. England stay top of Group L on goal difference from Ghana, but the result means their round-of-32 place still isn't mathematically sealed.",
       "url": "https://www.espn.com/soccer/story/_/id/49157561/england-ghana-2026-fifa-world-cup-harry-kane"
     },
     {
       "date": "Tue 23 Jun",
-      "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 \u2014 a comeback the Fennec Foxes have NEVER managed at a World Cup before",
-      "summary": "Jordan had given their fans in Amman something to dream about when Moussa Al-Rashdan headed them in front on 36 minutes \u2014 a lead that stood deep into the second half. But Algeria, needing a win to progress, conjured a comeback for the ages. Riyad Mahrez swung in a corner and Benbouali glanced it home (69'); then, with eight minutes left, Amine Gouiri poked in the winner (82') \u2014 VAR checked it and confirmed. According to FIFA records, Algeria had never previously come from behind to win in all 10 World Cup matches where they conceded first. Jordan depart the tournament with their heads held high after a historic debut.",
+      "headline": "Algeria come from behind to eliminate World Cup debutants Jordan 2-1 — a comeback the Fennec Foxes have NEVER managed at a World Cup before",
+      "summary": "Jordan had given their fans in Amman something to dream about when Moussa Al-Rashdan headed them in front on 36 minutes — a lead that stood deep into the second half. But Algeria, needing a win to progress, conjured a comeback for the ages. Riyad Mahrez swung in a corner and Benbouali glanced it home (69'); then, with eight minutes left, Amine Gouiri poked in the winner (82') — VAR checked it and confirmed. According to FIFA records, Algeria had never previously come from behind to win in all 10 World Cup matches where they conceded first. Jordan depart the tournament with their heads held high after a historic debut.",
       "url": "https://www.skysports.com/football/news/11095/13556814/world-cup-2026-jordan-1-2-algeria-debutants-knocked-out-of-tournament-after-algerian-turnaround"
     },
     {
       "date": "Mon 22 Jun",
-      "headline": "France vs Iraq was suspended for 28 minutes by a lightning storm \u2014 Mbapp\u00e9 had just scored to make it 1-0",
-      "summary": "Kylian Mbapp\u00e9 had barely finished celebrating his opening goal at Lincoln Financial Field in Philadelphia when storm clouds rolled in, lightning struck near the stadium, and officials pulled the players off. The 28-minute delay saw fans sheltering under every overhang in the building and the BBC commentator wondering aloud if the match would be completed. It was: France returned to the pitch and scored twice more to win 3-0, Mbapp\u00e9 adding his second. Iraq, who arrived knowing they were already eliminated, at least got the most theatrical exit in the tournament.",
+      "headline": "France vs Iraq was suspended for 28 minutes by a lightning storm — Mbappé had just scored to make it 1-0",
+      "summary": "Kylian Mbappé had barely finished celebrating his opening goal at Lincoln Financial Field in Philadelphia when storm clouds rolled in, lightning struck near the stadium, and officials pulled the players off. The 28-minute delay saw fans sheltering under every overhang in the building and the BBC commentator wondering aloud if the match would be completed. It was: France returned to the pitch and scored twice more to win 3-0, Mbappé adding his second. Iraq, who arrived knowing they were already eliminated, at least got the most theatrical exit in the tournament.",
       "url": "https://www.youtube.com/watch?v=MV3-lGTuUg8"
     },
     {
       "date": "Mon 22 Jun",
-      "headline": "100-year-old Messi superfan shows up to Argentina vs Austria \u2014 with a marriage proposal sign",
-      "summary": "Pauline Kana, a 100-year-old American and Guinness World Record holder for crowd surfing, travelled to Dallas to watch Argentina play Austria and held up a sign reading '100-Year-Old Messi Fan' in the stands \u2014 then produced a second sign proposing marriage to Lionel Messi. When her face appeared on the big screen, the stadium roared. The centenarian, who creates viral content with her grandson Ross Smith, has attended multiple Messi matches over the years. She was in the building as Messi broke the all-time men's World Cup scoring record with two goals. Afterwards she told reporters she was still waiting for Messi's answer: 'I've been patient this long.'",
+      "headline": "100-year-old Messi superfan shows up to Argentina vs Austria — with a marriage proposal sign",
+      "summary": "Pauline Kana, a 100-year-old American and Guinness World Record holder for crowd surfing, travelled to Dallas to watch Argentina play Austria and held up a sign reading '100-Year-Old Messi Fan' in the stands — then produced a second sign proposing marriage to Lionel Messi. When her face appeared on the big screen, the stadium roared. The centenarian, who creates viral content with her grandson Ross Smith, has attended multiple Messi matches over the years. She was in the building as Messi broke the all-time men's World Cup scoring record with two goals. Afterwards she told reporters she was still waiting for Messi's answer: 'I've been patient this long.'",
       "url": "https://sports.yahoo.com/articles/meet-pauline-kana-100-old-205243850.html"
     },
     {
       "date": "Mon 22 Jun",
-      "headline": "Messi scores twice against Austria to become the men's World Cup's all-time leading goalscorer with 18 \u2014 and he's still only playing in the group stage",
-      "summary": "In Argentina's 2-0 win over Austria in Dallas, Lionel Messi \u2014 38 years old, playing in his sixth World Cup \u2014 scored both goals to move to 18 career World Cup strikes, two clear of Miroslav Klose's previous record. His first goal levelled the record at 17; his second, with Messi in tears before full-time, broke it. He now has five goals in two games at this tournament alone. Several sitting heads of state posted tributes. His Argentina teammates formed a guard of honour at the whistle. The word 'GOAT', again, crashed the internet.",
+      "headline": "Messi scores twice against Austria to become the men's World Cup's all-time leading goalscorer with 18 — and he's still only playing in the group stage",
+      "summary": "In Argentina's 2-0 win over Austria in Dallas, Lionel Messi — 38 years old, playing in his sixth World Cup — scored both goals to move to 18 career World Cup strikes, two clear of Miroslav Klose's previous record. His first goal levelled the record at 17; his second, with Messi in tears before full-time, broke it. He now has five goals in two games at this tournament alone. Several sitting heads of state posted tributes. His Argentina teammates formed a guard of honour at the whistle. The word 'GOAT', again, crashed the internet.",
       "url": "https://www.nbcnews.com/sports/soccer/lionel-messi-breaks-record-career-goals-scored-world-cup-rcna351168"
     },
     {
       "date": "Sun 21 Jun",
-      "headline": "King and Queen of the Netherlands gatecrashed two World Cup dressing rooms in one night \u2014 and Eloy Room kissed the Queen",
-      "summary": "After the Netherlands beat Sweden 5-1 and Ecuador drew 0-0 with Cura\u00e7ao on the same night, King Willem-Alexander and Queen M\u00e1xima of the Netherlands managed the remarkable feat of joining both dressing rooms in sequence. First they congratulated the Dutch squad, then they surprised the Cura\u00e7ao players \u2014 who had just earned their first-ever World Cup point, thanks to goalkeeper Eloy Room's extraordinary 15 saves. The squad were stunned to find royalty walking through the door. Room \u2014 who later said 'We danced in the locker room, it was just wonderful' \u2014 was photographed giving Queen M\u00e1xima a kiss. The images went viral and briefly made Cura\u00e7ao the most talked-about team in the tournament.",
+      "headline": "King and Queen of the Netherlands gatecrashed two World Cup dressing rooms in one night — and Eloy Room kissed the Queen",
+      "summary": "After the Netherlands beat Sweden 5-1 and Ecuador drew 0-0 with Curaçao on the same night, King Willem-Alexander and Queen Máxima of the Netherlands managed the remarkable feat of joining both dressing rooms in sequence. First they congratulated the Dutch squad, then they surprised the Curaçao players — who had just earned their first-ever World Cup point, thanks to goalkeeper Eloy Room's extraordinary 15 saves. The squad were stunned to find royalty walking through the door. Room — who later said 'We danced in the locker room, it was just wonderful' — was photographed giving Queen Máxima a kiss. The images went viral and briefly made Curaçao the most talked-about team in the tournament.",
       "url": "https://www.yardbarker.com/soccer/articles/dutch_royalty_stun_curacao_players_by_joining_dressing_room_celebrations_after_first_world_cup_point/s1_17664_43978192"
     },
     {
       "date": "Sun 21 Jun",
       "headline": "Lamine Yamal becomes one of the youngest WC scorers ever as Spain dismantle Saudi Arabia 4-0",
-      "summary": "After their tense 0-0 draw with Cape Verde, Spain needed a reaction \u2014 and got one with interest. Lamine Yamal, 18, opened the scoring in the 10th minute with his first ever World Cup goal, making him one of the youngest scorers in the tournament's history, eclipsing records set by Messi, Mbapp\u00e9 and Ronaldo. Mikel Oyarzabal added two more inside 25 minutes, and an own goal from Hassan Al-Tambakti sealed a 4-0 rout. Saudi Arabia \u2014 who famously upset Argentina in 2022 \u2014 were thoroughly outclassed. Spain sealed their Round of 32 spot and top Group H.",
+      "summary": "After their tense 0-0 draw with Cape Verde, Spain needed a reaction — and got one with interest. Lamine Yamal, 18, opened the scoring in the 10th minute with his first ever World Cup goal, making him one of the youngest scorers in the tournament's history, eclipsing records set by Messi, Mbappé and Ronaldo. Mikel Oyarzabal added two more inside 25 minutes, and an own goal from Hassan Al-Tambakti sealed a 4-0 rout. Saudi Arabia — who famously upset Argentina in 2022 — were thoroughly outclassed. Spain sealed their Round of 32 spot and top Group H.",
       "url": "https://www.espn.com/soccer/story/_/id/49134985/spain-saudi-arabia-live-world-cup-2026-latest-updates-commentary-score-result"
     },
     {
       "date": "Sat 20 Jun",
-      "headline": "Paraguay's Almir\u00f3n becomes first player ever red-carded at a World Cup for covering his mouth",
-      "summary": "Almir\u00f3n had just helped Paraguay go 1-0 up against T\u00fcrkiye when he was spotted covering his mouth while apparently exchanging words with a Turkish defender. VAR intervened. Straight red. Almir\u00f3n broke down in tears on the touchline. Why? FIFA's new 'Prestianni Law' makes it an instant dismissal to deliberately hide your lips during an altercation \u2014 a rule introduced after a Chilean player used the trick to racially abuse Vin\u00edcius J\u00fanior in the Champions League. Paraguay held on to win with ten men. The rule is now more famous than the match.",
+      "headline": "Paraguay's Almirón becomes first player ever red-carded at a World Cup for covering his mouth",
+      "summary": "Almirón had just helped Paraguay go 1-0 up against Türkiye when he was spotted covering his mouth while apparently exchanging words with a Turkish defender. VAR intervened. Straight red. Almirón broke down in tears on the touchline. Why? FIFA's new 'Prestianni Law' makes it an instant dismissal to deliberately hide your lips during an altercation — a rule introduced after a Chilean player used the trick to racially abuse Vinícius Júnior in the Champions League. Paraguay held on to win with ten men. The rule is now more famous than the match.",
       "url": "https://www.espn.com/soccer/story/_/id/49123197/miguel-almiron-red-card-covering-mouth-paraguay-turkiye-2026-world-cup"
     },
     {
       "date": "Thu 19 Jun",
-      "headline": "Norway's 'Viking Row' conquered Boston escalators, Times Square \u2014 then the Norwegian parliament joined in",
-      "summary": "Norway fans have a tradition: the 'Viking Row' \u2014 arms locked, rowing in unison like longship oarsmen, roaring 'Ro! Ro! Ro!'. It went viral when a full escalator at Boston's South Station did it perfectly synchronised on the way to the Iraq match. Then Norway fans took over Times Square. Then, on Thursday, Norwegian MPs performed it on the floor of the Storting (parliament) in solidarity. The team is unbeaten and top of Group I. The escalator video has 40 million views.",
+      "headline": "Norway's 'Viking Row' conquered Boston escalators, Times Square — then the Norwegian parliament joined in",
+      "summary": "Norway fans have a tradition: the 'Viking Row' — arms locked, rowing in unison like longship oarsmen, roaring 'Ro! Ro! Ro!'. It went viral when a full escalator at Boston's South Station did it perfectly synchronised on the way to the Iraq match. Then Norway fans took over Times Square. Then, on Thursday, Norwegian MPs performed it on the floor of the Storting (parliament) in solidarity. The team is unbeaten and top of Group I. The escalator video has 40 million views.",
       "url": "https://www.euronews.com/2026/06/19/norwegian-parliament-performs-viral-viking-row-to-back-world-cup-team"
     },
     {
       "date": "Thu 18 Jun",
-      "headline": "Canada beat Qatar 6-0 in their first ever World Cup win \u2014 40 years after their only previous appearance",
-      "summary": "Canada had never won a World Cup match in their history \u2014 not in 1986, not in 2022. On Thursday they beat Qatar 6-0, with Jonathan David bagging a hat-trick. Canadian fans sang O Canada for what felt like an hour. One viral tweet: 'Canada waited 40 years for their first World Cup win and immediately went absolutely feral.' The players were seen doing the griddy on the pitch.",
+      "headline": "Canada beat Qatar 6-0 in their first ever World Cup win — 40 years after their only previous appearance",
+      "summary": "Canada had never won a World Cup match in their history — not in 1986, not in 2022. On Thursday they beat Qatar 6-0, with Jonathan David bagging a hat-trick. Canadian fans sang O Canada for what felt like an hour. One viral tweet: 'Canada waited 40 years for their first World Cup win and immediately went absolutely feral.' The players were seen doing the griddy on the pitch.",
       "url": "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-june-18-live-updates-rcna350678"
     },
     {
       "date": "Wed 17 Jun",
-      "headline": "Messi scores his first ever World Cup hat-trick \u2014 on his 200th cap, in his 6th World Cup, to equal Klose's all-time goals record",
-      "summary": "Argentina beat Algeria 3-0, but the scoreline barely mattered. At 38 years old, Messi scored all three goals to reach 16 World Cup goals \u2014 level with Miroslav Klose's all-time record. It was his 200th cap for Argentina, his 6th World Cup appearance (a men's record), and his first hat-trick at the tournament. Patrick Mahomes, Rio Ferdinand and roughly the entire internet lost their minds.",
+      "headline": "Messi scores his first ever World Cup hat-trick — on his 200th cap, in his 6th World Cup, to equal Klose's all-time goals record",
+      "summary": "Argentina beat Algeria 3-0, but the scoreline barely mattered. At 38 years old, Messi scored all three goals to reach 16 World Cup goals — level with Miroslav Klose's all-time record. It was his 200th cap for Argentina, his 6th World Cup appearance (a men's record), and his first hat-trick at the tournament. Patrick Mahomes, Rio Ferdinand and roughly the entire internet lost their minds.",
       "url": "https://www.espn.com/soccer/story/_/id/49090020/lionel-messi-argentina-hat-trick-2026-fifa-world-cup-social-media-reaction"
     },
     {
       "date": "Wed 17 Jun",
       "headline": "England fans dressed as cowboys, attempted calf roping and sang 'Sweet Caroline' at a Fort Worth rodeo before the Croatia game",
-      "summary": "With England's opener in Dallas, fans descended on the Fort Worth Stockyards the day before \u2014 swapping pints for Stetsons. Videos went viral of Three Lions supporters in full cowboy hats attempting barrel racing, doing line dancing and belting out Sweet Caroline to a very confused rodeo crowd. NBC 5 Dallas called it 'the most English thing ever done in Texas'.",
+      "summary": "With England's opener in Dallas, fans descended on the Fort Worth Stockyards the day before — swapping pints for Stetsons. Videos went viral of Three Lions supporters in full cowboy hats attempting barrel racing, doing line dancing and belting out Sweet Caroline to a very confused rodeo crowd. NBC 5 Dallas called it 'the most English thing ever done in Texas'.",
       "url": "https://www.nbcdfw.com/world-cup/england-fans-embrace-texas-traditions-world-cup/4037329/"
     },
     {
       "date": "Wed 17 Jun",
       "headline": "While Messi scored a hat-trick, 41-year-old Ronaldo became the oldest outfield player ever to start a World Cup match",
-      "summary": "On the same evening, Cristiano Ronaldo became the oldest outfield player to ever start a World Cup game, aged 41, as Portugal drew 1-1 with DR Congo. He didn't score. Messi scored three. The 'GOAT debate' ran so hot on social media that 'Ronaldo' was trending alongside 'Klose record', 'Messi GOAT', and \u2014 inevitably \u2014 'retirement'.",
+      "summary": "On the same evening, Cristiano Ronaldo became the oldest outfield player to ever start a World Cup game, aged 41, as Portugal drew 1-1 with DR Congo. He didn't score. Messi scored three. The 'GOAT debate' ran so hot on social media that 'Ronaldo' was trending alongside 'Klose record', 'Messi GOAT', and — inevitably — 'retirement'.",
       "url": "https://www.outlookindia.com/sports/football/portugal-vs-dr-congo-fifa-world-cup-2026-cristiano-ronaldo-goalless-appearance"
     },
     {
       "date": "Tue 16 Jun",
-      "headline": "Sprinkler malfunction soaks Gillette Stadium pitch at halftime of Iraq vs Norway \u2014 staff deployed buckets",
-      "summary": "At halftime of Iraq v Norway at Gillette Stadium in Foxborough, a sprinkler head malfunctioned on the edge of the penalty area, sending a large jet of water across the pitch for several seconds. Groundskeepers sprinted on with buckets and tools to disperse the flood; the rest of the sprinkler system had to be shut down entirely to stop the damage spreading. The pitch was back to normal by kick-off of the second half \u2014 which was just as well, as Norway ran riot in it to win 4-1.",
+      "headline": "Sprinkler malfunction soaks Gillette Stadium pitch at halftime of Iraq vs Norway — staff deployed buckets",
+      "summary": "At halftime of Iraq v Norway at Gillette Stadium in Foxborough, a sprinkler head malfunctioned on the edge of the penalty area, sending a large jet of water across the pitch for several seconds. Groundskeepers sprinted on with buckets and tools to disperse the flood; the rest of the sprinkler system had to be shut down entirely to stop the damage spreading. The pitch was back to normal by kick-off of the second half — which was just as well, as Norway ran riot in it to win 4-1.",
       "url": "https://www.washingtonpost.com/sports/soccer/2026/06/16/world-cup-sprinkler-norway-iraq/7249c20a-69d9-11f1-830e-133d20cadd28_story.html"
     },
     {
       "date": "Mon 15 Jun",
       "headline": "Joshua Kimmich warns Germany squad of venomous snake at their training base: 'I don't think you'll die, but it's certainly dangerous'",
-      "summary": "Germany are based in Winston-Salem, North Carolina, and Joshua Kimmich held a press conference to update journalists on the squad's wellbeing. The headline: a copperhead snake \u2014 one of North America's most venomous species \u2014 had been spotted near the training pitch. 'We were told if you get bitten, you have to go to hospital,' said Kimmich. 'I don't think you'll die, but it's certainly dangerous.' Days earlier they beat Cura\u00e7ao 7-1.",
+      "summary": "Germany are based in Winston-Salem, North Carolina, and Joshua Kimmich held a press conference to update journalists on the squad's wellbeing. The headline: a copperhead snake — one of North America's most venomous species — had been spotted near the training pitch. 'We were told if you get bitten, you have to go to hospital,' said Kimmich. 'I don't think you'll die, but it's certainly dangerous.' Days earlier they beat Curaçao 7-1.",
       "url": "https://sports.yahoo.com/articles/venomous-snakes-spark-safety-concerns-191853060.html"
     },
     {
       "date": "Mon 15 Jun",
       "headline": "Cape Verde's 40-year-old goalkeeper gains 3 million Instagram followers overnight after stunning Spain",
-      "summary": "Vozinha had 20,000 followers when the match kicked off. By full-time \u2014 after making seven saves to hold Spain to a 0-0 draw in Cape Verde's first ever World Cup match \u2014 he had over 3 million. He then broke down in tears as teammates mobbed him. Only one 'keeper aged 40+ has made more saves in a single World Cup game since 1966 (Pat Jennings, 1986).",
+      "summary": "Vozinha had 20,000 followers when the match kicked off. By full-time — after making seven saves to hold Spain to a 0-0 draw in Cape Verde's first ever World Cup match — he had over 3 million. He then broke down in tears as teammates mobbed him. Only one 'keeper aged 40+ has made more saves in a single World Cup game since 1966 (Pat Jennings, 1986).",
       "url": "https://www.washingtonpost.com/sports/soccer/2026/06/15/vozinha-cape-verde-goalkeeper-spain-world-cup/e9698ac4-68fc-11f1-830e-133d20cadd28_story.html"
     },
     {
@@ -2539,38 +2555,38 @@
     },
     {
       "date": "Mon 15 Jun",
-      "headline": "Lawrence, Kansas fell completely in love with Algeria \u2014 Riyad Mahrez kicked a field goal and the town chanted 'Rock Chalk Algeria'",
-      "summary": "Algeria's World Cup base camp is the University of Kansas in Lawrence. KU's football team invited the squad onto the pitch; Riyad Mahrez put on a helmet and booted a field goal clean through the uprights. It went massively viral. Hundreds of locals turned up for open training sessions, children wore Algerian face paint, the Marching Jayhawks band played Algeria's national anthem, and 'Rock Chalk Algeria' \u2014 a riff on the university's famous 'Rock Chalk Jayhawk' chant \u2014 spread across social media. It's been called the most wholesome subplot of the tournament.",
+      "headline": "Lawrence, Kansas fell completely in love with Algeria — Riyad Mahrez kicked a field goal and the town chanted 'Rock Chalk Algeria'",
+      "summary": "Algeria's World Cup base camp is the University of Kansas in Lawrence. KU's football team invited the squad onto the pitch; Riyad Mahrez put on a helmet and booted a field goal clean through the uprights. It went massively viral. Hundreds of locals turned up for open training sessions, children wore Algerian face paint, the Marching Jayhawks band played Algeria's national anthem, and 'Rock Chalk Algeria' — a riff on the university's famous 'Rock Chalk Jayhawk' chant — spread across social media. It's been called the most wholesome subplot of the tournament.",
       "url": "https://www.spokesman.com/stories/2026/jun/15/how-a-love-affair-between-algeria-and-lawrence-bec/"
     },
     {
       "date": "Mon 15 Jun",
-      "headline": "USMNT goalkeeper Matt Turner throws a perfect strike at LA Angels game \u2014 then meets Mike Trout",
-      "summary": "On a day off from World Cup preparations, US goalkeeper Matt Turner threw out the ceremonial first pitch at an LA Angels vs Tampa Bay Rays game. Turner delivered a clean strike straight into the catcher's mitt. 'The highlight of the day was throwing a perfect strike,' he said, adding that catcher Logan O'Hoppe was complimentary. He also got to meet Mike Trout: 'To get to meet one of the best to ever do it \u2014 that was something special.' He then kept a clean sheet as the USA beat Australia 2-0 four days later.",
+      "headline": "USMNT goalkeeper Matt Turner throws a perfect strike at LA Angels game — then meets Mike Trout",
+      "summary": "On a day off from World Cup preparations, US goalkeeper Matt Turner threw out the ceremonial first pitch at an LA Angels vs Tampa Bay Rays game. Turner delivered a clean strike straight into the catcher's mitt. 'The highlight of the day was throwing a perfect strike,' he said, adding that catcher Logan O'Hoppe was complimentary. He also got to meet Mike Trout: 'To get to meet one of the best to ever do it — that was something special.' He then kept a clean sheet as the USA beat Australia 2-0 four days later.",
       "url": "https://www.goal.com/en-us/lists/usmnt-world-cup-notebook-australia-matt-turner-los-angeles-angels-tyler-adams-new-york-knicks/blt47c95fc7064fcb20"
     },
     {
       "date": "Sun 14 Jun",
       "headline": "German fan cycled 26,000km through 27 countries over 21 months to reach Houston for Germany's opener",
-      "summary": "Jakob Alberti, 26, from Karlsruhe set off on his bike nearly two years before the World Cup with one goal: make it to Houston for Germany's first game. His route took him through Austria, the Balkans, T\u00fcrkiye, the UAE, India, Thailand, Australia and 27 countries in total \u2014 and he ran a marathon in every country he visited. He arrived at NRG Stadium just in time to watch Germany beat Cura\u00e7ao 7-1. FIFA profiled him and the story went enormously viral. His plan after the tournament: cycle home via North Africa.",
+      "summary": "Jakob Alberti, 26, from Karlsruhe set off on his bike nearly two years before the World Cup with one goal: make it to Houston for Germany's first game. His route took him through Austria, the Balkans, Türkiye, the UAE, India, Thailand, Australia and 27 countries in total — and he ran a marathon in every country he visited. He arrived at NRG Stadium just in time to watch Germany beat Curaçao 7-1. FIFA profiled him and the story went enormously viral. His plan after the tournament: cycle home via North Africa.",
       "url": "https://inside.fifa.com/organisation/news/fifa-world-cup-germany-curacao-thailand-karlsruhe"
     },
     {
       "date": "Sun 14 Jun",
-      "headline": "Scotland fans export their finest tradition to Boston \u2014 orange traffic cones on every statue they can find",
-      "summary": "In Glasgow, it's the Duke of Wellington. In Boston, it's anyone who'll stand still. Tartan Army fans have been spotted placing traffic cones on historic statues across the city, prompting locals to start calling Boston 'New Scotland'. Social media lit up with comparisons \u2014 and one tweet noting that the city was 'already used to drunk fans in kilts, so it's basically Edinburgh anyway'.",
+      "headline": "Scotland fans export their finest tradition to Boston — orange traffic cones on every statue they can find",
+      "summary": "In Glasgow, it's the Duke of Wellington. In Boston, it's anyone who'll stand still. Tartan Army fans have been spotted placing traffic cones on historic statues across the city, prompting locals to start calling Boston 'New Scotland'. Social media lit up with comparisons — and one tweet noting that the city was 'already used to drunk fans in kilts, so it's basically Edinburgh anyway'.",
       "url": "https://www.si.com/soccer/world-cup-fans-having-blast-north-america"
     },
     {
       "date": "Sun 14 Jun",
       "headline": "NZ defender goes from 'least known player at the World Cup' to 1.5 million Instagram followers overnight",
-      "summary": "Argentine content creator Valen Scarsini posted a video identifying New Zealand's Tim Payne \u2014 who had fewer followers than his own national team's account \u2014 as the tournament's most obscure player. He asked fans to follow him. By the next morning Payne had 1.5 million followers, fan accounts, custom shirts and a nickname: 'El Timmy'.",
+      "summary": "Argentine content creator Valen Scarsini posted a video identifying New Zealand's Tim Payne — who had fewer followers than his own national team's account — as the tournament's most obscure player. He asked fans to follow him. By the next morning Payne had 1.5 million followers, fan accounts, custom shirts and a nickname: 'El Timmy'.",
       "url": "https://www.espn.com/soccer/story/_/id/48901215/how-2026-world-cup-least-known-player-became-viral-sensation"
     },
     {
       "date": "Sun 14 Jun",
-      "headline": "NFL quarterback Jameis Winston helped Japan fans clean the stadium \u2014 then the internet argued about whether he meant it",
-      "summary": "After Japan's dramatic 2-2 draw with the Netherlands in Dallas, FOX Sports correspondent Jameis Winston joined Japanese fans in their famous post-match rubbish collection, carrying a blue bin bag around the stands. FOX broadcast it live. Within hours, critics were saying it was a PR stunt for the cameras. His former teammate Alvin Kamara then posted: 'He really is just a genuinely good dude in real life\u2026 cameras or not.' Mahomes agreed. The debate got nearly as much attention as the match itself.",
+      "headline": "NFL quarterback Jameis Winston helped Japan fans clean the stadium — then the internet argued about whether he meant it",
+      "summary": "After Japan's dramatic 2-2 draw with the Netherlands in Dallas, FOX Sports correspondent Jameis Winston joined Japanese fans in their famous post-match rubbish collection, carrying a blue bin bag around the stands. FOX broadcast it live. Within hours, critics were saying it was a PR stunt for the cameras. His former teammate Alvin Kamara then posted: 'He really is just a genuinely good dude in real life… cameras or not.' Mahomes agreed. The debate got nearly as much attention as the match itself.",
       "url": "https://sports.yahoo.com/articles/nfl-star-weighs-jameis-winston-202607104.html"
     },
     {
@@ -2581,14 +2597,14 @@
     },
     {
       "date": "Sat 13 Jun",
-      "headline": "Scotland fan plays bagpipes outside Boston Airbnb at 6:30am \u2014 neighbour films it, 9 million views follow",
+      "headline": "Scotland fan plays bagpipes outside Boston Airbnb at 6:30am — neighbour films it, 9 million views follow",
       "summary": "Local resident Mike Morrison was woken by a lone piper in full regalia serenading the street before the Haiti v Scotland game. He filmed it, posted it, and by the afternoon had 9 million views. By the evening the Tartan Army had invited him over for drinks. He ended the night writing 'Viva #Scotland'.",
       "url": "https://news.stv.tv/scotland/viral-video-of-scots-playing-bagpipes-in-boston-at-6-30am-ahead-of-world-cup"
     },
     {
       "date": "Sat 13 Jun",
       "headline": "Peruvian police disguise themselves as 2026 World Cup mascots to bust a drug dealer",
-      "summary": "Officers from Peru's anti-narcotics unit dressed as Clutch the Bald Eagle and Maple the Moose \u2014 the official FIFA 2026 mascots \u2014 to ambush a drug dealer they described as a 'diehard football fan', reasoning he might open the door for mascots where he wouldn't for police. They broke through a gate with a battering ram, arrested 48-year-old Carlos Cabrera, and seized 2,524 packets of cocaine base and a firearm. Footage of the costumed officers making the bust went viral within hours. It reportedly wasn't Peru's first creative disguise operation: on Valentine's Day 2025, an officer dressed as a capybara made a drugs arrest.",
+      "summary": "Officers from Peru's anti-narcotics unit dressed as Clutch the Bald Eagle and Maple the Moose — the official FIFA 2026 mascots — to ambush a drug dealer they described as a 'diehard football fan', reasoning he might open the door for mascots where he wouldn't for police. They broke through a gate with a battering ram, arrested 48-year-old Carlos Cabrera, and seized 2,524 packets of cocaine base and a firearm. Footage of the costumed officers making the bust went viral within hours. It reportedly wasn't Peru's first creative disguise operation: on Valentine's Day 2025, an officer dressed as a capybara made a drugs arrest.",
       "url": "https://sports.yahoo.com/soccer/article/peruvian-police-use-2026-world-cup-mascot-costumes-as-disguises-to-make-arrest-in-drug-raid-175709939.html"
     },
     {
@@ -2599,14 +2615,14 @@
     },
     {
       "date": "Fri 12 Jun",
-      "headline": "The Brazilian referee explained his red card decision in English \u2014 nobody had any idea what he said",
-      "summary": "FIFA's new 'referee mic' initiative produced its first viral moment when Brazilian official Wilton Sampaio announced a red card decision over the stadium PA in English during Mexico v South Africa. Players, staff and fans alike looked completely baffled. Screenshots of South Africa's Khuliso Mudau's bewildered expression spread instantly \u2014 the first meme of the 2026 World Cup.",
+      "headline": "The Brazilian referee explained his red card decision in English — nobody had any idea what he said",
+      "summary": "FIFA's new 'referee mic' initiative produced its first viral moment when Brazilian official Wilton Sampaio announced a red card decision over the stadium PA in English during Mexico v South Africa. Players, staff and fans alike looked completely baffled. Screenshots of South Africa's Khuliso Mudau's bewildered expression spread instantly — the first meme of the 2026 World Cup.",
       "url": "https://www.euronews.com/2026/06/12/nobody-knew-what-the-ref-was-saying-and-the-internet-loved-it-world-cups-first-meme-is-alr"
     },
     {
       "date": "Fri 12 Jun",
       "headline": "FIFA blames empty seats at South Korea match on fans watching from the concourse",
-      "summary": "Sections of the Guadalajara stadium looked worryingly empty during South Korea v Czechia \u2014 until FIFA explained that thousands of ticketed fans had simply decided they'd rather watch from the concourse and hang around the concession stands.",
+      "summary": "Sections of the Guadalajara stadium looked worryingly empty during South Korea v Czechia — until FIFA explained that thousands of ticketed fans had simply decided they'd rather watch from the concourse and hang around the concession stands.",
       "url": "https://sports.yahoo.com/articles/fifa-blames-empty-seats-world-234214684.html"
     },
     {
@@ -2617,14 +2633,14 @@
     },
     {
       "date": "Thu 11 Jun",
-      "headline": "Merl\u00edn the duck, dressed in a tiny Mexico jersey and custom duck socks, went viral as Mexico City erupted",
-      "summary": "After Mexico's 2-0 win over South Africa on opening night, street vendor Carla G\u00f3mez led her pet duck Merl\u00edn \u2014 wearing a miniature Mexico shirt and bespoke duck socks \u2014 through the celebrating crowds on Reforma Avenue. The footage racked up millions of views within hours. Calls for Merl\u00edn to replace the official mascot (Zayu the jaguar) spread across Spanish-language social media. The official mascot has not responded.",
+      "headline": "Merlín the duck, dressed in a tiny Mexico jersey and custom duck socks, went viral as Mexico City erupted",
+      "summary": "After Mexico's 2-0 win over South Africa on opening night, street vendor Carla Gómez led her pet duck Merlín — wearing a miniature Mexico shirt and bespoke duck socks — through the celebrating crowds on Reforma Avenue. The footage racked up millions of views within hours. Calls for Merlín to replace the official mascot (Zayu the jaguar) spread across Spanish-language social media. The official mascot has not responded.",
       "url": "https://www.euronews.com/video/2026/06/15/meet-merlin-the-duck-that-became-the-world-cups-viral-mascot"
     },
     {
       "date": "Thu 11 Jun",
       "headline": "FOX Sports ran so many ads during the World Cup hydration break it missed the restart",
-      "summary": "During the very first match of the tournament, FOX cut to commercial during the cooling break \u2014 and ran so many ads that viewers were still watching Powerade spots when Mexico kicked off again. FIFA rules say broadcasters must be back on air 30 seconds before play resumes.",
+      "summary": "During the very first match of the tournament, FOX cut to commercial during the cooling break — and ran so many ads that viewers were still watching Powerade spots when Mexico kicked off again. FIFA rules say broadcasters must be back on air 30 seconds before play resumes.",
       "url": "https://attackofthefanboy.com/sports/fox-sports-went-to-commercial-during-the-world-cup-and-came-back-too-late-and-the-backlash-was-instant/"
     },
     {
@@ -2637,7 +2653,7 @@
   "top10": [
     {
       "id": "goals",
-      "label": "\u26bd Goals",
+      "label": "⚽ Goals",
       "unit": "goals",
       "entries": [
         {
@@ -2646,7 +2662,7 @@
           "value": 8
         },
         {
-          "name": "Kylian Mbapp\u00e9",
+          "name": "Kylian Mbappé",
           "team": "France",
           "value": 8
         },
@@ -2661,12 +2677,12 @@
           "value": 6
         },
         {
-          "name": "Ousmane Demb\u00e9l\u00e9",
+          "name": "Ousmane Dembélé",
           "team": "France",
           "value": 5
         },
         {
-          "name": "Vinicius J\u00fanior",
+          "name": "Vinicius Júnior",
           "team": "Brazil",
           "value": 4
         },
@@ -2699,7 +2715,7 @@
     },
     {
       "id": "assists",
-      "label": "\ud83c\udfaf Assists",
+      "label": "🎯 Assists",
       "unit": "assists",
       "entries": [
         {
@@ -2708,12 +2724,12 @@
           "value": 5
         },
         {
-          "name": "Bruno Guimar\u00e3es",
+          "name": "Bruno Guimarães",
           "team": "Brazil",
           "value": 4
         },
         {
-          "name": "Brahim D\u00edaz",
+          "name": "Brahim Díaz",
           "team": "Morocco",
           "value": 4
         },
@@ -2736,12 +2752,12 @@
     },
     {
       "id": "saves",
-      "label": "\ud83e\udde4 Saves (match best)",
+      "label": "🧤 Saves (match best)",
       "unit": "saves",
       "entries": [
         {
           "name": "Eloy Room",
-          "team": "Cura\u00e7ao",
+          "team": "Curaçao",
           "value": 15
         },
         {
@@ -2758,11 +2774,11 @@
     },
     {
       "id": "shots",
-      "label": "\ud83d\udd2b Shots on Target",
+      "label": "🔫 Shots on Target",
       "unit": "shots",
       "entries": [
         {
-          "name": "Kylian Mbapp\u00e9",
+          "name": "Kylian Mbappé",
           "team": "France",
           "value": 16
         },
@@ -2780,13 +2796,13 @@
     },
     {
       "id": "yellow_cards",
-      "label": "\ud83d\udfe8 Yellow Cards",
+      "label": "🟨 Yellow Cards",
       "unit": "bookings",
       "entries": []
     },
     {
       "id": "dribbles",
-      "label": "\ud83c\udf00 Dribbles Completed",
+      "label": "🌀 Dribbles Completed",
       "unit": "dribbles",
       "entries": [
         {
@@ -2795,7 +2811,7 @@
           "value": 6
         },
         {
-          "name": "Juli\u00e1n Qui\u00f1ones",
+          "name": "Julián Quiñones",
           "team": "Mexico",
           "value": 5
         },
@@ -2805,7 +2821,7 @@
           "value": 5
         },
         {
-          "name": "C\u00e9sar Volpato",
+          "name": "César Volpato",
           "team": "Australia",
           "value": 5
         }
@@ -2813,16 +2829,16 @@
     },
     {
       "id": "distance",
-      "label": "\ud83c\udfc3 Distance Run",
+      "label": "🏃 Distance Run",
       "unit": "km",
       "entries": [
         {
-          "name": "Andr\u00e9s Cubas",
+          "name": "Andrés Cubas",
           "team": "Paraguay",
           "value": 49.88
         },
         {
-          "name": "Kylian Mbapp\u00e9",
+          "name": "Kylian Mbappé",
           "team": "France",
           "value": 26.3
         },
@@ -2835,23 +2851,23 @@
     },
     {
       "id": "touches_team_most",
-      "label": "\ud83d\udc46 Ball Touches \u2014 Most (Team)",
+      "label": "👆 Ball Touches — Most (Team)",
       "unit": "touches",
       "entries": []
     },
     {
       "id": "touches_team_least",
-      "label": "\ud83d\udc47 Ball Touches \u2014 Fewest (Team)",
+      "label": "👇 Ball Touches — Fewest (Team)",
       "unit": "touches",
       "entries": []
     },
     {
       "id": "touches_player",
-      "label": "\u270b Ball Touches \u2014 Most (Player)",
+      "label": "✋ Ball Touches — Most (Player)",
       "unit": "touches",
       "entries": [
         {
-          "name": "Gabriel Magalh\u00e3es",
+          "name": "Gabriel Magalhães",
           "team": "Brazil",
           "value": 382
         },
@@ -2869,7 +2885,7 @@
     },
     {
       "id": "red_cards_team",
-      "label": "\ud83d\udfe5 Red Cards (Team)",
+      "label": "🟥 Red Cards (Team)",
       "unit": "red cards",
       "entries": [
         {
@@ -2926,7 +2942,7 @@
     },
     {
       "id": "red_cards_player",
-      "label": "\ud83d\udfe5 Red Cards (Player)",
+      "label": "🟥 Red Cards (Player)",
       "unit": "game ban",
       "entries": [
         {
@@ -2940,12 +2956,12 @@
           "value": 1
         },
         {
-          "name": "C\u00e9sar Montes",
+          "name": "César Montes",
           "team": "Mexico",
           "value": 1
         },
         {
-          "name": "Tarik Muharemovi\u0107",
+          "name": "Tarik Muharemović",
           "team": "Bosnia & Herzegovina",
           "value": 1
         },
@@ -2960,7 +2976,7 @@
           "value": 1
         },
         {
-          "name": "Miguel Almir\u00f3n",
+          "name": "Miguel Almirón",
           "team": "Paraguay",
           "value": 1
         },
@@ -2975,7 +2991,7 @@
           "value": 1
         },
         {
-          "name": "Piero Hincapi\u00e9",
+          "name": "Piero Hincapié",
           "team": "Ecuador",
           "value": 1
         },
