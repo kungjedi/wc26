@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "12 Jul 2026 · Matchday QF3 — England beat Norway 2-1 after extra time, Spain beat Belgium 2-1, to complete the semi-final line-up",
+    "last_updated": "12 Jul 2026 · Semi-final line-up confirmed — Argentina beat Switzerland 3-1 after extra time",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -1182,8 +1182,8 @@
       "id": "SF-1",
       "date": "Tue 14 Jul",
       "bst": "8:00 PM",
-      "home": "Fra. / Morocco",
-      "away": "Spa. / Belgium",
+      "home": "France",
+      "away": "Spain",
       "group": "SF",
       "channel": "ITV1",
       "city": "Dallas",
@@ -1193,8 +1193,8 @@
       "id": "SF-2",
       "date": "Wed 15 Jul",
       "bst": "8:00 PM",
-      "home": "Nor. / England",
-      "away": "QF-4 winner",
+      "home": "England",
+      "away": "Argentina",
       "group": "SF",
       "channel": "BBC One",
       "city": "Atlanta",
@@ -1619,6 +1619,10 @@
     "QF-3": [
       1,
       2
+    ],
+    "QF-4": [
+      3,
+      1
     ]
   },
   "highlight_links": {
@@ -1720,7 +1724,8 @@
     "R16-8": "https://www.youtube.com/watch?v=_RAxvAKNc5Y",
     "QF-1": "https://www.youtube.com/watch?v=fLeA9wFInyA",
     "QF-2": "https://www.youtube.com/watch?v=tZ362IlU5tY",
-    "QF-3": ""
+    "QF-3": "",
+    "QF-4": ""
   },
   "standings": {
     "A": [
