@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "13 Jul 2026 · Quarter-finals complete — Argentina beat 10-man Switzerland 3-1 after extra time to set up an England semi-final",
+    "last_updated": "15 Jul 2026 · Spain beat France 2-0 to reach the final; face England-Argentina winner",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -1623,6 +1623,10 @@
     "QF-4": [
       3,
       1
+    ],
+    "SF-1": [
+      0,
+      2
     ]
   },
   "highlight_links": {
@@ -2693,13 +2697,13 @@
           "value": 5
         },
         {
-          "name": "Vinicius Júnior",
-          "team": "Brazil",
-          "value": 4
-        },
-        {
           "name": "Mikel Oyarzabal",
           "team": "Spain",
+          "value": 5
+        },
+        {
+          "name": "Vinicius Júnior",
+          "team": "Brazil",
           "value": 4
         },
         {
