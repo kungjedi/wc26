@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "15 Jul 2026 · Spain beat France 2-0 to reach the final; face England-Argentina winner",
+    "last_updated": "16 Jul 2026 · Argentina beat England 2-1 to reach the final; face Spain on Sunday",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -1627,6 +1627,10 @@
     "SF-1": [
       0,
       2
+    ],
+    "SF-2": [
+      1,
+      2
     ]
   },
   "highlight_links": {
@@ -1729,7 +1733,8 @@
     "QF-1": "https://www.youtube.com/watch?v=fLeA9wFInyA",
     "QF-2": "https://www.youtube.com/watch?v=tZ362IlU5tY",
     "QF-3": "",
-    "QF-4": "https://www.youtube.com/watch?v=zUIUW2Z4lj0"
+    "QF-4": "https://www.youtube.com/watch?v=zUIUW2Z4lj0",
+    "SF-2": ""
   },
   "standings": {
     "A": [
