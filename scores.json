@@ -1734,7 +1734,7 @@
     "QF-2": "https://www.youtube.com/watch?v=tZ362IlU5tY",
     "QF-3": "",
     "QF-4": "https://www.youtube.com/watch?v=zUIUW2Z4lj0",
-    "SF-2": ""
+    "SF-2": "https://www.youtube.com/watch?v=he1N6-hJFtY"
   },
   "standings": {
     "A": [
@@ -2742,6 +2742,11 @@
           "name": "Michael Olise",
           "team": "France",
           "value": 5
+        },
+        {
+          "name": "Lionel Messi",
+          "team": "Argentina",
+          "value": 4
         },
         {
           "name": "Bruno Guimarães",
