@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "19 Jul 2026 · England beat France 6-4 in third-place playoff",
+    "last_updated": "20 Jul 2026 · Spain win World Cup Final 1-0 vs Argentina",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -1635,6 +1635,10 @@
     "3PO": [
       6,
       4
+    ],
+    "FINAL": [
+      1,
+      0
     ]
   },
   "highlight_links": {
@@ -1739,7 +1743,8 @@
     "QF-3": "",
     "QF-4": "https://www.youtube.com/watch?v=zUIUW2Z4lj0",
     "SF-2": "https://www.youtube.com/watch?v=he1N6-hJFtY",
-    "3PO": "https://www.youtube.com/watch?v=u6sORZy4kU0"
+    "3PO": "https://www.youtube.com/watch?v=u6sORZy4kU0",
+    "FINAL": ""
   },
   "standings": {
     "A": [
