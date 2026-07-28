@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "20 Jul 2026 · Spain win World Cup Final 1-0 vs Argentina",
+    "last_updated": "28 Jul 2026 · Post-tournament: Golden Boot/Ball/Glove awards confirmed",
     "note": "Static sections (groups, fixtures) never change manually. To refresh, open Claude Code in this repo and say: 'Search for all completed 2026 World Cup results and update the results, standings and _meta.last_updated in scores.json, then commit and push.' Claude should only update the results, standings and _meta sections — never touch fixtures or groups."
   },
   "groups": {
@@ -2254,6 +2254,18 @@
   },
   "funnies": [
     {
+      "date": "Mon 20 Jul",
+      "headline": "Mbappé wins second straight Golden Boot as Messi goes goalless in the final; Rodri takes Golden Ball",
+      "summary": "Kylian Mbappé finished the tournament with 10 goals to claim the adidas Golden Boot for a second consecutive World Cup, edging out Lionel Messi (8 goals) who was held scoreless as Argentina lost the final. Spain's Rodri was named the tournament's best player (Golden Ball), Unai Simón took the Golden Glove with seven clean sheets, and Barcelona teenager Pau Cubarsí was named Best Young Player as Spain swept the individual awards to go with the trophy.",
+      "url": "https://www.espn.com/soccer/story/_/id/49397919/kylian-mbappe-wins-golden-boot-2026-world-cup-lionel-messi-goalless-final"
+    },
+    {
+      "date": "Sun 19 Jul",
+      "headline": "Boos ring out as Trump joins Infantino for World Cup trophy ceremony, then lingers awkwardly on stage",
+      "summary": "A sizeable chunk of the MetLife Stadium crowd audibly booed as President Trump walked out alongside FIFA president Gianni Infantino to help present the World Cup trophy after Spain's 1-0 final win over Argentina. The jeers faded as medals were handed out, but Trump then stayed on stage during Spain's celebratory team photo and had to be gently steered away from the players and the falling confetti by Infantino.",
+      "url": "https://www.washingtonpost.com/politics/2026/07/19/trump-loomed-over-world-cup-up-until-awkward-trophy-ceremony/"
+    },
+    {
       "date": "Wed 15 Jul",
       "headline": "Argentina players' Falklands banner after England win sparks UK-FIFA diplomatic row",
       "summary": "Moments after Argentina's dramatic 2-1 semi-final comeback win over England, Lisandro Martinez and substitute Giovani Lo Celso unfurled a \"Las Malvinas Son Argentinas\" (\"The Falklands are Argentine\") banner in front of the crowd. FIFA's own Stadium Code of Conduct bans political messaging, and the UK government publicly urged FIFA to investigate, turning post-match celebrations into a genuine diplomatic spat over the disputed islands.",
@@ -2693,14 +2705,19 @@
       "unit": "goals",
       "entries": [
         {
+          "name": "Kylian Mbappé",
+          "team": "France",
+          "value": 10
+        },
+        {
           "name": "Lionel Messi",
           "team": "Argentina",
           "value": 8
         },
         {
-          "name": "Kylian Mbappé",
-          "team": "France",
-          "value": 8
+          "name": "Jude Bellingham",
+          "team": "England",
+          "value": 7
         },
         {
           "name": "Erling Haaland",
@@ -2708,14 +2725,14 @@
           "value": 7
         },
         {
-          "name": "Harry Kane",
-          "team": "England",
+          "name": "Ousmane Dembélé",
+          "team": "France",
           "value": 6
         },
         {
-          "name": "Ousmane Dembélé",
-          "team": "France",
-          "value": 5
+          "name": "Harry Kane",
+          "team": "England",
+          "value": 6
         },
         {
           "name": "Mikel Oyarzabal",
